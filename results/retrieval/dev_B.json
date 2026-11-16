@@ -1,0 +1,5994 @@
+{
+ "split": "dev",
+ "strategy": "B",
+ "embedding": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+ "top_k_logged": 10,
+ "hit_rule": "same source, gold page in chunk pages, evidence substring after whitespace collapse",
+ "query": "original question, filter only when the question has one",
+ "runs": [
+  {
+   "summary": {
+    "method": "dense",
+    "N": 15,
+    "hit@1": 2,
+    "hit@3": 8,
+    "hit@5": 8,
+    "mrr@10": 0.328,
+    "ms_median": 51.5,
+    "ms_mean": 55.2,
+    "miss@3": [
+     "d01",
+     "d02",
+     "d06",
+     "d07",
+     "d08",
+     "d11",
+     "d12"
+    ]
+   },
+   "traces": [
+    {
+     "id": "d01",
+     "question": "Hóa đơn điện tử phải sử dụng ngôn ngữ định dạng văn bản nào?",
+     "filter": null,
+     "first_hit_rank": 7,
+     "results": [
+      {
+       "rank": 1,
+       "id": "TT-91-2026:B:p004:024",
+       "page": 4,
+       "score": 0.712068,
+       "chapter": "II",
+       "article": 4,
+       "hit": false
+      },
+      {
+       "rank": 2,
+       "id": "TT-91-2026:B:p029:245",
+       "page": 29,
+       "score": 0.641904,
+       "chapter": "III",
+       "article": 18,
+       "hit": false
+      },
+      {
+       "rank": 3,
+       "id": "TT-91-2026:B:p003:015",
+       "page": 3,
+       "score": 0.618948,
+       "chapter": "II",
+       "article": 3,
+       "hit": false
+      },
+      {
+       "rank": 4,
+       "id": "TT-91-2026:B:p001:006",
+       "page": 1,
+       "score": 0.614978,
+       "chapter": "I",
+       "article": 1,
+       "hit": false
+      },
+      {
+       "rank": 5,
+       "id": "TT-91-2026:B:p003:017",
+       "page": 3,
+       "score": 0.61134,
+       "chapter": "II",
+       "article": 3,
+       "hit": false
+      },
+      {
+       "rank": 6,
+       "id": "TT-91-2026:B:p004:023",
+       "page": 4,
+       "score": 0.601532,
+       "chapter": "II",
+       "article": 4,
+       "hit": false
+      },
+      {
+       "rank": 7,
+       "id": "TT-91-2026:B:p003:016",
+       "page": 3,
+       "score": 0.597925,
+       "chapter": "II",
+       "article": 3,
+       "hit": true
+      },
+      {
+       "rank": 8,
+       "id": "TT-91-2026:B:p029:246",
+       "page": 29,
+       "score": 0.56624,
+       "chapter": "III",
+       "article": 18,
+       "hit": false
+      },
+      {
+       "rank": 9,
+       "id": "TT-91-2026:B:p030:254",
+       "page": 30,
+       "score": 0.565812,
+       "chapter": "IV",
+       "article": 21,
+       "hit": false
+      },
+      {
+       "rank": 10,
+       "id": "TT-91-2026:B:p015:121",
+       "page": 15,
+       "score": 0.562023,
+       "chapter": "II",
+       "article": 9,
+       "hit": false
+      }
+     ]
+    },
+    {
+     "id": "d02",
+     "question": "Tổ chức kinh tế gửi trực tiếp dữ liệu hóa đơn điện tử đến cơ quan thuế thì mỗi kênh truyền phải có băng thông tối thiểu bao nhiêu?",
+     "filter": null,
+     "first_hit_rank": null,
+     "results": [
+      {
+       "rank": 1,
+       "id": "TT-91-2026:B:p009:070",
+       "page": 9,
+       "score": 0.67024,
+       "chapter": "II",
+       "article": 6,
+       "hit": false
+      },
+      {
+       "rank": 2,
+       "id": "TT-91-2026:B:p008:066",
+       "page": 8,
+       "score": 0.665756,
+       "chapter": "II",
+       "article": 6,
+       "hit": false
+      },
+      {
+       "rank": 3,
+       "id": "TT-91-2026:B:p009:072",
+       "page": 9,
+       "score": 0.653598,
+       "chapter": "II",
+       "article": 6,
+       "hit": false
+      },
+      {
+       "rank": 4,
+       "id": "TT-91-2026:B:p004:027",
+       "page": 4,
+       "score": 0.651464,
+       "chapter": "II",
+       "article": 4,
+       "hit": false
+      },
+      {
+       "rank": 5,
+       "id": "TT-91-2026:B:p031:265",
+       "page": 31,
+       "score": 0.638781,
+       "chapter": "IV",
+       "article": 23,
+       "hit": false
+      },
+      {
+       "rank": 6,
+       "id": "TT-91-2026:B:p009:067",
+       "page": 9,
+       "score": 0.638629,
+       "chapter": "II",
+       "article": 6,
+       "hit": false
+      },
+      {
+       "rank": 7,
+       "id": "TT-91-2026:B:p014:114",
+       "page": 14,
+       "score": 0.637019,
+       "chapter": "II",
+       "article": 8,
+       "hit": false
+      },
+      {
+       "rank": 8,
+       "id": "TT-91-2026:B:p004:029",
+       "page": 4,
+       "score": 0.635387,
+       "chapter": "II",
+       "article": 4,
+       "hit": false
+      },
+      {
+       "rank": 9,
+       "id": "TT-91-2026:B:p003:020",
+       "page": 3,
+       "score": 0.631229,
+       "chapter": "II",
+       "article": 3,
+       "hit": false
+      },
+      {
+       "rank": 10,
+       "id": "TT-91-2026:B:p013:108",
+       "page": 13,
+       "score": 0.627521,
+       "chapter": "II",
+       "article": 8,
+       "hit": false
+      }
+     ]
+    },
+    {
+     "id": "d03",
+     "question": "Ký hiệu hóa đơn điện tử gồm bao nhiêu ký tự?",
+     "filter": null,
+     "first_hit_rank": 2,
+     "results": [
+      {
+       "rank": 1,
+       "id": "TT-91-2026:B:p004:023",
+       "page": 4,
+       "score": 0.771733,
+       "chapter": "II",
+       "article": 4,
+       "hit": false
+      },
+      {
+       "rank": 2,
+       "id": "TT-91-2026:B:p004:024",
+       "page": 4,
+       "score": 0.766762,
+       "chapter": "II",
+       "article": 4,
+       "hit": true
+      },
+      {
+       "rank": 3,
+       "id": "TT-91-2026:B:p029:246",
+       "page": 29,
+       "score": 0.598603,
+       "chapter": "III",
+       "article": 18,
+       "hit": false
+      },
+      {
+       "rank": 4,
+       "id": "TT-91-2026:B:p006:041",
+       "page": 6,
+       "score": 0.572263,
+       "chapter": "II",
+       "article": 6,
+       "hit": false
+      },
+      {
+       "rank": 5,
+       "id": "TT-91-2026:B:p030:254",
+       "page": 30,
+       "score": 0.562755,
+       "chapter": "IV",
+       "article": 21,
+       "hit": false
+      },
+      {
+       "rank": 6,
+       "id": "TT-91-2026:B:p003:017",
+       "page": 3,
+       "score": 0.54876,
+       "chapter": "II",
+       "article": 3,
+       "hit": false
+      },
+      {
+       "rank": 7,
+       "id": "TT-91-2026:B:p003:015",
+       "page": 3,
+       "score": 0.541669,
+       "chapter": "II",
+       "article": 3,
+       "hit": false
+      },
+      {
+       "rank": 8,
+       "id": "TT-91-2026:B:p001:006",
+       "page": 1,
+       "score": 0.522682,
+       "chapter": "I",
+       "article": 1,
+       "hit": false
+      },
+      {
+       "rank": 9,
+       "id": "TT-91-2026:B:p005:033",
+       "page": 5,
+       "score": 0.519763,
+       "chapter": "II",
+       "article": 5,
+       "hit": false
+      },
+      {
+       "rank": 10,
+       "id": "TT-91-2026:B:p017:139",
+       "page": 17,
+       "score": 0.519093,
+       "chapter": "II",
+       "article": 10,
+       "hit": false
+      }
+     ]
+    },
+    {
+     "id": "d04",
+     "question": "Hóa đơn hoàn thuế VAT cho khách nước ngoài phải hiển thị bằng những ngôn ngữ nào?",
+     "filter": null,
+     "first_hit_rank": 2,
+     "results": [
+      {
+       "rank": 1,
+       "id": "TT-91-2026:B:p006:036",
+       "page": 6,
+       "score": 0.631311,
+       "chapter": "II",
+       "article": 5,
+       "hit": false
+      },
+      {
+       "rank": 2,
+       "id": "TT-91-2026:B:p006:037",
+       "page": 6,
+       "score": 0.554071,
+       "chapter": "II",
+       "article": 5,
+       "hit": true
+      },
+      {
+       "rank": 3,
+       "id": "TT-91-2026:B:p005:035",
+       "page": 5,
+       "score": 0.497779,
+       "chapter": "II",
+       "article": 5,
+       "hit": false
+      },
+      {
+       "rank": 4,
+       "id": "TT-91-2026:B:p010:077",
+       "page": 10,
+       "score": 0.472458,
+       "chapter": "II",
+       "article": 6,
+       "hit": false
+      },
+      {
+       "rank": 5,
+       "id": "TT-91-2026:B:p006:038",
+       "page": 6,
+       "score": 0.471897,
+       "chapter": "II",
+       "article": 5,
+       "hit": false
+      },
+      {
+       "rank": 6,
+       "id": "TT-91-2026:B:p013:108",
+       "page": 13,
+       "score": 0.467736,
+       "chapter": "II",
+       "article": 8,
+       "hit": false
+      },
+      {
+       "rank": 7,
+       "id": "TT-91-2026:B:p010:075",
+       "page": 10,
+       "score": 0.463929,
+       "chapter": "II",
+       "article": 6,
+       "hit": false
+      },
+      {
+       "rank": 8,
+       "id": "TT-91-2026:B:p014:113",
+       "page": 14,
+       "score": 0.448221,
+       "chapter": "II",
+       "article": 8,
+       "hit": false
+      },
+      {
+       "rank": 9,
+       "id": "TT-91-2026:B:p021:178",
+       "page": 21,
+       "score": 0.444766,
+       "chapter": "II",
+       "article": 10,
+       "hit": false
+      },
+      {
+       "rank": 10,
+       "id": "TT-91-2026:B:p013:104",
+       "page": 13,
+       "score": 0.441556,
+       "chapter": "II",
+       "article": 8,
+       "hit": false
+      }
+     ]
+    },
+    {
+     "id": "d05",
+     "question": "Sau khi tiếp nhận đăng ký sử dụng hóa đơn điện tử, hệ thống tự động đối chiếu thông tin người đại diện trong bao lâu?",
+     "filter": null,
+     "first_hit_rank": 3,
+     "results": [
+      {
+       "rank": 1,
+       "id": "TT-91-2026:B:p031:261",
+       "page": 31,
+       "score": 0.751567,
+       "chapter": "IV",
+       "article": 22,
+       "hit": false
+      },
+      {
+       "rank": 2,
+       "id": "TT-91-2026:B:p007:053",
+       "page": 7,
+       "score": 0.726532,
+       "chapter": "II",
+       "article": 6,
+       "hit": false
+      },
+      {
+       "rank": 3,
+       "id": "TT-91-2026:B:p007:048",
+       "page": 7,
+       "score": 0.718876,
+       "chapter": "II",
+       "article": 6,
+       "hit": true
+      },
+      {
+       "rank": 4,
+       "id": "TT-91-2026:B:p031:259",
+       "page": 31,
+       "score": 0.700111,
+       "chapter": "IV",
+       "article": 22,
+       "hit": false
+      },
+      {
+       "rank": 5,
+       "id": "TT-91-2026:B:p013:109",
+       "page": 13,
+       "score": 0.692347,
+       "chapter": "II",
+       "article": 8,
+       "hit": false
+      },
+      {
+       "rank": 6,
+       "id": "TT-91-2026:B:p008:061",
+       "page": 8,
+       "score": 0.688775,
+       "chapter": "II",
+       "article": 6,
+       "hit": false
+      },
+      {
+       "rank": 7,
+       "id": "TT-91-2026:B:p007:046",
+       "page": 7,
+       "score": 0.674136,
+       "chapter": "II",
+       "article": 6,
+       "hit": false
+      },
+      {
+       "rank": 8,
+       "id": "TT-91-2026:B:p031:257",
+       "page": 31,
+       "score": 0.667427,
+       "chapter": "IV",
+       "article": 22,
+       "hit": false
+      },
+      {
+       "rank": 9,
+       "id": "TT-91-2026:B:p029:242",
+       "page": 29,
+       "score": 0.666971,
+       "chapter": "III",
+       "article": 17,
+       "hit": false
+      },
+      {
+       "rank": 10,
+       "id": "TT-91-2026:B:p007:050",
+       "page": 7,
+       "score": 0.656405,
+       "chapter": "II",
+       "article": 6,
+       "hit": false
+      }
+     ]
+    },
+    {
+     "id": "d06",
+     "question": "Khi đăng ký hóa đơn điện tử mà cơ quan thuế yêu cầu giải trình, bổ sung tài liệu, người nộp thuế có bao lâu để thực hiện?",
+     "filter": null,
+     "first_hit_rank": 9,
+     "results": [
+      {
+       "rank": 1,
+       "id": "TT-91-2026:B:p027:224",
+       "page": 27,
+       "score": 0.781827,
+       "chapter": "II",
+       "article": 15,
+       "hit": false
+      },
+      {
+       "rank": 2,
+       "id": "TT-91-2026:B:p022:187",
+       "page": 22,
+       "score": 0.778868,
+       "chapter": "II",
+       "article": 11,
+       "hit": false
+      },
+      {
+       "rank": 3,
+       "id": "TT-91-2026:B:p013:108",
+       "page": 13,
+       "score": 0.770596,
+       "chapter": "II",
+       "article": 8,
+       "hit": false
+      },
+      {
+       "rank": 4,
+       "id": "TT-91-2026:B:p013:109",
+       "page": 13,
+       "score": 0.770255,
+       "chapter": "II",
+       "article": 8,
+       "hit": false
+      },
+      {
+       "rank": 5,
+       "id": "TT-91-2026:B:p022:188",
+       "page": 22,
+       "score": 0.768055,
+       "chapter": "II",
+       "article": 11,
+       "hit": false
+      },
+      {
+       "rank": 6,
+       "id": "TT-91-2026:B:p008:065",
+       "page": 8,
+       "score": 0.74723,
+       "chapter": "II",
+       "article": 6,
+       "hit": false
+      },
+      {
+       "rank": 7,
+       "id": "TT-91-2026:B:p014:114",
+       "page": 14,
+       "score": 0.7454,
+       "chapter": "II",
+       "article": 8,
+       "hit": false
+      },
+      {
+       "rank": 8,
+       "id": "TT-91-2026:B:p032:266",
+       "page": 32,
+       "score": 0.744469,
+       "chapter": "V",
+       "article": 24,
+       "hit": false
+      },
+      {
+       "rank": 9,
+       "id": "TT-91-2026:B:p008:063",
+       "page": 8,
+       "score": 0.734457,
+       "chapter": "II",
+       "article": 6,
+       "hit": true
+      },
+      {
+       "rank": 10,
+       "id": "TT-91-2026:B:p012:098",
+       "page": 12,
+       "score": 0.730761,
+       "chapter": "II",
+       "article": 8,
+       "hit": false
+      }
+     ]
+    },
+    {
+     "id": "d07",
+     "question": "Doanh nghiệp tạm ngừng kinh doanh thì có phải ngừng sử dụng hóa đơn điện tử không?",
+     "filter": null,
+     "first_hit_rank": null,
+     "results": [
+      {
+       "rank": 1,
+       "id": "TT-91-2026:B:p011:089",
+       "page": 11,
+       "score": 0.810967,
+       "chapter": "II",
+       "article": 8,
+       "hit": false
+      },
+      {
+       "rank": 2,
+       "id": "TT-91-2026:B:p012:097",
+       "page": 12,
+       "score": 0.801215,
+       "chapter": "II",
+       "article": 8,
+       "hit": false
+      },
+      {
+       "rank": 3,
+       "id": "TT-91-2026:B:p011:087",
+       "page": 11,
+       "score": 0.771658,
+       "chapter": "II",
+       "article": 8,
+       "hit": false
+      },
+      {
+       "rank": 4,
+       "id": "TT-91-2026:B:p012:094",
+       "page": 12,
+       "score": 0.762289,
+       "chapter": "II",
+       "article": 8,
+       "hit": false
+      },
+      {
+       "rank": 5,
+       "id": "TT-91-2026:B:p006:040",
+       "page": 6,
+       "score": 0.75674,
+       "chapter": "II",
+       "article": 6,
+       "hit": false
+      },
+      {
+       "rank": 6,
+       "id": "TT-91-2026:B:p014:116",
+       "page": 14,
+       "score": 0.755539,
+       "chapter": "II",
+       "article": 8,
+       "hit": false
+      },
+      {
+       "rank": 7,
+       "id": "TT-91-2026:B:p014:115",
+       "page": 14,
+       "score": 0.747514,
+       "chapter": "II",
+       "article": 8,
+       "hit": false
+      },
+      {
+       "rank": 8,
+       "id": "TT-91-2026:B:p011:086",
+       "page": 11,
+       "score": 0.743925,
+       "chapter": "II",
+       "article": 8,
+       "hit": false
+      },
+      {
+       "rank": 9,
+       "id": "TT-91-2026:B:p013:103",
+       "page": 13,
+       "score": 0.730614,
+       "chapter": "II",
+       "article": 8,
+       "hit": false
+      },
+      {
+       "rank": 10,
+       "id": "TT-91-2026:B:p013:100",
+       "page": 13,
+       "score": 0.722679,
+       "chapter": "II",
+       "article": 8,
+       "hit": false
+      }
+     ]
+    },
+    {
+     "id": "d08",
+     "question": "Hộ kinh doanh được cấp mã số thuế trước ngày 01/7/2025 nhưng thông tin đăng ký thuế không khớp cơ sở dữ liệu dân cư thì phải bổ sung trong bao lâu?",
+     "filter": null,
+     "first_hit_rank": null,
+     "results": [
+      {
+       "rank": 1,
+       "id": "TT-91-2026:B:p012:096",
+       "page": 12,
+       "score": 0.809994,
+       "chapter": "II",
+       "article": 8,
+       "hit": false
+      },
+      {
+       "rank": 2,
+       "id": "TT-91-2026:B:p031:259",
+       "page": 31,
+       "score": 0.722851,
+       "chapter": "IV",
+       "article": 22,
+       "hit": false
+      },
+      {
+       "rank": 3,
+       "id": "TT-91-2026:B:p027:224",
+       "page": 27,
+       "score": 0.704259,
+       "chapter": "II",
+       "article": 15,
+       "hit": false
+      },
+      {
+       "rank": 4,
+       "id": "TT-91-2026:B:p027:221",
+       "page": 27,
+       "score": 0.692926,
+       "chapter": "II",
+       "article": 15,
+       "hit": false
+      },
+      {
+       "rank": 5,
+       "id": "TT-91-2026:B:p032:273",
+       "page": 32,
+       "score": 0.691056,
+       "chapter": "V",
+       "article": 25,
+       "hit": false
+      },
+      {
+       "rank": 6,
+       "id": "TT-91-2026:B:p022:188",
+       "page": 22,
+       "score": 0.688395,
+       "chapter": "II",
+       "article": 11,
+       "hit": false
+      },
+      {
+       "rank": 7,
+       "id": "TT-91-2026:B:p032:266",
+       "page": 32,
+       "score": 0.685571,
+       "chapter": "V",
+       "article": 24,
+       "hit": false
+      },
+      {
+       "rank": 8,
+       "id": "TT-91-2026:B:p009:067",
+       "page": 9,
+       "score": 0.672143,
+       "chapter": "II",
+       "article": 6,
+       "hit": false
+      },
+      {
+       "rank": 9,
+       "id": "TT-91-2026:B:p008:058",
+       "page": 8,
+       "score": 0.660153,
+       "chapter": "II",
+       "article": 6,
+       "hit": false
+      },
+      {
+       "rank": 10,
+       "id": "TT-91-2026:B:p001:002",
+       "page": 1,
+       "score": 0.659483,
+       "chapter": null,
+       "article": null,
+       "hit": false
+      }
+     ]
+    },
+    {
+     "id": "d09",
+     "question": "Ủy nhiệm lập hóa đơn điện tử có bắt buộc phải lập thành văn bản không? Có ngoại lệ nào?",
+     "filter": null,
+     "first_hit_rank": 3,
+     "results": [
+      {
+       "rank": 1,
+       "id": "TT-91-2026:B:p016:129",
+       "page": 16,
+       "score": 0.756326,
+       "chapter": "II",
+       "article": 9,
+       "hit": false
+      },
+      {
+       "rank": 2,
+       "id": "TT-91-2026:B:p001:006",
+       "page": 1,
+       "score": 0.708483,
+       "chapter": "I",
+       "article": 1,
+       "hit": false
+      },
+      {
+       "rank": 3,
+       "id": "TT-91-2026:B:p015:120",
+       "page": 15,
+       "score": 0.701745,
+       "chapter": "II",
+       "article": 9,
+       "hit": true
+      },
+      {
+       "rank": 4,
+       "id": "TT-91-2026:B:p007:054",
+       "page": 7,
+       "score": 0.687393,
+       "chapter": "II",
+       "article": 6,
+       "hit": false
+      },
+      {
+       "rank": 5,
+       "id": "TT-91-2026:B:p014:115",
+       "page": 14,
+       "score": 0.686697,
+       "chapter": "II",
+       "article": 8,
+       "hit": false
+      },
+      {
+       "rank": 6,
+       "id": "TT-91-2026:B:p009:067",
+       "page": 9,
+       "score": 0.682489,
+       "chapter": "II",
+       "article": 6,
+       "hit": false
+      },
+      {
+       "rank": 7,
+       "id": "TT-91-2026:B:p012:091",
+       "page": 12,
+       "score": 0.682338,
+       "chapter": "II",
+       "article": 8,
+       "hit": false
+      },
+      {
+       "rank": 8,
+       "id": "TT-91-2026:B:p015:121",
+       "page": 15,
+       "score": 0.681621,
+       "chapter": "II",
+       "article": 9,
+       "hit": false
+      },
+      {
+       "rank": 9,
+       "id": "TT-91-2026:B:p012:095",
+       "page": 12,
+       "score": 0.680891,
+       "chapter": "II",
+       "article": 8,
+       "hit": false
+      },
+      {
+       "rank": 10,
+       "id": "TT-91-2026:B:p022:184",
+       "page": 22,
+       "score": 0.67986,
+       "chapter": "II",
+       "article": 11,
+       "hit": false
+      }
+     ]
+    },
+    {
+     "id": "d10",
+     "question": "Nếu đã lập sai tên, địa chỉ người mua nhưng không sai mã số thuế, số tiền thì xử lý thế nào?",
+     "filter": {
+      "chapter": "II"
+     },
+     "first_hit_rank": 2,
+     "results": [
+      {
+       "rank": 1,
+       "id": "TT-91-2026:B:p019:154",
+       "page": 19,
+       "score": 0.664463,
+       "chapter": "II",
+       "article": 10,
+       "hit": false
+      },
+      {
+       "rank": 2,
+       "id": "TT-91-2026:B:p017:135",
+       "page": 17,
+       "score": 0.658059,
+       "chapter": "II",
+       "article": 10,
+       "hit": true
+      },
+      {
+       "rank": 3,
+       "id": "TT-91-2026:B:p016:134",
+       "page": 16,
+       "score": 0.631435,
+       "chapter": "II",
+       "article": 10,
+       "hit": false
+      },
+      {
+       "rank": 4,
+       "id": "TT-91-2026:B:p017:142",
+       "page": 17,
+       "score": 0.622238,
+       "chapter": "II",
+       "article": 10,
+       "hit": false
+      },
+      {
+       "rank": 5,
+       "id": "TT-91-2026:B:p018:149",
+       "page": 18,
+       "score": 0.615774,
+       "chapter": "II",
+       "article": 10,
+       "hit": false
+      },
+      {
+       "rank": 6,
+       "id": "TT-91-2026:B:p017:140",
+       "page": 17,
+       "score": 0.615454,
+       "chapter": "II",
+       "article": 10,
+       "hit": false
+      },
+      {
+       "rank": 7,
+       "id": "TT-91-2026:B:p027:223",
+       "page": 27,
+       "score": 0.606555,
+       "chapter": "II",
+       "article": 15,
+       "hit": false
+      },
+      {
+       "rank": 8,
+       "id": "TT-91-2026:B:p011:084",
+       "page": 11,
+       "score": 0.599575,
+       "chapter": "II",
+       "article": 7,
+       "hit": false
+      },
+      {
+       "rank": 9,
+       "id": "TT-91-2026:B:p012:096",
+       "page": 12,
+       "score": 0.597314,
+       "chapter": "II",
+       "article": 8,
+       "hit": false
+      },
+      {
+       "rank": 10,
+       "id": "TT-91-2026:B:p017:137",
+       "page": 17,
+       "score": 0.58533,
+       "chapter": "II",
+       "article": 10,
+       "hit": false
+      }
+     ]
+    },
+    {
+     "id": "d11",
+     "question": "Hóa đơn điện tử ghi sai mã số thuế người mua thì người bán phải xử lý thế nào?",
+     "filter": null,
+     "first_hit_rank": null,
+     "results": [
+      {
+       "rank": 1,
+       "id": "TT-91-2026:B:p017:140",
+       "page": 17,
+       "score": 0.790838,
+       "chapter": "II",
+       "article": 10,
+       "hit": false
+      },
+      {
+       "rank": 2,
+       "id": "TT-91-2026:B:p016:134",
+       "page": 16,
+       "score": 0.774326,
+       "chapter": "II",
+       "article": 10,
+       "hit": false
+      },
+      {
+       "rank": 3,
+       "id": "TT-91-2026:B:p019:154",
+       "page": 19,
+       "score": 0.770219,
+       "chapter": "II",
+       "article": 10,
+       "hit": false
+      },
+      {
+       "rank": 4,
+       "id": "TT-91-2026:B:p022:182",
+       "page": 22,
+       "score": 0.763207,
+       "chapter": "II",
+       "article": 10,
+       "hit": false
+      },
+      {
+       "rank": 5,
+       "id": "TT-91-2026:B:p019:155",
+       "page": 19,
+       "score": 0.762664,
+       "chapter": "II",
+       "article": 10,
+       "hit": false
+      },
+      {
+       "rank": 6,
+       "id": "TT-91-2026:B:p012:098",
+       "page": 12,
+       "score": 0.740183,
+       "chapter": "II",
+       "article": 8,
+       "hit": false
+      },
+      {
+       "rank": 7,
+       "id": "TT-91-2026:B:p018:149",
+       "page": 18,
+       "score": 0.731584,
+       "chapter": "II",
+       "article": 10,
+       "hit": false
+      },
+      {
+       "rank": 8,
+       "id": "TT-91-2026:B:p022:186",
+       "page": 22,
+       "score": 0.730538,
+       "chapter": "II",
+       "article": 11,
+       "hit": false
+      },
+      {
+       "rank": 9,
+       "id": "TT-91-2026:B:p020:163",
+       "page": 20,
+       "score": 0.727705,
+       "chapter": "II",
+       "article": 10,
+       "hit": false
+      },
+      {
+       "rank": 10,
+       "id": "TT-91-2026:B:p013:108",
+       "page": 13,
+       "score": 0.725104,
+       "chapter": "II",
+       "article": 8,
+       "hit": false
+      }
+     ]
+    },
+    {
+     "id": "d12",
+     "question": "Khi điều chỉnh, thay thế hóa đơn sai, trường hợp nào người bán không bắt buộc lập văn bản thỏa thuận với người mua?",
+     "filter": null,
+     "first_hit_rank": null,
+     "results": [
+      {
+       "rank": 1,
+       "id": "TT-91-2026:B:p020:167",
+       "page": 20,
+       "score": 0.770342,
+       "chapter": "II",
+       "article": 10,
+       "hit": false
+      },
+      {
+       "rank": 2,
+       "id": "TT-91-2026:B:p017:143",
+       "page": 17,
+       "score": 0.760035,
+       "chapter": "II",
+       "article": 10,
+       "hit": false
+      },
+      {
+       "rank": 3,
+       "id": "TT-91-2026:B:p017:135",
+       "page": 17,
+       "score": 0.751515,
+       "chapter": "II",
+       "article": 10,
+       "hit": false
+      },
+      {
+       "rank": 4,
+       "id": "TT-91-2026:B:p032:268",
+       "page": 32,
+       "score": 0.751441,
+       "chapter": "V",
+       "article": 24,
+       "hit": false
+      },
+      {
+       "rank": 5,
+       "id": "TT-91-2026:B:p020:162",
+       "page": 20,
+       "score": 0.738361,
+       "chapter": "II",
+       "article": 10,
+       "hit": false
+      },
+      {
+       "rank": 6,
+       "id": "TT-91-2026:B:p021:174",
+       "page": 21,
+       "score": 0.725568,
+       "chapter": "II",
+       "article": 10,
+       "hit": false
+      },
+      {
+       "rank": 7,
+       "id": "TT-91-2026:B:p021:179",
+       "page": 21,
+       "score": 0.719768,
+       "chapter": "II",
+       "article": 10,
+       "hit": false
+      },
+      {
+       "rank": 8,
+       "id": "TT-91-2026:B:p017:140",
+       "page": 17,
+       "score": 0.711242,
+       "chapter": "II",
+       "article": 10,
+       "hit": false
+      },
+      {
+       "rank": 9,
+       "id": "TT-91-2026:B:p020:170",
+       "page": 20,
+       "score": 0.709851,
+       "chapter": "II",
+       "article": 10,
+       "hit": false
+      },
+      {
+       "rank": 10,
+       "id": "TT-91-2026:B:p032:270",
+       "page": 32,
+       "score": 0.703081,
+       "chapter": "V",
+       "article": 24,
+       "hit": false
+      }
+     ]
+    },
+    {
+     "id": "d13",
+     "question": "Tổ chức cung cấp dịch vụ nhận, truyền, lưu trữ dữ liệu hóa đơn điện tử phải ký quỹ hoặc có bảo lãnh ngân hàng với giá trị tối thiểu bao nhiêu?",
+     "filter": null,
+     "first_hit_rank": 2,
+     "results": [
+      {
+       "rank": 1,
+       "id": "TT-91-2026:B:p024:204",
+       "page": 24,
+       "score": 0.701732,
+       "chapter": "II",
+       "article": 12,
+       "hit": false
+      },
+      {
+       "rank": 2,
+       "id": "TT-91-2026:B:p024:197",
+       "page": 24,
+       "score": 0.680839,
+       "chapter": "II",
+       "article": 12,
+       "hit": true
+      },
+      {
+       "rank": 3,
+       "id": "TT-91-2026:B:p021:172",
+       "page": 21,
+       "score": 0.67178,
+       "chapter": "II",
+       "article": 10,
+       "hit": false
+      },
+      {
+       "rank": 4,
+       "id": "TT-91-2026:B:p029:241",
+       "page": 29,
+       "score": 0.632507,
+       "chapter": "III",
+       "article": 17,
+       "hit": false
+      },
+      {
+       "rank": 5,
+       "id": "TT-91-2026:B:p006:040",
+       "page": 6,
+       "score": 0.630602,
+       "chapter": "II",
+       "article": 6,
+       "hit": false
+      },
+      {
+       "rank": 6,
+       "id": "TT-91-2026:B:p008:066",
+       "page": 8,
+       "score": 0.62943,
+       "chapter": "II",
+       "article": 6,
+       "hit": false
+      },
+      {
+       "rank": 7,
+       "id": "TT-91-2026:B:p018:150",
+       "page": 18,
+       "score": 0.617893,
+       "chapter": "II",
+       "article": 10,
+       "hit": false
+      },
+      {
+       "rank": 8,
+       "id": "TT-91-2026:B:p007:046",
+       "page": 7,
+       "score": 0.614454,
+       "chapter": "II",
+       "article": 6,
+       "hit": false
+      },
+      {
+       "rank": 9,
+       "id": "TT-91-2026:B:p009:067",
+       "page": 9,
+       "score": 0.613377,
+       "chapter": "II",
+       "article": 6,
+       "hit": false
+      },
+      {
+       "rank": 10,
+       "id": "TT-91-2026:B:p024:200",
+       "page": 24,
+       "score": 0.612322,
+       "chapter": "II",
+       "article": 12,
+       "hit": false
+      }
+     ]
+    },
+    {
+     "id": "d14",
+     "question": "Trung tâm dữ liệu dự phòng của đơn vị truyền nhận hóa đơn điện tử phải đặt cách trung tâm chính ít nhất bao xa?",
+     "filter": null,
+     "first_hit_rank": 1,
+     "results": [
+      {
+       "rank": 1,
+       "id": "TT-91-2026:B:p024:201",
+       "page": 24,
+       "score": 0.782173,
+       "chapter": "II",
+       "article": 12,
+       "hit": true
+      },
+      {
+       "rank": 2,
+       "id": "TT-91-2026:B:p007:046",
+       "page": 7,
+       "score": 0.587242,
+       "chapter": "II",
+       "article": 6,
+       "hit": false
+      },
+      {
+       "rank": 3,
+       "id": "TT-91-2026:B:p031:261",
+       "page": 31,
+       "score": 0.565148,
+       "chapter": "IV",
+       "article": 22,
+       "hit": false
+      },
+      {
+       "rank": 4,
+       "id": "TT-91-2026:B:p004:026",
+       "page": 4,
+       "score": 0.562624,
+       "chapter": "II",
+       "article": 4,
+       "hit": false
+      },
+      {
+       "rank": 5,
+       "id": "TT-91-2026:B:p024:200",
+       "page": 24,
+       "score": 0.556323,
+       "chapter": "II",
+       "article": 12,
+       "hit": false
+      },
+      {
+       "rank": 6,
+       "id": "TT-91-2026:B:p029:242",
+       "page": 29,
+       "score": 0.550184,
+       "chapter": "III",
+       "article": 17,
+       "hit": false
+      },
+      {
+       "rank": 7,
+       "id": "TT-91-2026:B:p018:150",
+       "page": 18,
+       "score": 0.545415,
+       "chapter": "II",
+       "article": 10,
+       "hit": false
+      },
+      {
+       "rank": 8,
+       "id": "TT-91-2026:B:p009:072",
+       "page": 9,
+       "score": 0.542728,
+       "chapter": "II",
+       "article": 6,
+       "hit": false
+      },
+      {
+       "rank": 9,
+       "id": "TT-91-2026:B:p023:193",
+       "page": 23,
+       "score": 0.538056,
+       "chapter": "II",
+       "article": 12,
+       "hit": false
+      },
+      {
+       "rank": 10,
+       "id": "TT-91-2026:B:p029:238",
+       "page": 29,
+       "score": 0.530234,
+       "chapter": "III",
+       "article": 17,
+       "hit": false
+      }
+     ]
+    },
+    {
+     "id": "d15",
+     "question": "Nếu đã lập sai tên, địa chỉ nhưng không sai mã số thuế, số tiền thì có phải lập lại không?",
+     "filter": {
+      "chapter": "III"
+     },
+     "first_hit_rank": 1,
+     "results": [
+      {
+       "rank": 1,
+       "id": "TT-91-2026:B:p030:251",
+       "page": 30,
+       "score": 0.533654,
+       "chapter": "III",
+       "article": 20,
+       "hit": true
+      },
+      {
+       "rank": 2,
+       "id": "TT-91-2026:B:p030:250",
+       "page": 30,
+       "score": 0.416892,
+       "chapter": "III",
+       "article": 19,
+       "hit": false
+      },
+      {
+       "rank": 3,
+       "id": "TT-91-2026:B:p028:234",
+       "page": 28,
+       "score": 0.407647,
+       "chapter": "III",
+       "article": 17,
+       "hit": false
+      },
+      {
+       "rank": 4,
+       "id": "TT-91-2026:B:p029:242",
+       "page": 29,
+       "score": 0.386554,
+       "chapter": "III",
+       "article": 17,
+       "hit": false
+      },
+      {
+       "rank": 5,
+       "id": "TT-91-2026:B:p029:240",
+       "page": 29,
+       "score": 0.376136,
+       "chapter": "III",
+       "article": 17,
+       "hit": false
+      },
+      {
+       "rank": 6,
+       "id": "TT-91-2026:B:p029:241",
+       "page": 29,
+       "score": 0.363759,
+       "chapter": "III",
+       "article": 17,
+       "hit": false
+      },
+      {
+       "rank": 7,
+       "id": "TT-91-2026:B:p028:236",
+       "page": 28,
+       "score": 0.357014,
+       "chapter": "III",
+       "article": 17,
+       "hit": false
+      },
+      {
+       "rank": 8,
+       "id": "TT-91-2026:B:p029:243",
+       "page": 29,
+       "score": 0.348257,
+       "chapter": "III",
+       "article": 17,
+       "hit": false
+      },
+      {
+       "rank": 9,
+       "id": "TT-91-2026:B:p030:252",
+       "page": 30,
+       "score": 0.34245,
+       "chapter": "III",
+       "article": 20,
+       "hit": false
+      },
+      {
+       "rank": 10,
+       "id": "TT-91-2026:B:p030:249",
+       "page": 30,
+       "score": 0.317767,
+       "chapter": "III",
+       "article": 19,
+       "hit": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "summary": {
+    "method": "bm25",
+    "N": 15,
+    "hit@1": 7,
+    "hit@3": 9,
+    "hit@5": 12,
+    "mrr@10": 0.572,
+    "ms_median": 2.4,
+    "ms_mean": 2.3,
+    "miss@3": [
+     "d02",
+     "d06",
+     "d07",
+     "d08",
+     "d11",
+     "d12"
+    ]
+   },
+   "traces": [
+    {
+     "id": "d01",
+     "question": "Hóa đơn điện tử phải sử dụng ngôn ngữ định dạng văn bản nào?",
+     "filter": null,
+     "first_hit_rank": 1,
+     "results": [
+      {
+       "rank": 1,
+       "id": "TT-91-2026:B:p003:016",
+       "page": 3,
+       "score": 25.919405,
+       "chapter": "II",
+       "article": 3,
+       "hit": true
+      },
+      {
+       "rank": 2,
+       "id": "TT-91-2026:B:p029:245",
+       "page": 29,
+       "score": 25.015228,
+       "chapter": "III",
+       "article": 18,
+       "hit": false
+      },
+      {
+       "rank": 3,
+       "id": "TT-91-2026:B:p015:120",
+       "page": 15,
+       "score": 11.214575,
+       "chapter": "II",
+       "article": 9,
+       "hit": false
+      },
+      {
+       "rank": 4,
+       "id": "TT-91-2026:B:p030:254",
+       "page": 30,
+       "score": 11.129503,
+       "chapter": "IV",
+       "article": 21,
+       "hit": false
+      },
+      {
+       "rank": 5,
+       "id": "TT-91-2026:B:p018:145",
+       "page": 18,
+       "score": 10.771438,
+       "chapter": "II",
+       "article": 10,
+       "hit": false
+      },
+      {
+       "rank": 6,
+       "id": "TT-91-2026:B:p029:244",
+       "page": 29,
+       "score": 10.763086,
+       "chapter": "III",
+       "article": 18,
+       "hit": false
+      },
+      {
+       "rank": 7,
+       "id": "TT-91-2026:B:p012:095",
+       "page": 12,
+       "score": 10.705501,
+       "chapter": "II",
+       "article": 8,
+       "hit": false
+      },
+      {
+       "rank": 8,
+       "id": "TT-91-2026:B:p031:264",
+       "page": 31,
+       "score": 9.960331,
+       "chapter": "IV",
+       "article": 23,
+       "hit": false
+      },
+      {
+       "rank": 9,
+       "id": "TT-91-2026:B:p001:006",
+       "page": 1,
+       "score": 9.849412,
+       "chapter": "I",
+       "article": 1,
+       "hit": false
+      },
+      {
+       "rank": 10,
+       "id": "TT-91-2026:B:p032:268",
+       "page": 32,
+       "score": 9.397088,
+       "chapter": "V",
+       "article": 24,
+       "hit": false
+      }
+     ]
+    },
+    {
+     "id": "d02",
+     "question": "Tổ chức kinh tế gửi trực tiếp dữ liệu hóa đơn điện tử đến cơ quan thuế thì mỗi kênh truyền phải có băng thông tối thiểu bao nhiêu?",
+     "filter": null,
+     "first_hit_rank": 4,
+     "results": [
+      {
+       "rank": 1,
+       "id": "TT-91-2026:B:p009:070",
+       "page": 9,
+       "score": 30.551234,
+       "chapter": "II",
+       "article": 6,
+       "hit": false
+      },
+      {
+       "rank": 2,
+       "id": "TT-91-2026:B:p024:203",
+       "page": 24,
+       "score": 28.998839,
+       "chapter": "II",
+       "article": 12,
+       "hit": false
+      },
+      {
+       "rank": 3,
+       "id": "TT-91-2026:B:p003:020",
+       "page": 3,
+       "score": 28.462299,
+       "chapter": "II",
+       "article": 3,
+       "hit": false
+      },
+      {
+       "rank": 4,
+       "id": "TT-91-2026:B:p003:021",
+       "page": 3,
+       "score": 26.000706,
+       "chapter": "II",
+       "article": 3,
+       "hit": true
+      },
+      {
+       "rank": 5,
+       "id": "TT-91-2026:B:p015:124",
+       "page": 15,
+       "score": 24.121286,
+       "chapter": "II",
+       "article": 9,
+       "hit": false
+      },
+      {
+       "rank": 6,
+       "id": "TT-91-2026:B:p008:066",
+       "page": 8,
+       "score": 20.58245,
+       "chapter": "II",
+       "article": 6,
+       "hit": false
+      },
+      {
+       "rank": 7,
+       "id": "TT-91-2026:B:p018:149",
+       "page": 18,
+       "score": 20.234294,
+       "chapter": "II",
+       "article": 10,
+       "hit": false
+      },
+      {
+       "rank": 8,
+       "id": "TT-91-2026:B:p009:067",
+       "page": 9,
+       "score": 20.114002,
+       "chapter": "II",
+       "article": 6,
+       "hit": false
+      },
+      {
+       "rank": 9,
+       "id": "TT-91-2026:B:p006:043",
+       "page": 6,
+       "score": 19.885503,
+       "chapter": "II",
+       "article": 6,
+       "hit": false
+      },
+      {
+       "rank": 10,
+       "id": "TT-91-2026:B:p022:182",
+       "page": 22,
+       "score": 19.859441,
+       "chapter": "II",
+       "article": 10,
+       "hit": false
+      }
+     ]
+    },
+    {
+     "id": "d03",
+     "question": "Ký hiệu hóa đơn điện tử gồm bao nhiêu ký tự?",
+     "filter": null,
+     "first_hit_rank": 2,
+     "results": [
+      {
+       "rank": 1,
+       "id": "TT-91-2026:B:p004:023",
+       "page": 4,
+       "score": 14.631225,
+       "chapter": "II",
+       "article": 4,
+       "hit": false
+      },
+      {
+       "rank": 2,
+       "id": "TT-91-2026:B:p004:024",
+       "page": 4,
+       "score": 14.51348,
+       "chapter": "II",
+       "article": 4,
+       "hit": true
+      },
+      {
+       "rank": 3,
+       "id": "TT-91-2026:B:p030:249",
+       "page": 30,
+       "score": 12.034066,
+       "chapter": "III",
+       "article": 19,
+       "hit": false
+      },
+      {
+       "rank": 4,
+       "id": "TT-91-2026:B:p002:010",
+       "page": 2,
+       "score": 11.705121,
+       "chapter": "I",
+       "article": 1,
+       "hit": false
+      },
+      {
+       "rank": 5,
+       "id": "TT-91-2026:B:p007:048",
+       "page": 7,
+       "score": 11.289302,
+       "chapter": "II",
+       "article": 6,
+       "hit": false
+      },
+      {
+       "rank": 6,
+       "id": "TT-91-2026:B:p006:040",
+       "page": 6,
+       "score": 10.851469,
+       "chapter": "II",
+       "article": 6,
+       "hit": false
+      },
+      {
+       "rank": 7,
+       "id": "TT-91-2026:B:p018:151",
+       "page": 18,
+       "score": 10.061833,
+       "chapter": "II",
+       "article": 10,
+       "hit": false
+      },
+      {
+       "rank": 8,
+       "id": "TT-91-2026:B:p001:006",
+       "page": 1,
+       "score": 9.950856,
+       "chapter": "I",
+       "article": 1,
+       "hit": false
+      },
+      {
+       "rank": 9,
+       "id": "TT-91-2026:B:p005:033",
+       "page": 5,
+       "score": 9.21116,
+       "chapter": "II",
+       "article": 5,
+       "hit": false
+      },
+      {
+       "rank": 10,
+       "id": "TT-91-2026:B:p002:008",
+       "page": 2,
+       "score": 9.024153,
+       "chapter": "I",
+       "article": 1,
+       "hit": false
+      }
+     ]
+    },
+    {
+     "id": "d04",
+     "question": "Hóa đơn hoàn thuế VAT cho khách nước ngoài phải hiển thị bằng những ngôn ngữ nào?",
+     "filter": null,
+     "first_hit_rank": 1,
+     "results": [
+      {
+       "rank": 1,
+       "id": "TT-91-2026:B:p006:037",
+       "page": 6,
+       "score": 13.899059,
+       "chapter": "II",
+       "article": 5,
+       "hit": true
+      },
+      {
+       "rank": 2,
+       "id": "TT-91-2026:B:p005:034",
+       "page": 5,
+       "score": 13.296777,
+       "chapter": "II",
+       "article": 5,
+       "hit": false
+      },
+      {
+       "rank": 3,
+       "id": "TT-91-2026:B:p005:035",
+       "page": 5,
+       "score": 11.836112,
+       "chapter": "II",
+       "article": 5,
+       "hit": false
+      },
+      {
+       "rank": 4,
+       "id": "TT-91-2026:B:p015:120",
+       "page": 15,
+       "score": 11.596256,
+       "chapter": "II",
+       "article": 9,
+       "hit": false
+      },
+      {
+       "rank": 5,
+       "id": "TT-91-2026:B:p006:036",
+       "page": 6,
+       "score": 11.556357,
+       "chapter": "II",
+       "article": 5,
+       "hit": false
+      },
+      {
+       "rank": 6,
+       "id": "TT-91-2026:B:p003:016",
+       "page": 3,
+       "score": 11.003112,
+       "chapter": "II",
+       "article": 3,
+       "hit": false
+      },
+      {
+       "rank": 7,
+       "id": "TT-91-2026:B:p021:175",
+       "page": 21,
+       "score": 10.949927,
+       "chapter": "II",
+       "article": 10,
+       "hit": false
+      },
+      {
+       "rank": 8,
+       "id": "TT-91-2026:B:p031:265",
+       "page": 31,
+       "score": 10.581589,
+       "chapter": "IV",
+       "article": 23,
+       "hit": false
+      },
+      {
+       "rank": 9,
+       "id": "TT-91-2026:B:p029:245",
+       "page": 29,
+       "score": 10.203031,
+       "chapter": "III",
+       "article": 18,
+       "hit": false
+      },
+      {
+       "rank": 10,
+       "id": "TT-91-2026:B:p021:177",
+       "page": 21,
+       "score": 9.261249,
+       "chapter": "II",
+       "article": 10,
+       "hit": false
+      }
+     ]
+    },
+    {
+     "id": "d05",
+     "question": "Sau khi tiếp nhận đăng ký sử dụng hóa đơn điện tử, hệ thống tự động đối chiếu thông tin người đại diện trong bao lâu?",
+     "filter": null,
+     "first_hit_rank": 1,
+     "results": [
+      {
+       "rank": 1,
+       "id": "TT-91-2026:B:p007:048",
+       "page": 7,
+       "score": 31.905887,
+       "chapter": "II",
+       "article": 6,
+       "hit": true
+      },
+      {
+       "rank": 2,
+       "id": "TT-91-2026:B:p007:051",
+       "page": 7,
+       "score": 27.92977,
+       "chapter": "II",
+       "article": 6,
+       "hit": false
+      },
+      {
+       "rank": 3,
+       "id": "TT-91-2026:B:p007:053",
+       "page": 7,
+       "score": 22.205928,
+       "chapter": "II",
+       "article": 6,
+       "hit": false
+      },
+      {
+       "rank": 4,
+       "id": "TT-91-2026:B:p007:050",
+       "page": 7,
+       "score": 21.468072,
+       "chapter": "II",
+       "article": 6,
+       "hit": false
+      },
+      {
+       "rank": 5,
+       "id": "TT-91-2026:B:p031:262",
+       "page": 31,
+       "score": 19.596984,
+       "chapter": "IV",
+       "article": 23,
+       "hit": false
+      },
+      {
+       "rank": 6,
+       "id": "TT-91-2026:B:p006:044",
+       "page": 6,
+       "score": 19.526443,
+       "chapter": "II",
+       "article": 6,
+       "hit": false
+      },
+      {
+       "rank": 7,
+       "id": "TT-91-2026:B:p031:261",
+       "page": 31,
+       "score": 17.43335,
+       "chapter": "IV",
+       "article": 22,
+       "hit": false
+      },
+      {
+       "rank": 8,
+       "id": "TT-91-2026:B:p007:046",
+       "page": 7,
+       "score": 17.250317,
+       "chapter": "II",
+       "article": 6,
+       "hit": false
+      },
+      {
+       "rank": 9,
+       "id": "TT-91-2026:B:p029:238",
+       "page": 29,
+       "score": 17.221602,
+       "chapter": "III",
+       "article": 17,
+       "hit": false
+      },
+      {
+       "rank": 10,
+       "id": "TT-91-2026:B:p008:055",
+       "page": 8,
+       "score": 16.980282,
+       "chapter": "II",
+       "article": 6,
+       "hit": false
+      }
+     ]
+    },
+    {
+     "id": "d06",
+     "question": "Khi đăng ký hóa đơn điện tử mà cơ quan thuế yêu cầu giải trình, bổ sung tài liệu, người nộp thuế có bao lâu để thực hiện?",
+     "filter": null,
+     "first_hit_rank": 4,
+     "results": [
+      {
+       "rank": 1,
+       "id": "TT-91-2026:B:p013:108",
+       "page": 13,
+       "score": 33.029812,
+       "chapter": "II",
+       "article": 8,
+       "hit": false
+      },
+      {
+       "rank": 2,
+       "id": "TT-91-2026:B:p008:064",
+       "page": 8,
+       "score": 29.071538,
+       "chapter": "II",
+       "article": 6,
+       "hit": false
+      },
+      {
+       "rank": 3,
+       "id": "TT-91-2026:B:p014:111",
+       "page": 14,
+       "score": 26.331694,
+       "chapter": "II",
+       "article": 8,
+       "hit": false
+      },
+      {
+       "rank": 4,
+       "id": "TT-91-2026:B:p008:063",
+       "page": 8,
+       "score": 25.78595,
+       "chapter": "II",
+       "article": 6,
+       "hit": true
+      },
+      {
+       "rank": 5,
+       "id": "TT-91-2026:B:p014:112",
+       "page": 14,
+       "score": 25.299991,
+       "chapter": "II",
+       "article": 8,
+       "hit": false
+      },
+      {
+       "rank": 6,
+       "id": "TT-91-2026:B:p008:061",
+       "page": 8,
+       "score": 24.990571,
+       "chapter": "II",
+       "article": 6,
+       "hit": false
+      },
+      {
+       "rank": 7,
+       "id": "TT-91-2026:B:p013:109",
+       "page": 13,
+       "score": 24.584727,
+       "chapter": "II",
+       "article": 8,
+       "hit": false
+      },
+      {
+       "rank": 8,
+       "id": "TT-91-2026:B:p014:114",
+       "page": 14,
+       "score": 22.340034,
+       "chapter": "II",
+       "article": 8,
+       "hit": false
+      },
+      {
+       "rank": 9,
+       "id": "TT-91-2026:B:p008:065",
+       "page": 8,
+       "score": 21.280516,
+       "chapter": "II",
+       "article": 6,
+       "hit": false
+      },
+      {
+       "rank": 10,
+       "id": "TT-91-2026:B:p017:144",
+       "page": 17,
+       "score": 20.145498,
+       "chapter": "II",
+       "article": 10,
+       "hit": false
+      }
+     ]
+    },
+    {
+     "id": "d07",
+     "question": "Doanh nghiệp tạm ngừng kinh doanh thì có phải ngừng sử dụng hóa đơn điện tử không?",
+     "filter": null,
+     "first_hit_rank": null,
+     "results": [
+      {
+       "rank": 1,
+       "id": "TT-91-2026:B:p011:087",
+       "page": 11,
+       "score": 29.586649,
+       "chapter": "II",
+       "article": 8,
+       "hit": false
+      },
+      {
+       "rank": 2,
+       "id": "TT-91-2026:B:p013:104",
+       "page": 13,
+       "score": 22.068708,
+       "chapter": "II",
+       "article": 8,
+       "hit": false
+      },
+      {
+       "rank": 3,
+       "id": "TT-91-2026:B:p012:097",
+       "page": 12,
+       "score": 21.816386,
+       "chapter": "II",
+       "article": 8,
+       "hit": false
+      },
+      {
+       "rank": 4,
+       "id": "TT-91-2026:B:p012:092",
+       "page": 12,
+       "score": 21.676835,
+       "chapter": "II",
+       "article": 8,
+       "hit": false
+      },
+      {
+       "rank": 5,
+       "id": "TT-91-2026:B:p006:040",
+       "page": 6,
+       "score": 21.032141,
+       "chapter": "II",
+       "article": 6,
+       "hit": false
+      },
+      {
+       "rank": 6,
+       "id": "TT-91-2026:B:p011:089",
+       "page": 11,
+       "score": 20.911942,
+       "chapter": "II",
+       "article": 8,
+       "hit": false
+      },
+      {
+       "rank": 7,
+       "id": "TT-91-2026:B:p012:094",
+       "page": 12,
+       "score": 19.141943,
+       "chapter": "II",
+       "article": 8,
+       "hit": false
+      },
+      {
+       "rank": 8,
+       "id": "TT-91-2026:B:p008:055",
+       "page": 8,
+       "score": 18.925147,
+       "chapter": "II",
+       "article": 6,
+       "hit": false
+      },
+      {
+       "rank": 9,
+       "id": "TT-91-2026:B:p014:115",
+       "page": 14,
+       "score": 18.68451,
+       "chapter": "II",
+       "article": 8,
+       "hit": false
+      },
+      {
+       "rank": 10,
+       "id": "TT-91-2026:B:p013:101",
+       "page": 13,
+       "score": 18.393158,
+       "chapter": "II",
+       "article": 8,
+       "hit": false
+      }
+     ]
+    },
+    {
+     "id": "d08",
+     "question": "Hộ kinh doanh được cấp mã số thuế trước ngày 01/7/2025 nhưng thông tin đăng ký thuế không khớp cơ sở dữ liệu dân cư thì phải bổ sung trong bao lâu?",
+     "filter": null,
+     "first_hit_rank": null,
+     "results": [
+      {
+       "rank": 1,
+       "id": "TT-91-2026:B:p012:096",
+       "page": 12,
+       "score": 57.36409,
+       "chapter": "II",
+       "article": 8,
+       "hit": false
+      },
+      {
+       "rank": 2,
+       "id": "TT-91-2026:B:p008:061",
+       "page": 8,
+       "score": 26.059113,
+       "chapter": "II",
+       "article": 6,
+       "hit": false
+      },
+      {
+       "rank": 3,
+       "id": "TT-91-2026:B:p007:049",
+       "page": 7,
+       "score": 26.056947,
+       "chapter": "II",
+       "article": 6,
+       "hit": false
+      },
+      {
+       "rank": 4,
+       "id": "TT-91-2026:B:p011:083",
+       "page": 11,
+       "score": 25.532253,
+       "chapter": "II",
+       "article": 7,
+       "hit": false
+      },
+      {
+       "rank": 5,
+       "id": "TT-91-2026:B:p007:048",
+       "page": 7,
+       "score": 22.114885,
+       "chapter": "II",
+       "article": 6,
+       "hit": false
+      },
+      {
+       "rank": 6,
+       "id": "TT-91-2026:B:p007:051",
+       "page": 7,
+       "score": 21.810512,
+       "chapter": "II",
+       "article": 6,
+       "hit": false
+      },
+      {
+       "rank": 7,
+       "id": "TT-91-2026:B:p027:224",
+       "page": 27,
+       "score": 21.467999,
+       "chapter": "II",
+       "article": 15,
+       "hit": false
+      },
+      {
+       "rank": 8,
+       "id": "TT-91-2026:B:p013:102",
+       "page": 13,
+       "score": 20.968097,
+       "chapter": "II",
+       "article": 8,
+       "hit": false
+      },
+      {
+       "rank": 9,
+       "id": "TT-91-2026:B:p032:266",
+       "page": 32,
+       "score": 20.933436,
+       "chapter": "V",
+       "article": 24,
+       "hit": false
+      },
+      {
+       "rank": 10,
+       "id": "TT-91-2026:B:p028:229",
+       "page": 28,
+       "score": 20.030042,
+       "chapter": "II",
+       "article": 15,
+       "hit": false
+      }
+     ]
+    },
+    {
+     "id": "d09",
+     "question": "Ủy nhiệm lập hóa đơn điện tử có bắt buộc phải lập thành văn bản không? Có ngoại lệ nào?",
+     "filter": null,
+     "first_hit_rank": 3,
+     "results": [
+      {
+       "rank": 1,
+       "id": "TT-91-2026:B:p018:145",
+       "page": 18,
+       "score": 23.133411,
+       "chapter": "II",
+       "article": 10,
+       "hit": false
+      },
+      {
+       "rank": 2,
+       "id": "TT-91-2026:B:p016:127",
+       "page": 16,
+       "score": 20.628226,
+       "chapter": "II",
+       "article": 9,
+       "hit": false
+      },
+      {
+       "rank": 3,
+       "id": "TT-91-2026:B:p015:120",
+       "page": 15,
+       "score": 20.539422,
+       "chapter": "II",
+       "article": 9,
+       "hit": true
+      },
+      {
+       "rank": 4,
+       "id": "TT-91-2026:B:p015:125",
+       "page": 15,
+       "score": 18.088437,
+       "chapter": "II",
+       "article": 9,
+       "hit": false
+      },
+      {
+       "rank": 5,
+       "id": "TT-91-2026:B:p032:268",
+       "page": 32,
+       "score": 17.665428,
+       "chapter": "V",
+       "article": 24,
+       "hit": false
+      },
+      {
+       "rank": 6,
+       "id": "TT-91-2026:B:p015:121",
+       "page": 15,
+       "score": 17.136259,
+       "chapter": "II",
+       "article": 9,
+       "hit": false
+      },
+      {
+       "rank": 7,
+       "id": "TT-91-2026:B:p021:180",
+       "page": 21,
+       "score": 16.555023,
+       "chapter": "II",
+       "article": 10,
+       "hit": false
+      },
+      {
+       "rank": 8,
+       "id": "TT-91-2026:B:p021:174",
+       "page": 21,
+       "score": 15.021006,
+       "chapter": "II",
+       "article": 10,
+       "hit": false
+      },
+      {
+       "rank": 9,
+       "id": "TT-91-2026:B:p015:118",
+       "page": 15,
+       "score": 14.8807,
+       "chapter": "II",
+       "article": 9,
+       "hit": false
+      },
+      {
+       "rank": 10,
+       "id": "TT-91-2026:B:p017:137",
+       "page": 17,
+       "score": 14.851566,
+       "chapter": "II",
+       "article": 10,
+       "hit": false
+      }
+     ]
+    },
+    {
+     "id": "d10",
+     "question": "Nếu đã lập sai tên, địa chỉ người mua nhưng không sai mã số thuế, số tiền thì xử lý thế nào?",
+     "filter": {
+      "chapter": "II"
+     },
+     "first_hit_rank": 1,
+     "results": [
+      {
+       "rank": 1,
+       "id": "TT-91-2026:B:p017:135",
+       "page": 17,
+       "score": 33.415031,
+       "chapter": "II",
+       "article": 10,
+       "hit": true
+      },
+      {
+       "rank": 2,
+       "id": "TT-91-2026:B:p021:179",
+       "page": 21,
+       "score": 23.723546,
+       "chapter": "II",
+       "article": 10,
+       "hit": false
+      },
+      {
+       "rank": 3,
+       "id": "TT-91-2026:B:p017:142",
+       "page": 17,
+       "score": 22.962449,
+       "chapter": "II",
+       "article": 10,
+       "hit": false
+      },
+      {
+       "rank": 4,
+       "id": "TT-91-2026:B:p016:134",
+       "page": 16,
+       "score": 21.395892,
+       "chapter": "II",
+       "article": 10,
+       "hit": false
+      },
+      {
+       "rank": 5,
+       "id": "TT-91-2026:B:p015:121",
+       "page": 15,
+       "score": 20.757228,
+       "chapter": "II",
+       "article": 9,
+       "hit": false
+      },
+      {
+       "rank": 6,
+       "id": "TT-91-2026:B:p017:137",
+       "page": 17,
+       "score": 18.376561,
+       "chapter": "II",
+       "article": 10,
+       "hit": false
+      },
+      {
+       "rank": 7,
+       "id": "TT-91-2026:B:p019:154",
+       "page": 19,
+       "score": 18.126505,
+       "chapter": "II",
+       "article": 10,
+       "hit": false
+      },
+      {
+       "rank": 8,
+       "id": "TT-91-2026:B:p021:180",
+       "page": 21,
+       "score": 16.653109,
+       "chapter": "II",
+       "article": 10,
+       "hit": false
+      },
+      {
+       "rank": 9,
+       "id": "TT-91-2026:B:p011:084",
+       "page": 11,
+       "score": 16.628815,
+       "chapter": "II",
+       "article": 7,
+       "hit": false
+      },
+      {
+       "rank": 10,
+       "id": "TT-91-2026:B:p017:140",
+       "page": 17,
+       "score": 16.360564,
+       "chapter": "II",
+       "article": 10,
+       "hit": false
+      }
+     ]
+    },
+    {
+     "id": "d11",
+     "question": "Hóa đơn điện tử ghi sai mã số thuế người mua thì người bán phải xử lý thế nào?",
+     "filter": null,
+     "first_hit_rank": null,
+     "results": [
+      {
+       "rank": 1,
+       "id": "TT-91-2026:B:p032:268",
+       "page": 32,
+       "score": 23.812893,
+       "chapter": "V",
+       "article": 24,
+       "hit": false
+      },
+      {
+       "rank": 2,
+       "id": "TT-91-2026:B:p021:179",
+       "page": 21,
+       "score": 21.608761,
+       "chapter": "II",
+       "article": 10,
+       "hit": false
+      },
+      {
+       "rank": 3,
+       "id": "TT-91-2026:B:p017:135",
+       "page": 17,
+       "score": 19.104227,
+       "chapter": "II",
+       "article": 10,
+       "hit": false
+      },
+      {
+       "rank": 4,
+       "id": "TT-91-2026:B:p016:134",
+       "page": 16,
+       "score": 18.17429,
+       "chapter": "II",
+       "article": 10,
+       "hit": false
+      },
+      {
+       "rank": 5,
+       "id": "TT-91-2026:B:p017:143",
+       "page": 17,
+       "score": 18.088477,
+       "chapter": "II",
+       "article": 10,
+       "hit": false
+      },
+      {
+       "rank": 6,
+       "id": "TT-91-2026:B:p030:251",
+       "page": 30,
+       "score": 17.542793,
+       "chapter": "III",
+       "article": 20,
+       "hit": false
+      },
+      {
+       "rank": 7,
+       "id": "TT-91-2026:B:p032:270",
+       "page": 32,
+       "score": 17.408433,
+       "chapter": "V",
+       "article": 24,
+       "hit": false
+      },
+      {
+       "rank": 8,
+       "id": "TT-91-2026:B:p017:142",
+       "page": 17,
+       "score": 16.785473,
+       "chapter": "II",
+       "article": 10,
+       "hit": false
+      },
+      {
+       "rank": 9,
+       "id": "TT-91-2026:B:p017:140",
+       "page": 17,
+       "score": 16.175059,
+       "chapter": "II",
+       "article": 10,
+       "hit": false
+      },
+      {
+       "rank": 10,
+       "id": "TT-91-2026:B:p019:154",
+       "page": 19,
+       "score": 15.30805,
+       "chapter": "II",
+       "article": 10,
+       "hit": false
+      }
+     ]
+    },
+    {
+     "id": "d12",
+     "question": "Khi điều chỉnh, thay thế hóa đơn sai, trường hợp nào người bán không bắt buộc lập văn bản thỏa thuận với người mua?",
+     "filter": null,
+     "first_hit_rank": 4,
+     "results": [
+      {
+       "rank": 1,
+       "id": "TT-91-2026:B:p020:167",
+       "page": 20,
+       "score": 35.085272,
+       "chapter": "II",
+       "article": 10,
+       "hit": false
+      },
+      {
+       "rank": 2,
+       "id": "TT-91-2026:B:p021:174",
+       "page": 21,
+       "score": 34.476617,
+       "chapter": "II",
+       "article": 10,
+       "hit": false
+      },
+      {
+       "rank": 3,
+       "id": "TT-91-2026:B:p017:143",
+       "page": 17,
+       "score": 31.983057,
+       "chapter": "II",
+       "article": 10,
+       "hit": false
+      },
+      {
+       "rank": 4,
+       "id": "TT-91-2026:B:p018:145",
+       "page": 18,
+       "score": 31.576344,
+       "chapter": "II",
+       "article": 10,
+       "hit": true
+      },
+      {
+       "rank": 5,
+       "id": "TT-91-2026:B:p032:268",
+       "page": 32,
+       "score": 29.861067,
+       "chapter": "V",
+       "article": 24,
+       "hit": false
+      },
+      {
+       "rank": 6,
+       "id": "TT-91-2026:B:p020:162",
+       "page": 20,
+       "score": 26.873611,
+       "chapter": "II",
+       "article": 10,
+       "hit": false
+      },
+      {
+       "rank": 7,
+       "id": "TT-91-2026:B:p021:180",
+       "page": 21,
+       "score": 26.18447,
+       "chapter": "II",
+       "article": 10,
+       "hit": false
+      },
+      {
+       "rank": 8,
+       "id": "TT-91-2026:B:p017:144",
+       "page": 17,
+       "score": 24.786224,
+       "chapter": "II",
+       "article": 10,
+       "hit": false
+      },
+      {
+       "rank": 9,
+       "id": "TT-91-2026:B:p032:270",
+       "page": 32,
+       "score": 24.666563,
+       "chapter": "V",
+       "article": 24,
+       "hit": false
+      },
+      {
+       "rank": 10,
+       "id": "TT-91-2026:B:p021:179",
+       "page": 21,
+       "score": 23.065015,
+       "chapter": "II",
+       "article": 10,
+       "hit": false
+      }
+     ]
+    },
+    {
+     "id": "d13",
+     "question": "Tổ chức cung cấp dịch vụ nhận, truyền, lưu trữ dữ liệu hóa đơn điện tử phải ký quỹ hoặc có bảo lãnh ngân hàng với giá trị tối thiểu bao nhiêu?",
+     "filter": null,
+     "first_hit_rank": 1,
+     "results": [
+      {
+       "rank": 1,
+       "id": "TT-91-2026:B:p024:197",
+       "page": 24,
+       "score": 35.870287,
+       "chapter": "II",
+       "article": 12,
+       "hit": true
+      },
+      {
+       "rank": 2,
+       "id": "TT-91-2026:B:p024:200",
+       "page": 24,
+       "score": 33.177083,
+       "chapter": "II",
+       "article": 12,
+       "hit": false
+      },
+      {
+       "rank": 3,
+       "id": "TT-91-2026:B:p023:194",
+       "page": 23,
+       "score": 31.798272,
+       "chapter": "II",
+       "article": 12,
+       "hit": false
+      },
+      {
+       "rank": 4,
+       "id": "TT-91-2026:B:p023:195",
+       "page": 23,
+       "score": 30.380327,
+       "chapter": "II",
+       "article": 12,
+       "hit": false
+      },
+      {
+       "rank": 5,
+       "id": "TT-91-2026:B:p024:204",
+       "page": 24,
+       "score": 30.051517,
+       "chapter": "II",
+       "article": 12,
+       "hit": false
+      },
+      {
+       "rank": 6,
+       "id": "TT-91-2026:B:p023:193",
+       "page": 23,
+       "score": 29.32012,
+       "chapter": "II",
+       "article": 12,
+       "hit": false
+      },
+      {
+       "rank": 7,
+       "id": "TT-91-2026:B:p032:266",
+       "page": 32,
+       "score": 25.163464,
+       "chapter": "V",
+       "article": 24,
+       "hit": false
+      },
+      {
+       "rank": 8,
+       "id": "TT-91-2026:B:p024:207",
+       "page": 24,
+       "score": 24.884546,
+       "chapter": "II",
+       "article": 12,
+       "hit": false
+      },
+      {
+       "rank": 9,
+       "id": "TT-91-2026:B:p003:018",
+       "page": 3,
+       "score": 22.147632,
+       "chapter": "II",
+       "article": 3,
+       "hit": false
+      },
+      {
+       "rank": 10,
+       "id": "TT-91-2026:B:p023:190",
+       "page": 23,
+       "score": 22.04488,
+       "chapter": "II",
+       "article": 12,
+       "hit": false
+      }
+     ]
+    },
+    {
+     "id": "d14",
+     "question": "Trung tâm dữ liệu dự phòng của đơn vị truyền nhận hóa đơn điện tử phải đặt cách trung tâm chính ít nhất bao xa?",
+     "filter": null,
+     "first_hit_rank": 1,
+     "results": [
+      {
+       "rank": 1,
+       "id": "TT-91-2026:B:p024:201",
+       "page": 24,
+       "score": 63.093645,
+       "chapter": "II",
+       "article": 12,
+       "hit": true
+      },
+      {
+       "rank": 2,
+       "id": "TT-91-2026:B:p003:021",
+       "page": 3,
+       "score": 18.022687,
+       "chapter": "II",
+       "article": 3,
+       "hit": false
+      },
+      {
+       "rank": 3,
+       "id": "TT-91-2026:B:p024:203",
+       "page": 24,
+       "score": 17.814083,
+       "chapter": "II",
+       "article": 12,
+       "hit": false
+      },
+      {
+       "rank": 4,
+       "id": "TT-91-2026:B:p023:193",
+       "page": 23,
+       "score": 17.162856,
+       "chapter": "II",
+       "article": 12,
+       "hit": false
+      },
+      {
+       "rank": 5,
+       "id": "TT-91-2026:B:p024:200",
+       "page": 24,
+       "score": 16.042431,
+       "chapter": "II",
+       "article": 12,
+       "hit": false
+      },
+      {
+       "rank": 6,
+       "id": "TT-91-2026:B:p003:019",
+       "page": 3,
+       "score": 14.50376,
+       "chapter": "II",
+       "article": 3,
+       "hit": false
+      },
+      {
+       "rank": 7,
+       "id": "TT-91-2026:B:p028:232",
+       "page": 28,
+       "score": 14.356072,
+       "chapter": "II",
+       "article": 16,
+       "hit": false
+      },
+      {
+       "rank": 8,
+       "id": "TT-91-2026:B:p023:194",
+       "page": 23,
+       "score": 14.120886,
+       "chapter": "II",
+       "article": 12,
+       "hit": false
+      },
+      {
+       "rank": 9,
+       "id": "TT-91-2026:B:p003:022",
+       "page": 3,
+       "score": 13.769886,
+       "chapter": "II",
+       "article": 3,
+       "hit": false
+      },
+      {
+       "rank": 10,
+       "id": "TT-91-2026:B:p003:015",
+       "page": 3,
+       "score": 13.49285,
+       "chapter": "II",
+       "article": 3,
+       "hit": false
+      }
+     ]
+    },
+    {
+     "id": "d15",
+     "question": "Nếu đã lập sai tên, địa chỉ nhưng không sai mã số thuế, số tiền thì có phải lập lại không?",
+     "filter": {
+      "chapter": "III"
+     },
+     "first_hit_rank": 1,
+     "results": [
+      {
+       "rank": 1,
+       "id": "TT-91-2026:B:p030:251",
+       "page": 30,
+       "score": 40.719555,
+       "chapter": "III",
+       "article": 20,
+       "hit": true
+      },
+      {
+       "rank": 2,
+       "id": "TT-91-2026:B:p030:252",
+       "page": 30,
+       "score": 17.790147,
+       "chapter": "III",
+       "article": 20,
+       "hit": false
+      },
+      {
+       "rank": 3,
+       "id": "TT-91-2026:B:p029:248",
+       "page": 29,
+       "score": 11.905438,
+       "chapter": "III",
+       "article": 18,
+       "hit": false
+      },
+      {
+       "rank": 4,
+       "id": "TT-91-2026:B:p029:238",
+       "page": 29,
+       "score": 6.764036,
+       "chapter": "III",
+       "article": 17,
+       "hit": false
+      },
+      {
+       "rank": 5,
+       "id": "TT-91-2026:B:p029:242",
+       "page": 29,
+       "score": 6.578822,
+       "chapter": "III",
+       "article": 17,
+       "hit": false
+      },
+      {
+       "rank": 6,
+       "id": "TT-91-2026:B:p029:244",
+       "page": 29,
+       "score": 4.849612,
+       "chapter": "III",
+       "article": 18,
+       "hit": false
+      },
+      {
+       "rank": 7,
+       "id": "TT-91-2026:B:p028:236",
+       "page": 28,
+       "score": 4.154428,
+       "chapter": "III",
+       "article": 17,
+       "hit": false
+      },
+      {
+       "rank": 8,
+       "id": "TT-91-2026:B:p029:241",
+       "page": 29,
+       "score": 3.576726,
+       "chapter": "III",
+       "article": 17,
+       "hit": false
+      },
+      {
+       "rank": 9,
+       "id": "TT-91-2026:B:p028:234",
+       "page": 28,
+       "score": 3.539969,
+       "chapter": "III",
+       "article": 17,
+       "hit": false
+      },
+      {
+       "rank": 10,
+       "id": "TT-91-2026:B:p030:249",
+       "page": 30,
+       "score": 3.066349,
+       "chapter": "III",
+       "article": 19,
+       "hit": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "summary": {
+    "method": "bm25+bigram",
+    "N": 15,
+    "hit@1": 8,
+    "hit@3": 9,
+    "hit@5": 11,
+    "mrr@10": 0.593,
+    "ms_median": 3.8,
+    "ms_mean": 3.7,
+    "miss@3": [
+     "d02",
+     "d06",
+     "d07",
+     "d08",
+     "d09",
+     "d11"
+    ]
+   },
+   "traces": [
+    {
+     "id": "d01",
+     "question": "Hóa đơn điện tử phải sử dụng ngôn ngữ định dạng văn bản nào?",
+     "filter": null,
+     "first_hit_rank": 1,
+     "results": [
+      {
+       "rank": 1,
+       "id": "TT-91-2026:B:p003:016",
+       "page": 3,
+       "score": 56.929188,
+       "chapter": "II",
+       "article": 3,
+       "hit": true
+      },
+      {
+       "rank": 2,
+       "id": "TT-91-2026:B:p029:245",
+       "page": 29,
+       "score": 54.764886,
+       "chapter": "III",
+       "article": 18,
+       "hit": false
+      },
+      {
+       "rank": 3,
+       "id": "TT-91-2026:B:p030:254",
+       "page": 30,
+       "score": 19.763533,
+       "chapter": "IV",
+       "article": 21,
+       "hit": false
+      },
+      {
+       "rank": 4,
+       "id": "TT-91-2026:B:p029:244",
+       "page": 29,
+       "score": 17.167801,
+       "chapter": "III",
+       "article": 18,
+       "hit": false
+      },
+      {
+       "rank": 5,
+       "id": "TT-91-2026:B:p001:006",
+       "page": 1,
+       "score": 17.044212,
+       "chapter": "I",
+       "article": 1,
+       "hit": false
+      },
+      {
+       "rank": 6,
+       "id": "TT-91-2026:B:p012:095",
+       "page": 12,
+       "score": 16.962827,
+       "chapter": "II",
+       "article": 8,
+       "hit": false
+      },
+      {
+       "rank": 7,
+       "id": "TT-91-2026:B:p003:015",
+       "page": 3,
+       "score": 16.900698,
+       "chapter": "II",
+       "article": 3,
+       "hit": false
+      },
+      {
+       "rank": 8,
+       "id": "TT-91-2026:B:p015:120",
+       "page": 15,
+       "score": 16.053615,
+       "chapter": "II",
+       "article": 9,
+       "hit": false
+      },
+      {
+       "rank": 9,
+       "id": "TT-91-2026:B:p031:264",
+       "page": 31,
+       "score": 15.618707,
+       "chapter": "IV",
+       "article": 23,
+       "hit": false
+      },
+      {
+       "rank": 10,
+       "id": "TT-91-2026:B:p018:145",
+       "page": 18,
+       "score": 15.483982,
+       "chapter": "II",
+       "article": 10,
+       "hit": false
+      }
+     ]
+    },
+    {
+     "id": "d02",
+     "question": "Tổ chức kinh tế gửi trực tiếp dữ liệu hóa đơn điện tử đến cơ quan thuế thì mỗi kênh truyền phải có băng thông tối thiểu bao nhiêu?",
+     "filter": null,
+     "first_hit_rank": 5,
+     "results": [
+      {
+       "rank": 1,
+       "id": "TT-91-2026:B:p009:070",
+       "page": 9,
+       "score": 56.75052,
+       "chapter": "II",
+       "article": 6,
+       "hit": false
+      },
+      {
+       "rank": 2,
+       "id": "TT-91-2026:B:p003:020",
+       "page": 3,
+       "score": 56.738,
+       "chapter": "II",
+       "article": 3,
+       "hit": false
+      },
+      {
+       "rank": 3,
+       "id": "TT-91-2026:B:p024:203",
+       "page": 24,
+       "score": 55.023532,
+       "chapter": "II",
+       "article": 12,
+       "hit": false
+      },
+      {
+       "rank": 4,
+       "id": "TT-91-2026:B:p015:124",
+       "page": 15,
+       "score": 48.847414,
+       "chapter": "II",
+       "article": 9,
+       "hit": false
+      },
+      {
+       "rank": 5,
+       "id": "TT-91-2026:B:p003:021",
+       "page": 3,
+       "score": 47.629862,
+       "chapter": "II",
+       "article": 3,
+       "hit": true
+      },
+      {
+       "rank": 6,
+       "id": "TT-91-2026:B:p009:067",
+       "page": 9,
+       "score": 40.164618,
+       "chapter": "II",
+       "article": 6,
+       "hit": false
+      },
+      {
+       "rank": 7,
+       "id": "TT-91-2026:B:p006:043",
+       "page": 6,
+       "score": 36.203385,
+       "chapter": "II",
+       "article": 6,
+       "hit": false
+      },
+      {
+       "rank": 8,
+       "id": "TT-91-2026:B:p018:149",
+       "page": 18,
+       "score": 34.806663,
+       "chapter": "II",
+       "article": 10,
+       "hit": false
+      },
+      {
+       "rank": 9,
+       "id": "TT-91-2026:B:p008:066",
+       "page": 8,
+       "score": 33.03538,
+       "chapter": "II",
+       "article": 6,
+       "hit": false
+      },
+      {
+       "rank": 10,
+       "id": "TT-91-2026:B:p022:182",
+       "page": 22,
+       "score": 33.013089,
+       "chapter": "II",
+       "article": 10,
+       "hit": false
+      }
+     ]
+    },
+    {
+     "id": "d03",
+     "question": "Ký hiệu hóa đơn điện tử gồm bao nhiêu ký tự?",
+     "filter": null,
+     "first_hit_rank": 1,
+     "results": [
+      {
+       "rank": 1,
+       "id": "TT-91-2026:B:p004:024",
+       "page": 4,
+       "score": 29.978956,
+       "chapter": "II",
+       "article": 4,
+       "hit": true
+      },
+      {
+       "rank": 2,
+       "id": "TT-91-2026:B:p004:023",
+       "page": 4,
+       "score": 26.351869,
+       "chapter": "II",
+       "article": 4,
+       "hit": false
+      },
+      {
+       "rank": 3,
+       "id": "TT-91-2026:B:p018:151",
+       "page": 18,
+       "score": 21.208961,
+       "chapter": "II",
+       "article": 10,
+       "hit": false
+      },
+      {
+       "rank": 4,
+       "id": "TT-91-2026:B:p030:249",
+       "page": 30,
+       "score": 17.503546,
+       "chapter": "III",
+       "article": 19,
+       "hit": false
+      },
+      {
+       "rank": 5,
+       "id": "TT-91-2026:B:p021:180",
+       "page": 21,
+       "score": 16.712019,
+       "chapter": "II",
+       "article": 10,
+       "hit": false
+      },
+      {
+       "rank": 6,
+       "id": "TT-91-2026:B:p004:025",
+       "page": 4,
+       "score": 16.693112,
+       "chapter": "II",
+       "article": 4,
+       "hit": false
+      },
+      {
+       "rank": 7,
+       "id": "TT-91-2026:B:p001:006",
+       "page": 1,
+       "score": 16.175257,
+       "chapter": "I",
+       "article": 1,
+       "hit": false
+      },
+      {
+       "rank": 8,
+       "id": "TT-91-2026:B:p004:030",
+       "page": 4,
+       "score": 15.745335,
+       "chapter": "II",
+       "article": 5,
+       "hit": false
+      },
+      {
+       "rank": 9,
+       "id": "TT-91-2026:B:p003:017",
+       "page": 3,
+       "score": 14.671027,
+       "chapter": "II",
+       "article": 3,
+       "hit": false
+      },
+      {
+       "rank": 10,
+       "id": "TT-91-2026:B:p029:246",
+       "page": 29,
+       "score": 14.628506,
+       "chapter": "III",
+       "article": 18,
+       "hit": false
+      }
+     ]
+    },
+    {
+     "id": "d04",
+     "question": "Hóa đơn hoàn thuế VAT cho khách nước ngoài phải hiển thị bằng những ngôn ngữ nào?",
+     "filter": null,
+     "first_hit_rank": 3,
+     "results": [
+      {
+       "rank": 1,
+       "id": "TT-91-2026:B:p005:034",
+       "page": 5,
+       "score": 22.116725,
+       "chapter": "II",
+       "article": 5,
+       "hit": false
+      },
+      {
+       "rank": 2,
+       "id": "TT-91-2026:B:p005:035",
+       "page": 5,
+       "score": 18.84864,
+       "chapter": "II",
+       "article": 5,
+       "hit": false
+      },
+      {
+       "rank": 3,
+       "id": "TT-91-2026:B:p006:037",
+       "page": 6,
+       "score": 18.624327,
+       "chapter": "II",
+       "article": 5,
+       "hit": true
+      },
+      {
+       "rank": 4,
+       "id": "TT-91-2026:B:p003:016",
+       "page": 3,
+       "score": 16.548476,
+       "chapter": "II",
+       "article": 3,
+       "hit": false
+      },
+      {
+       "rank": 5,
+       "id": "TT-91-2026:B:p006:036",
+       "page": 6,
+       "score": 15.849491,
+       "chapter": "II",
+       "article": 5,
+       "hit": false
+      },
+      {
+       "rank": 6,
+       "id": "TT-91-2026:B:p029:245",
+       "page": 29,
+       "score": 15.315557,
+       "chapter": "III",
+       "article": 18,
+       "hit": false
+      },
+      {
+       "rank": 7,
+       "id": "TT-91-2026:B:p020:165",
+       "page": 20,
+       "score": 13.936101,
+       "chapter": "II",
+       "article": 10,
+       "hit": false
+      },
+      {
+       "rank": 8,
+       "id": "TT-91-2026:B:p021:172",
+       "page": 21,
+       "score": 12.427443,
+       "chapter": "II",
+       "article": 10,
+       "hit": false
+      },
+      {
+       "rank": 9,
+       "id": "TT-91-2026:B:p015:120",
+       "page": 15,
+       "score": 11.952263,
+       "chapter": "II",
+       "article": 9,
+       "hit": false
+      },
+      {
+       "rank": 10,
+       "id": "TT-91-2026:B:p006:044",
+       "page": 6,
+       "score": 11.934416,
+       "chapter": "II",
+       "article": 6,
+       "hit": false
+      }
+     ]
+    },
+    {
+     "id": "d05",
+     "question": "Sau khi tiếp nhận đăng ký sử dụng hóa đơn điện tử, hệ thống tự động đối chiếu thông tin người đại diện trong bao lâu?",
+     "filter": null,
+     "first_hit_rank": 1,
+     "results": [
+      {
+       "rank": 1,
+       "id": "TT-91-2026:B:p007:048",
+       "page": 7,
+       "score": 58.87649,
+       "chapter": "II",
+       "article": 6,
+       "hit": true
+      },
+      {
+       "rank": 2,
+       "id": "TT-91-2026:B:p007:051",
+       "page": 7,
+       "score": 46.169455,
+       "chapter": "II",
+       "article": 6,
+       "hit": false
+      },
+      {
+       "rank": 3,
+       "id": "TT-91-2026:B:p007:053",
+       "page": 7,
+       "score": 38.664041,
+       "chapter": "II",
+       "article": 6,
+       "hit": false
+      },
+      {
+       "rank": 4,
+       "id": "TT-91-2026:B:p007:050",
+       "page": 7,
+       "score": 34.766807,
+       "chapter": "II",
+       "article": 6,
+       "hit": false
+      },
+      {
+       "rank": 5,
+       "id": "TT-91-2026:B:p006:044",
+       "page": 6,
+       "score": 32.964414,
+       "chapter": "II",
+       "article": 6,
+       "hit": false
+      },
+      {
+       "rank": 6,
+       "id": "TT-91-2026:B:p029:238",
+       "page": 29,
+       "score": 31.851326,
+       "chapter": "III",
+       "article": 17,
+       "hit": false
+      },
+      {
+       "rank": 7,
+       "id": "TT-91-2026:B:p008:061",
+       "page": 8,
+       "score": 31.692858,
+       "chapter": "II",
+       "article": 6,
+       "hit": false
+      },
+      {
+       "rank": 8,
+       "id": "TT-91-2026:B:p007:046",
+       "page": 7,
+       "score": 30.741836,
+       "chapter": "II",
+       "article": 6,
+       "hit": false
+      },
+      {
+       "rank": 9,
+       "id": "TT-91-2026:B:p008:055",
+       "page": 8,
+       "score": 29.447669,
+       "chapter": "II",
+       "article": 6,
+       "hit": false
+      },
+      {
+       "rank": 10,
+       "id": "TT-91-2026:B:p008:064",
+       "page": 8,
+       "score": 28.827872,
+       "chapter": "II",
+       "article": 6,
+       "hit": false
+      }
+     ]
+    },
+    {
+     "id": "d06",
+     "question": "Khi đăng ký hóa đơn điện tử mà cơ quan thuế yêu cầu giải trình, bổ sung tài liệu, người nộp thuế có bao lâu để thực hiện?",
+     "filter": null,
+     "first_hit_rank": 5,
+     "results": [
+      {
+       "rank": 1,
+       "id": "TT-91-2026:B:p013:108",
+       "page": 13,
+       "score": 57.11537,
+       "chapter": "II",
+       "article": 8,
+       "hit": false
+      },
+      {
+       "rank": 2,
+       "id": "TT-91-2026:B:p008:064",
+       "page": 8,
+       "score": 55.854929,
+       "chapter": "II",
+       "article": 6,
+       "hit": false
+      },
+      {
+       "rank": 3,
+       "id": "TT-91-2026:B:p008:061",
+       "page": 8,
+       "score": 47.339727,
+       "chapter": "II",
+       "article": 6,
+       "hit": false
+      },
+      {
+       "rank": 4,
+       "id": "TT-91-2026:B:p014:111",
+       "page": 14,
+       "score": 42.165513,
+       "chapter": "II",
+       "article": 8,
+       "hit": false
+      },
+      {
+       "rank": 5,
+       "id": "TT-91-2026:B:p008:063",
+       "page": 8,
+       "score": 42.077822,
+       "chapter": "II",
+       "article": 6,
+       "hit": true
+      },
+      {
+       "rank": 6,
+       "id": "TT-91-2026:B:p014:112",
+       "page": 14,
+       "score": 40.885623,
+       "chapter": "II",
+       "article": 8,
+       "hit": false
+      },
+      {
+       "rank": 7,
+       "id": "TT-91-2026:B:p013:109",
+       "page": 13,
+       "score": 39.069391,
+       "chapter": "II",
+       "article": 8,
+       "hit": false
+      },
+      {
+       "rank": 8,
+       "id": "TT-91-2026:B:p014:114",
+       "page": 14,
+       "score": 36.170619,
+       "chapter": "II",
+       "article": 8,
+       "hit": false
+      },
+      {
+       "rank": 9,
+       "id": "TT-91-2026:B:p008:065",
+       "page": 8,
+       "score": 36.127534,
+       "chapter": "II",
+       "article": 6,
+       "hit": false
+      },
+      {
+       "rank": 10,
+       "id": "TT-91-2026:B:p012:098",
+       "page": 12,
+       "score": 32.605394,
+       "chapter": "II",
+       "article": 8,
+       "hit": false
+      }
+     ]
+    },
+    {
+     "id": "d07",
+     "question": "Doanh nghiệp tạm ngừng kinh doanh thì có phải ngừng sử dụng hóa đơn điện tử không?",
+     "filter": null,
+     "first_hit_rank": null,
+     "results": [
+      {
+       "rank": 1,
+       "id": "TT-91-2026:B:p011:087",
+       "page": 11,
+       "score": 48.921959,
+       "chapter": "II",
+       "article": 8,
+       "hit": false
+      },
+      {
+       "rank": 2,
+       "id": "TT-91-2026:B:p013:104",
+       "page": 13,
+       "score": 40.638403,
+       "chapter": "II",
+       "article": 8,
+       "hit": false
+      },
+      {
+       "rank": 3,
+       "id": "TT-91-2026:B:p012:092",
+       "page": 12,
+       "score": 39.45254,
+       "chapter": "II",
+       "article": 8,
+       "hit": false
+      },
+      {
+       "rank": 4,
+       "id": "TT-91-2026:B:p012:097",
+       "page": 12,
+       "score": 36.163974,
+       "chapter": "II",
+       "article": 8,
+       "hit": false
+      },
+      {
+       "rank": 5,
+       "id": "TT-91-2026:B:p006:040",
+       "page": 6,
+       "score": 33.636098,
+       "chapter": "II",
+       "article": 6,
+       "hit": false
+      },
+      {
+       "rank": 6,
+       "id": "TT-91-2026:B:p011:089",
+       "page": 11,
+       "score": 33.615448,
+       "chapter": "II",
+       "article": 8,
+       "hit": false
+      },
+      {
+       "rank": 7,
+       "id": "TT-91-2026:B:p011:086",
+       "page": 11,
+       "score": 32.223016,
+       "chapter": "II",
+       "article": 8,
+       "hit": false
+      },
+      {
+       "rank": 8,
+       "id": "TT-91-2026:B:p013:101",
+       "page": 13,
+       "score": 32.134657,
+       "chapter": "II",
+       "article": 8,
+       "hit": false
+      },
+      {
+       "rank": 9,
+       "id": "TT-91-2026:B:p014:115",
+       "page": 14,
+       "score": 32.130435,
+       "chapter": "II",
+       "article": 8,
+       "hit": false
+      },
+      {
+       "rank": 10,
+       "id": "TT-91-2026:B:p012:094",
+       "page": 12,
+       "score": 28.757761,
+       "chapter": "II",
+       "article": 8,
+       "hit": false
+      }
+     ]
+    },
+    {
+     "id": "d08",
+     "question": "Hộ kinh doanh được cấp mã số thuế trước ngày 01/7/2025 nhưng thông tin đăng ký thuế không khớp cơ sở dữ liệu dân cư thì phải bổ sung trong bao lâu?",
+     "filter": null,
+     "first_hit_rank": null,
+     "results": [
+      {
+       "rank": 1,
+       "id": "TT-91-2026:B:p012:096",
+       "page": 12,
+       "score": 111.897693,
+       "chapter": "II",
+       "article": 8,
+       "hit": false
+      },
+      {
+       "rank": 2,
+       "id": "TT-91-2026:B:p007:049",
+       "page": 7,
+       "score": 43.98949,
+       "chapter": "II",
+       "article": 6,
+       "hit": false
+      },
+      {
+       "rank": 3,
+       "id": "TT-91-2026:B:p032:266",
+       "page": 32,
+       "score": 38.042675,
+       "chapter": "V",
+       "article": 24,
+       "hit": false
+      },
+      {
+       "rank": 4,
+       "id": "TT-91-2026:B:p007:051",
+       "page": 7,
+       "score": 34.969825,
+       "chapter": "II",
+       "article": 6,
+       "hit": false
+      },
+      {
+       "rank": 5,
+       "id": "TT-91-2026:B:p013:102",
+       "page": 13,
+       "score": 33.81247,
+       "chapter": "II",
+       "article": 8,
+       "hit": false
+      },
+      {
+       "rank": 6,
+       "id": "TT-91-2026:B:p002:012",
+       "page": 2,
+       "score": 33.479974,
+       "chapter": "I",
+       "article": 1,
+       "hit": false
+      },
+      {
+       "rank": 7,
+       "id": "TT-91-2026:B:p008:061",
+       "page": 8,
+       "score": 32.939492,
+       "chapter": "II",
+       "article": 6,
+       "hit": false
+      },
+      {
+       "rank": 8,
+       "id": "TT-91-2026:B:p027:228",
+       "page": 27,
+       "score": 32.411444,
+       "chapter": "II",
+       "article": 15,
+       "hit": false
+      },
+      {
+       "rank": 9,
+       "id": "TT-91-2026:B:p027:224",
+       "page": 27,
+       "score": 30.960043,
+       "chapter": "II",
+       "article": 15,
+       "hit": false
+      },
+      {
+       "rank": 10,
+       "id": "TT-91-2026:B:p007:048",
+       "page": 7,
+       "score": 30.358064,
+       "chapter": "II",
+       "article": 6,
+       "hit": false
+      }
+     ]
+    },
+    {
+     "id": "d09",
+     "question": "Ủy nhiệm lập hóa đơn điện tử có bắt buộc phải lập thành văn bản không? Có ngoại lệ nào?",
+     "filter": null,
+     "first_hit_rank": 6,
+     "results": [
+      {
+       "rank": 1,
+       "id": "TT-91-2026:B:p018:145",
+       "page": 18,
+       "score": 42.202666,
+       "chapter": "II",
+       "article": 10,
+       "hit": false
+      },
+      {
+       "rank": 2,
+       "id": "TT-91-2026:B:p016:127",
+       "page": 16,
+       "score": 34.301101,
+       "chapter": "II",
+       "article": 9,
+       "hit": false
+      },
+      {
+       "rank": 3,
+       "id": "TT-91-2026:B:p032:268",
+       "page": 32,
+       "score": 31.148059,
+       "chapter": "V",
+       "article": 24,
+       "hit": false
+      },
+      {
+       "rank": 4,
+       "id": "TT-91-2026:B:p015:125",
+       "page": 15,
+       "score": 30.6851,
+       "chapter": "II",
+       "article": 9,
+       "hit": false
+      },
+      {
+       "rank": 5,
+       "id": "TT-91-2026:B:p015:118",
+       "page": 15,
+       "score": 29.445295,
+       "chapter": "II",
+       "article": 9,
+       "hit": false
+      },
+      {
+       "rank": 6,
+       "id": "TT-91-2026:B:p015:120",
+       "page": 15,
+       "score": 29.107697,
+       "chapter": "II",
+       "article": 9,
+       "hit": true
+      },
+      {
+       "rank": 7,
+       "id": "TT-91-2026:B:p015:121",
+       "page": 15,
+       "score": 28.903295,
+       "chapter": "II",
+       "article": 9,
+       "hit": false
+      },
+      {
+       "rank": 8,
+       "id": "TT-91-2026:B:p016:129",
+       "page": 16,
+       "score": 27.190941,
+       "chapter": "II",
+       "article": 9,
+       "hit": false
+      },
+      {
+       "rank": 9,
+       "id": "TT-91-2026:B:p014:115",
+       "page": 14,
+       "score": 26.367311,
+       "chapter": "II",
+       "article": 8,
+       "hit": false
+      },
+      {
+       "rank": 10,
+       "id": "TT-91-2026:B:p021:180",
+       "page": 21,
+       "score": 26.200552,
+       "chapter": "II",
+       "article": 10,
+       "hit": false
+      }
+     ]
+    },
+    {
+     "id": "d10",
+     "question": "Nếu đã lập sai tên, địa chỉ người mua nhưng không sai mã số thuế, số tiền thì xử lý thế nào?",
+     "filter": {
+      "chapter": "II"
+     },
+     "first_hit_rank": 1,
+     "results": [
+      {
+       "rank": 1,
+       "id": "TT-91-2026:B:p017:135",
+       "page": 17,
+       "score": 57.335432,
+       "chapter": "II",
+       "article": 10,
+       "hit": true
+      },
+      {
+       "rank": 2,
+       "id": "TT-91-2026:B:p015:121",
+       "page": 15,
+       "score": 37.049359,
+       "chapter": "II",
+       "article": 9,
+       "hit": false
+      },
+      {
+       "rank": 3,
+       "id": "TT-91-2026:B:p017:142",
+       "page": 17,
+       "score": 33.400042,
+       "chapter": "II",
+       "article": 10,
+       "hit": false
+      },
+      {
+       "rank": 4,
+       "id": "TT-91-2026:B:p021:179",
+       "page": 21,
+       "score": 33.121573,
+       "chapter": "II",
+       "article": 10,
+       "hit": false
+      },
+      {
+       "rank": 5,
+       "id": "TT-91-2026:B:p016:134",
+       "page": 16,
+       "score": 30.83289,
+       "chapter": "II",
+       "article": 10,
+       "hit": false
+      },
+      {
+       "rank": 6,
+       "id": "TT-91-2026:B:p011:084",
+       "page": 11,
+       "score": 25.731276,
+       "chapter": "II",
+       "article": 7,
+       "hit": false
+      },
+      {
+       "rank": 7,
+       "id": "TT-91-2026:B:p017:137",
+       "page": 17,
+       "score": 25.179975,
+       "chapter": "II",
+       "article": 10,
+       "hit": false
+      },
+      {
+       "rank": 8,
+       "id": "TT-91-2026:B:p005:031",
+       "page": 5,
+       "score": 24.027367,
+       "chapter": "II",
+       "article": 5,
+       "hit": false
+      },
+      {
+       "rank": 9,
+       "id": "TT-91-2026:B:p017:143",
+       "page": 17,
+       "score": 23.572671,
+       "chapter": "II",
+       "article": 10,
+       "hit": false
+      },
+      {
+       "rank": 10,
+       "id": "TT-91-2026:B:p017:140",
+       "page": 17,
+       "score": 23.295137,
+       "chapter": "II",
+       "article": 10,
+       "hit": false
+      }
+     ]
+    },
+    {
+     "id": "d11",
+     "question": "Hóa đơn điện tử ghi sai mã số thuế người mua thì người bán phải xử lý thế nào?",
+     "filter": null,
+     "first_hit_rank": null,
+     "results": [
+      {
+       "rank": 1,
+       "id": "TT-91-2026:B:p021:179",
+       "page": 21,
+       "score": 30.381734,
+       "chapter": "II",
+       "article": 10,
+       "hit": false
+      },
+      {
+       "rank": 2,
+       "id": "TT-91-2026:B:p016:134",
+       "page": 16,
+       "score": 28.765365,
+       "chapter": "II",
+       "article": 10,
+       "hit": false
+      },
+      {
+       "rank": 3,
+       "id": "TT-91-2026:B:p017:144",
+       "page": 17,
+       "score": 28.545371,
+       "chapter": "II",
+       "article": 10,
+       "hit": false
+      },
+      {
+       "rank": 4,
+       "id": "TT-91-2026:B:p032:268",
+       "page": 32,
+       "score": 28.195547,
+       "chapter": "V",
+       "article": 24,
+       "hit": false
+      },
+      {
+       "rank": 5,
+       "id": "TT-91-2026:B:p020:162",
+       "page": 20,
+       "score": 27.773962,
+       "chapter": "II",
+       "article": 10,
+       "hit": false
+      },
+      {
+       "rank": 6,
+       "id": "TT-91-2026:B:p017:143",
+       "page": 17,
+       "score": 26.891436,
+       "chapter": "II",
+       "article": 10,
+       "hit": false
+      },
+      {
+       "rank": 7,
+       "id": "TT-91-2026:B:p017:142",
+       "page": 17,
+       "score": 26.391472,
+       "chapter": "II",
+       "article": 10,
+       "hit": false
+      },
+      {
+       "rank": 8,
+       "id": "TT-91-2026:B:p030:251",
+       "page": 30,
+       "score": 26.177174,
+       "chapter": "III",
+       "article": 20,
+       "hit": false
+      },
+      {
+       "rank": 9,
+       "id": "TT-91-2026:B:p017:135",
+       "page": 17,
+       "score": 26.066126,
+       "chapter": "II",
+       "article": 10,
+       "hit": false
+      },
+      {
+       "rank": 10,
+       "id": "TT-91-2026:B:p020:164",
+       "page": 20,
+       "score": 25.237044,
+       "chapter": "II",
+       "article": 10,
+       "hit": false
+      }
+     ]
+    },
+    {
+     "id": "d12",
+     "question": "Khi điều chỉnh, thay thế hóa đơn sai, trường hợp nào người bán không bắt buộc lập văn bản thỏa thuận với người mua?",
+     "filter": null,
+     "first_hit_rank": 1,
+     "results": [
+      {
+       "rank": 1,
+       "id": "TT-91-2026:B:p018:145",
+       "page": 18,
+       "score": 63.924315,
+       "chapter": "II",
+       "article": 10,
+       "hit": true
+      },
+      {
+       "rank": 2,
+       "id": "TT-91-2026:B:p017:143",
+       "page": 17,
+       "score": 62.019947,
+       "chapter": "II",
+       "article": 10,
+       "hit": false
+      },
+      {
+       "rank": 3,
+       "id": "TT-91-2026:B:p020:167",
+       "page": 20,
+       "score": 58.566456,
+       "chapter": "II",
+       "article": 10,
+       "hit": false
+      },
+      {
+       "rank": 4,
+       "id": "TT-91-2026:B:p021:174",
+       "page": 21,
+       "score": 57.00578,
+       "chapter": "II",
+       "article": 10,
+       "hit": false
+      },
+      {
+       "rank": 5,
+       "id": "TT-91-2026:B:p032:268",
+       "page": 32,
+       "score": 55.233008,
+       "chapter": "V",
+       "article": 24,
+       "hit": false
+      },
+      {
+       "rank": 6,
+       "id": "TT-91-2026:B:p017:144",
+       "page": 17,
+       "score": 41.918458,
+       "chapter": "II",
+       "article": 10,
+       "hit": false
+      },
+      {
+       "rank": 7,
+       "id": "TT-91-2026:B:p020:162",
+       "page": 20,
+       "score": 39.73355,
+       "chapter": "II",
+       "article": 10,
+       "hit": false
+      },
+      {
+       "rank": 8,
+       "id": "TT-91-2026:B:p032:270",
+       "page": 32,
+       "score": 39.41511,
+       "chapter": "V",
+       "article": 24,
+       "hit": false
+      },
+      {
+       "rank": 9,
+       "id": "TT-91-2026:B:p021:179",
+       "page": 21,
+       "score": 38.125683,
+       "chapter": "II",
+       "article": 10,
+       "hit": false
+      },
+      {
+       "rank": 10,
+       "id": "TT-91-2026:B:p021:180",
+       "page": 21,
+       "score": 37.250652,
+       "chapter": "II",
+       "article": 10,
+       "hit": false
+      }
+     ]
+    },
+    {
+     "id": "d13",
+     "question": "Tổ chức cung cấp dịch vụ nhận, truyền, lưu trữ dữ liệu hóa đơn điện tử phải ký quỹ hoặc có bảo lãnh ngân hàng với giá trị tối thiểu bao nhiêu?",
+     "filter": null,
+     "first_hit_rank": 1,
+     "results": [
+      {
+       "rank": 1,
+       "id": "TT-91-2026:B:p024:197",
+       "page": 24,
+       "score": 69.910532,
+       "chapter": "II",
+       "article": 12,
+       "hit": true
+      },
+      {
+       "rank": 2,
+       "id": "TT-91-2026:B:p024:204",
+       "page": 24,
+       "score": 69.8909,
+       "chapter": "II",
+       "article": 12,
+       "hit": false
+      },
+      {
+       "rank": 3,
+       "id": "TT-91-2026:B:p024:200",
+       "page": 24,
+       "score": 66.343216,
+       "chapter": "II",
+       "article": 12,
+       "hit": false
+      },
+      {
+       "rank": 4,
+       "id": "TT-91-2026:B:p023:194",
+       "page": 23,
+       "score": 64.76424,
+       "chapter": "II",
+       "article": 12,
+       "hit": false
+      },
+      {
+       "rank": 5,
+       "id": "TT-91-2026:B:p023:195",
+       "page": 23,
+       "score": 62.729155,
+       "chapter": "II",
+       "article": 12,
+       "hit": false
+      },
+      {
+       "rank": 6,
+       "id": "TT-91-2026:B:p024:207",
+       "page": 24,
+       "score": 53.012524,
+       "chapter": "II",
+       "article": 12,
+       "hit": false
+      },
+      {
+       "rank": 7,
+       "id": "TT-91-2026:B:p023:193",
+       "page": 23,
+       "score": 51.716215,
+       "chapter": "II",
+       "article": 12,
+       "hit": false
+      },
+      {
+       "rank": 8,
+       "id": "TT-91-2026:B:p032:266",
+       "page": 32,
+       "score": 51.498538,
+       "chapter": "V",
+       "article": 24,
+       "hit": false
+      },
+      {
+       "rank": 9,
+       "id": "TT-91-2026:B:p009:072",
+       "page": 9,
+       "score": 42.220118,
+       "chapter": "II",
+       "article": 6,
+       "hit": false
+      },
+      {
+       "rank": 10,
+       "id": "TT-91-2026:B:p023:190",
+       "page": 23,
+       "score": 37.822133,
+       "chapter": "II",
+       "article": 12,
+       "hit": false
+      }
+     ]
+    },
+    {
+     "id": "d14",
+     "question": "Trung tâm dữ liệu dự phòng của đơn vị truyền nhận hóa đơn điện tử phải đặt cách trung tâm chính ít nhất bao xa?",
+     "filter": null,
+     "first_hit_rank": 1,
+     "results": [
+      {
+       "rank": 1,
+       "id": "TT-91-2026:B:p024:201",
+       "page": 24,
+       "score": 97.902218,
+       "chapter": "II",
+       "article": 12,
+       "hit": true
+      },
+      {
+       "rank": 2,
+       "id": "TT-91-2026:B:p003:021",
+       "page": 3,
+       "score": 26.478128,
+       "chapter": "II",
+       "article": 3,
+       "hit": false
+      },
+      {
+       "rank": 3,
+       "id": "TT-91-2026:B:p024:203",
+       "page": 24,
+       "score": 26.152332,
+       "chapter": "II",
+       "article": 12,
+       "hit": false
+      },
+      {
+       "rank": 4,
+       "id": "TT-91-2026:B:p023:193",
+       "page": 23,
+       "score": 24.858631,
+       "chapter": "II",
+       "article": 12,
+       "hit": false
+      },
+      {
+       "rank": 5,
+       "id": "TT-91-2026:B:p023:194",
+       "page": 23,
+       "score": 22.183646,
+       "chapter": "II",
+       "article": 12,
+       "hit": false
+      },
+      {
+       "rank": 6,
+       "id": "TT-91-2026:B:p003:015",
+       "page": 3,
+       "score": 22.163405,
+       "chapter": "II",
+       "article": 3,
+       "hit": false
+      },
+      {
+       "rank": 7,
+       "id": "TT-91-2026:B:p003:019",
+       "page": 3,
+       "score": 21.617802,
+       "chapter": "II",
+       "article": 3,
+       "hit": false
+      },
+      {
+       "rank": 8,
+       "id": "TT-91-2026:B:p003:022",
+       "page": 3,
+       "score": 20.84651,
+       "chapter": "II",
+       "article": 3,
+       "hit": false
+      },
+      {
+       "rank": 9,
+       "id": "TT-91-2026:B:p018:150",
+       "page": 18,
+       "score": 20.731836,
+       "chapter": "II",
+       "article": 10,
+       "hit": false
+      },
+      {
+       "rank": 10,
+       "id": "TT-91-2026:B:p024:200",
+       "page": 24,
+       "score": 20.727525,
+       "chapter": "II",
+       "article": 12,
+       "hit": false
+      }
+     ]
+    },
+    {
+     "id": "d15",
+     "question": "Nếu đã lập sai tên, địa chỉ nhưng không sai mã số thuế, số tiền thì có phải lập lại không?",
+     "filter": {
+      "chapter": "III"
+     },
+     "first_hit_rank": 1,
+     "results": [
+      {
+       "rank": 1,
+       "id": "TT-91-2026:B:p030:251",
+       "page": 30,
+       "score": 80.386497,
+       "chapter": "III",
+       "article": 20,
+       "hit": true
+      },
+      {
+       "rank": 2,
+       "id": "TT-91-2026:B:p030:252",
+       "page": 30,
+       "score": 25.34382,
+       "chapter": "III",
+       "article": 20,
+       "hit": false
+      },
+      {
+       "rank": 3,
+       "id": "TT-91-2026:B:p029:248",
+       "page": 29,
+       "score": 11.921768,
+       "chapter": "III",
+       "article": 18,
+       "hit": false
+      },
+      {
+       "rank": 4,
+       "id": "TT-91-2026:B:p029:238",
+       "page": 29,
+       "score": 9.107771,
+       "chapter": "III",
+       "article": 17,
+       "hit": false
+      },
+      {
+       "rank": 5,
+       "id": "TT-91-2026:B:p029:242",
+       "page": 29,
+       "score": 6.570588,
+       "chapter": "III",
+       "article": 17,
+       "hit": false
+      },
+      {
+       "rank": 6,
+       "id": "TT-91-2026:B:p029:244",
+       "page": 29,
+       "score": 4.860408,
+       "chapter": "III",
+       "article": 18,
+       "hit": false
+      },
+      {
+       "rank": 7,
+       "id": "TT-91-2026:B:p028:236",
+       "page": 28,
+       "score": 4.149955,
+       "chapter": "III",
+       "article": 17,
+       "hit": false
+      },
+      {
+       "rank": 8,
+       "id": "TT-91-2026:B:p029:241",
+       "page": 29,
+       "score": 3.587461,
+       "chapter": "III",
+       "article": 17,
+       "hit": false
+      },
+      {
+       "rank": 9,
+       "id": "TT-91-2026:B:p028:234",
+       "page": 28,
+       "score": 3.536575,
+       "chapter": "III",
+       "article": 17,
+       "hit": false
+      },
+      {
+       "rank": 10,
+       "id": "TT-91-2026:B:p030:249",
+       "page": 30,
+       "score": 3.065032,
+       "chapter": "III",
+       "article": 19,
+       "hit": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "summary": {
+    "method": "hybrid_rrf(dense+bm25+bigram,k=60,n=20)",
+    "N": 15,
+    "hit@1": 5,
+    "hit@3": 10,
+    "hit@5": 10,
+    "mrr@10": 0.5,
+    "ms_median": 63.1,
+    "ms_mean": 61.6,
+    "miss@3": [
+     "d02",
+     "d07",
+     "d08",
+     "d11",
+     "d12"
+    ]
+   },
+   "traces": [
+    {
+     "id": "d01",
+     "question": "Hóa đơn điện tử phải sử dụng ngôn ngữ định dạng văn bản nào?",
+     "filter": null,
+     "first_hit_rank": 2,
+     "results": [
+      {
+       "rank": 1,
+       "id": "TT-91-2026:B:p029:245",
+       "page": 29,
+       "score": 0.032258,
+       "chapter": "III",
+       "article": 18,
+       "hit": false
+      },
+      {
+       "rank": 2,
+       "id": "TT-91-2026:B:p003:016",
+       "page": 3,
+       "score": 0.031319,
+       "chapter": "II",
+       "article": 3,
+       "hit": true
+      },
+      {
+       "rank": 3,
+       "id": "TT-91-2026:B:p001:006",
+       "page": 1,
+       "score": 0.03101,
+       "chapter": "I",
+       "article": 1,
+       "hit": false
+      },
+      {
+       "rank": 4,
+       "id": "TT-91-2026:B:p003:015",
+       "page": 3,
+       "score": 0.030798,
+       "chapter": "II",
+       "article": 3,
+       "hit": false
+      },
+      {
+       "rank": 5,
+       "id": "TT-91-2026:B:p030:254",
+       "page": 30,
+       "score": 0.030366,
+       "chapter": "IV",
+       "article": 21,
+       "hit": false
+      },
+      {
+       "rank": 6,
+       "id": "TT-91-2026:B:p002:008",
+       "page": 2,
+       "score": 0.027032,
+       "chapter": "I",
+       "article": 1,
+       "hit": false
+      },
+      {
+       "rank": 7,
+       "id": "TT-91-2026:B:p004:024",
+       "page": 4,
+       "score": 0.016393,
+       "chapter": "II",
+       "article": 4,
+       "hit": false
+      },
+      {
+       "rank": 8,
+       "id": "TT-91-2026:B:p029:244",
+       "page": 29,
+       "score": 0.015625,
+       "chapter": "III",
+       "article": 18,
+       "hit": false
+      },
+      {
+       "rank": 9,
+       "id": "TT-91-2026:B:p003:017",
+       "page": 3,
+       "score": 0.015385,
+       "chapter": "II",
+       "article": 3,
+       "hit": false
+      },
+      {
+       "rank": 10,
+       "id": "TT-91-2026:B:p004:023",
+       "page": 4,
+       "score": 0.015152,
+       "chapter": "II",
+       "article": 4,
+       "hit": false
+      }
+     ]
+    },
+    {
+     "id": "d02",
+     "question": "Tổ chức kinh tế gửi trực tiếp dữ liệu hóa đơn điện tử đến cơ quan thuế thì mỗi kênh truyền phải có băng thông tối thiểu bao nhiêu?",
+     "filter": null,
+     "first_hit_rank": null,
+     "results": [
+      {
+       "rank": 1,
+       "id": "TT-91-2026:B:p009:070",
+       "page": 9,
+       "score": 0.032787,
+       "chapter": "II",
+       "article": 6,
+       "hit": false
+      },
+      {
+       "rank": 2,
+       "id": "TT-91-2026:B:p008:066",
+       "page": 8,
+       "score": 0.030622,
+       "chapter": "II",
+       "article": 6,
+       "hit": false
+      },
+      {
+       "rank": 3,
+       "id": "TT-91-2026:B:p003:020",
+       "page": 3,
+       "score": 0.030622,
+       "chapter": "II",
+       "article": 3,
+       "hit": false
+      },
+      {
+       "rank": 4,
+       "id": "TT-91-2026:B:p009:067",
+       "page": 9,
+       "score": 0.030303,
+       "chapter": "II",
+       "article": 6,
+       "hit": false
+      },
+      {
+       "rank": 5,
+       "id": "TT-91-2026:B:p009:072",
+       "page": 9,
+       "score": 0.028531,
+       "chapter": "II",
+       "article": 6,
+       "hit": false
+      },
+      {
+       "rank": 6,
+       "id": "TT-91-2026:B:p022:182",
+       "page": 22,
+       "score": 0.02837,
+       "chapter": "II",
+       "article": 10,
+       "hit": false
+      },
+      {
+       "rank": 7,
+       "id": "TT-91-2026:B:p024:203",
+       "page": 24,
+       "score": 0.015873,
+       "chapter": "II",
+       "article": 12,
+       "hit": false
+      },
+      {
+       "rank": 8,
+       "id": "TT-91-2026:B:p004:027",
+       "page": 4,
+       "score": 0.015625,
+       "chapter": "II",
+       "article": 4,
+       "hit": false
+      },
+      {
+       "rank": 9,
+       "id": "TT-91-2026:B:p015:124",
+       "page": 15,
+       "score": 0.015625,
+       "chapter": "II",
+       "article": 9,
+       "hit": false
+      },
+      {
+       "rank": 10,
+       "id": "TT-91-2026:B:p031:265",
+       "page": 31,
+       "score": 0.015385,
+       "chapter": "IV",
+       "article": 23,
+       "hit": false
+      }
+     ]
+    },
+    {
+     "id": "d03",
+     "question": "Ký hiệu hóa đơn điện tử gồm bao nhiêu ký tự?",
+     "filter": null,
+     "first_hit_rank": 2,
+     "results": [
+      {
+       "rank": 1,
+       "id": "TT-91-2026:B:p004:023",
+       "page": 4,
+       "score": 0.032522,
+       "chapter": "II",
+       "article": 4,
+       "hit": false
+      },
+      {
+       "rank": 2,
+       "id": "TT-91-2026:B:p004:024",
+       "page": 4,
+       "score": 0.032522,
+       "chapter": "II",
+       "article": 4,
+       "hit": true
+      },
+      {
+       "rank": 3,
+       "id": "TT-91-2026:B:p029:246",
+       "page": 29,
+       "score": 0.030159,
+       "chapter": "III",
+       "article": 18,
+       "hit": false
+      },
+      {
+       "rank": 4,
+       "id": "TT-91-2026:B:p003:017",
+       "page": 3,
+       "score": 0.029644,
+       "chapter": "II",
+       "article": 3,
+       "hit": false
+      },
+      {
+       "rank": 5,
+       "id": "TT-91-2026:B:p001:006",
+       "page": 1,
+       "score": 0.029631,
+       "chapter": "I",
+       "article": 1,
+       "hit": false
+      },
+      {
+       "rank": 6,
+       "id": "TT-91-2026:B:p030:249",
+       "page": 30,
+       "score": 0.029514,
+       "chapter": "III",
+       "article": 19,
+       "hit": false
+      },
+      {
+       "rank": 7,
+       "id": "TT-91-2026:B:p018:151",
+       "page": 18,
+       "score": 0.028373,
+       "chapter": "II",
+       "article": 10,
+       "hit": false
+      },
+      {
+       "rank": 8,
+       "id": "TT-91-2026:B:p017:139",
+       "page": 17,
+       "score": 0.02837,
+       "chapter": "II",
+       "article": 10,
+       "hit": false
+      },
+      {
+       "rank": 9,
+       "id": "TT-91-2026:B:p004:025",
+       "page": 4,
+       "score": 0.028309,
+       "chapter": "II",
+       "article": 4,
+       "hit": false
+      },
+      {
+       "rank": 10,
+       "id": "TT-91-2026:B:p005:033",
+       "page": 5,
+       "score": 0.027651,
+       "chapter": "II",
+       "article": 5,
+       "hit": false
+      }
+     ]
+    },
+    {
+     "id": "d04",
+     "question": "Hóa đơn hoàn thuế VAT cho khách nước ngoài phải hiển thị bằng những ngôn ngữ nào?",
+     "filter": null,
+     "first_hit_rank": 1,
+     "results": [
+      {
+       "rank": 1,
+       "id": "TT-91-2026:B:p006:037",
+       "page": 6,
+       "score": 0.032002,
+       "chapter": "II",
+       "article": 5,
+       "hit": true
+      },
+      {
+       "rank": 2,
+       "id": "TT-91-2026:B:p005:035",
+       "page": 5,
+       "score": 0.032002,
+       "chapter": "II",
+       "article": 5,
+       "hit": false
+      },
+      {
+       "rank": 3,
+       "id": "TT-91-2026:B:p006:036",
+       "page": 6,
+       "score": 0.031778,
+       "chapter": "II",
+       "article": 5,
+       "hit": false
+      },
+      {
+       "rank": 4,
+       "id": "TT-91-2026:B:p006:038",
+       "page": 6,
+       "score": 0.028898,
+       "chapter": "II",
+       "article": 5,
+       "hit": false
+      },
+      {
+       "rank": 5,
+       "id": "TT-91-2026:B:p005:034",
+       "page": 5,
+       "score": 0.016393,
+       "chapter": "II",
+       "article": 5,
+       "hit": false
+      },
+      {
+       "rank": 6,
+       "id": "TT-91-2026:B:p010:077",
+       "page": 10,
+       "score": 0.015625,
+       "chapter": "II",
+       "article": 6,
+       "hit": false
+      },
+      {
+       "rank": 7,
+       "id": "TT-91-2026:B:p003:016",
+       "page": 3,
+       "score": 0.015625,
+       "chapter": "II",
+       "article": 3,
+       "hit": false
+      },
+      {
+       "rank": 8,
+       "id": "TT-91-2026:B:p013:108",
+       "page": 13,
+       "score": 0.015152,
+       "chapter": "II",
+       "article": 8,
+       "hit": false
+      },
+      {
+       "rank": 9,
+       "id": "TT-91-2026:B:p029:245",
+       "page": 29,
+       "score": 0.015152,
+       "chapter": "III",
+       "article": 18,
+       "hit": false
+      },
+      {
+       "rank": 10,
+       "id": "TT-91-2026:B:p010:075",
+       "page": 10,
+       "score": 0.014925,
+       "chapter": "II",
+       "article": 6,
+       "hit": false
+      }
+     ]
+    },
+    {
+     "id": "d05",
+     "question": "Sau khi tiếp nhận đăng ký sử dụng hóa đơn điện tử, hệ thống tự động đối chiếu thông tin người đại diện trong bao lâu?",
+     "filter": null,
+     "first_hit_rank": 1,
+     "results": [
+      {
+       "rank": 1,
+       "id": "TT-91-2026:B:p007:048",
+       "page": 7,
+       "score": 0.032266,
+       "chapter": "II",
+       "article": 6,
+       "hit": true
+      },
+      {
+       "rank": 2,
+       "id": "TT-91-2026:B:p007:053",
+       "page": 7,
+       "score": 0.032002,
+       "chapter": "II",
+       "article": 6,
+       "hit": false
+      },
+      {
+       "rank": 3,
+       "id": "TT-91-2026:B:p008:061",
+       "page": 8,
+       "score": 0.030077,
+       "chapter": "II",
+       "article": 6,
+       "hit": false
+      },
+      {
+       "rank": 4,
+       "id": "TT-91-2026:B:p007:050",
+       "page": 7,
+       "score": 0.029911,
+       "chapter": "II",
+       "article": 6,
+       "hit": false
+      },
+      {
+       "rank": 5,
+       "id": "TT-91-2026:B:p007:051",
+       "page": 7,
+       "score": 0.029643,
+       "chapter": "II",
+       "article": 6,
+       "hit": false
+      },
+      {
+       "rank": 6,
+       "id": "TT-91-2026:B:p007:046",
+       "page": 7,
+       "score": 0.029631,
+       "chapter": "II",
+       "article": 6,
+       "hit": false
+      },
+      {
+       "rank": 7,
+       "id": "TT-91-2026:B:p031:261",
+       "page": 31,
+       "score": 0.029551,
+       "chapter": "IV",
+       "article": 22,
+       "hit": false
+      },
+      {
+       "rank": 8,
+       "id": "TT-91-2026:B:p029:238",
+       "page": 29,
+       "score": 0.029236,
+       "chapter": "III",
+       "article": 17,
+       "hit": false
+      },
+      {
+       "rank": 9,
+       "id": "TT-91-2026:B:p031:260",
+       "page": 31,
+       "score": 0.025158,
+       "chapter": "IV",
+       "article": 22,
+       "hit": false
+      },
+      {
+       "rank": 10,
+       "id": "TT-91-2026:B:p031:259",
+       "page": 31,
+       "score": 0.015625,
+       "chapter": "IV",
+       "article": 22,
+       "hit": false
+      }
+     ]
+    },
+    {
+     "id": "d06",
+     "question": "Khi đăng ký hóa đơn điện tử mà cơ quan thuế yêu cầu giải trình, bổ sung tài liệu, người nộp thuế có bao lâu để thực hiện?",
+     "filter": null,
+     "first_hit_rank": 3,
+     "results": [
+      {
+       "rank": 1,
+       "id": "TT-91-2026:B:p013:108",
+       "page": 13,
+       "score": 0.032266,
+       "chapter": "II",
+       "article": 8,
+       "hit": false
+      },
+      {
+       "rank": 2,
+       "id": "TT-91-2026:B:p013:109",
+       "page": 13,
+       "score": 0.03055,
+       "chapter": "II",
+       "article": 8,
+       "hit": false
+      },
+      {
+       "rank": 3,
+       "id": "TT-91-2026:B:p008:063",
+       "page": 8,
+       "score": 0.029877,
+       "chapter": "II",
+       "article": 6,
+       "hit": true
+      },
+      {
+       "rank": 4,
+       "id": "TT-91-2026:B:p008:064",
+       "page": 8,
+       "score": 0.029828,
+       "chapter": "II",
+       "article": 6,
+       "hit": false
+      },
+      {
+       "rank": 5,
+       "id": "TT-91-2026:B:p008:065",
+       "page": 8,
+       "score": 0.029644,
+       "chapter": "II",
+       "article": 6,
+       "hit": false
+      },
+      {
+       "rank": 6,
+       "id": "TT-91-2026:B:p014:114",
+       "page": 14,
+       "score": 0.029631,
+       "chapter": "II",
+       "article": 8,
+       "hit": false
+      },
+      {
+       "rank": 7,
+       "id": "TT-91-2026:B:p014:112",
+       "page": 14,
+       "score": 0.029236,
+       "chapter": "II",
+       "article": 8,
+       "hit": false
+      },
+      {
+       "rank": 8,
+       "id": "TT-91-2026:B:p012:098",
+       "page": 12,
+       "score": 0.028571,
+       "chapter": "II",
+       "article": 8,
+       "hit": false
+      },
+      {
+       "rank": 9,
+       "id": "TT-91-2026:B:p008:061",
+       "page": 8,
+       "score": 0.028531,
+       "chapter": "II",
+       "article": 6,
+       "hit": false
+      },
+      {
+       "rank": 10,
+       "id": "TT-91-2026:B:p008:057",
+       "page": 8,
+       "score": 0.026667,
+       "chapter": "II",
+       "article": 6,
+       "hit": false
+      }
+     ]
+    },
+    {
+     "id": "d07",
+     "question": "Doanh nghiệp tạm ngừng kinh doanh thì có phải ngừng sử dụng hóa đơn điện tử không?",
+     "filter": null,
+     "first_hit_rank": null,
+     "results": [
+      {
+       "rank": 1,
+       "id": "TT-91-2026:B:p011:087",
+       "page": 11,
+       "score": 0.032266,
+       "chapter": "II",
+       "article": 8,
+       "hit": false
+      },
+      {
+       "rank": 2,
+       "id": "TT-91-2026:B:p012:097",
+       "page": 12,
+       "score": 0.031754,
+       "chapter": "II",
+       "article": 8,
+       "hit": false
+      },
+      {
+       "rank": 3,
+       "id": "TT-91-2026:B:p011:089",
+       "page": 11,
+       "score": 0.031545,
+       "chapter": "II",
+       "article": 8,
+       "hit": false
+      },
+      {
+       "rank": 4,
+       "id": "TT-91-2026:B:p006:040",
+       "page": 6,
+       "score": 0.030769,
+       "chapter": "II",
+       "article": 6,
+       "hit": false
+      },
+      {
+       "rank": 5,
+       "id": "TT-91-2026:B:p012:094",
+       "page": 12,
+       "score": 0.029911,
+       "chapter": "II",
+       "article": 8,
+       "hit": false
+      },
+      {
+       "rank": 6,
+       "id": "TT-91-2026:B:p011:086",
+       "page": 11,
+       "score": 0.029631,
+       "chapter": "II",
+       "article": 8,
+       "hit": false
+      },
+      {
+       "rank": 7,
+       "id": "TT-91-2026:B:p014:115",
+       "page": 14,
+       "score": 0.029418,
+       "chapter": "II",
+       "article": 8,
+       "hit": false
+      },
+      {
+       "rank": 8,
+       "id": "TT-91-2026:B:p013:101",
+       "page": 13,
+       "score": 0.028405,
+       "chapter": "II",
+       "article": 8,
+       "hit": false
+      },
+      {
+       "rank": 9,
+       "id": "TT-91-2026:B:p012:095",
+       "page": 12,
+       "score": 0.027402,
+       "chapter": "II",
+       "article": 8,
+       "hit": false
+      },
+      {
+       "rank": 10,
+       "id": "TT-91-2026:B:p007:047",
+       "page": 7,
+       "score": 0.026585,
+       "chapter": "II",
+       "article": 6,
+       "hit": false
+      }
+     ]
+    },
+    {
+     "id": "d08",
+     "question": "Hộ kinh doanh được cấp mã số thuế trước ngày 01/7/2025 nhưng thông tin đăng ký thuế không khớp cơ sở dữ liệu dân cư thì phải bổ sung trong bao lâu?",
+     "filter": null,
+     "first_hit_rank": null,
+     "results": [
+      {
+       "rank": 1,
+       "id": "TT-91-2026:B:p012:096",
+       "page": 12,
+       "score": 0.032787,
+       "chapter": "II",
+       "article": 8,
+       "hit": false
+      },
+      {
+       "rank": 2,
+       "id": "TT-91-2026:B:p032:266",
+       "page": 32,
+       "score": 0.030798,
+       "chapter": "V",
+       "article": 24,
+       "hit": false
+      },
+      {
+       "rank": 3,
+       "id": "TT-91-2026:B:p027:224",
+       "page": 27,
+       "score": 0.030366,
+       "chapter": "II",
+       "article": 15,
+       "hit": false
+      },
+      {
+       "rank": 4,
+       "id": "TT-91-2026:B:p031:259",
+       "page": 31,
+       "score": 0.016129,
+       "chapter": "IV",
+       "article": 22,
+       "hit": false
+      },
+      {
+       "rank": 5,
+       "id": "TT-91-2026:B:p007:049",
+       "page": 7,
+       "score": 0.016129,
+       "chapter": "II",
+       "article": 6,
+       "hit": false
+      },
+      {
+       "rank": 6,
+       "id": "TT-91-2026:B:p027:221",
+       "page": 27,
+       "score": 0.015625,
+       "chapter": "II",
+       "article": 15,
+       "hit": false
+      },
+      {
+       "rank": 7,
+       "id": "TT-91-2026:B:p007:051",
+       "page": 7,
+       "score": 0.015625,
+       "chapter": "II",
+       "article": 6,
+       "hit": false
+      },
+      {
+       "rank": 8,
+       "id": "TT-91-2026:B:p032:273",
+       "page": 32,
+       "score": 0.015385,
+       "chapter": "V",
+       "article": 25,
+       "hit": false
+      },
+      {
+       "rank": 9,
+       "id": "TT-91-2026:B:p013:102",
+       "page": 13,
+       "score": 0.015385,
+       "chapter": "II",
+       "article": 8,
+       "hit": false
+      },
+      {
+       "rank": 10,
+       "id": "TT-91-2026:B:p022:188",
+       "page": 22,
+       "score": 0.015152,
+       "chapter": "II",
+       "article": 11,
+       "hit": false
+      }
+     ]
+    },
+    {
+     "id": "d09",
+     "question": "Ủy nhiệm lập hóa đơn điện tử có bắt buộc phải lập thành văn bản không? Có ngoại lệ nào?",
+     "filter": null,
+     "first_hit_rank": 2,
+     "results": [
+      {
+       "rank": 1,
+       "id": "TT-91-2026:B:p016:129",
+       "page": 16,
+       "score": 0.031099,
+       "chapter": "II",
+       "article": 9,
+       "hit": false
+      },
+      {
+       "rank": 2,
+       "id": "TT-91-2026:B:p015:120",
+       "page": 15,
+       "score": 0.031025,
+       "chapter": "II",
+       "article": 9,
+       "hit": true
+      },
+      {
+       "rank": 3,
+       "id": "TT-91-2026:B:p014:115",
+       "page": 14,
+       "score": 0.029877,
+       "chapter": "II",
+       "article": 8,
+       "hit": false
+      },
+      {
+       "rank": 4,
+       "id": "TT-91-2026:B:p018:145",
+       "page": 18,
+       "score": 0.029727,
+       "chapter": "II",
+       "article": 10,
+       "hit": false
+      },
+      {
+       "rank": 5,
+       "id": "TT-91-2026:B:p001:006",
+       "page": 1,
+       "score": 0.029643,
+       "chapter": "I",
+       "article": 1,
+       "hit": false
+      },
+      {
+       "rank": 6,
+       "id": "TT-91-2026:B:p015:121",
+       "page": 15,
+       "score": 0.029631,
+       "chapter": "II",
+       "article": 9,
+       "hit": false
+      },
+      {
+       "rank": 7,
+       "id": "TT-91-2026:B:p015:118",
+       "page": 15,
+       "score": 0.028372,
+       "chapter": "II",
+       "article": 9,
+       "hit": false
+      },
+      {
+       "rank": 8,
+       "id": "TT-91-2026:B:p015:124",
+       "page": 15,
+       "score": 0.027242,
+       "chapter": "II",
+       "article": 9,
+       "hit": false
+      },
+      {
+       "rank": 9,
+       "id": "TT-91-2026:B:p016:127",
+       "page": 16,
+       "score": 0.016129,
+       "chapter": "II",
+       "article": 9,
+       "hit": false
+      },
+      {
+       "rank": 10,
+       "id": "TT-91-2026:B:p032:268",
+       "page": 32,
+       "score": 0.015873,
+       "chapter": "V",
+       "article": 24,
+       "hit": false
+      }
+     ]
+    },
+    {
+     "id": "d10",
+     "question": "Nếu đã lập sai tên, địa chỉ người mua nhưng không sai mã số thuế, số tiền thì xử lý thế nào?",
+     "filter": {
+      "chapter": "II"
+     },
+     "first_hit_rank": 1,
+     "results": [
+      {
+       "rank": 1,
+       "id": "TT-91-2026:B:p017:135",
+       "page": 17,
+       "score": 0.032522,
+       "chapter": "II",
+       "article": 10,
+       "hit": true
+      },
+      {
+       "rank": 2,
+       "id": "TT-91-2026:B:p017:142",
+       "page": 17,
+       "score": 0.031498,
+       "chapter": "II",
+       "article": 10,
+       "hit": false
+      },
+      {
+       "rank": 3,
+       "id": "TT-91-2026:B:p016:134",
+       "page": 16,
+       "score": 0.031258,
+       "chapter": "II",
+       "article": 10,
+       "hit": false
+      },
+      {
+       "rank": 4,
+       "id": "TT-91-2026:B:p019:154",
+       "page": 19,
+       "score": 0.030478,
+       "chapter": "II",
+       "article": 10,
+       "hit": false
+      },
+      {
+       "rank": 5,
+       "id": "TT-91-2026:B:p011:084",
+       "page": 11,
+       "score": 0.029857,
+       "chapter": "II",
+       "article": 7,
+       "hit": false
+      },
+      {
+       "rank": 6,
+       "id": "TT-91-2026:B:p017:140",
+       "page": 17,
+       "score": 0.029437,
+       "chapter": "II",
+       "article": 10,
+       "hit": false
+      },
+      {
+       "rank": 7,
+       "id": "TT-91-2026:B:p018:149",
+       "page": 18,
+       "score": 0.029274,
+       "chapter": "II",
+       "article": 10,
+       "hit": false
+      },
+      {
+       "rank": 8,
+       "id": "TT-91-2026:B:p017:137",
+       "page": 17,
+       "score": 0.029211,
+       "chapter": "II",
+       "article": 10,
+       "hit": false
+      },
+      {
+       "rank": 9,
+       "id": "TT-91-2026:B:p017:143",
+       "page": 17,
+       "score": 0.02748,
+       "chapter": "II",
+       "article": 10,
+       "hit": false
+      },
+      {
+       "rank": 10,
+       "id": "TT-91-2026:B:p018:147",
+       "page": 18,
+       "score": 0.02632,
+       "chapter": "II",
+       "article": 10,
+       "hit": false
+      }
+     ]
+    },
+    {
+     "id": "d11",
+     "question": "Hóa đơn điện tử ghi sai mã số thuế người mua thì người bán phải xử lý thế nào?",
+     "filter": null,
+     "first_hit_rank": null,
+     "results": [
+      {
+       "rank": 1,
+       "id": "TT-91-2026:B:p016:134",
+       "page": 16,
+       "score": 0.032258,
+       "chapter": "II",
+       "article": 10,
+       "hit": false
+      },
+      {
+       "rank": 2,
+       "id": "TT-91-2026:B:p017:140",
+       "page": 17,
+       "score": 0.030478,
+       "chapter": "II",
+       "article": 10,
+       "hit": false
+      },
+      {
+       "rank": 3,
+       "id": "TT-91-2026:B:p019:154",
+       "page": 19,
+       "score": 0.029031,
+       "chapter": "II",
+       "article": 10,
+       "hit": false
+      },
+      {
+       "rank": 4,
+       "id": "TT-91-2026:B:p018:149",
+       "page": 18,
+       "score": 0.027425,
+       "chapter": "II",
+       "article": 10,
+       "hit": false
+      },
+      {
+       "rank": 5,
+       "id": "TT-91-2026:B:p032:270",
+       "page": 32,
+       "score": 0.027032,
+       "chapter": "V",
+       "article": 24,
+       "hit": false
+      },
+      {
+       "rank": 6,
+       "id": "TT-91-2026:B:p021:179",
+       "page": 21,
+       "score": 0.016393,
+       "chapter": "II",
+       "article": 10,
+       "hit": false
+      },
+      {
+       "rank": 7,
+       "id": "TT-91-2026:B:p017:144",
+       "page": 17,
+       "score": 0.015873,
+       "chapter": "II",
+       "article": 10,
+       "hit": false
+      },
+      {
+       "rank": 8,
+       "id": "TT-91-2026:B:p022:182",
+       "page": 22,
+       "score": 0.015625,
+       "chapter": "II",
+       "article": 10,
+       "hit": false
+      },
+      {
+       "rank": 9,
+       "id": "TT-91-2026:B:p032:268",
+       "page": 32,
+       "score": 0.015625,
+       "chapter": "V",
+       "article": 24,
+       "hit": false
+      },
+      {
+       "rank": 10,
+       "id": "TT-91-2026:B:p019:155",
+       "page": 19,
+       "score": 0.015385,
+       "chapter": "II",
+       "article": 10,
+       "hit": false
+      }
+     ]
+    },
+    {
+     "id": "d12",
+     "question": "Khi điều chỉnh, thay thế hóa đơn sai, trường hợp nào người bán không bắt buộc lập văn bản thỏa thuận với người mua?",
+     "filter": null,
+     "first_hit_rank": 6,
+     "results": [
+      {
+       "rank": 1,
+       "id": "TT-91-2026:B:p020:167",
+       "page": 20,
+       "score": 0.032266,
+       "chapter": "II",
+       "article": 10,
+       "hit": false
+      },
+      {
+       "rank": 2,
+       "id": "TT-91-2026:B:p017:143",
+       "page": 17,
+       "score": 0.032258,
+       "chapter": "II",
+       "article": 10,
+       "hit": false
+      },
+      {
+       "rank": 3,
+       "id": "TT-91-2026:B:p032:268",
+       "page": 32,
+       "score": 0.03101,
+       "chapter": "V",
+       "article": 24,
+       "hit": false
+      },
+      {
+       "rank": 4,
+       "id": "TT-91-2026:B:p021:174",
+       "page": 21,
+       "score": 0.030777,
+       "chapter": "II",
+       "article": 10,
+       "hit": false
+      },
+      {
+       "rank": 5,
+       "id": "TT-91-2026:B:p020:162",
+       "page": 20,
+       "score": 0.03031,
+       "chapter": "II",
+       "article": 10,
+       "hit": false
+      },
+      {
+       "rank": 6,
+       "id": "TT-91-2026:B:p018:145",
+       "page": 18,
+       "score": 0.029551,
+       "chapter": "II",
+       "article": 10,
+       "hit": true
+      },
+      {
+       "rank": 7,
+       "id": "TT-91-2026:B:p021:179",
+       "page": 21,
+       "score": 0.029418,
+       "chapter": "II",
+       "article": 10,
+       "hit": false
+      },
+      {
+       "rank": 8,
+       "id": "TT-91-2026:B:p032:270",
+       "page": 32,
+       "score": 0.028992,
+       "chapter": "V",
+       "article": 24,
+       "hit": false
+      },
+      {
+       "rank": 9,
+       "id": "TT-91-2026:B:p017:140",
+       "page": 17,
+       "score": 0.028595,
+       "chapter": "II",
+       "article": 10,
+       "hit": false
+      },
+      {
+       "rank": 10,
+       "id": "TT-91-2026:B:p017:144",
+       "page": 17,
+       "score": 0.028485,
+       "chapter": "II",
+       "article": 10,
+       "hit": false
+      }
+     ]
+    },
+    {
+     "id": "d13",
+     "question": "Tổ chức cung cấp dịch vụ nhận, truyền, lưu trữ dữ liệu hóa đơn điện tử phải ký quỹ hoặc có bảo lãnh ngân hàng với giá trị tối thiểu bao nhiêu?",
+     "filter": null,
+     "first_hit_rank": 2,
+     "results": [
+      {
+       "rank": 1,
+       "id": "TT-91-2026:B:p024:204",
+       "page": 24,
+       "score": 0.032522,
+       "chapter": "II",
+       "article": 12,
+       "hit": false
+      },
+      {
+       "rank": 2,
+       "id": "TT-91-2026:B:p024:197",
+       "page": 24,
+       "score": 0.032522,
+       "chapter": "II",
+       "article": 12,
+       "hit": true
+      },
+      {
+       "rank": 3,
+       "id": "TT-91-2026:B:p024:200",
+       "page": 24,
+       "score": 0.030159,
+       "chapter": "II",
+       "article": 12,
+       "hit": false
+      },
+      {
+       "rank": 4,
+       "id": "TT-91-2026:B:p021:172",
+       "page": 21,
+       "score": 0.029572,
+       "chapter": "II",
+       "article": 10,
+       "hit": false
+      },
+      {
+       "rank": 5,
+       "id": "TT-91-2026:B:p006:040",
+       "page": 6,
+       "score": 0.029469,
+       "chapter": "II",
+       "article": 6,
+       "hit": false
+      },
+      {
+       "rank": 6,
+       "id": "TT-91-2026:B:p009:072",
+       "page": 9,
+       "score": 0.028382,
+       "chapter": "II",
+       "article": 6,
+       "hit": false
+      },
+      {
+       "rank": 7,
+       "id": "TT-91-2026:B:p003:018",
+       "page": 3,
+       "score": 0.027973,
+       "chapter": "II",
+       "article": 3,
+       "hit": false
+      },
+      {
+       "rank": 8,
+       "id": "TT-91-2026:B:p007:046",
+       "page": 7,
+       "score": 0.027364,
+       "chapter": "II",
+       "article": 6,
+       "hit": false
+      },
+      {
+       "rank": 9,
+       "id": "TT-91-2026:B:p029:241",
+       "page": 29,
+       "score": 0.015625,
+       "chapter": "III",
+       "article": 17,
+       "hit": false
+      },
+      {
+       "rank": 10,
+       "id": "TT-91-2026:B:p023:194",
+       "page": 23,
+       "score": 0.015625,
+       "chapter": "II",
+       "article": 12,
+       "hit": false
+      }
+     ]
+    },
+    {
+     "id": "d14",
+     "question": "Trung tâm dữ liệu dự phòng của đơn vị truyền nhận hóa đơn điện tử phải đặt cách trung tâm chính ít nhất bao xa?",
+     "filter": null,
+     "first_hit_rank": 1,
+     "results": [
+      {
+       "rank": 1,
+       "id": "TT-91-2026:B:p024:201",
+       "page": 24,
+       "score": 0.032787,
+       "chapter": "II",
+       "article": 12,
+       "hit": true
+      },
+      {
+       "rank": 2,
+       "id": "TT-91-2026:B:p023:193",
+       "page": 23,
+       "score": 0.030118,
+       "chapter": "II",
+       "article": 12,
+       "hit": false
+      },
+      {
+       "rank": 3,
+       "id": "TT-91-2026:B:p024:200",
+       "page": 24,
+       "score": 0.02967,
+       "chapter": "II",
+       "article": 12,
+       "hit": false
+      },
+      {
+       "rank": 4,
+       "id": "TT-91-2026:B:p018:150",
+       "page": 18,
+       "score": 0.029418,
+       "chapter": "II",
+       "article": 10,
+       "hit": false
+      },
+      {
+       "rank": 5,
+       "id": "TT-91-2026:B:p023:194",
+       "page": 23,
+       "score": 0.028372,
+       "chapter": "II",
+       "article": 12,
+       "hit": false
+      },
+      {
+       "rank": 6,
+       "id": "TT-91-2026:B:p009:072",
+       "page": 9,
+       "score": 0.027364,
+       "chapter": "II",
+       "article": 6,
+       "hit": false
+      },
+      {
+       "rank": 7,
+       "id": "TT-91-2026:B:p024:204",
+       "page": 24,
+       "score": 0.025992,
+       "chapter": "II",
+       "article": 12,
+       "hit": false
+      },
+      {
+       "rank": 8,
+       "id": "TT-91-2026:B:p007:046",
+       "page": 7,
+       "score": 0.016129,
+       "chapter": "II",
+       "article": 6,
+       "hit": false
+      },
+      {
+       "rank": 9,
+       "id": "TT-91-2026:B:p003:021",
+       "page": 3,
+       "score": 0.016129,
+       "chapter": "II",
+       "article": 3,
+       "hit": false
+      },
+      {
+       "rank": 10,
+       "id": "TT-91-2026:B:p031:261",
+       "page": 31,
+       "score": 0.015873,
+       "chapter": "IV",
+       "article": 22,
+       "hit": false
+      }
+     ]
+    },
+    {
+     "id": "d15",
+     "question": "Nếu đã lập sai tên, địa chỉ nhưng không sai mã số thuế, số tiền thì có phải lập lại không?",
+     "filter": {
+      "chapter": "III"
+     },
+     "first_hit_rank": 1,
+     "results": [
+      {
+       "rank": 1,
+       "id": "TT-91-2026:B:p030:251",
+       "page": 30,
+       "score": 0.032787,
+       "chapter": "III",
+       "article": 20,
+       "hit": true
+      },
+      {
+       "rank": 2,
+       "id": "TT-91-2026:B:p029:242",
+       "page": 29,
+       "score": 0.03101,
+       "chapter": "III",
+       "article": 17,
+       "hit": false
+      },
+      {
+       "rank": 3,
+       "id": "TT-91-2026:B:p030:252",
+       "page": 30,
+       "score": 0.030622,
+       "chapter": "III",
+       "article": 20,
+       "hit": false
+      },
+      {
+       "rank": 4,
+       "id": "TT-91-2026:B:p028:234",
+       "page": 28,
+       "score": 0.030366,
+       "chapter": "III",
+       "article": 17,
+       "hit": false
+      },
+      {
+       "rank": 5,
+       "id": "TT-91-2026:B:p030:250",
+       "page": 30,
+       "score": 0.030018,
+       "chapter": "III",
+       "article": 19,
+       "hit": false
+      },
+      {
+       "rank": 6,
+       "id": "TT-91-2026:B:p029:241",
+       "page": 29,
+       "score": 0.029857,
+       "chapter": "III",
+       "article": 17,
+       "hit": false
+      },
+      {
+       "rank": 7,
+       "id": "TT-91-2026:B:p028:236",
+       "page": 28,
+       "score": 0.029851,
+       "chapter": "III",
+       "article": 17,
+       "hit": false
+      },
+      {
+       "rank": 8,
+       "id": "TT-91-2026:B:p029:240",
+       "page": 29,
+       "score": 0.029469,
+       "chapter": "III",
+       "article": 17,
+       "hit": false
+      },
+      {
+       "rank": 9,
+       "id": "TT-91-2026:B:p029:238",
+       "page": 29,
+       "score": 0.029139,
+       "chapter": "III",
+       "article": 17,
+       "hit": false
+      },
+      {
+       "rank": 10,
+       "id": "TT-91-2026:B:p029:244",
+       "page": 29,
+       "score": 0.02885,
+       "chapter": "III",
+       "article": 18,
+       "hit": false
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
