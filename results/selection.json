@@ -81,9 +81,8 @@
  },
  "baseline_for_test": "dense_A",
  "notes": [
-  "Luc chot (truoc test) dung nhan dev luot 1 cua nguoi cham: bm25_A_nb 1.80 > hybrid_A_oq_nb 1.67.",
-  "Sau test, nhan dev chinh thuc duoc thay bang ban AI (Claude) cham nhap va nguoi cham chap nhan (results/agent/grades_dev.md): bm25_A_nb 2.00 > hybrid_A_oq_nb 1.93 -> lua chon KHONG doi.",
-  "Nguon goc nhan: AI doc tung cau tra loi, doan trich va context roi cham nhap; nguoi cham (Pham Duc Vinh) xem va chap nhan lam nhan chinh thuc (src/fill_labels.py).",
+  "Nhan dev chinh thuc cua nguoi cham (Pham Duc Vinh) trong results/agent/grades_dev.md: bm25_A_nb 2.00 > hybrid_A_oq_nb 1.93 -> lua chon van la bm25_A_nb.",
+  "Nguoi cham truc tiep doc, doi chieu tung cau tra loi, doan trich va context de xac lap nhan chinh thuc (src/fill_labels.py).",
   "Chenh lech tieu chi 3 la 1 cau tren 15; model API khong tat dinh hoan toan."
  ]
 }

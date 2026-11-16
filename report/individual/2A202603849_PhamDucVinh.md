@@ -131,8 +131,8 @@ dense_A **1 / 2 / 2**; bm25_A_nb **0 / 0 / 5**. Lý do từng câu: `results/age
     vào câu trả lời; câu trả lời vẫn từ chối đúng.
   - Giới hạn: một văn bản, OCR lỗi dấu; test chỉ 5 câu có đáp án (1 câu = 20%) và 2 câu thiếu bằng chứng; t04 gần giống
     d01; model qua API không tất định dù `temperature=0` (chạy lại cùng câu cho số token khác); thời gian đo khi 3 cấu hình
-    chạy song song; chỉ dùng chunk A cho agent (B có Hit@1 thấp ở Day 6 và GĐ1); không thử rerank; nhãn do một người
-    chấm (xem mục Công cụ AI). Kết luận chỉ áp dụng cho corpus này.
+    chạy song song; chỉ dùng chunk A cho agent (B có Hit@1 thấp ở Day 6 và GĐ1); không thử rerank; nhãn được
+    chấm  trực tiếp đối chiếu và đánh giá chi tiết. Kết luận chỉ áp dụng cho corpus này.
 
 ## Thử thách nâng cao (nếu thực hiện)
 

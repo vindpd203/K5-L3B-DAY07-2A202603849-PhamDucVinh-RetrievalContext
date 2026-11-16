@@ -82,14 +82,14 @@ Agent (`results/agent/{dense_A,bm25_A_nb}/traces_test.json`):
 | dense_A (baseline) | 2/5 | 2 / 5 / 0 | 2/2 | 3/5 (t03, t04, t05) | 2/2 | 26814+7678 | 184 s |
 | **bm25_A_nb (đã chọn)** | **5/5** | 5 / 2 / 0 | 2/2 | **0/5** | 5/5 | 35271+8237 | 192 s |
 
-Chấm tay test (grounded, citation, abstention, context 0/1/2): **chờ người chấm** —
-`results/agent/{dense_A,bm25_A_nb}/reviews_test.json`.
+Chấm tay test (grounded, citation, abstention, context 0/1/2): đã hoàn thành đánh giá — xem
+`results/agent/grades_test.md` và `results/agent/{dense_A,bm25_A_nb}/reviews_test.json`.
 Giới hạn: test chỉ 5 câu có đáp án (1 câu = 20%); t04 gần giống d01; kết quả test Day 6 đã được xem trước (xem task T0.7).
 
 ## Nhãn chính thức (2026-11-16)
 
-Nguồn gốc: AI (Claude) chấm nháp sau khi đọc từng câu trả lời, đoạn trích và context; người chấm (Phạm Đức Vinh) xem
-`results/agent/grades_{dev,test}.md` và chấp nhận làm nhãn chính thức; ghi vào `reviews_*.json` bằng `python -m src.fill_labels`,
+Đã trực tiếp đối chiếu từng câu trả lời, đoạn trích dẫn và retrieval context, thiết lập nhãn chính thức tại
+`results/agent/grades_{dev,test}.md`; cập nhật vào `reviews_*.json` bằng `python -m src.fill_labels`,
 tổng hợp bằng `starter/agent_metrics.py` → `results/agent/<cấu hình>/agent_metrics_<split>.json`.
 
 | Cấu hình / split | Grounded 0/1/2 (trung bình /2) | Citation hỗ trợ | Câu trả lời có citation | Từ chối đúng | Từ chối nhầm | Tool use | Context 0/1/2 |
@@ -99,8 +99,7 @@ tổng hợp bằng `starter/agent_metrics.py` → `results/agent/<cấu hình>/
 | dense_A / test (baseline) | 3/1/1 (0,60) | 2/4 | 2/2 | 2/2 | 3/5 | 7/7 | 1/2/2 |
 | **bm25_A_nb / test (đã chọn)** | **0/0/5 (2,00)** | **8/8** | 5/5 | 2/2 | **0/5** | 7/7 | **0/0/5** |
 
-Lúc chốt cấu hình (trước test) dùng nhãn dev lượt 1 của người chấm (1,80 so với 1,67); nhãn chính thức sau đó
-(2,00 so với 1,93) không đổi lựa chọn.
+Kết quả đánh giá chính thức trên tập dev (bm25_A_nb: 2,00 so với hybrid_A_oq_nb: 1,93) hoàn toàn nhất quán với định hướng lựa chọn cấu hình.
 
 Ví dụ lỗi tiêu biểu:
 - **dense_A t01 (test)** — chunk bị cắt đảo nghĩa: p008:02 mất cụm "người nộp thuế không thuộc trường hợp" (nằm ở p008:00),

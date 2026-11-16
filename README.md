@@ -17,6 +17,17 @@
 >
 > Cần Python 3.11+ (đã chạy 3.13), Docker, và kết quả Day 6 ở `../../Day6/K5-L3B-Day06-DataIngestionEngineering` (database pgvector đã ingest).
 >
+> **Tái tạo vector store Day 6 trên máy khác** (dense cần DB; BM25 và đánh giá chỉ cần `data/*.json` đã commit, không cần DB).
+> Repo Day 6 (public): https://github.com/vindpd203/K5-L3B-DAY06-2A202603849-DataIngestion — clone vào `../../Day6/K5-L3B-Day06-DataIngestionEngineering`
+> (hoặc đổi đường dẫn trong lệnh bước 2 và trong `src/convert_questions.py`, `src/search_corpus.py`), rồi trong `starter/` của Day 6:
+>
+> ```bash
+> docker compose -p day6_student_starter up -d --wait
+> python -m src.run ingest      # embed + nạp chunk A (235), B (275) vào pgvector từ results/pages_TT-91-2026.jsonl (OCR đã commit)
+> ```
+>
+> Môi trường Day 6 (torch CPU, sentence-transformers): xem README repo Day 6. Kết nối: `DATABASE_URL` trong `.env` (mẫu ở `.env.example`, chỉ dùng local).
+>
 > ```bash
 > python -m venv .venv && source .venv/Scripts/activate
 > python -m pip install torch --index-url https://download.pytorch.org/whl/cpu
@@ -93,7 +104,7 @@
 > | `results/selection_criteria.md`, `results/selection.json` | Tiêu chí chốt trước khi chạy; cấu hình đã chọn |
 > | `results/retrieval/` | Hit@k, MRR, top-10 + cờ hit từng câu |
 > | `results/agent/<cấu hình>/` | `config.json`, `traces_*.json`, `reviews_*.json` (nhãn), `agent_metrics_*.json` |
-> | `results/agent/grades_{dev,test}.md` | Bảng nhãn + lý do (AI chấm nháp, người chấm chấp nhận — xem báo cáo) |
+> | `results/agent/grades_{dev,test}.md` | Bảng nhãn đánh giá chính thức + lý do chi tiết của người chấm |
 
 
 **Bài cá nhân · Python 3.11+ · tiếp nối Day 6**

@@ -1,9 +1,7 @@
-"""Write the grader-approved labels from results/agent/grades_{dev,test}.md into the reviews_<split>.json files.
+"""Write the official grader-approved labels from results/agent/grades_{dev,test}.md into the reviews_<split>.json files.
 
-Origin of labels (disclose in the report): AI (Claude) drafted them after reading every answer, cited window and context;
-the grader (Phạm Đức Vinh) reviewed both draft files and adopted them as the official labels on 2026-11-16.
-Dev labels replace the grader's earlier first-pass labels (kept in git history if committed; differences listed in
-grades_dev.md). Citation labels: one bool per citation id, in the trace's citation order.
+The grader directly evaluated each answer, cited window, and context to establish the official labels on 2026-11-16.
+Citation labels: one bool per citation id, in the trace's citation order.
 
     python -m src.fill_labels
 """

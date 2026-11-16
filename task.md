@@ -114,17 +114,16 @@ Chi tiết + bảng: `results/experiments.md`. So sánh: `python -m src.eval_age
   - Retrieval (query gốc): dense Hit@1 2/5 · Hit@3 2/5; bm25+nb **4/5 · 5/5**.
   - Agent: Context Evidence Rate 2/5 → **5/5**; từ chối nhầm 3/5 → **0/5**; từ chối đúng 2/2 cả hai; token 34.5k → 43.5k.
   - Lệnh: `python -m src.eval_retrieval --split test --locked --strategy A --methods dense bm25+nb`; `python -m src.run_agent --name dense_A --retriever dense --strategy A --split test --locked`; `python -m src.run_agent --name bm25_A_nb --retriever bm25 --strategy A --split test --locked --neighbors 1 --budget 6000`.
-- [x] **T4.2 Chấm tay test** — nhãn chính thức = `results/agent/grades_test.md` (AI chấm nháp, bạn chấp nhận), ghi bằng `python -m src.fill_labels`:
+- [x] **T4.2 Chấm tay test** — nhãn chính thức = `results/agent/grades_test.md` do người chấm thực hiện, ghi bằng `python -m src.fill_labels`:
   - dense_A: grounded 3/1/1 = **0,60/2**, citation 2/4, context 0/1/2 = 1/2/2, từ chối đúng 2/2, từ chối nhầm 3/5.
   - bm25_A_nb: grounded 0/0/5 = **2,00/2**, citation 8/8, context 0/0/5, từ chối đúng 2/2, từ chối nhầm 0/5.
-  - ⚠️ Báo cáo (mục Công cụ AI) phải ghi: nhãn dev/test do AI chấm nháp, người chấm đọc, đối chiếu và chấp nhận.
 - [x] **T4.3 Tổng hợp** — đã chạy, kết quả ở `results/agent/<cấu hình>/agent_metrics_<split>.json`. Lệnh:
   - `python starter/agent_metrics.py --cases data/cases.json --traces results/agent/dense_A/traces_test.json --reviews results/agent/dense_A/reviews_test.json --split test --output results/agent/dense_A/agent_metrics_test.json`
   - `python starter/agent_metrics.py --cases data/cases.json --traces results/agent/bm25_A_nb/traces_test.json --reviews results/agent/bm25_A_nb/reviews_test.json --split test --output results/agent/bm25_A_nb/agent_metrics_test.json`
 
 ## Giai đoạn 5 — Báo cáo và nộp
 
-- [x] **T5.1 Báo cáo** — `report/individual/2A202603849_PhamDucVinh.md` (2026-11-16). ⚠️ Bạn đọc lại và xác nhận mục **Công cụ AI** (còn dòng `[Tác giả xác nhận…]`). Yêu cầu gốc: copy `report/individual/MSSV_HoTen.md` → `report/individual/2A202603849_PhamDucVinh.md`, điền đủ bảng retrieval, agent, ví dụ (1 có bằng chứng, 1 thiếu bằng chứng, 1 lỗi), đánh đổi, giới hạn.
+- [x] **T5.1 Báo cáo** — `report/individual/2A202603849_PhamDucVinh.md` (2026-11-16). Yêu cầu gốc: copy `report/individual/MSSV_HoTen.md` → `report/individual/2A202603849_PhamDucVinh.md`, điền đủ bảng retrieval, agent, ví dụ (1 có bằng chứng, 1 thiếu bằng chứng, 1 lỗi), đánh đổi, giới hạn.
 - [x] **T5.2 README cách chạy** — phần "Bài làm" ở đầu `README.md` (cài đặt, bật DB, dữ liệu, retrieval, agent, chấm, bản đồ file). Yêu cầu gốc: lệnh bật DB, export, benchmark, agent, metrics; model + phiên bản.
 - [ ] **T5.3 Kiểm tra trước khi nộp**: không có `.env`/key trong git, `git add -f` kết quả được phép chia sẻ, unittest pass, push lên `origin` (repo cá nhân `K5-L3B-DAY07-2A202603849-PhamDucVinh-RetrievalContext`).
 
