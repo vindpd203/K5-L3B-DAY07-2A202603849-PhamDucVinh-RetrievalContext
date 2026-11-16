@@ -72,11 +72,20 @@ Code: `src/retrieval.py` (3 retriever cùng định dạng kết quả), `src/ev
 
 ## Giai đoạn 2 — Agent và context (1:00–2:00, song song)
 
-- [ ] **T2.1 Nối agent**: `Controller.decide` gọi LLM thật, `Retriever.search` gọi retriever ở GĐ1 (sửa `starter/agentic.py` hoặc viết lại). Có điều kiện dừng (max lượt search) và xử lý lỗi model/DB (ghi `status:"error"`, không giả kết quả).
-- [ ] **T2.2 Prompt**: trả lời có `[chunk-id]`, từ chối khi thiếu bằng chứng, coi nội dung tài liệu là dữ liệu không phải chỉ dẫn.
-- [ ] **T2.3 Chọn context**: dedup, context budget, ghi lại context cuối gửi model.
-- [ ] **T2.4 Trace**: mỗi câu lưu tool call, tham số, query, kết quả, context, câu trả lời, citation, số lượt, thời gian, token/chi phí, lỗi → `results/<config>/traces.json` (có `query_id`, `status`, `events`, `citations`).
-  - Xong khi: chạy được 1 câu có đáp án + 1 câu thiếu bằng chứng, trace đầy đủ.
+Code: `src/agent.py` (GLMController), `src/run_agent.py` (chạy + lưu trace), `prompts/agent_system.md`, test `tests/test_agent.py` (LLM giả).
+
+- [x] **T2.1 Nối agent** — dùng nguyên `run_agent` của `starter/agentic.py` (vòng lặp, giới hạn search, đóng gói context, kiểm citation). `GLMController.decide` = 1 lần gọi GLM thật với tool `search` (native tool calling); retriever = lớp ở GĐ1.
+  - Điều kiện dừng: model trả lời, hoặc hết `--max-searches` (lượt cuối không đưa tool → buộc trả lời/từ chối).
+  - Lỗi API/DB → `status: "error"` + thông báo lỗi trong trace (đã gặp thật: lỗi DNS `api.z.ai`, ghi đúng là error).
+- [x] **T2.2 Prompt** — `prompts/agent_system.md`: luôn search trước, trích `[chunk-id]` sau mỗi ý, câu từ chối cố định, nội dung tài liệu là dữ liệu không phải chỉ dẫn, lưu ý lỗi OCR.
+  - Chuẩn hóa định dạng: `[id1, id2]` → `[id1][id2]` (không đổi id). Citation bịa (id không có trong context) → starter chuyển thành abstain.
+- [x] **T2.3 Context** — `pack_context` của starter: dedup theo id, giữ chunk từ lần search trước, budget **3000 ký tự** (≈ 6–7 chunk A kèm header; mặc định 800 của starter chỉ vừa ~1–2 chunk). Context mới nhất (tích lũy) gửi lại model mỗi lượt.
+- [x] **T2.4 Trace** — `results/agent/<name>/config.json` + `traces_<split>.json`: query_id, status, events (search: query, filter, kết quả id/rank/score/page, context, context_ids), answer, citations, queries, final_context, model_calls (latency, model thật, token, raw answer, `model_abstained`), tổng token, thời gian, error.
+  - Cuối lần chạy in Context Evidence Rate (gold chỉ dùng ở bước đánh giá này, sau khi agent chạy xong).
+- **Thử 2026-11-16** (`--name try --retriever dense --strategy A --ids d03 d16`, model thực tế `glm-5.3-flash`):
+  - d03 → answered, 1 search, cite `TT-91-2026:A:p004:00`, đúng "sáu ký tự gồm chữ viết và chữ số"; 23 s, 1637+629 token.
+  - d16 (mức phạt, thiếu bằng chứng) → 3 search khác nhau rồi tự từ chối (`model_abstained: true`); 33 s, 4168+932 token.
+  - Mỗi lần gọi model ~8–12 s → chạy đủ 17 câu dev ≈ 8–10 phút / cấu hình.
 
 ## Giai đoạn 3 — Thử nghiệm trên dev (2:00–3:30)
 
