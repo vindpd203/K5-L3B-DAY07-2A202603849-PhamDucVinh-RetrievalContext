@@ -124,8 +124,8 @@ Chi tiết + bảng: `results/experiments.md`. So sánh: `python -m src.eval_age
 
 ## Giai đoạn 5 — Báo cáo và nộp
 
-- [ ] **T5.1 Báo cáo**: copy `report/individual/MSSV_HoTen.md` → `report/individual/2A202603849_PhamDucVinh.md`, điền đủ bảng retrieval, agent, ví dụ (1 có bằng chứng, 1 thiếu bằng chứng, 1 lỗi), đánh đổi, giới hạn.
-- [ ] **T5.2 README cách chạy**: lệnh bật DB, export, benchmark, agent, metrics; model + phiên bản.
+- [x] **T5.1 Báo cáo** — `report/individual/2A202603849_PhamDucVinh.md` (2026-11-16). ⚠️ Bạn đọc lại và xác nhận mục **Công cụ AI** (còn dòng `[Tác giả xác nhận…]`). Yêu cầu gốc: copy `report/individual/MSSV_HoTen.md` → `report/individual/2A202603849_PhamDucVinh.md`, điền đủ bảng retrieval, agent, ví dụ (1 có bằng chứng, 1 thiếu bằng chứng, 1 lỗi), đánh đổi, giới hạn.
+- [x] **T5.2 README cách chạy** — phần "Bài làm" ở đầu `README.md` (cài đặt, bật DB, dữ liệu, retrieval, agent, chấm, bản đồ file). Yêu cầu gốc: lệnh bật DB, export, benchmark, agent, metrics; model + phiên bản.
 - [ ] **T5.3 Kiểm tra trước khi nộp**: không có `.env`/key trong git, `git add -f` kết quả được phép chia sẻ, unittest pass, push lên `origin` (repo cá nhân `K5-L3B-DAY07-2A202603849-PhamDucVinh-RetrievalContext`).
 
 ## Tùy chọn — Thử thách nâng cao (+15)
