@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+.env.*
+!.env.example
+.codex-log/
+
+# Local datasets and generated output; share permitted artifacts deliberately
+starter/data/
+starter/results/
