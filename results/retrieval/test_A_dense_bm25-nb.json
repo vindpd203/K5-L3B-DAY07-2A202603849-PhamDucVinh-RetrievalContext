@@ -1,0 +1,1028 @@
+{
+ "split": "test",
+ "strategy": "A",
+ "embedding": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+ "top_k_logged": 10,
+ "hit_rule": "same source, gold page in chunk pages, evidence substring after whitespace collapse",
+ "query": "original question, filter only when the question has one",
+ "runs": [
+  {
+   "summary": {
+    "method": "dense",
+    "N": 5,
+    "hit@1": 2,
+    "hit@3": 2,
+    "hit@5": 3,
+    "mrr@10": 0.472,
+    "ms_median": 49.8,
+    "ms_mean": 51.7,
+    "miss@3": [
+     "t01",
+     "t04",
+     "t05"
+    ]
+   },
+   "traces": [
+    {
+     "id": "t01",
+     "question": "Doanh nghiệp đặt trụ sở chính tại căn hộ chung cư khi đăng ký hóa đơn điện tử có bị xem là có rủi ro cao không?",
+     "filter": null,
+     "first_hit_rank": 9,
+     "results": [
+      {
+       "rank": 1,
+       "id": "TT-91-2026:A:p006:05",
+       "page": 6,
+       "score": 0.645488,
+       "chapter": "II",
+       "article": 6,
+       "hit": false
+      },
+      {
+       "rank": 2,
+       "id": "TT-91-2026:A:p006:06",
+       "page": 6,
+       "score": 0.620949,
+       "chapter": "II",
+       "article": 6,
+       "hit": false
+      },
+      {
+       "rank": 3,
+       "id": "TT-91-2026:A:p027:04",
+       "page": 27,
+       "score": 0.607435,
+       "chapter": "II",
+       "article": 15,
+       "hit": false
+      },
+      {
+       "rank": 4,
+       "id": "TT-91-2026:A:p028:01",
+       "page": 28,
+       "score": 0.602409,
+       "chapter": "II",
+       "article": 15,
+       "hit": false
+      },
+      {
+       "rank": 5,
+       "id": "TT-91-2026:A:p011:06",
+       "page": 11,
+       "score": 0.584502,
+       "chapter": "II",
+       "article": 8,
+       "hit": false
+      },
+      {
+       "rank": 6,
+       "id": "TT-91-2026:A:p022:04",
+       "page": 22,
+       "score": 0.581731,
+       "chapter": "II",
+       "article": 11,
+       "hit": false
+      },
+      {
+       "rank": 7,
+       "id": "TT-91-2026:A:p014:01",
+       "page": 14,
+       "score": 0.580384,
+       "chapter": "II",
+       "article": 8,
+       "hit": false
+      },
+      {
+       "rank": 8,
+       "id": "TT-91-2026:A:p007:02",
+       "page": 7,
+       "score": 0.575852,
+       "chapter": "II",
+       "article": 6,
+       "hit": false
+      },
+      {
+       "rank": 9,
+       "id": "TT-91-2026:A:p011:00",
+       "page": 11,
+       "score": 0.574667,
+       "chapter": "II",
+       "article": 7,
+       "hit": true
+      },
+      {
+       "rank": 10,
+       "id": "TT-91-2026:A:p007:01",
+       "page": 7,
+       "score": 0.572816,
+       "chapter": "II",
+       "article": 6,
+       "hit": false
+      }
+     ]
+    },
+    {
+     "id": "t02",
+     "question": "Kinh phí thực hiện các biện pháp khuyến khích người mua lấy hóa đơn (như chương trình hóa đơn may mắn) tối đa bao nhiêu mỗi năm?",
+     "filter": null,
+     "first_hit_rank": 1,
+     "results": [
+      {
+       "rank": 1,
+       "id": "TT-91-2026:A:p025:05",
+       "page": 25,
+       "score": 0.726889,
+       "chapter": "II",
+       "article": 13,
+       "hit": true
+      },
+      {
+       "rank": 2,
+       "id": "TT-91-2026:A:p001:05",
+       "page": 1,
+       "score": 0.698189,
+       "chapter": "I",
+       "article": 1,
+       "hit": false
+      },
+      {
+       "rank": 3,
+       "id": "TT-91-2026:A:p019:07",
+       "page": 19,
+       "score": 0.664171,
+       "chapter": "II",
+       "article": 10,
+       "hit": false
+      },
+      {
+       "rank": 4,
+       "id": "TT-91-2026:A:p025:04",
+       "page": 25,
+       "score": 0.641528,
+       "chapter": "II",
+       "article": 13,
+       "hit": false
+      },
+      {
+       "rank": 5,
+       "id": "TT-91-2026:A:p025:03",
+       "page": 25,
+       "score": 0.614679,
+       "chapter": "II",
+       "article": 12,
+       "hit": false
+      },
+      {
+       "rank": 6,
+       "id": "TT-91-2026:A:p020:06",
+       "page": 20,
+       "score": 0.611076,
+       "chapter": "II",
+       "article": 10,
+       "hit": false
+      },
+      {
+       "rank": 7,
+       "id": "TT-91-2026:A:p027:01",
+       "page": 27,
+       "score": 0.607162,
+       "chapter": "II",
+       "article": 15,
+       "hit": false
+      },
+      {
+       "rank": 8,
+       "id": "TT-91-2026:A:p026:00",
+       "page": 26,
+       "score": 0.606391,
+       "chapter": "II",
+       "article": 13,
+       "hit": false
+      },
+      {
+       "rank": 9,
+       "id": "TT-91-2026:A:p002:05",
+       "page": 2,
+       "score": 0.605531,
+       "chapter": "I",
+       "article": 1,
+       "hit": false
+      },
+      {
+       "rank": 10,
+       "id": "TT-91-2026:A:p020:03",
+       "page": 20,
+       "score": 0.600295,
+       "chapter": "II",
+       "article": 10,
+       "hit": false
+      }
+     ]
+    },
+    {
+     "id": "t03",
+     "question": "Tài khoản truy cập Hệ thống thông tin quản lý thuế để khai thác thông tin hóa đơn điện tử có thời hạn sử dụng bao lâu?",
+     "filter": null,
+     "first_hit_rank": 1,
+     "results": [
+      {
+       "rank": 1,
+       "id": "TT-91-2026:A:p031:01",
+       "page": 31,
+       "score": 0.742119,
+       "chapter": "IV",
+       "article": 22,
+       "hit": true
+      },
+      {
+       "rank": 2,
+       "id": "TT-91-2026:A:p008:05",
+       "page": 8,
+       "score": 0.729747,
+       "chapter": "II",
+       "article": 6,
+       "hit": false
+      },
+      {
+       "rank": 3,
+       "id": "TT-91-2026:A:p010:01",
+       "page": 10,
+       "score": 0.723756,
+       "chapter": "II",
+       "article": 6,
+       "hit": false
+      },
+      {
+       "rank": 4,
+       "id": "TT-91-2026:A:p031:04",
+       "page": 31,
+       "score": 0.708678,
+       "chapter": "IV",
+       "article": 23,
+       "hit": false
+      },
+      {
+       "rank": 5,
+       "id": "TT-91-2026:A:p027:00",
+       "page": 27,
+       "score": 0.708341,
+       "chapter": "II",
+       "article": 15,
+       "hit": false
+      },
+      {
+       "rank": 6,
+       "id": "TT-91-2026:A:p013:07",
+       "page": 13,
+       "score": 0.70668,
+       "chapter": "II",
+       "article": 8,
+       "hit": false
+      },
+      {
+       "rank": 7,
+       "id": "TT-91-2026:A:p004:05",
+       "page": 4,
+       "score": 0.696308,
+       "chapter": "II",
+       "article": 4,
+       "hit": false
+      },
+      {
+       "rank": 8,
+       "id": "TT-91-2026:A:p032:00",
+       "page": 32,
+       "score": 0.690063,
+       "chapter": "IV",
+       "article": 23,
+       "hit": false
+      },
+      {
+       "rank": 9,
+       "id": "TT-91-2026:A:p029:01",
+       "page": 29,
+       "score": 0.68807,
+       "chapter": "III",
+       "article": 17,
+       "hit": false
+      },
+      {
+       "rank": 10,
+       "id": "TT-91-2026:A:p008:06",
+       "page": 8,
+       "score": 0.675799,
+       "chapter": "II",
+       "article": 6,
+       "hit": false
+      }
+     ]
+    },
+    {
+     "id": "t04",
+     "question": "Định dạng điện tử gồm những thành phần nào?",
+     "filter": {
+      "chapter": "III"
+     },
+     "first_hit_rank": null,
+     "results": [
+      {
+       "rank": 1,
+       "id": "TT-91-2026:A:p029:07",
+       "page": 29,
+       "score": 0.655771,
+       "chapter": "III",
+       "article": 18,
+       "hit": false
+      },
+      {
+       "rank": 2,
+       "id": "TT-91-2026:A:p030:04",
+       "page": 30,
+       "score": 0.567624,
+       "chapter": "III",
+       "article": 20,
+       "hit": false
+      },
+      {
+       "rank": 3,
+       "id": "TT-91-2026:A:p029:06",
+       "page": 29,
+       "score": 0.565429,
+       "chapter": "III",
+       "article": 18,
+       "hit": false
+      },
+      {
+       "rank": 4,
+       "id": "TT-91-2026:A:p030:00",
+       "page": 30,
+       "score": 0.509746,
+       "chapter": "III",
+       "article": 18,
+       "hit": false
+      },
+      {
+       "rank": 5,
+       "id": "TT-91-2026:A:p029:04",
+       "page": 29,
+       "score": 0.459302,
+       "chapter": "III",
+       "article": 17,
+       "hit": false
+      },
+      {
+       "rank": 6,
+       "id": "TT-91-2026:A:p029:05",
+       "page": 29,
+       "score": 0.450752,
+       "chapter": "III",
+       "article": 18,
+       "hit": false
+      },
+      {
+       "rank": 7,
+       "id": "TT-91-2026:A:p030:03",
+       "page": 30,
+       "score": 0.421722,
+       "chapter": "III",
+       "article": 20,
+       "hit": false
+      },
+      {
+       "rank": 8,
+       "id": "TT-91-2026:A:p029:02",
+       "page": 29,
+       "score": 0.401388,
+       "chapter": "III",
+       "article": 17,
+       "hit": false
+      },
+      {
+       "rank": 9,
+       "id": "TT-91-2026:A:p030:01",
+       "page": 30,
+       "score": 0.395754,
+       "chapter": "III",
+       "article": 19,
+       "hit": false
+      },
+      {
+       "rank": 10,
+       "id": "TT-91-2026:A:p029:01",
+       "page": 29,
+       "score": 0.389993,
+       "chapter": "III",
+       "article": 17,
+       "hit": false
+      }
+     ]
+    },
+    {
+     "id": "t05",
+     "question": "Thông tư 91/2026/TT-BTC về hóa đơn điện tử, chứng từ điện tử bắt đầu có hiệu lực từ ngày nào?",
+     "filter": null,
+     "first_hit_rank": 4,
+     "results": [
+      {
+       "rank": 1,
+       "id": "TT-91-2026:A:p023:05",
+       "page": 23,
+       "score": 0.695589,
+       "chapter": "II",
+       "article": 12,
+       "hit": false
+      },
+      {
+       "rank": 2,
+       "id": "TT-91-2026:A:p030:04",
+       "page": 30,
+       "score": 0.673151,
+       "chapter": "III",
+       "article": 20,
+       "hit": false
+      },
+      {
+       "rank": 3,
+       "id": "TT-91-2026:A:p001:01",
+       "page": 1,
+       "score": 0.648351,
+       "chapter": null,
+       "article": null,
+       "hit": false
+      },
+      {
+       "rank": 4,
+       "id": "TT-91-2026:A:p032:05",
+       "page": 32,
+       "score": 0.645375,
+       "chapter": "V",
+       "article": 24,
+       "hit": true
+      },
+      {
+       "rank": 5,
+       "id": "TT-91-2026:A:p032:04",
+       "page": 32,
+       "score": 0.626163,
+       "chapter": "V",
+       "article": 24,
+       "hit": false
+      },
+      {
+       "rank": 6,
+       "id": "TT-91-2026:A:p032:00",
+       "page": 32,
+       "score": 0.615929,
+       "chapter": "IV",
+       "article": 23,
+       "hit": false
+      },
+      {
+       "rank": 7,
+       "id": "TT-91-2026:A:p031:07",
+       "page": 31,
+       "score": 0.61591,
+       "chapter": "IV",
+       "article": 23,
+       "hit": false
+      },
+      {
+       "rank": 8,
+       "id": "TT-91-2026:A:p029:01",
+       "page": 29,
+       "score": 0.615631,
+       "chapter": "III",
+       "article": 17,
+       "hit": false
+      },
+      {
+       "rank": 9,
+       "id": "TT-91-2026:A:p025:00",
+       "page": 25,
+       "score": 0.601301,
+       "chapter": "II",
+       "article": 12,
+       "hit": false
+      },
+      {
+       "rank": 10,
+       "id": "TT-91-2026:A:p008:05",
+       "page": 8,
+       "score": 0.598943,
+       "chapter": "II",
+       "article": 6,
+       "hit": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "summary": {
+    "method": "bm25+neighbors(±1)",
+    "N": 5,
+    "hit@1": 4,
+    "hit@3": 5,
+    "hit@5": 5,
+    "mrr@10": 0.9,
+    "ms_median": 3.8,
+    "ms_mean": 3.9,
+    "miss@3": []
+   },
+   "traces": [
+    {
+     "id": "t01",
+     "question": "Doanh nghiệp đặt trụ sở chính tại căn hộ chung cư khi đăng ký hóa đơn điện tử có bị xem là có rủi ro cao không?",
+     "filter": null,
+     "first_hit_rank": 1,
+     "results": [
+      {
+       "rank": 1,
+       "id": "TT-91-2026:A:p011:00",
+       "page": 11,
+       "score": 38.663493,
+       "chapter": "II",
+       "article": 7,
+       "hit": true
+      },
+      {
+       "rank": 2,
+       "id": "TT-91-2026:A:p007:03",
+       "page": 7,
+       "score": 20.878074,
+       "chapter": "II",
+       "article": 6,
+       "hit": false
+      },
+      {
+       "rank": 3,
+       "id": "TT-91-2026:A:p014:07",
+       "page": 14,
+       "score": 18.791964,
+       "chapter": "II",
+       "article": 8,
+       "hit": false
+      },
+      {
+       "rank": 4,
+       "id": "TT-91-2026:A:p008:04",
+       "page": 8,
+       "score": 17.177275,
+       "chapter": "II",
+       "article": 6,
+       "hit": false
+      },
+      {
+       "rank": 5,
+       "id": "TT-91-2026:A:p008:02",
+       "page": 8,
+       "score": 16.695542,
+       "chapter": "II",
+       "article": 6,
+       "hit": false
+      },
+      {
+       "rank": 6,
+       "id": "TT-91-2026:A:p010:05",
+       "page": 10,
+       "score": 16.493931,
+       "chapter": "II",
+       "article": 7,
+       "hit": false
+      },
+      {
+       "rank": 7,
+       "id": "TT-91-2026:A:p028:00",
+       "page": 28,
+       "score": 16.352495,
+       "chapter": "II",
+       "article": 15,
+       "hit": false
+      },
+      {
+       "rank": 8,
+       "id": "TT-91-2026:A:p010:03",
+       "page": 10,
+       "score": 16.216836,
+       "chapter": "II",
+       "article": 6,
+       "hit": false
+      },
+      {
+       "rank": 9,
+       "id": "TT-91-2026:A:p012:04",
+       "page": 12,
+       "score": 15.550729,
+       "chapter": "II",
+       "article": 8,
+       "hit": false
+      },
+      {
+       "rank": 10,
+       "id": "TT-91-2026:A:p028:01",
+       "page": 28,
+       "score": 15.530911,
+       "chapter": "II",
+       "article": 15,
+       "hit": false
+      }
+     ]
+    },
+    {
+     "id": "t02",
+     "question": "Kinh phí thực hiện các biện pháp khuyến khích người mua lấy hóa đơn (như chương trình hóa đơn may mắn) tối đa bao nhiêu mỗi năm?",
+     "filter": null,
+     "first_hit_rank": 1,
+     "results": [
+      {
+       "rank": 1,
+       "id": "TT-91-2026:A:p025:04",
+       "page": 25,
+       "score": 49.630752,
+       "chapter": "II",
+       "article": 13,
+       "hit": true
+      },
+      {
+       "rank": 2,
+       "id": "TT-91-2026:A:p025:05",
+       "page": 25,
+       "score": 38.354677,
+       "chapter": "II",
+       "article": 13,
+       "hit": true
+      },
+      {
+       "rank": 3,
+       "id": "TT-91-2026:A:p025:03",
+       "page": 25,
+       "score": 31.581411,
+       "chapter": "II",
+       "article": 12,
+       "hit": false
+      },
+      {
+       "rank": 4,
+       "id": "TT-91-2026:A:p026:00",
+       "page": 26,
+       "score": 29.147198,
+       "chapter": "II",
+       "article": 13,
+       "hit": false
+      },
+      {
+       "rank": 5,
+       "id": "TT-91-2026:A:p025:06",
+       "page": 25,
+       "score": 28.147898,
+       "chapter": "II",
+       "article": 13,
+       "hit": true
+      },
+      {
+       "rank": 6,
+       "id": "TT-91-2026:A:p001:05",
+       "page": 1,
+       "score": 19.814458,
+       "chapter": "I",
+       "article": 1,
+       "hit": false
+      },
+      {
+       "rank": 7,
+       "id": "TT-91-2026:A:p001:04",
+       "page": 1,
+       "score": 13.090684,
+       "chapter": "I",
+       "article": 1,
+       "hit": false
+      },
+      {
+       "rank": 8,
+       "id": "TT-91-2026:A:p012:05",
+       "page": 12,
+       "score": 12.154543,
+       "chapter": "II",
+       "article": 8,
+       "hit": false
+      },
+      {
+       "rank": 9,
+       "id": "TT-91-2026:A:p001:03",
+       "page": 1,
+       "score": 11.082276,
+       "chapter": null,
+       "article": null,
+       "hit": false
+      },
+      {
+       "rank": 10,
+       "id": "TT-91-2026:A:p009:07",
+       "page": 9,
+       "score": 10.845976,
+       "chapter": "II",
+       "article": 6,
+       "hit": false
+      }
+     ]
+    },
+    {
+     "id": "t03",
+     "question": "Tài khoản truy cập Hệ thống thông tin quản lý thuế để khai thác thông tin hóa đơn điện tử có thời hạn sử dụng bao lâu?",
+     "filter": null,
+     "first_hit_rank": 2,
+     "results": [
+      {
+       "rank": 1,
+       "id": "TT-91-2026:A:p031:04",
+       "page": 31,
+       "score": 36.061862,
+       "chapter": "IV",
+       "article": 23,
+       "hit": false
+      },
+      {
+       "rank": 2,
+       "id": "TT-91-2026:A:p031:01",
+       "page": 31,
+       "score": 31.773691,
+       "chapter": "IV",
+       "article": 22,
+       "hit": true
+      },
+      {
+       "rank": 3,
+       "id": "TT-91-2026:A:p030:05",
+       "page": 30,
+       "score": 31.29057,
+       "chapter": "IV",
+       "article": 21,
+       "hit": false
+      },
+      {
+       "rank": 4,
+       "id": "TT-91-2026:A:p002:04",
+       "page": 2,
+       "score": 25.135603,
+       "chapter": "I",
+       "article": 1,
+       "hit": false
+      },
+      {
+       "rank": 5,
+       "id": "TT-91-2026:A:p031:03",
+       "page": 31,
+       "score": 23.69413,
+       "chapter": "IV",
+       "article": 22,
+       "hit": false
+      },
+      {
+       "rank": 6,
+       "id": "TT-91-2026:A:p010:04",
+       "page": 10,
+       "score": 20.410783,
+       "chapter": "II",
+       "article": 7,
+       "hit": false
+      },
+      {
+       "rank": 7,
+       "id": "TT-91-2026:A:p031:02",
+       "page": 31,
+       "score": 20.382481,
+       "chapter": "IV",
+       "article": 22,
+       "hit": true
+      },
+      {
+       "rank": 8,
+       "id": "TT-91-2026:A:p006:04",
+       "page": 6,
+       "score": 20.267218,
+       "chapter": "II",
+       "article": 6,
+       "hit": false
+      },
+      {
+       "rank": 9,
+       "id": "TT-91-2026:A:p028:06",
+       "page": 28,
+       "score": 20.085206,
+       "chapter": "III",
+       "article": 17,
+       "hit": false
+      },
+      {
+       "rank": 10,
+       "id": "TT-91-2026:A:p029:03",
+       "page": 29,
+       "score": 19.538362,
+       "chapter": "III",
+       "article": 17,
+       "hit": false
+      }
+     ]
+    },
+    {
+     "id": "t04",
+     "question": "Định dạng điện tử gồm những thành phần nào?",
+     "filter": {
+      "chapter": "III"
+     },
+     "first_hit_rank": 1,
+     "results": [
+      {
+       "rank": 1,
+       "id": "TT-91-2026:A:p029:05",
+       "page": 29,
+       "score": 13.328312,
+       "chapter": "III",
+       "article": 18,
+       "hit": true
+      },
+      {
+       "rank": 2,
+       "id": "TT-91-2026:A:p029:06",
+       "page": 29,
+       "score": 9.898781,
+       "chapter": "III",
+       "article": 18,
+       "hit": true
+      },
+      {
+       "rank": 3,
+       "id": "TT-91-2026:A:p029:04",
+       "page": 29,
+       "score": 7.52737,
+       "chapter": "III",
+       "article": 17,
+       "hit": false
+      },
+      {
+       "rank": 4,
+       "id": "TT-91-2026:A:p030:04",
+       "page": 30,
+       "score": 5.172005,
+       "chapter": "III",
+       "article": 20,
+       "hit": false
+      },
+      {
+       "rank": 5,
+       "id": "TT-91-2026:A:p030:01",
+       "page": 30,
+       "score": 3.61973,
+       "chapter": "III",
+       "article": 19,
+       "hit": false
+      },
+      {
+       "rank": 6,
+       "id": "TT-91-2026:A:p028:06",
+       "page": 28,
+       "score": 1.737744,
+       "chapter": "III",
+       "article": 17,
+       "hit": false
+      },
+      {
+       "rank": 7,
+       "id": "TT-91-2026:A:p030:03",
+       "page": 30,
+       "score": 1.64743,
+       "chapter": "III",
+       "article": 20,
+       "hit": false
+      },
+      {
+       "rank": 8,
+       "id": "TT-91-2026:A:p030:00",
+       "page": 30,
+       "score": 1.505405,
+       "chapter": "III",
+       "article": 18,
+       "hit": false
+      },
+      {
+       "rank": 9,
+       "id": "TT-91-2026:A:p029:01",
+       "page": 29,
+       "score": 1.10994,
+       "chapter": "III",
+       "article": 17,
+       "hit": false
+      },
+      {
+       "rank": 10,
+       "id": "TT-91-2026:A:p029:02",
+       "page": 29,
+       "score": 1.046306,
+       "chapter": "III",
+       "article": 17,
+       "hit": false
+      }
+     ]
+    },
+    {
+     "id": "t05",
+     "question": "Thông tư 91/2026/TT-BTC về hóa đơn điện tử, chứng từ điện tử bắt đầu có hiệu lực từ ngày nào?",
+     "filter": null,
+     "first_hit_rank": 1,
+     "results": [
+      {
+       "rank": 1,
+       "id": "TT-91-2026:A:p032:05",
+       "page": 32,
+       "score": 29.114273,
+       "chapter": "V",
+       "article": 24,
+       "hit": true
+      },
+      {
+       "rank": 2,
+       "id": "TT-91-2026:A:p011:02",
+       "page": 11,
+       "score": 23.029508,
+       "chapter": "II",
+       "article": 7,
+       "hit": false
+      },
+      {
+       "rank": 3,
+       "id": "TT-91-2026:A:p001:00",
+       "page": 1,
+       "score": 21.653002,
+       "chapter": null,
+       "article": null,
+       "hit": false
+      },
+      {
+       "rank": 4,
+       "id": "TT-91-2026:A:p022:04",
+       "page": 22,
+       "score": 15.770453,
+       "chapter": "II",
+       "article": 11,
+       "hit": false
+      },
+      {
+       "rank": 5,
+       "id": "TT-91-2026:A:p012:07",
+       "page": 12,
+       "score": 15.615958,
+       "chapter": "II",
+       "article": 8,
+       "hit": false
+      },
+      {
+       "rank": 6,
+       "id": "TT-91-2026:A:p030:00",
+       "page": 30,
+       "score": 14.872807,
+       "chapter": "III",
+       "article": 18,
+       "hit": false
+      },
+      {
+       "rank": 7,
+       "id": "TT-91-2026:A:p032:00",
+       "page": 32,
+       "score": 14.472195,
+       "chapter": "IV",
+       "article": 23,
+       "hit": false
+      },
+      {
+       "rank": 8,
+       "id": "TT-91-2026:A:p008:04",
+       "page": 8,
+       "score": 13.993072,
+       "chapter": "II",
+       "article": 6,
+       "hit": false
+      },
+      {
+       "rank": 9,
+       "id": "TT-91-2026:A:p022:07",
+       "page": 22,
+       "score": 13.988322,
+       "chapter": "II",
+       "article": 11,
+       "hit": false
+      },
+      {
+       "rank": 10,
+       "id": "TT-91-2026:A:p002:00",
+       "page": 2,
+       "score": 13.242082,
+       "chapter": "I",
+       "article": 1,
+       "hit": false
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -9,3 +9,6 @@ __pycache__/
 # Local datasets and generated output; share permitted artifacts deliberately
 starter/data/
 starter/results/
+
+# Agent run console logs (everything is already in results/agent/*/traces_*.json)
+results/agent/logs/

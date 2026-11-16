@@ -89,18 +89,38 @@ Code: `src/agent.py` (GLMController), `src/run_agent.py` (chạy + lưu trace), 
 
 ## Giai đoạn 3 — Thử nghiệm trên dev (2:00–3:30)
 
-- [ ] **T3.1 Chốt tiêu chí chọn cấu hình TRƯỚC khi thử** (vd. 1) Context Evidence Rate, 2) Evidence Hit@3, 3) Grounded answer, 4) thời gian/chi phí). Ghi vào `results/selection_criteria.md`.
-- [ ] **T3.2 Chạy agent thật trên dev** với 3 phương pháp → Context Evidence Rate, tool use, grounded answer, citation, abstention.
-- [ ] **T3.3 Cải thiện 1** (có giả thuyết, **chỉ dựa trên lỗi dev**), gợi ý: thêm tiêu đề Điều vào chunk / dùng chunk B + giữ đoạn lân cận (lỗi chunk cùng Điều cạnh tranh hạng 1 ở dev d03, d13; evidence bị cắt d08/d12).
-- [ ] **T3.4 Cải thiện 2** (có giả thuyết, **chỉ dựa trên lỗi dev**), gợi ý: query rewrite hoặc rerank, hoặc đổi top-k/budget — chọn sau khi đọc lỗi dev ở T3.2. ⚠️ Không lấy lỗi test Day 6 (t01, t05) làm lý do thiết kế.
-- [ ] **T3.5 Phân tích ≥ 2 lỗi dev**: nguyên nhân, cách sửa, kết quả trước/sau (kể cả khi không cải thiện).
-- [ ] **T3.6 Chọn cấu hình** theo tiêu chí T3.1 → ghi `results/selection.json` (decided_before_test: true).
+Chi tiết + bảng: `results/experiments.md`. So sánh: `python -m src.eval_agent --split dev <tên cấu hình...>`.
+
+- [x] **T3.1 Tiêu chí** — `results/selection_criteria.md` (chốt trước khi chạy): 1) Context Evidence Rate, 2) không trả lời câu thiếu BC + ít từ chối nhầm, 3) grounded answer chấm tay (2 cấu hình đầu), 4) Hit@3, 5) token/thời gian.
+- [x] **T3.2 Agent trên dev, 3 phương pháp** — dense_A / bm25_A / hybrid_A: Context Evidence Rate đều 12/15; từ chối đúng 2/2; từ chối nhầm 2 / **0** / 2; token bm25 thấp nhất (47k+21k), nhanh nhất (592 s).
+- [x] **T3.5 Phân tích lỗi dev** (2 lỗi, ghi trong `results/experiments.md`):
+  1. Context có **chunk liền kề** nhưng thiếu chunk chứa evidence (d04, d06, d07, d11); d12 evidence bị cắt đôi qua 2 chunk A.
+  2. Truy vấn **model viết lại kém hơn câu gốc** cho dense (Hit@3 lần đầu 6/15 so với 8/15 khi dùng câu gốc).
+- [x] **T3.3 Cải thiện 1** `bm25_A_nb` — ghép chunk ±1 (`--neighbors 1`), budget 6000. **Đúng giả thuyết**: Context Evidence Rate 12 → **15/15**, từ chối nhầm 0, ít search hơn; token vào +8k, ra −4k.
+- [x] **T3.4 Cải thiện 2** `dense_A_oq` — lần search đầu = câu hỏi gốc. **Đúng một phần**: Hit@3 lần đầu 6 → 8/15, token vào −19k, từ chối nhầm 2 → 1; nhưng Context Evidence Rate 12 → 11/15 (mất d06).
+  - Kết hợp `hybrid_A_oq_nb`: Context Evidence Rate **15/15**, Hit@3 lần đầu 15/15, từ chối nhầm 0.
+- [x] **T3.6a Chấm tay dev** — nhãn chính thức = `results/agent/grades_dev.md`, ghi bằng `python -m src.fill_labels`: bm25_A_nb **2,00/2** (0/0/15), hybrid_A_oq_nb 1,93/2 (0/1/14), citation 30/30 cả hai, đủ lý do 34/34. Lựa chọn không đổi. Hướng dẫn cũ bên dưới để tham khảo:
+  - Câu có đáp án: `answer_grade` 0 = sai/thiếu evidence, 1 = đúng một phần, 2 = đúng và đủ (so với `expected_answer_for_grader`).
+  - `citation_support`: `true`/`false` cho từng citation — đọc `cited_text` xem có thật sự chứa ý được trích không (trường `hint_...` chỉ là gợi ý tự động).
+  - Câu thiếu bằng chứng (d16, d17): `abstention_correct` = `true` nếu agent thật sự từ chối, không khẳng định gì vô căn cứ.
+  - `reason`: 1 câu lý do. Sau đó chạy lệnh `python starter/agent_metrics.py ...` (in ra khi tạo file) cho từng cấu hình.
+  - Công cụ chấm trong terminal (tự lưu, gõ `q` để dừng, chạy lại để làm tiếp): `python -m src.grade results/agent/bm25_A_nb/reviews_dev.json` rồi `python -m src.grade results/agent/hybrid_A_oq_nb/reviews_dev.json`. Chấm lại câu nào: thêm `--redo d04`.
+  - Lượt 1 của bạn (dùng lúc chốt, trước test): bm25_A_nb 1,80/2; hybrid_A_oq_nb 1,67/2.
+- [x] **T3.6 Chọn cấu hình** — **bm25_A_nb** (chốt 2026-11-16, `results/selection.json`, `decided_before_test: true`). Bạn chọn chốt trước, bổ sung lý do nhãn dev sau (đã ghi trong `notes`).
 
 ## Giai đoạn 4 — Test và đánh giá (3:30–4:00)
 
-- [ ] **T4.1 Chạy test 1 lần** cho baseline + cấu hình đã chọn (không chỉnh gì sau khi xem test).
-- [ ] **T4.2 Chấm tay**: ≥ 5 câu test có đáp án + 2 câu thiếu bằng chứng — grounded 0/1/2, từng citation đúng/sai (đọc nguồn), abstention đúng/sai, context 0/1/2.
-- [ ] **T4.3 Tổng hợp**: tạo `cases.json`, `traces.json`, `reviews.json` → `python starter/agent_metrics.py ... --split test`.
+- [x] **T4.1 Chạy test 1 lần** (`--locked`) cho baseline dense_A + bm25_A_nb:
+  - Retrieval (query gốc): dense Hit@1 2/5 · Hit@3 2/5; bm25+nb **4/5 · 5/5**.
+  - Agent: Context Evidence Rate 2/5 → **5/5**; từ chối nhầm 3/5 → **0/5**; từ chối đúng 2/2 cả hai; token 34.5k → 43.5k.
+  - Lệnh: `python -m src.eval_retrieval --split test --locked --strategy A --methods dense bm25+nb`; `python -m src.run_agent --name dense_A --retriever dense --strategy A --split test --locked`; `python -m src.run_agent --name bm25_A_nb --retriever bm25 --strategy A --split test --locked --neighbors 1 --budget 6000`.
+- [x] **T4.2 Chấm tay test** — nhãn chính thức = `results/agent/grades_test.md` (AI chấm nháp, bạn chấp nhận), ghi bằng `python -m src.fill_labels`:
+  - dense_A: grounded 3/1/1 = **0,60/2**, citation 2/4, context 0/1/2 = 1/2/2, từ chối đúng 2/2, từ chối nhầm 3/5.
+  - bm25_A_nb: grounded 0/0/5 = **2,00/2**, citation 8/8, context 0/0/5, từ chối đúng 2/2, từ chối nhầm 0/5.
+  - ⚠️ Báo cáo (mục Công cụ AI) phải ghi: nhãn dev/test do AI chấm nháp, người chấm đọc, đối chiếu và chấp nhận.
+- [x] **T4.3 Tổng hợp** — đã chạy, kết quả ở `results/agent/<cấu hình>/agent_metrics_<split>.json`. Lệnh:
+  - `python starter/agent_metrics.py --cases data/cases.json --traces results/agent/dense_A/traces_test.json --reviews results/agent/dense_A/reviews_test.json --split test --output results/agent/dense_A/agent_metrics_test.json`
+  - `python starter/agent_metrics.py --cases data/cases.json --traces results/agent/bm25_A_nb/traces_test.json --reviews results/agent/bm25_A_nb/reviews_test.json --split test --output results/agent/bm25_A_nb/agent_metrics_test.json`
 
 ## Giai đoạn 5 — Báo cáo và nộp
 

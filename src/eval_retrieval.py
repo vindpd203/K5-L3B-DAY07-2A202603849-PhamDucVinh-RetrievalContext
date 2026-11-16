@@ -14,15 +14,18 @@ import time
 from pathlib import Path
 
 from src.convert_questions import hit
-from src.retrieval import BM25Retriever, DenseRetriever, HybridRetriever
+from src.retrieval import BM25Retriever, DenseRetriever, HybridRetriever, NeighborRetriever
 
 TOP = 10
+METHODS = ["dense", "bm25", "bm25+bigram", "hybrid", "bm25+nb"]
 
 
-def build(strategy, embedder):
+def build(strategy, embedder, methods):
     dense = DenseRetriever(strategy, embedder)
     bm25, bm25_bi = BM25Retriever(strategy), BM25Retriever(strategy, bigrams=True)
-    return [dense, bm25, bm25_bi, HybridRetriever(dense, bm25_bi)]
+    all_ = {"dense": dense, "bm25": bm25, "bm25+bigram": bm25_bi, "hybrid": HybridRetriever(dense, bm25_bi),
+            "bm25+nb": NeighborRetriever(bm25, strategy, 1)}  # hit judged on the window text the model sees
+    return [all_[m] for m in methods]
 
 
 def evaluate(retriever, questions):
@@ -51,6 +54,7 @@ def main():
     ap.add_argument("--split", choices=["dev", "test"], required=True)
     ap.add_argument("--strategy", nargs="+", default=["A", "B"], choices=["A", "B"])
     ap.add_argument("--locked", action="store_true", help="required for --split test (config locked on dev)")
+    ap.add_argument("--methods", nargs="+", choices=METHODS, default=METHODS[:4])
     args = ap.parse_args()
     if args.split == "test" and not args.locked:
         raise SystemExit("Test chỉ chạy sau khi chốt cấu hình trên dev: thêm --locked")
@@ -68,7 +72,7 @@ def main():
         report = {"split": args.split, "strategy": s, "embedding": embedder.model_name, "top_k_logged": TOP,
                   "hit_rule": "same source, gold page in chunk pages, evidence substring after whitespace collapse",
                   "query": "original question, filter only when the question has one", "runs": []}
-        for r in build(s, embedder):
+        for r in build(s, embedder, args.methods):
             r.search("khởi động", top_k=1)  # warm-up so the first timed query is fair
             summary, traces = evaluate(r, questions)
             report["runs"].append({"summary": summary, "traces": traces})
@@ -76,7 +80,7 @@ def main():
             print(f"| {s} | {summary['method']} | {summary['hit@1']}/{N} | {summary['hit@3']}/{N} | "
                   f"{summary['hit@5']}/{N} | {summary['mrr@10']} | {summary['ms_median']} | "
                   f"{', '.join(summary['miss@3']) or '-'} |")
-        path = out_dir / f"{args.split}_{s}.json"
+        path = out_dir / f"{args.split}_{s}{'' if args.methods == METHODS[:4] else '_' + '_'.join(args.methods).replace('+', '-')}.json"
         path.write_text(json.dumps(report, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
     print(f"\nTrace: {out_dir}/{args.split}_<strategy>.json")
 
