@@ -1,0 +1,2512 @@
+[
+ {
+  "query_id": "d01",
+  "split": "dev",
+  "question": "Hóa đơn điện tử phải sử dụng ngôn ngữ định dạng văn bản nào?",
+  "answerable": true,
+  "filter": null,
+  "status": "answered",
+  "answer": "Hóa đơn điện tử sử dụng ngôn ngữ định dạng văn bản **XML** (XML là chữ viết tắt của cụm từ tiếng Anh \"eXtensible Markup Language\", được tạo ra với mục đích chia sẻ dữ liệu điện tử giữa các hệ thống công nghệ thông tin) [TT-91-2026:A:p003:00][TT-91-2026:A:p003:01].",
+  "citations": [
+   "TT-91-2026:A:p003:00",
+   "TT-91-2026:A:p003:01"
+  ],
+  "n_searches": 2,
+  "queries": [
+   "Hóa đơn điện tử phải sử dụng ngôn ngữ định dạng văn bản nào?",
+   "Định dạng hóa đơn điện tử ngôn ngữ XML"
+  ],
+  "final_context_ids": [
+   "TT-91-2026:A:p003:01",
+   "TT-91-2026:A:p003:00",
+   "TT-91-2026:A:p004:00",
+   "TT-91-2026:A:p029:05"
+  ],
+  "final_context": "[TT-91-2026:A:p003:01 | Thông-tư-91-2026-TT-BTC.pdf | page 3]\nlà chữ viết tắt của cụm từ tiếng Anh\n\"eXtensible Markup Language” được tạo ra với mục đích chia sẻ dữ liệu điện\ntử giữa các hệ thống công nghệ thông tin).\n\n2. Định dạng hóa đơn điện tử gồm hai thành phân: thành phân chứa dữ\nliệu nghiệp vụ hóa đơn điện tử và thành phản chứa dữ liệu chữ ký só. Đồi với\nhóa đơn điện tử có mã của cơ quan thuế thì có thêm thành ph\n\n[TT-91-2026:A:p003:00 | Thông-tư-91-2026-TT-BTC.pdf | page 3]\nChương H\nQUY ĐỊNH ĐÓI VỚI HÓA ĐƠN ĐIỆN TỬ\n\nĐiều 3. Định dạng hóa đơn điện tử\n\n¡. Định dạng hóa đơn điện tử là tiêu chuân kỹ thuật quy định kiêu dữ\nliệu, chiều dài dữ liệu của các trường thông tin phục vụ truyền nhận, lưu trữ\nvà hiền thị hóa đơn điện tử. Định dạng hóa đơn điện tử sử dụng ngôn ngữ\nđịnh dạng văn bản XML (XML là chữ viết tắt của cụm từ tiếng Anh\n\n[TT-91-2026:A:p004:00 | Thông-tư-91-2026-TT-BTC.pdf | page 4]\nĐiều 4. Ký hiệu mẫu, ký hiệu và mẫu hóa đơn điện tử tham khảo\n\nI. Ký hiệu mẫu hóa đơn điện tử là ký tự có một chữ số tự nhiên là các\nsỐ 1, 2,3,4, 5, 6, 7, 8, 9 đề phản ánh loại hóa đơn điện tử.\n\n2. Ký hiệu hóa đơn điện tử là nhóm sáu ký tự gồm cả chữ viết và chữ\nsố thể hiện ký hiệu hóa đơn điện tử đề phản ánh các thông tin về loại hóa đơn\nđiện tử có mã của c\n\n[TT-91-2026:A:p029:05 | Thông-tư-91-2026-TT-BTC.pdf | page 29]\nnh dạng chứng từ điện tử sử dụng ngôn ngữ định dạng văn bản\nXML (XML là chữ viết tặt của cụm từ tiêng Anh “eXtensible Markup\nLanguage” được tạo ra với mục đích chia sẻ dữ liệu điện tử giữa các hệ thống\ncông nghệ thông tìn);\n\nb) Định dạng chứng từ điện tử gồm hai thành phân: thành phân chứa dữ\nliệu nghiệp vụ chứng từ điện tử và thành phân chứa dữ liệu chữ ký",
+  "events": [
+   {
+    "event": "search",
+    "query": "Hóa đơn điện tử phải sử dụng ngôn ngữ định dạng văn bản nào?",
+    "filter": null,
+    "results": [
+     {
+      "id": "TT-91-2026:A:p003:01",
+      "rank": 1,
+      "score": 0.740188,
+      "page": 3,
+      "method": "dense"
+     },
+     {
+      "id": "TT-91-2026:A:p003:00",
+      "rank": 2,
+      "score": 0.715151,
+      "page": 3,
+      "method": "dense"
+     },
+     {
+      "id": "TT-91-2026:A:p004:00",
+      "rank": 3,
+      "score": 0.641028,
+      "page": 4,
+      "method": "dense"
+     }
+    ],
+    "context": "[TT-91-2026:A:p003:01 | Thông-tư-91-2026-TT-BTC.pdf | page 3]\nlà chữ viết tắt của cụm từ tiếng Anh\n\"eXtensible Markup Language” được tạo ra với mục đích chia sẻ dữ liệu điện\ntử giữa các hệ thống công nghệ thông tin).\n\n2. Định dạng hóa đơn điện tử gồm hai thành phân: thành phân chứa dữ\nliệu nghiệp vụ hóa đơn điện tử và thành phản chứa dữ liệu chữ ký só. Đồi với\nhóa đơn điện tử có mã của cơ quan thuế thì có thêm thành ph\n\n[TT-91-2026:A:p003:00 | Thông-tư-91-2026-TT-BTC.pdf | page 3]\nChương H\nQUY ĐỊNH ĐÓI VỚI HÓA ĐƠN ĐIỆN TỬ\n\nĐiều 3. Định dạng hóa đơn điện tử\n\n¡. Định dạng hóa đơn điện tử là tiêu chuân kỹ thuật quy định kiêu dữ\nliệu, chiều dài dữ liệu của các trường thông tin phục vụ truyền nhận, lưu trữ\nvà hiền thị hóa đơn điện tử. Định dạng hóa đơn điện tử sử dụng ngôn ngữ\nđịnh dạng văn bản XML (XML là chữ viết tắt của cụm từ tiếng Anh\n\n[TT-91-2026:A:p004:00 | Thông-tư-91-2026-TT-BTC.pdf | page 4]\nĐiều 4. Ký hiệu mẫu, ký hiệu và mẫu hóa đơn điện tử tham khảo\n\nI. Ký hiệu mẫu hóa đơn điện tử là ký tự có một chữ số tự nhiên là các\nsỐ 1, 2,3,4, 5, 6, 7, 8, 9 đề phản ánh loại hóa đơn điện tử.\n\n2. Ký hiệu hóa đơn điện tử là nhóm sáu ký tự gồm cả chữ viết và chữ\nsố thể hiện ký hiệu hóa đơn điện tử đề phản ánh các thông tin về loại hóa đơn\nđiện tử có mã của c",
+    "context_ids": [
+     "TT-91-2026:A:p003:01",
+     "TT-91-2026:A:p003:00",
+     "TT-91-2026:A:p004:00"
+    ]
+   },
+   {
+    "event": "search",
+    "query": "Định dạng hóa đơn điện tử ngôn ngữ XML",
+    "filter": null,
+    "results": [
+     {
+      "id": "TT-91-2026:A:p029:05",
+      "rank": 1,
+      "score": 0.8608,
+      "page": 29,
+      "method": "dense"
+     },
+     {
+      "id": "TT-91-2026:A:p003:00",
+      "rank": 2,
+      "score": 0.695068,
+      "page": 3,
+      "method": "dense"
+     },
+     {
+      "id": "TT-91-2026:A:p003:01",
+      "rank": 3,
+      "score": 0.573916,
+      "page": 3,
+      "method": "dense"
+     }
+    ],
+    "context": "[TT-91-2026:A:p003:01 | Thông-tư-91-2026-TT-BTC.pdf | page 3]\nlà chữ viết tắt của cụm từ tiếng Anh\n\"eXtensible Markup Language” được tạo ra với mục đích chia sẻ dữ liệu điện\ntử giữa các hệ thống công nghệ thông tin).\n\n2. Định dạng hóa đơn điện tử gồm hai thành phân: thành phân chứa dữ\nliệu nghiệp vụ hóa đơn điện tử và thành phản chứa dữ liệu chữ ký só. Đồi với\nhóa đơn điện tử có mã của cơ quan thuế thì có thêm thành ph\n\n[TT-91-2026:A:p003:00 | Thông-tư-91-2026-TT-BTC.pdf | page 3]\nChương H\nQUY ĐỊNH ĐÓI VỚI HÓA ĐƠN ĐIỆN TỬ\n\nĐiều 3. Định dạng hóa đơn điện tử\n\n¡. Định dạng hóa đơn điện tử là tiêu chuân kỹ thuật quy định kiêu dữ\nliệu, chiều dài dữ liệu của các trường thông tin phục vụ truyền nhận, lưu trữ\nvà hiền thị hóa đơn điện tử. Định dạng hóa đơn điện tử sử dụng ngôn ngữ\nđịnh dạng văn bản XML (XML là chữ viết tắt của cụm từ tiếng Anh\n\n[TT-91-2026:A:p004:00 | Thông-tư-91-2026-TT-BTC.pdf | page 4]\nĐiều 4. Ký hiệu mẫu, ký hiệu và mẫu hóa đơn điện tử tham khảo\n\nI. Ký hiệu mẫu hóa đơn điện tử là ký tự có một chữ số tự nhiên là các\nsỐ 1, 2,3,4, 5, 6, 7, 8, 9 đề phản ánh loại hóa đơn điện tử.\n\n2. Ký hiệu hóa đơn điện tử là nhóm sáu ký tự gồm cả chữ viết và chữ\nsố thể hiện ký hiệu hóa đơn điện tử đề phản ánh các thông tin về loại hóa đơn\nđiện tử có mã của c\n\n[TT-91-2026:A:p029:05 | Thông-tư-91-2026-TT-BTC.pdf | page 29]\nnh dạng chứng từ điện tử sử dụng ngôn ngữ định dạng văn bản\nXML (XML là chữ viết tặt của cụm từ tiêng Anh “eXtensible Markup\nLanguage” được tạo ra với mục đích chia sẻ dữ liệu điện tử giữa các hệ thống\ncông nghệ thông tìn);\n\nb) Định dạng chứng từ điện tử gồm hai thành phân: thành phân chứa dữ\nliệu nghiệp vụ chứng từ điện tử và thành phân chứa dữ liệu chữ ký",
+    "context_ids": [
+     "TT-91-2026:A:p003:01",
+     "TT-91-2026:A:p003:00",
+     "TT-91-2026:A:p004:00",
+     "TT-91-2026:A:p029:05"
+    ]
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "model_calls": [
+   {
+    "action": "search",
+    "query": "Hóa đơn điện tử phải sử dụng ngôn ngữ định dạng văn bản nào?",
+    "source": "original_question",
+    "latency_s": 0,
+    "model": null,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   {
+    "latency_s": 10.66,
+    "model": "glm-5.3-flash",
+    "finish": "tool_calls",
+    "prompt_tokens": 1082,
+    "completion_tokens": 319,
+    "action": "search",
+    "query": "Định dạng hóa đơn điện tử ngôn ngữ XML",
+    "extra_tool_calls": 0
+   },
+   {
+    "latency_s": 8.37,
+    "model": "glm-5.3-flash",
+    "finish": "stop",
+    "prompt_tokens": 1231,
+    "completion_tokens": 379,
+    "action": "answer",
+    "raw_answer": "Hóa đơn điện tử sử dụng ngôn ngữ định dạng văn bản **XML** (XML là chữ viết tắt của cụm từ tiếng Anh \"eXtensible Markup Language\", được tạo ra với mục đích chia sẻ dữ liệu điện tử giữa các hệ thống công nghệ thông tin) [TT-91-2026:A:p003:00][TT-91-2026:A:p003:01].",
+    "model_abstained": false
+   }
+  ],
+  "model": [
+   "glm-5.3-flash"
+  ],
+  "prompt_tokens": 2313,
+  "completion_tokens": 698,
+  "latency_s": 19.36,
+  "error": null
+ },
+ {
+  "query_id": "d02",
+  "split": "dev",
+  "question": "Tổ chức kinh tế gửi trực tiếp dữ liệu hóa đơn điện tử đến cơ quan thuế thì mỗi kênh truyền phải có băng thông tối thiểu bao nhiêu?",
+  "answerable": true,
+  "filter": null,
+  "status": "answered",
+  "answer": "Theo quy định áp dụng cho tổ chức kinh tế chuyển dữ liệu hóa đơn điện tử đến cơ quan thuế bằng hình thức gửi trực tiếp [TT-91-2026:A:p003:04], mỗi kênh truyền phải có **băng thông tối thiểu 5 Mbps**. Cụ thể: kết nối với Cục Thuế thông qua kênh thuê riêng hoặc kênh MPLS VPN Layer 3, gồm 1 kênh truyền chính và 1 kênh truyền dự phòng [TT-91-2026:A:p003:05].\n\n(Lưu ý: mức băng thông tối thiểu 20 Mbps với 2 kênh dự phòng chỉ áp dụng cho hệ thống kết nối của tổ chức cung cấp dịch vụ hóa đơn điện tử, không áp dụng cho trường hợp tổ chức kinh tế gửi trực tiếp [TT-91-2026:A:p024:05].)",
+  "citations": [
+   "TT-91-2026:A:p003:04",
+   "TT-91-2026:A:p003:05",
+   "TT-91-2026:A:p024:05"
+  ],
+  "n_searches": 2,
+  "queries": [
+   "Tổ chức kinh tế gửi trực tiếp dữ liệu hóa đơn điện tử đến cơ quan thuế thì mỗi kênh truyền phải có băng thông tối thiểu bao nhiêu?",
+   "băng thông tối thiểu mỗi kênh truyền"
+  ],
+  "final_context_ids": [
+   "TT-91-2026:A:p009:06",
+   "TT-91-2026:A:p003:04",
+   "TT-91-2026:A:p009:01",
+   "TT-91-2026:A:p024:05",
+   "TT-91-2026:A:p003:05",
+   "TT-91-2026:A:p021:03"
+  ],
+  "final_context": "[TT-91-2026:A:p009:06 | Thông-tư-91-2026-TT-BTC.pdf | page 9]\nuả kiểm thứ kết nổi, truyền nhận dữ liệu không thành công, tÔ chức kinh tế\nthay đôi đăng ký sử dụng hóa đơn điện tử theo Mẫu số 01/ĐKTĐ-HĐĐT Phụ\nlục III kèm theo Thông tư này và thực hiện chuyển dữ liệu qua tổ chức kết\nnồi, nhận, truyền lưu trữ dữ liệu hóa đơn điện tử với cơ quan thuế.\n\n4. Trường hợp có thay đôi thông tin đã đăng ký sử dụng hóa đơn điện\ntử,\n\n[TT-91-2026:A:p003:04 | Thông-tư-91-2026-TT-BTC.pdf | page 3]\ntheo quy định tại Thông tư\nnày. Thành phản chứa dữ liệu chữ ký số thực hiện theo quy định của pháp luật\ngiao dịch điện tử.\n\n4. Tô chức kinh tế theo quy định tại điểm b.] khoản 3 Điều 16 Nghị\nđịnh số 254/2026/NĐ-CP khi chuyển dữ liệu hóa đơn điện tử đến cơ quan\nthuê băng hình thức gửi trực tiếp phải đáp ứng yêu câu sau:\n\na) Kết nổi với Cục Thuế thông qua kênh\n\n[TT-91-2026:A:p009:01 | Thông-tư-91-2026-TT-BTC.pdf | page 9]\nnộp thuế và ghỉ rõ lý do theo quy định tại\nkhoản 3 Điều này.\n\n3. Cơ quan thuế có trách nhiệm gửi thông báo điện tử theo Mẫu số\n01/TB-ĐKĐT Phụ lục IV kèm theo Thông tư này qua tỏ chức cung cấp dịch\nvụ hóa đơn điện tử hoặc gửi thông báo trực tiếp đên tổ chức kinh tế, tô chức\nkhác, hộ kinh doanh, cá nhân kinh doanh về việc cháp nhận hoặc không ủẳp\nnhận đăng ký\n\n[TT-91-2026:A:p024:05 | Thông-tư-91-2026-TT-BTC.pdf | page 24]\ngiữa các bên tham gia;\n\nd.5) Có hệ thống sao lưu, khôi phục dữ liệu;\n\nd.6) Kết nổi với Cục Thuê thông qua kênh thuê riêng hoặc kênh MPLS\nVPN Layer 3 hoặc tương đương, gồm ] kênh truyền chính và 2 kênh truyền\ndự phòng. Mỗi kênh truyền có băng thông tối thiệu 20 Mbps; sử dụng dịch vụ\nWeb (Web Service) hoặc hàng đợi (Queue) có mã hóa làm phương thức đề\nkết nỗi\n\n[TT-91-2026:A:p003:05 | Thông-tư-91-2026-TT-BTC.pdf | page 3]\nKết nổi với Cục Thuế thông qua kênh thuê riêng hoặc kênh MPLS\nVPN Layer 3, gồm Ì kênh truyền chính và I kênh truyền dự phòng. Mỗi kênh\ntruyền có băng thông tôi thiều 5 Mbps;\n\nb) Sử dụng dịch vụ Web (Web Service) hoặc Message Queue (MQ) có\nmã hóa làm phương thức đê kết nồi;\n\nc) Sử dụng giao thức SOAP đề đóng gói và truyền nhận dữ liệu.\n\n5. Hóa đơn điện tử ph\n\n[TT-91-2026:A:p021:03 | Thông-tư-91-2026-TT-BTC.pdf | page 21]\nả trước dịch vụ viễn\nthông di động đề thanh toán cho các địch vụ được cháp nhận thanh toán bằng\nthẻ trả trước dịch vụ viễn thông di động theo quy định của pháp luật và khi bán\nthẻ, hoàn thành cung cấp địch vụ doanh nghiệp viễn thông đã thực hiện lập hóa\nđơn giá trị gia tăng theo quy định, doanh nghiệp viễn thông căn cứ vào dữ liệu\ntrên bảng kê (gôm các thông",
+  "events": [
+   {
+    "event": "search",
+    "query": "Tổ chức kinh tế gửi trực tiếp dữ liệu hóa đơn điện tử đến cơ quan thuế thì mỗi kênh truyền phải có băng thông tối thiểu bao nhiêu?",
+    "filter": null,
+    "results": [
+     {
+      "id": "TT-91-2026:A:p009:06",
+      "rank": 1,
+      "score": 0.665982,
+      "page": 9,
+      "method": "dense"
+     },
+     {
+      "id": "TT-91-2026:A:p003:04",
+      "rank": 2,
+      "score": 0.662752,
+      "page": 3,
+      "method": "dense"
+     },
+     {
+      "id": "TT-91-2026:A:p009:01",
+      "rank": 3,
+      "score": 0.661165,
+      "page": 9,
+      "method": "dense"
+     }
+    ],
+    "context": "[TT-91-2026:A:p009:06 | Thông-tư-91-2026-TT-BTC.pdf | page 9]\nuả kiểm thứ kết nổi, truyền nhận dữ liệu không thành công, tÔ chức kinh tế\nthay đôi đăng ký sử dụng hóa đơn điện tử theo Mẫu số 01/ĐKTĐ-HĐĐT Phụ\nlục III kèm theo Thông tư này và thực hiện chuyển dữ liệu qua tổ chức kết\nnồi, nhận, truyền lưu trữ dữ liệu hóa đơn điện tử với cơ quan thuế.\n\n4. Trường hợp có thay đôi thông tin đã đăng ký sử dụng hóa đơn điện\ntử,\n\n[TT-91-2026:A:p003:04 | Thông-tư-91-2026-TT-BTC.pdf | page 3]\ntheo quy định tại Thông tư\nnày. Thành phản chứa dữ liệu chữ ký số thực hiện theo quy định của pháp luật\ngiao dịch điện tử.\n\n4. Tô chức kinh tế theo quy định tại điểm b.] khoản 3 Điều 16 Nghị\nđịnh số 254/2026/NĐ-CP khi chuyển dữ liệu hóa đơn điện tử đến cơ quan\nthuê băng hình thức gửi trực tiếp phải đáp ứng yêu câu sau:\n\na) Kết nổi với Cục Thuế thông qua kênh\n\n[TT-91-2026:A:p009:01 | Thông-tư-91-2026-TT-BTC.pdf | page 9]\nnộp thuế và ghỉ rõ lý do theo quy định tại\nkhoản 3 Điều này.\n\n3. Cơ quan thuế có trách nhiệm gửi thông báo điện tử theo Mẫu số\n01/TB-ĐKĐT Phụ lục IV kèm theo Thông tư này qua tỏ chức cung cấp dịch\nvụ hóa đơn điện tử hoặc gửi thông báo trực tiếp đên tổ chức kinh tế, tô chức\nkhác, hộ kinh doanh, cá nhân kinh doanh về việc cháp nhận hoặc không ủẳp\nnhận đăng ký",
+    "context_ids": [
+     "TT-91-2026:A:p009:06",
+     "TT-91-2026:A:p003:04",
+     "TT-91-2026:A:p009:01"
+    ]
+   },
+   {
+    "event": "search",
+    "query": "băng thông tối thiểu mỗi kênh truyền",
+    "filter": null,
+    "results": [
+     {
+      "id": "TT-91-2026:A:p024:05",
+      "rank": 1,
+      "score": 0.605332,
+      "page": 24,
+      "method": "dense"
+     },
+     {
+      "id": "TT-91-2026:A:p003:05",
+      "rank": 2,
+      "score": 0.517868,
+      "page": 3,
+      "method": "dense"
+     },
+     {
+      "id": "TT-91-2026:A:p021:03",
+      "rank": 3,
+      "score": 0.340639,
+      "page": 21,
+      "method": "dense"
+     }
+    ],
+    "context": "[TT-91-2026:A:p009:06 | Thông-tư-91-2026-TT-BTC.pdf | page 9]\nuả kiểm thứ kết nổi, truyền nhận dữ liệu không thành công, tÔ chức kinh tế\nthay đôi đăng ký sử dụng hóa đơn điện tử theo Mẫu số 01/ĐKTĐ-HĐĐT Phụ\nlục III kèm theo Thông tư này và thực hiện chuyển dữ liệu qua tổ chức kết\nnồi, nhận, truyền lưu trữ dữ liệu hóa đơn điện tử với cơ quan thuế.\n\n4. Trường hợp có thay đôi thông tin đã đăng ký sử dụng hóa đơn điện\ntử,\n\n[TT-91-2026:A:p003:04 | Thông-tư-91-2026-TT-BTC.pdf | page 3]\ntheo quy định tại Thông tư\nnày. Thành phản chứa dữ liệu chữ ký số thực hiện theo quy định của pháp luật\ngiao dịch điện tử.\n\n4. Tô chức kinh tế theo quy định tại điểm b.] khoản 3 Điều 16 Nghị\nđịnh số 254/2026/NĐ-CP khi chuyển dữ liệu hóa đơn điện tử đến cơ quan\nthuê băng hình thức gửi trực tiếp phải đáp ứng yêu câu sau:\n\na) Kết nổi với Cục Thuế thông qua kênh\n\n[TT-91-2026:A:p009:01 | Thông-tư-91-2026-TT-BTC.pdf | page 9]\nnộp thuế và ghỉ rõ lý do theo quy định tại\nkhoản 3 Điều này.\n\n3. Cơ quan thuế có trách nhiệm gửi thông báo điện tử theo Mẫu số\n01/TB-ĐKĐT Phụ lục IV kèm theo Thông tư này qua tỏ chức cung cấp dịch\nvụ hóa đơn điện tử hoặc gửi thông báo trực tiếp đên tổ chức kinh tế, tô chức\nkhác, hộ kinh doanh, cá nhân kinh doanh về việc cháp nhận hoặc không ủẳp\nnhận đăng ký\n\n[TT-91-2026:A:p024:05 | Thông-tư-91-2026-TT-BTC.pdf | page 24]\ngiữa các bên tham gia;\n\nd.5) Có hệ thống sao lưu, khôi phục dữ liệu;\n\nd.6) Kết nổi với Cục Thuê thông qua kênh thuê riêng hoặc kênh MPLS\nVPN Layer 3 hoặc tương đương, gồm ] kênh truyền chính và 2 kênh truyền\ndự phòng. Mỗi kênh truyền có băng thông tối thiệu 20 Mbps; sử dụng dịch vụ\nWeb (Web Service) hoặc hàng đợi (Queue) có mã hóa làm phương thức đề\nkết nỗi\n\n[TT-91-2026:A:p003:05 | Thông-tư-91-2026-TT-BTC.pdf | page 3]\nKết nổi với Cục Thuế thông qua kênh thuê riêng hoặc kênh MPLS\nVPN Layer 3, gồm Ì kênh truyền chính và I kênh truyền dự phòng. Mỗi kênh\ntruyền có băng thông tôi thiều 5 Mbps;\n\nb) Sử dụng dịch vụ Web (Web Service) hoặc Message Queue (MQ) có\nmã hóa làm phương thức đê kết nồi;\n\nc) Sử dụng giao thức SOAP đề đóng gói và truyền nhận dữ liệu.\n\n5. Hóa đơn điện tử ph\n\n[TT-91-2026:A:p021:03 | Thông-tư-91-2026-TT-BTC.pdf | page 21]\nả trước dịch vụ viễn\nthông di động đề thanh toán cho các địch vụ được cháp nhận thanh toán bằng\nthẻ trả trước dịch vụ viễn thông di động theo quy định của pháp luật và khi bán\nthẻ, hoàn thành cung cấp địch vụ doanh nghiệp viễn thông đã thực hiện lập hóa\nđơn giá trị gia tăng theo quy định, doanh nghiệp viễn thông căn cứ vào dữ liệu\ntrên bảng kê (gôm các thông",
+    "context_ids": [
+     "TT-91-2026:A:p009:06",
+     "TT-91-2026:A:p003:04",
+     "TT-91-2026:A:p009:01",
+     "TT-91-2026:A:p024:05",
+     "TT-91-2026:A:p003:05",
+     "TT-91-2026:A:p021:03"
+    ]
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "model_calls": [
+   {
+    "action": "search",
+    "query": "Tổ chức kinh tế gửi trực tiếp dữ liệu hóa đơn điện tử đến cơ quan thuế thì mỗi kênh truyền phải có băng thông tối thiểu bao nhiêu?",
+    "source": "original_question",
+    "latency_s": 0,
+    "model": null,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   {
+    "latency_s": 7.46,
+    "model": "glm-5.3-flash",
+    "finish": "tool_calls",
+    "prompt_tokens": 1104,
+    "completion_tokens": 261,
+    "action": "search",
+    "query": "băng thông tối thiểu mỗi kênh truyền",
+    "extra_tool_calls": 1
+   },
+   {
+    "latency_s": 15.31,
+    "model": "glm-5.3-flash",
+    "finish": "stop",
+    "prompt_tokens": 1552,
+    "completion_tokens": 782,
+    "action": "answer",
+    "raw_answer": "Theo quy định áp dụng cho tổ chức kinh tế chuyển dữ liệu hóa đơn điện tử đến cơ quan thuế bằng hình thức gửi trực tiếp [TT-91-2026:A:p003:04], mỗi kênh truyền phải có **băng thông tối thiểu 5 Mbps**. Cụ thể: kết nối với Cục Thuế thông qua kênh thuê riêng hoặc kênh MPLS VPN Layer 3, gồm 1 kênh truyền chính và 1 kênh truyền dự phòng [TT-91-2026:A:p003:05].\n\n(Lưu ý: mức băng thông tối thiểu 20 Mbps với 2 kênh dự phòng chỉ áp dụng cho hệ thống kết nối của tổ chức cung cấp dịch vụ hóa đơn điện tử, không áp dụng cho trường hợp tổ chức kinh tế gửi trực tiếp [TT-91-2026:A:p024:05].)",
+    "model_abstained": false
+   }
+  ],
+  "model": [
+   "glm-5.3-flash"
+  ],
+  "prompt_tokens": 2656,
+  "completion_tokens": 1043,
+  "latency_s": 22.88,
+  "error": null
+ },
+ {
+  "query_id": "d03",
+  "split": "dev",
+  "question": "Ký hiệu hóa đơn điện tử gồm bao nhiêu ký tự?",
+  "answerable": true,
+  "filter": null,
+  "status": "answered",
+  "answer": "Ký hiệu hóa đơn điện tử gồm **sáu ký tự**, bao gồm cả chữ viết và chữ số, dùng để thể hiện và phản ánh các thông tin về loại hóa đơn điện tử [TT-91-2026:A:p004:00].",
+  "citations": [
+   "TT-91-2026:A:p004:00"
+  ],
+  "n_searches": 2,
+  "queries": [
+   "Ký hiệu hóa đơn điện tử gồm bao nhiêu ký tự?",
+   "thành phần ký hiệu hóa đơn điện tử ký hiệu mẫu ký hiệu phân loại năm phát hành"
+  ],
+  "final_context_ids": [
+   "TT-91-2026:A:p004:00",
+   "TT-91-2026:A:p003:01",
+   "TT-91-2026:A:p003:00",
+   "TT-91-2026:A:p025:00",
+   "TT-91-2026:A:p030:04"
+  ],
+  "final_context": "[TT-91-2026:A:p004:00 | Thông-tư-91-2026-TT-BTC.pdf | page 4]\nĐiều 4. Ký hiệu mẫu, ký hiệu và mẫu hóa đơn điện tử tham khảo\n\nI. Ký hiệu mẫu hóa đơn điện tử là ký tự có một chữ số tự nhiên là các\nsỐ 1, 2,3,4, 5, 6, 7, 8, 9 đề phản ánh loại hóa đơn điện tử.\n\n2. Ký hiệu hóa đơn điện tử là nhóm sáu ký tự gồm cả chữ viết và chữ\nsố thể hiện ký hiệu hóa đơn điện tử đề phản ánh các thông tin về loại hóa đơn\nđiện tử có mã của c\n\n[TT-91-2026:A:p003:01 | Thông-tư-91-2026-TT-BTC.pdf | page 3]\nlà chữ viết tắt của cụm từ tiếng Anh\n\"eXtensible Markup Language” được tạo ra với mục đích chia sẻ dữ liệu điện\ntử giữa các hệ thống công nghệ thông tin).\n\n2. Định dạng hóa đơn điện tử gồm hai thành phân: thành phân chứa dữ\nliệu nghiệp vụ hóa đơn điện tử và thành phản chứa dữ liệu chữ ký só. Đồi với\nhóa đơn điện tử có mã của cơ quan thuế thì có thêm thành ph\n\n[TT-91-2026:A:p003:00 | Thông-tư-91-2026-TT-BTC.pdf | page 3]\nChương H\nQUY ĐỊNH ĐÓI VỚI HÓA ĐƠN ĐIỆN TỬ\n\nĐiều 3. Định dạng hóa đơn điện tử\n\n¡. Định dạng hóa đơn điện tử là tiêu chuân kỹ thuật quy định kiêu dữ\nliệu, chiều dài dữ liệu của các trường thông tin phục vụ truyền nhận, lưu trữ\nvà hiền thị hóa đơn điện tử. Định dạng hóa đơn điện tử sử dụng ngôn ngữ\nđịnh dạng văn bản XML (XML là chữ viết tắt của cụm từ tiếng Anh\n\n[TT-91-2026:A:p025:00 | Thông-tư-91-2026-TT-BTC.pdf | page 25]\nđiện tử lên Trang thông tin điện tử của Cục Thuê: Tô chức cung cấp giải pháp\nhóa đơn điện tử gửi hỏ sơ chứng minh đáp ứng các tiêu chí tại khoản 1 Điều\nnày, tài liệu mô tả dịch vụ và cam kết thực hiện đền Cục Thuê. Trong vòng 10\nngày kể từ ngày nhận được hỏ sơ, Cục Thuế đăng công khai tài liệu mô tả\ndịch vụ và cam kết của tổ chức lên Trang thông tin điện tử\n\n[TT-91-2026:A:p030:04 | Thông-tư-91-2026-TT-BTC.pdf | page 30]\nỤNG THÔNG TIN HÓA ĐƠN ĐIỆN TỬ\n\nĐiều 21. Cung cấp, tra cứu thông tin hóa đơn điện tử\n\nl. Nội dung thông tin hóa đơn điện tử được cung cấp là các nội dung\ncủa hóa đơn điện tử theo quy định tại Điều 10 Nghị định số 254/2026/NĐ-CP\nvà tình trạng hóa đơn điện tử.\n\n2. Thông tin hóa đơn điện tử được cơ quan thuế cung cấp dưới dạng\nvăn bản hoặc dữ liệu điện tử.\n\nĐiều",
+  "events": [
+   {
+    "event": "search",
+    "query": "Ký hiệu hóa đơn điện tử gồm bao nhiêu ký tự?",
+    "filter": null,
+    "results": [
+     {
+      "id": "TT-91-2026:A:p004:00",
+      "rank": 1,
+      "score": 0.823382,
+      "page": 4,
+      "method": "dense"
+     },
+     {
+      "id": "TT-91-2026:A:p003:01",
+      "rank": 2,
+      "score": 0.591595,
+      "page": 3,
+      "method": "dense"
+     },
+     {
+      "id": "TT-91-2026:A:p003:00",
+      "rank": 3,
+      "score": 0.5746,
+      "page": 3,
+      "method": "dense"
+     }
+    ],
+    "context": "[TT-91-2026:A:p004:00 | Thông-tư-91-2026-TT-BTC.pdf | page 4]\nĐiều 4. Ký hiệu mẫu, ký hiệu và mẫu hóa đơn điện tử tham khảo\n\nI. Ký hiệu mẫu hóa đơn điện tử là ký tự có một chữ số tự nhiên là các\nsỐ 1, 2,3,4, 5, 6, 7, 8, 9 đề phản ánh loại hóa đơn điện tử.\n\n2. Ký hiệu hóa đơn điện tử là nhóm sáu ký tự gồm cả chữ viết và chữ\nsố thể hiện ký hiệu hóa đơn điện tử đề phản ánh các thông tin về loại hóa đơn\nđiện tử có mã của c\n\n[TT-91-2026:A:p003:01 | Thông-tư-91-2026-TT-BTC.pdf | page 3]\nlà chữ viết tắt của cụm từ tiếng Anh\n\"eXtensible Markup Language” được tạo ra với mục đích chia sẻ dữ liệu điện\ntử giữa các hệ thống công nghệ thông tin).\n\n2. Định dạng hóa đơn điện tử gồm hai thành phân: thành phân chứa dữ\nliệu nghiệp vụ hóa đơn điện tử và thành phản chứa dữ liệu chữ ký só. Đồi với\nhóa đơn điện tử có mã của cơ quan thuế thì có thêm thành ph\n\n[TT-91-2026:A:p003:00 | Thông-tư-91-2026-TT-BTC.pdf | page 3]\nChương H\nQUY ĐỊNH ĐÓI VỚI HÓA ĐƠN ĐIỆN TỬ\n\nĐiều 3. Định dạng hóa đơn điện tử\n\n¡. Định dạng hóa đơn điện tử là tiêu chuân kỹ thuật quy định kiêu dữ\nliệu, chiều dài dữ liệu của các trường thông tin phục vụ truyền nhận, lưu trữ\nvà hiền thị hóa đơn điện tử. Định dạng hóa đơn điện tử sử dụng ngôn ngữ\nđịnh dạng văn bản XML (XML là chữ viết tắt của cụm từ tiếng Anh",
+    "context_ids": [
+     "TT-91-2026:A:p004:00",
+     "TT-91-2026:A:p003:01",
+     "TT-91-2026:A:p003:00"
+    ]
+   },
+   {
+    "event": "search",
+    "query": "thành phần ký hiệu hóa đơn điện tử ký hiệu mẫu ký hiệu phân loại năm phát hành",
+    "filter": null,
+    "results": [
+     {
+      "id": "TT-91-2026:A:p004:00",
+      "rank": 1,
+      "score": 0.692838,
+      "page": 4,
+      "method": "dense"
+     },
+     {
+      "id": "TT-91-2026:A:p025:00",
+      "rank": 2,
+      "score": 0.652705,
+      "page": 25,
+      "method": "dense"
+     },
+     {
+      "id": "TT-91-2026:A:p030:04",
+      "rank": 3,
+      "score": 0.645406,
+      "page": 30,
+      "method": "dense"
+     }
+    ],
+    "context": "[TT-91-2026:A:p004:00 | Thông-tư-91-2026-TT-BTC.pdf | page 4]\nĐiều 4. Ký hiệu mẫu, ký hiệu và mẫu hóa đơn điện tử tham khảo\n\nI. Ký hiệu mẫu hóa đơn điện tử là ký tự có một chữ số tự nhiên là các\nsỐ 1, 2,3,4, 5, 6, 7, 8, 9 đề phản ánh loại hóa đơn điện tử.\n\n2. Ký hiệu hóa đơn điện tử là nhóm sáu ký tự gồm cả chữ viết và chữ\nsố thể hiện ký hiệu hóa đơn điện tử đề phản ánh các thông tin về loại hóa đơn\nđiện tử có mã của c\n\n[TT-91-2026:A:p003:01 | Thông-tư-91-2026-TT-BTC.pdf | page 3]\nlà chữ viết tắt của cụm từ tiếng Anh\n\"eXtensible Markup Language” được tạo ra với mục đích chia sẻ dữ liệu điện\ntử giữa các hệ thống công nghệ thông tin).\n\n2. Định dạng hóa đơn điện tử gồm hai thành phân: thành phân chứa dữ\nliệu nghiệp vụ hóa đơn điện tử và thành phản chứa dữ liệu chữ ký só. Đồi với\nhóa đơn điện tử có mã của cơ quan thuế thì có thêm thành ph\n\n[TT-91-2026:A:p003:00 | Thông-tư-91-2026-TT-BTC.pdf | page 3]\nChương H\nQUY ĐỊNH ĐÓI VỚI HÓA ĐƠN ĐIỆN TỬ\n\nĐiều 3. Định dạng hóa đơn điện tử\n\n¡. Định dạng hóa đơn điện tử là tiêu chuân kỹ thuật quy định kiêu dữ\nliệu, chiều dài dữ liệu của các trường thông tin phục vụ truyền nhận, lưu trữ\nvà hiền thị hóa đơn điện tử. Định dạng hóa đơn điện tử sử dụng ngôn ngữ\nđịnh dạng văn bản XML (XML là chữ viết tắt của cụm từ tiếng Anh\n\n[TT-91-2026:A:p025:00 | Thông-tư-91-2026-TT-BTC.pdf | page 25]\nđiện tử lên Trang thông tin điện tử của Cục Thuê: Tô chức cung cấp giải pháp\nhóa đơn điện tử gửi hỏ sơ chứng minh đáp ứng các tiêu chí tại khoản 1 Điều\nnày, tài liệu mô tả dịch vụ và cam kết thực hiện đền Cục Thuê. Trong vòng 10\nngày kể từ ngày nhận được hỏ sơ, Cục Thuế đăng công khai tài liệu mô tả\ndịch vụ và cam kết của tổ chức lên Trang thông tin điện tử\n\n[TT-91-2026:A:p030:04 | Thông-tư-91-2026-TT-BTC.pdf | page 30]\nỤNG THÔNG TIN HÓA ĐƠN ĐIỆN TỬ\n\nĐiều 21. Cung cấp, tra cứu thông tin hóa đơn điện tử\n\nl. Nội dung thông tin hóa đơn điện tử được cung cấp là các nội dung\ncủa hóa đơn điện tử theo quy định tại Điều 10 Nghị định số 254/2026/NĐ-CP\nvà tình trạng hóa đơn điện tử.\n\n2. Thông tin hóa đơn điện tử được cơ quan thuế cung cấp dưới dạng\nvăn bản hoặc dữ liệu điện tử.\n\nĐiều",
+    "context_ids": [
+     "TT-91-2026:A:p004:00",
+     "TT-91-2026:A:p003:01",
+     "TT-91-2026:A:p003:00",
+     "TT-91-2026:A:p025:00",
+     "TT-91-2026:A:p030:04"
+    ]
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "model_calls": [
+   {
+    "action": "search",
+    "query": "Ký hiệu hóa đơn điện tử gồm bao nhiêu ký tự?",
+    "source": "original_question",
+    "latency_s": 0,
+    "model": null,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   {
+    "latency_s": 13.0,
+    "model": "glm-5.3-flash",
+    "finish": "tool_calls",
+    "prompt_tokens": 1076,
+    "completion_tokens": 519,
+    "action": "search",
+    "query": "thành phần ký hiệu hóa đơn điện tử ký hiệu mẫu ký hiệu phân loại năm phát hành",
+    "extra_tool_calls": 0
+   },
+   {
+    "latency_s": 17.01,
+    "model": "glm-5.3-flash",
+    "finish": "stop",
+    "prompt_tokens": 1401,
+    "completion_tokens": 586,
+    "action": "answer",
+    "raw_answer": "Ký hiệu hóa đơn điện tử gồm **sáu ký tự**, bao gồm cả chữ viết và chữ số, dùng để thể hiện và phản ánh các thông tin về loại hóa đơn điện tử [TT-91-2026:A:p004:00].",
+    "model_abstained": false
+   }
+  ],
+  "model": [
+   "glm-5.3-flash"
+  ],
+  "prompt_tokens": 2477,
+  "completion_tokens": 1105,
+  "latency_s": 30.16,
+  "error": null
+ },
+ {
+  "query_id": "d04",
+  "split": "dev",
+  "question": "Hóa đơn hoàn thuế VAT cho khách nước ngoài phải hiển thị bằng những ngôn ngữ nào?",
+  "answerable": true,
+  "filter": null,
+  "status": "answered",
+  "answer": "Hóa đơn giá trị gia tăng kiêm tờ khai hoàn thuế (dùng cho hoàn thuế VAT cho người nước ngoài xuất cảnh) phải hiển thị bằng **tiếng Việt và tiếng Anh**. Cụ thể:\n\n- Chữ viết hiển thị trên hóa đơn là tiếng Việt và tiếng Anh [TT-91-2026:A:p006:00].\n- Tiếng Anh được đặt **bên phải trong ngoặc đơn ()** hoặc **ngay dưới dòng tiếng Việt**, và có **cỡ chữ bằng hoặc nhỏ hơn** chữ tiếng Việt [TT-91-2026:A:p006:01].",
+  "citations": [
+   "TT-91-2026:A:p006:00",
+   "TT-91-2026:A:p006:01"
+  ],
+  "n_searches": 2,
+  "queries": [
+   "Hóa đơn hoàn thuế VAT cho khách nước ngoài phải hiển thị bằng những ngôn ngữ nào?",
+   "chữ viết hiển thị hóa đơn giá trị gia tăng kiêm tờ khai hoàn thuế tiếng Việt tiếng Anh"
+  ],
+  "final_context_ids": [
+   "TT-91-2026:A:p006:00",
+   "TT-91-2026:A:p005:05",
+   "TT-91-2026:A:p010:01",
+   "TT-91-2026:A:p006:01",
+   "TT-91-2026:A:p021:05"
+  ],
+  "final_context": "[TT-91-2026:A:p006:00 | Thông-tư-91-2026-TT-BTC.pdf | page 6]\nc.2) Số tiền thuê hoàn cho người nước ngoài xuất cảnh;\n\nc.3) Hình thức thanh toán: ghi rõ số tiền thanh toán theo từng hình thức\nthanh toán: băng tiên mặt hoặc thẻ quốc tế (ghi rõ tên thẻ, số thẻ);\n\nc.4) Thời điểm thanh toán: ghi rõ ngày, tháng, năm.\n\n2. Chữ viết hiền thị trên hóa đơn giá trị gia tăng kiêm tờ khai hoàn thuế\nlà tiếng Việt và tiếng Anh được đặ\n\n[TT-91-2026:A:p005:05 | Thông-tư-91-2026-TT-BTC.pdf | page 5]\ni lý hoàn thuế lập, gồm\ncác nội dung:\n\nc.1) Số hiệu, ngày tháng chuyên bay/chuyền tàu của người nước ngoài\nxuất cảnh;\n\n[TT-91-2026:A:p010:01 | Thông-tư-91-2026-TT-BTC.pdf | page 10]\nMẫu số 01/ĐKTĐ-HĐĐT Phụ lục III kèm theo Thông tư này.\n\n5. Định kỳ hàng tháng, cơ quan thuế quản lý trực tiếp tiền hành rà soát\nngười nộp thuế sử dụng hóa đơn điện tử có mã của cơ quan thuế được miễn\nphí dịch vụ và gửi thông báo theo Mẫu số 01/TB-KTT Phụ lục IV kèm theo\nThông tư này cho người nộp thuê đề thông báo về việc chuyên sang sử dụng\nhóa đơn điện tử\n\n[TT-91-2026:A:p006:01 | Thông-tư-91-2026-TT-BTC.pdf | page 6]\nế\nlà tiếng Việt và tiếng Anh được đặt bên phải trong ngoặc đơn () hoặc ngay\ndưới dòng tiếng Việt và có cỡ chữ bằng hoặc nhỏ hơn chữ tiếng Việt.\n\n3. Các nội dung khoản 1 Điều này thực hiện theo quy định tại Điều 10\nNghị định số 254/2026/NĐ-CP. Riêng nội dung về ký hiệu mẫu, ký hiệu hóa\nđơn thực hiện theo quy định tại Phụ lục I kèm theo Thông tư này.\n\n4. Mẫu h\n\n[TT-91-2026:A:p021:05 | Thông-tư-91-2026-TT-BTC.pdf | page 21]\nợp đỏng mua bán khí bằng đồng tiền ngoại tệ tự do chuyển\nđôi phù hợp với pháp luật liên quan và hợp đồng dầu khí, thanh toán và lập\nhóa đơn bằng đồng Việt Nam, khi bán khí đã lập hóa đơn điện tử không có sai\nsót nhưng khi thanh toán thực tế có sự thay đôi về giá trị do phải quy đỏi ra\nViệt Nam đồng thì người bán thực hiện lập hóa đơn điều chỉnh đối với phần",
+  "events": [
+   {
+    "event": "search",
+    "query": "Hóa đơn hoàn thuế VAT cho khách nước ngoài phải hiển thị bằng những ngôn ngữ nào?",
+    "filter": null,
+    "results": [
+     {
+      "id": "TT-91-2026:A:p006:00",
+      "rank": 1,
+      "score": 0.692203,
+      "page": 6,
+      "method": "dense"
+     },
+     {
+      "id": "TT-91-2026:A:p005:05",
+      "rank": 2,
+      "score": 0.501373,
+      "page": 5,
+      "method": "dense"
+     },
+     {
+      "id": "TT-91-2026:A:p010:01",
+      "rank": 3,
+      "score": 0.479607,
+      "page": 10,
+      "method": "dense"
+     }
+    ],
+    "context": "[TT-91-2026:A:p006:00 | Thông-tư-91-2026-TT-BTC.pdf | page 6]\nc.2) Số tiền thuê hoàn cho người nước ngoài xuất cảnh;\n\nc.3) Hình thức thanh toán: ghi rõ số tiền thanh toán theo từng hình thức\nthanh toán: băng tiên mặt hoặc thẻ quốc tế (ghi rõ tên thẻ, số thẻ);\n\nc.4) Thời điểm thanh toán: ghi rõ ngày, tháng, năm.\n\n2. Chữ viết hiền thị trên hóa đơn giá trị gia tăng kiêm tờ khai hoàn thuế\nlà tiếng Việt và tiếng Anh được đặ\n\n[TT-91-2026:A:p005:05 | Thông-tư-91-2026-TT-BTC.pdf | page 5]\ni lý hoàn thuế lập, gồm\ncác nội dung:\n\nc.1) Số hiệu, ngày tháng chuyên bay/chuyền tàu của người nước ngoài\nxuất cảnh;\n\n[TT-91-2026:A:p010:01 | Thông-tư-91-2026-TT-BTC.pdf | page 10]\nMẫu số 01/ĐKTĐ-HĐĐT Phụ lục III kèm theo Thông tư này.\n\n5. Định kỳ hàng tháng, cơ quan thuế quản lý trực tiếp tiền hành rà soát\nngười nộp thuế sử dụng hóa đơn điện tử có mã của cơ quan thuế được miễn\nphí dịch vụ và gửi thông báo theo Mẫu số 01/TB-KTT Phụ lục IV kèm theo\nThông tư này cho người nộp thuê đề thông báo về việc chuyên sang sử dụng\nhóa đơn điện tử",
+    "context_ids": [
+     "TT-91-2026:A:p006:00",
+     "TT-91-2026:A:p005:05",
+     "TT-91-2026:A:p010:01"
+    ]
+   },
+   {
+    "event": "search",
+    "query": "chữ viết hiển thị hóa đơn giá trị gia tăng kiêm tờ khai hoàn thuế tiếng Việt tiếng Anh",
+    "filter": null,
+    "results": [
+     {
+      "id": "TT-91-2026:A:p006:01",
+      "rank": 1,
+      "score": 0.609655,
+      "page": 6,
+      "method": "dense"
+     },
+     {
+      "id": "TT-91-2026:A:p006:00",
+      "rank": 2,
+      "score": 0.46839,
+      "page": 6,
+      "method": "dense"
+     },
+     {
+      "id": "TT-91-2026:A:p021:05",
+      "rank": 3,
+      "score": 0.40974,
+      "page": 21,
+      "method": "dense"
+     }
+    ],
+    "context": "[TT-91-2026:A:p006:00 | Thông-tư-91-2026-TT-BTC.pdf | page 6]\nc.2) Số tiền thuê hoàn cho người nước ngoài xuất cảnh;\n\nc.3) Hình thức thanh toán: ghi rõ số tiền thanh toán theo từng hình thức\nthanh toán: băng tiên mặt hoặc thẻ quốc tế (ghi rõ tên thẻ, số thẻ);\n\nc.4) Thời điểm thanh toán: ghi rõ ngày, tháng, năm.\n\n2. Chữ viết hiền thị trên hóa đơn giá trị gia tăng kiêm tờ khai hoàn thuế\nlà tiếng Việt và tiếng Anh được đặ\n\n[TT-91-2026:A:p005:05 | Thông-tư-91-2026-TT-BTC.pdf | page 5]\ni lý hoàn thuế lập, gồm\ncác nội dung:\n\nc.1) Số hiệu, ngày tháng chuyên bay/chuyền tàu của người nước ngoài\nxuất cảnh;\n\n[TT-91-2026:A:p010:01 | Thông-tư-91-2026-TT-BTC.pdf | page 10]\nMẫu số 01/ĐKTĐ-HĐĐT Phụ lục III kèm theo Thông tư này.\n\n5. Định kỳ hàng tháng, cơ quan thuế quản lý trực tiếp tiền hành rà soát\nngười nộp thuế sử dụng hóa đơn điện tử có mã của cơ quan thuế được miễn\nphí dịch vụ và gửi thông báo theo Mẫu số 01/TB-KTT Phụ lục IV kèm theo\nThông tư này cho người nộp thuê đề thông báo về việc chuyên sang sử dụng\nhóa đơn điện tử\n\n[TT-91-2026:A:p006:01 | Thông-tư-91-2026-TT-BTC.pdf | page 6]\nế\nlà tiếng Việt và tiếng Anh được đặt bên phải trong ngoặc đơn () hoặc ngay\ndưới dòng tiếng Việt và có cỡ chữ bằng hoặc nhỏ hơn chữ tiếng Việt.\n\n3. Các nội dung khoản 1 Điều này thực hiện theo quy định tại Điều 10\nNghị định số 254/2026/NĐ-CP. Riêng nội dung về ký hiệu mẫu, ký hiệu hóa\nđơn thực hiện theo quy định tại Phụ lục I kèm theo Thông tư này.\n\n4. Mẫu h\n\n[TT-91-2026:A:p021:05 | Thông-tư-91-2026-TT-BTC.pdf | page 21]\nợp đỏng mua bán khí bằng đồng tiền ngoại tệ tự do chuyển\nđôi phù hợp với pháp luật liên quan và hợp đồng dầu khí, thanh toán và lập\nhóa đơn bằng đồng Việt Nam, khi bán khí đã lập hóa đơn điện tử không có sai\nsót nhưng khi thanh toán thực tế có sự thay đôi về giá trị do phải quy đỏi ra\nViệt Nam đồng thì người bán thực hiện lập hóa đơn điều chỉnh đối với phần",
+    "context_ids": [
+     "TT-91-2026:A:p006:00",
+     "TT-91-2026:A:p005:05",
+     "TT-91-2026:A:p010:01",
+     "TT-91-2026:A:p006:01",
+     "TT-91-2026:A:p021:05"
+    ]
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "model_calls": [
+   {
+    "action": "search",
+    "query": "Hóa đơn hoàn thuế VAT cho khách nước ngoài phải hiển thị bằng những ngôn ngữ nào?",
+    "source": "original_question",
+    "latency_s": 0,
+    "model": null,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   {
+    "latency_s": 7.45,
+    "model": "glm-5.3-flash",
+    "finish": "tool_calls",
+    "prompt_tokens": 999,
+    "completion_tokens": 322,
+    "action": "search",
+    "query": "chữ viết hiển thị hóa đơn giá trị gia tăng kiêm tờ khai hoàn thuế tiếng Việt tiếng Anh",
+    "extra_tool_calls": 1
+   },
+   {
+    "latency_s": 7.76,
+    "model": "glm-5.3-flash",
+    "finish": "stop",
+    "prompt_tokens": 1302,
+    "completion_tokens": 320,
+    "action": "answer",
+    "raw_answer": "Hóa đơn giá trị gia tăng kiêm tờ khai hoàn thuế (dùng cho hoàn thuế VAT cho người nước ngoài xuất cảnh) phải hiển thị bằng **tiếng Việt và tiếng Anh**. Cụ thể:\n\n- Chữ viết hiển thị trên hóa đơn là tiếng Việt và tiếng Anh [TT-91-2026:A:p006:00].\n- Tiếng Anh được đặt **bên phải trong ngoặc đơn ()** hoặc **ngay dưới dòng tiếng Việt**, và có **cỡ chữ bằng hoặc nhỏ hơn** chữ tiếng Việt [TT-91-2026:A:p006:01].",
+    "model_abstained": false
+   }
+  ],
+  "model": [
+   "glm-5.3-flash"
+  ],
+  "prompt_tokens": 2301,
+  "completion_tokens": 642,
+  "latency_s": 15.46,
+  "error": null
+ },
+ {
+  "query_id": "d05",
+  "split": "dev",
+  "question": "Sau khi tiếp nhận đăng ký sử dụng hóa đơn điện tử, hệ thống tự động đối chiếu thông tin người đại diện trong bao lâu?",
+  "answerable": true,
+  "filter": null,
+  "status": "answered",
+  "answer": "Theo Thông tư 91/2026/TT-BTC, trong thời gian **01 ngày làm việc** kể từ ngày tiếp nhận đăng ký, Hệ thống thông tin quản lý thuế tự động đối chiếu thông tin (bao gồm thông tin sinh trắc học theo quy định về định danh và xác thực điện tử của Chính phủ) của người đại diện theo pháp luật, đại diện hộ kinh doanh, cá nhân kinh doanh đối với doanh nghiệp, tổ chức khác, hộ kinh doanh, cá nhân kinh doanh đăng ký sử dụng hóa đơn điện tử [TT-91-2026:A:p007:02].",
+  "citations": [
+   "TT-91-2026:A:p007:02"
+  ],
+  "n_searches": 2,
+  "queries": [
+   "Sau khi tiếp nhận đăng ký sử dụng hóa đơn điện tử, hệ thống tự động đối chiếu thông tin người đại diện trong bao lâu?",
+   "Hệ thống thông tin quản lý thuế tự động đối chiếu thông tin người đại diện theo pháp luật ngày làm việc"
+  ],
+  "final_context_ids": [
+   "TT-91-2026:A:p007:02",
+   "TT-91-2026:A:p031:01",
+   "TT-91-2026:A:p031:02",
+   "TT-91-2026:A:p008:07",
+   "TT-91-2026:A:p008:03",
+   "TT-91-2026:A:p007:04"
+  ],
+  "final_context": "[TT-91-2026:A:p007:02 | Thông-tư-91-2026-TT-BTC.pdf | page 7]\nkhác, hộ kinh doanh, cá nhân\nkinh doanh đăng ký sử dụng hóa đơn điện tử:\n\na) Trong thời gian 01 ngày làm việc kể từ ngày tiếp nhận đăng ký, Hệ\nthống thông tin quản lý thuê tự động đổi chiều thông tin (bao gồm thông tin\nsinh trắc học theo quy định về định danh và xác thực điện tử của Chính phủ)\ncủa người đại diện theo pháp luật, đại diện hộ kinh doanh, cá nhâ\n\n[TT-91-2026:A:p031:01 | Thông-tư-91-2026-TT-BTC.pdf | page 31]\nng thời hạn sử dụng của tài khoản phải nêu rõ lý do.\n\nCác tài khoản đăng ký mới cấp cho từng cá nhân được thông báo băng\nhình thức gửi thư điện tử.\n\n3. Thời hạn sử dụng tài khoản truy cập Hệ thống thông tin quản lý thuế\nđôi với trường hợp đăng ký mới và bỏ sung thông tin là 12 tháng hoặc do bên\nsử dụng thông tin đề nghị nhưng không quá 12 tháng tính từ ngày\n\n[TT-91-2026:A:p031:02 | Thông-tư-91-2026-TT-BTC.pdf | page 31]\nưng không quá 12 tháng tính từ ngày Cục Thuê\nhoặc Thuê tỉnh, thành phó gửi văn bản thông báo kết quả đăng ký của bên sử\ndụng thông tin. Trước khi hềt thời hạn sử dụng tài khoản 30 ngày, Hệ thông\nthông tin quản lý thuê tự động gửi thông báo cảnh báo hết hạn cho bên sử\ndụng thông tin. Trường hợp bên sử dụng thông tin không thay đôi thông tin,\nkhông vi phạm quy\n\n[TT-91-2026:A:p008:07 | Thông-tư-91-2026-TT-BTC.pdf | page 8]\nrình,\nbộ sung thông tin, tài liệu của cơ quan thuê:\n\nd) Trường hợp cơ quan thuế chấp nhận thông tin giải trình, bổ sung\nthông tin, tài liệu của người nộp thuế hoặc trường hợp kết quả xác mình người\nnộp thuê có hoạt động tại địa chỉ đăng ký thì cơ quan thuế quản lý trực tiếp\nban hành Thông báo chấp nhận đăng ký sử dụng hóa đơn điện tử của người\n\n[TT-91-2026:A:p008:03 | Thông-tư-91-2026-TT-BTC.pdf | page 8]\nhớp đúng, người nộp thuê\nxác nhận trên Hệ thống thông tin quản lý thuế đúng thời hạn nhưng người nộp\nthuế thuộc trường hợp: người đại diện theo pháp luật, đại diện hộ kinh doanh,\ncá nhân kinh doanh hoặc chủ doanh nghiệp tư nhân đang là người đại diện\ntheo pháp luật, đại diện hộ kinh doanh, cá nhân kinh doanh hoặc chủ doanh\nnghiệp tư nhân khác mà người nộp th\n\n[TT-91-2026:A:p007:04 | Thông-tư-91-2026-TT-BTC.pdf | page 7]\nquản lý thuê\ntự động gửi Thông báo không ủẳp nhận đăng ký hóa đơn điện tử và cung fflẫp\ncác trường thông tin không khớp đúng cho người nộp thuế ngay trong ngày\nlàm việc hoặc chậm nhất ngày làm việc tiếp theo đề người nộp thuế điều\nchỉnh thông tin đã kê khai. Trường hợp thông tin khớp đúng, Hệ thống thông\ntin quản lý thuế tự động gửi yêu câu đề nghị người nộ",
+  "events": [
+   {
+    "event": "search",
+    "query": "Sau khi tiếp nhận đăng ký sử dụng hóa đơn điện tử, hệ thống tự động đối chiếu thông tin người đại diện trong bao lâu?",
+    "filter": null,
+    "results": [
+     {
+      "id": "TT-91-2026:A:p007:02",
+      "rank": 1,
+      "score": 0.780167,
+      "page": 7,
+      "method": "dense"
+     },
+     {
+      "id": "TT-91-2026:A:p031:01",
+      "rank": 2,
+      "score": 0.759406,
+      "page": 31,
+      "method": "dense"
+     },
+     {
+      "id": "TT-91-2026:A:p031:02",
+      "rank": 3,
+      "score": 0.751134,
+      "page": 31,
+      "method": "dense"
+     }
+    ],
+    "context": "[TT-91-2026:A:p007:02 | Thông-tư-91-2026-TT-BTC.pdf | page 7]\nkhác, hộ kinh doanh, cá nhân\nkinh doanh đăng ký sử dụng hóa đơn điện tử:\n\na) Trong thời gian 01 ngày làm việc kể từ ngày tiếp nhận đăng ký, Hệ\nthống thông tin quản lý thuê tự động đổi chiều thông tin (bao gồm thông tin\nsinh trắc học theo quy định về định danh và xác thực điện tử của Chính phủ)\ncủa người đại diện theo pháp luật, đại diện hộ kinh doanh, cá nhâ\n\n[TT-91-2026:A:p031:01 | Thông-tư-91-2026-TT-BTC.pdf | page 31]\nng thời hạn sử dụng của tài khoản phải nêu rõ lý do.\n\nCác tài khoản đăng ký mới cấp cho từng cá nhân được thông báo băng\nhình thức gửi thư điện tử.\n\n3. Thời hạn sử dụng tài khoản truy cập Hệ thống thông tin quản lý thuế\nđôi với trường hợp đăng ký mới và bỏ sung thông tin là 12 tháng hoặc do bên\nsử dụng thông tin đề nghị nhưng không quá 12 tháng tính từ ngày\n\n[TT-91-2026:A:p031:02 | Thông-tư-91-2026-TT-BTC.pdf | page 31]\nưng không quá 12 tháng tính từ ngày Cục Thuê\nhoặc Thuê tỉnh, thành phó gửi văn bản thông báo kết quả đăng ký của bên sử\ndụng thông tin. Trước khi hềt thời hạn sử dụng tài khoản 30 ngày, Hệ thông\nthông tin quản lý thuê tự động gửi thông báo cảnh báo hết hạn cho bên sử\ndụng thông tin. Trường hợp bên sử dụng thông tin không thay đôi thông tin,\nkhông vi phạm quy",
+    "context_ids": [
+     "TT-91-2026:A:p007:02",
+     "TT-91-2026:A:p031:01",
+     "TT-91-2026:A:p031:02"
+    ]
+   },
+   {
+    "event": "search",
+    "query": "Hệ thống thông tin quản lý thuế tự động đối chiếu thông tin người đại diện theo pháp luật ngày làm việc",
+    "filter": null,
+    "results": [
+     {
+      "id": "TT-91-2026:A:p008:07",
+      "rank": 1,
+      "score": 0.752867,
+      "page": 8,
+      "method": "dense"
+     },
+     {
+      "id": "TT-91-2026:A:p008:03",
+      "rank": 2,
+      "score": 0.752768,
+      "page": 8,
+      "method": "dense"
+     },
+     {
+      "id": "TT-91-2026:A:p007:04",
+      "rank": 3,
+      "score": 0.720438,
+      "page": 7,
+      "method": "dense"
+     }
+    ],
+    "context": "[TT-91-2026:A:p007:02 | Thông-tư-91-2026-TT-BTC.pdf | page 7]\nkhác, hộ kinh doanh, cá nhân\nkinh doanh đăng ký sử dụng hóa đơn điện tử:\n\na) Trong thời gian 01 ngày làm việc kể từ ngày tiếp nhận đăng ký, Hệ\nthống thông tin quản lý thuê tự động đổi chiều thông tin (bao gồm thông tin\nsinh trắc học theo quy định về định danh và xác thực điện tử của Chính phủ)\ncủa người đại diện theo pháp luật, đại diện hộ kinh doanh, cá nhâ\n\n[TT-91-2026:A:p031:01 | Thông-tư-91-2026-TT-BTC.pdf | page 31]\nng thời hạn sử dụng của tài khoản phải nêu rõ lý do.\n\nCác tài khoản đăng ký mới cấp cho từng cá nhân được thông báo băng\nhình thức gửi thư điện tử.\n\n3. Thời hạn sử dụng tài khoản truy cập Hệ thống thông tin quản lý thuế\nđôi với trường hợp đăng ký mới và bỏ sung thông tin là 12 tháng hoặc do bên\nsử dụng thông tin đề nghị nhưng không quá 12 tháng tính từ ngày\n\n[TT-91-2026:A:p031:02 | Thông-tư-91-2026-TT-BTC.pdf | page 31]\nưng không quá 12 tháng tính từ ngày Cục Thuê\nhoặc Thuê tỉnh, thành phó gửi văn bản thông báo kết quả đăng ký của bên sử\ndụng thông tin. Trước khi hềt thời hạn sử dụng tài khoản 30 ngày, Hệ thông\nthông tin quản lý thuê tự động gửi thông báo cảnh báo hết hạn cho bên sử\ndụng thông tin. Trường hợp bên sử dụng thông tin không thay đôi thông tin,\nkhông vi phạm quy\n\n[TT-91-2026:A:p008:07 | Thông-tư-91-2026-TT-BTC.pdf | page 8]\nrình,\nbộ sung thông tin, tài liệu của cơ quan thuê:\n\nd) Trường hợp cơ quan thuế chấp nhận thông tin giải trình, bổ sung\nthông tin, tài liệu của người nộp thuế hoặc trường hợp kết quả xác mình người\nnộp thuê có hoạt động tại địa chỉ đăng ký thì cơ quan thuế quản lý trực tiếp\nban hành Thông báo chấp nhận đăng ký sử dụng hóa đơn điện tử của người\n\n[TT-91-2026:A:p008:03 | Thông-tư-91-2026-TT-BTC.pdf | page 8]\nhớp đúng, người nộp thuê\nxác nhận trên Hệ thống thông tin quản lý thuế đúng thời hạn nhưng người nộp\nthuế thuộc trường hợp: người đại diện theo pháp luật, đại diện hộ kinh doanh,\ncá nhân kinh doanh hoặc chủ doanh nghiệp tư nhân đang là người đại diện\ntheo pháp luật, đại diện hộ kinh doanh, cá nhân kinh doanh hoặc chủ doanh\nnghiệp tư nhân khác mà người nộp th\n\n[TT-91-2026:A:p007:04 | Thông-tư-91-2026-TT-BTC.pdf | page 7]\nquản lý thuê\ntự động gửi Thông báo không ủẳp nhận đăng ký hóa đơn điện tử và cung fflẫp\ncác trường thông tin không khớp đúng cho người nộp thuế ngay trong ngày\nlàm việc hoặc chậm nhất ngày làm việc tiếp theo đề người nộp thuế điều\nchỉnh thông tin đã kê khai. Trường hợp thông tin khớp đúng, Hệ thống thông\ntin quản lý thuế tự động gửi yêu câu đề nghị người nộ",
+    "context_ids": [
+     "TT-91-2026:A:p007:02",
+     "TT-91-2026:A:p031:01",
+     "TT-91-2026:A:p031:02",
+     "TT-91-2026:A:p008:07",
+     "TT-91-2026:A:p008:03",
+     "TT-91-2026:A:p007:04"
+    ]
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "model_calls": [
+   {
+    "action": "search",
+    "query": "Sau khi tiếp nhận đăng ký sử dụng hóa đơn điện tử, hệ thống tự động đối chiếu thông tin người đại diện trong bao lâu?",
+    "source": "original_question",
+    "latency_s": 0,
+    "model": null,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   {
+    "latency_s": 9.11,
+    "model": "glm-5.3-flash",
+    "finish": "tool_calls",
+    "prompt_tokens": 1044,
+    "completion_tokens": 488,
+    "action": "search",
+    "query": "Hệ thống thông tin quản lý thuế tự động đối chiếu thông tin người đại diện theo pháp luật ngày làm việc",
+    "extra_tool_calls": 0
+   },
+   {
+    "latency_s": 13.51,
+    "model": "glm-5.3-flash",
+    "finish": "stop",
+    "prompt_tokens": 1480,
+    "completion_tokens": 589,
+    "action": "answer",
+    "raw_answer": "Theo Thông tư 91/2026/TT-BTC, trong thời gian **01 ngày làm việc** kể từ ngày tiếp nhận đăng ký, Hệ thống thông tin quản lý thuế tự động đối chiếu thông tin (bao gồm thông tin sinh trắc học theo quy định về định danh và xác thực điện tử của Chính phủ) của người đại diện theo pháp luật, đại diện hộ kinh doanh, cá nhân kinh doanh đối với doanh nghiệp, tổ chức khác, hộ kinh doanh, cá nhân kinh doanh đăng ký sử dụng hóa đơn điện tử [TT-91-2026:A:p007:02].",
+    "model_abstained": false
+   }
+  ],
+  "model": [
+   "glm-5.3-flash"
+  ],
+  "prompt_tokens": 2524,
+  "completion_tokens": 1077,
+  "latency_s": 22.72,
+  "error": null
+ },
+ {
+  "query_id": "d06",
+  "split": "dev",
+  "question": "Khi đăng ký hóa đơn điện tử mà cơ quan thuế yêu cầu giải trình, bổ sung tài liệu, người nộp thuế có bao lâu để thực hiện?",
+  "answerable": true,
+  "filter": null,
+  "status": "answered",
+  "answer": "Người nộp thuế phải giải trình hoặc bổ sung thông tin, tài liệu trong thời hạn **03 ngày làm việc** kể từ ngày cơ quan thuế gửi thông báo điện tử [TT-91-2026:A:p013:07].",
+  "citations": [
+   "TT-91-2026:A:p013:07"
+  ],
+  "n_searches": 1,
+  "queries": [
+   "Khi đăng ký hóa đơn điện tử mà cơ quan thuế yêu cầu giải trình, bổ sung tài liệu, người nộp thuế có bao lâu để thực hiện?"
+  ],
+  "final_context_ids": [
+   "TT-91-2026:A:p013:07",
+   "TT-91-2026:A:p022:05",
+   "TT-91-2026:A:p027:00"
+  ],
+  "final_context": "[TT-91-2026:A:p013:07 | Thông-tư-91-2026-TT-BTC.pdf | page 13]\nkhoản 2 Điều 6 Nghị định\nSỐ 254/2026/NĐ-CP:\n\nd.1) Người nộp thuê giải trình hoặc bỏ sung thông tin, tài liệu trong\nthời hạn 03 ngày làm việc kế từ ngày cơ quan thuế gửi thông báo điện tử.\n\n[TT-91-2026:A:p022:05 | Thông-tư-91-2026-TT-BTC.pdf | page 22]\ni áp dụng hóa đơn điện tử có mã của cơ quan thuế thì phải chuyên đổi sang\náp dụng hóa đơn điện tử có mã của cơ quan thuềê. Trong thời gian 10 ngày làm\nviệc kê từ ngày cơ quan thuế thông báo, người nộp thuế phải thay đổi thông\ntin sử dụng hóa đơn điện tử (chuyên từ sử dụng hóa đơn điện tử không có mã\ncủa cơ quan thuê sang hóa đơn điện tử có mã của cơ quan thu\n\n[TT-91-2026:A:p027:00 | Thông-tư-91-2026-TT-BTC.pdf | page 27]\nMẫu số 06/ĐN-PSĐT Phụ lục III kèm theo Thông tư này và truy cập vào Hệ\nthóng thông tin quản lý thuế để lập hóa đơn điện tử;\n\nb) Trường hợp người nộp thuế thuộc trường hợp được cấp hóa đơn bán\nhàng theo từng lần phát sinh tại điểm a khoản 2 Điều 6 Nghị định số\n254/2026/NĐ-CP thì phải nộp đây đủ số thuế phát sinh trên hóa đơn đề nghị\ncấp theo quy định của pháp",
+  "events": [
+   {
+    "event": "search",
+    "query": "Khi đăng ký hóa đơn điện tử mà cơ quan thuế yêu cầu giải trình, bổ sung tài liệu, người nộp thuế có bao lâu để thực hiện?",
+    "filter": null,
+    "results": [
+     {
+      "id": "TT-91-2026:A:p013:07",
+      "rank": 1,
+      "score": 0.771557,
+      "page": 13,
+      "method": "dense"
+     },
+     {
+      "id": "TT-91-2026:A:p022:05",
+      "rank": 2,
+      "score": 0.765545,
+      "page": 22,
+      "method": "dense"
+     },
+     {
+      "id": "TT-91-2026:A:p027:00",
+      "rank": 3,
+      "score": 0.75838,
+      "page": 27,
+      "method": "dense"
+     }
+    ],
+    "context": "[TT-91-2026:A:p013:07 | Thông-tư-91-2026-TT-BTC.pdf | page 13]\nkhoản 2 Điều 6 Nghị định\nSỐ 254/2026/NĐ-CP:\n\nd.1) Người nộp thuê giải trình hoặc bỏ sung thông tin, tài liệu trong\nthời hạn 03 ngày làm việc kế từ ngày cơ quan thuế gửi thông báo điện tử.\n\n[TT-91-2026:A:p022:05 | Thông-tư-91-2026-TT-BTC.pdf | page 22]\ni áp dụng hóa đơn điện tử có mã của cơ quan thuế thì phải chuyên đổi sang\náp dụng hóa đơn điện tử có mã của cơ quan thuềê. Trong thời gian 10 ngày làm\nviệc kê từ ngày cơ quan thuế thông báo, người nộp thuế phải thay đổi thông\ntin sử dụng hóa đơn điện tử (chuyên từ sử dụng hóa đơn điện tử không có mã\ncủa cơ quan thuê sang hóa đơn điện tử có mã của cơ quan thu\n\n[TT-91-2026:A:p027:00 | Thông-tư-91-2026-TT-BTC.pdf | page 27]\nMẫu số 06/ĐN-PSĐT Phụ lục III kèm theo Thông tư này và truy cập vào Hệ\nthóng thông tin quản lý thuế để lập hóa đơn điện tử;\n\nb) Trường hợp người nộp thuế thuộc trường hợp được cấp hóa đơn bán\nhàng theo từng lần phát sinh tại điểm a khoản 2 Điều 6 Nghị định số\n254/2026/NĐ-CP thì phải nộp đây đủ số thuế phát sinh trên hóa đơn đề nghị\ncấp theo quy định của pháp",
+    "context_ids": [
+     "TT-91-2026:A:p013:07",
+     "TT-91-2026:A:p022:05",
+     "TT-91-2026:A:p027:00"
+    ]
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "model_calls": [
+   {
+    "action": "search",
+    "query": "Khi đăng ký hóa đơn điện tử mà cơ quan thuế yêu cầu giải trình, bổ sung tài liệu, người nộp thuế có bao lâu để thực hiện?",
+    "source": "original_question",
+    "latency_s": 0,
+    "model": null,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   {
+    "latency_s": 11.36,
+    "model": "glm-5.3-flash",
+    "finish": "stop",
+    "prompt_tokens": 1045,
+    "completion_tokens": 492,
+    "action": "answer",
+    "raw_answer": "Người nộp thuế phải giải trình hoặc bổ sung thông tin, tài liệu trong thời hạn **03 ngày làm việc** kể từ ngày cơ quan thuế gửi thông báo điện tử [TT-91-2026:A:p013:07].",
+    "model_abstained": false
+   }
+  ],
+  "model": [
+   "glm-5.3-flash"
+  ],
+  "prompt_tokens": 1045,
+  "completion_tokens": 492,
+  "latency_s": 11.43,
+  "error": null
+ },
+ {
+  "query_id": "d07",
+  "split": "dev",
+  "question": "Doanh nghiệp tạm ngừng kinh doanh thì có phải ngừng sử dụng hóa đơn điện tử không?",
+  "answerable": true,
+  "filter": null,
+  "status": "answered",
+  "answer": "**Trả lời: Không bắt buộc.** Việc doanh nghiệp tự thông báo tạm ngừng kinh doanh không nằm trong các trường hợp bị ngừng, tạm ngừng sử dụng hóa đơn điện tử theo Điều 8 Thông tư 91/2026/TT-BTC.\n\nTheo Điều 8, chỉ tổ chức kinh tế, tổ chức khác, hộ kinh doanh, cá nhân kinh doanh thuộc các trường hợp quy định mới phải ngừng, tạm ngừng sử dụng hóa đơn điện tử có mã của cơ quan thuế, không có mã của cơ quan thuế và hóa đơn điện tử khởi tạo từ máy tính tiền [TT-91-2026:A:p011:03]. Các trường hợp được trích rõ gồm:\n- Chấm dứt hiệu lực mã số thuế [TT-91-2026:A:p011:04];\n- Bị cơ quan thuế xác minh và thông báo không hoạt động tại địa chỉ đã đăng ký [TT-91-2026:A:p011:04].\n\nCần lưu ý:\n- Nếu trong thời gian tạm ngừng kinh doanh, doanh nghiệp bị cơ quan thuế xác minh và thông báo không hoạt động tại địa chỉ đã đăng ký, thì lúc đó doanh nghiệp mới rơi vào trường hợp ngừng, tạm ngừng sử dụng hóa đơn điện tử [TT-91-2026:A:p011:04].\n- Khi thuộc trường hợp ngừng, tạm ngừng sử dụng hóa đơn điện tử, doanh nghiệp phải thực hiện thay đổi thông tin đăng ký sử dụng hóa đơn điện tử theo Mẫu số 01/ĐKTĐ-HĐĐT Phụ lục III [TT-91-2026:A:p009:07].\n- Các đối tượng thuộc khoản 1 Điều 8 vẫn có thể được tiếp tục sử dụng hóa đơn điện tử theo quy định tại khoản 3 Điều 8 (điều kiện cụ thể không được trích đủ trong tài liệu) [TT-91-2026:A:p014:05].",
+  "citations": [
+   "TT-91-2026:A:p011:03",
+   "TT-91-2026:A:p011:04",
+   "TT-91-2026:A:p009:07",
+   "TT-91-2026:A:p014:05"
+  ],
+  "n_searches": 3,
+  "queries": [
+   "Doanh nghiệp tạm ngừng kinh doanh thì có phải ngừng sử dụng hóa đơn điện tử không?",
+   "tạm ngừng kinh doanh thông báo hóa đơn điện tử",
+   "Điều 8 các trường hợp ngừng tạm ngừng sử dụng hóa đơn điện tử danh sách"
+  ],
+  "final_context_ids": [
+   "TT-91-2026:A:p011:04",
+   "TT-91-2026:A:p011:03",
+   "TT-91-2026:A:p014:05",
+   "TT-91-2026:A:p006:03",
+   "TT-91-2026:A:p009:07"
+  ],
+  "final_context": "[TT-91-2026:A:p011:04 | Thông-tư-91-2026-TT-BTC.pdf | page 11]\nạm ngừng sử dụng hóa đơn điện tử khởi tạo từ\nmáy tính tiên:\n\na) Tô chức kinh tế, tổ chức khác, hộ kinh doanh, cá nhân kinh doanh\nchâm dứt hiệu lực mã số thuê;\n\nb) Tô chức kinh tế, tỏ chức khác, hộ kinh doanh, cá nhân kinh doanh\nthuộc trường hợp cơ quan thuế xác mình và thông báo không hoạt động tại\nđịa chỉ đã đăng ký;\n\nc) Tổ chức kinh tẻ, tổ chức khác, hộ ki\n\n[TT-91-2026:A:p011:03 | Thông-tư-91-2026-TT-BTC.pdf | page 11]\nt và giải trình.\n\nĐiều 8. Các trường hợp ngừng, tạm ngừng sử dụng hóa đơn điện\ntử\n\nI. Tổ chức kinh tế, tổ chức khác, hộ kính doanh, cá nhân kinh doanh\nthuộc các trường hợp sau thì ngừng, tạm ngừng sử dụng hóa đơn điện tử có\nmã của cơ quan thuế; ngừng, tạm ngừng sử dụng hóa đơn điện tử không có\nmã của cơ quan thuế; ngừng, tạm ngừng sử dụng hóa đơn điện tử khở\n\n[TT-91-2026:A:p014:05 | Thông-tư-91-2026-TT-BTC.pdf | page 14]\ng hợp ngừng, tạm ngừng sử\ndụng hóa đơn điện tử theo quy định tại khoản 1 Điều này ủy nhiệm lập hóa\nđơn điện tử thì cơ quan thuế gửi thông báo ngừng, tạm ngừng sử dụng hóa\nđơn điện tử cho người nộp thuê và bên nhận ủy nhiệm lập hóa đơn điện tử.\n\n3. Tổ chức kinh tẻ, tổ chức khác, hộ kinh doanh, cá nhân kinh doanh tại\nkhoản I Điều này được tiếp tục sử dụng hóa\n\n[TT-91-2026:A:p006:03 | Thông-tư-91-2026-TT-BTC.pdf | page 6]\ngừng, tạm ngừng sử dụng hóa đơn điện tử\ntheo quy định tại Điều $ Thông tư này đăng ký, thay đỏi nội dung đăng ký sử\ndụng hóa đơn điện tử (bao gồm cả đăng ký hóa đơn điện tử bán tài sản công,\nhóa đơn điện tử bán hàng dự trữ quóc gia) thông qua t chức cung cấp dịch vụ\nhóa đơn điện tử.\n\nTrường hợp sử dụng hóa đơn điện tử có mã của cơ quan thuế được\nmiễn phí địc\n\n[TT-91-2026:A:p009:07 | Thông-tư-91-2026-TT-BTC.pdf | page 9]\nđã đăng ký sử dụng hóa đơn điện\ntử, n~[r` trường hợp ngừng, tạm ngừng sử dụng hóa đơn điện tử theo quy định\ntại Điều 8 Thông tư này, thực hiện như sau:\n\na) Tô chức kinh tế, tổ chức khác, hộ kinh doanh, cá nhân kinh doanh\nthực hiện thay đôi thông tin theo Mẫu số 01/ĐKTĐ-HĐĐT Phụ lục III kèm",
+  "events": [
+   {
+    "event": "search",
+    "query": "Doanh nghiệp tạm ngừng kinh doanh thì có phải ngừng sử dụng hóa đơn điện tử không?",
+    "filter": null,
+    "results": [
+     {
+      "id": "TT-91-2026:A:p011:04",
+      "rank": 1,
+      "score": 0.812194,
+      "page": 11,
+      "method": "dense"
+     },
+     {
+      "id": "TT-91-2026:A:p011:03",
+      "rank": 2,
+      "score": 0.8076,
+      "page": 11,
+      "method": "dense"
+     },
+     {
+      "id": "TT-91-2026:A:p014:05",
+      "rank": 3,
+      "score": 0.806783,
+      "page": 14,
+      "method": "dense"
+     }
+    ],
+    "context": "[TT-91-2026:A:p011:04 | Thông-tư-91-2026-TT-BTC.pdf | page 11]\nạm ngừng sử dụng hóa đơn điện tử khởi tạo từ\nmáy tính tiên:\n\na) Tô chức kinh tế, tổ chức khác, hộ kinh doanh, cá nhân kinh doanh\nchâm dứt hiệu lực mã số thuê;\n\nb) Tô chức kinh tế, tỏ chức khác, hộ kinh doanh, cá nhân kinh doanh\nthuộc trường hợp cơ quan thuế xác mình và thông báo không hoạt động tại\nđịa chỉ đã đăng ký;\n\nc) Tổ chức kinh tẻ, tổ chức khác, hộ ki\n\n[TT-91-2026:A:p011:03 | Thông-tư-91-2026-TT-BTC.pdf | page 11]\nt và giải trình.\n\nĐiều 8. Các trường hợp ngừng, tạm ngừng sử dụng hóa đơn điện\ntử\n\nI. Tổ chức kinh tế, tổ chức khác, hộ kính doanh, cá nhân kinh doanh\nthuộc các trường hợp sau thì ngừng, tạm ngừng sử dụng hóa đơn điện tử có\nmã của cơ quan thuế; ngừng, tạm ngừng sử dụng hóa đơn điện tử không có\nmã của cơ quan thuế; ngừng, tạm ngừng sử dụng hóa đơn điện tử khở\n\n[TT-91-2026:A:p014:05 | Thông-tư-91-2026-TT-BTC.pdf | page 14]\ng hợp ngừng, tạm ngừng sử\ndụng hóa đơn điện tử theo quy định tại khoản 1 Điều này ủy nhiệm lập hóa\nđơn điện tử thì cơ quan thuế gửi thông báo ngừng, tạm ngừng sử dụng hóa\nđơn điện tử cho người nộp thuê và bên nhận ủy nhiệm lập hóa đơn điện tử.\n\n3. Tổ chức kinh tẻ, tổ chức khác, hộ kinh doanh, cá nhân kinh doanh tại\nkhoản I Điều này được tiếp tục sử dụng hóa",
+    "context_ids": [
+     "TT-91-2026:A:p011:04",
+     "TT-91-2026:A:p011:03",
+     "TT-91-2026:A:p014:05"
+    ]
+   },
+   {
+    "event": "search",
+    "query": "tạm ngừng kinh doanh thông báo hóa đơn điện tử",
+    "filter": null,
+    "results": [
+     {
+      "id": "TT-91-2026:A:p014:05",
+      "rank": 1,
+      "score": 0.786574,
+      "page": 14,
+      "method": "dense"
+     },
+     {
+      "id": "TT-91-2026:A:p011:03",
+      "rank": 2,
+      "score": 0.725686,
+      "page": 11,
+      "method": "dense"
+     },
+     {
+      "id": "TT-91-2026:A:p006:03",
+      "rank": 3,
+      "score": 0.714688,
+      "page": 6,
+      "method": "dense"
+     }
+    ],
+    "context": "[TT-91-2026:A:p011:04 | Thông-tư-91-2026-TT-BTC.pdf | page 11]\nạm ngừng sử dụng hóa đơn điện tử khởi tạo từ\nmáy tính tiên:\n\na) Tô chức kinh tế, tổ chức khác, hộ kinh doanh, cá nhân kinh doanh\nchâm dứt hiệu lực mã số thuê;\n\nb) Tô chức kinh tế, tỏ chức khác, hộ kinh doanh, cá nhân kinh doanh\nthuộc trường hợp cơ quan thuế xác mình và thông báo không hoạt động tại\nđịa chỉ đã đăng ký;\n\nc) Tổ chức kinh tẻ, tổ chức khác, hộ ki\n\n[TT-91-2026:A:p011:03 | Thông-tư-91-2026-TT-BTC.pdf | page 11]\nt và giải trình.\n\nĐiều 8. Các trường hợp ngừng, tạm ngừng sử dụng hóa đơn điện\ntử\n\nI. Tổ chức kinh tế, tổ chức khác, hộ kính doanh, cá nhân kinh doanh\nthuộc các trường hợp sau thì ngừng, tạm ngừng sử dụng hóa đơn điện tử có\nmã của cơ quan thuế; ngừng, tạm ngừng sử dụng hóa đơn điện tử không có\nmã của cơ quan thuế; ngừng, tạm ngừng sử dụng hóa đơn điện tử khở\n\n[TT-91-2026:A:p014:05 | Thông-tư-91-2026-TT-BTC.pdf | page 14]\ng hợp ngừng, tạm ngừng sử\ndụng hóa đơn điện tử theo quy định tại khoản 1 Điều này ủy nhiệm lập hóa\nđơn điện tử thì cơ quan thuế gửi thông báo ngừng, tạm ngừng sử dụng hóa\nđơn điện tử cho người nộp thuê và bên nhận ủy nhiệm lập hóa đơn điện tử.\n\n3. Tổ chức kinh tẻ, tổ chức khác, hộ kinh doanh, cá nhân kinh doanh tại\nkhoản I Điều này được tiếp tục sử dụng hóa\n\n[TT-91-2026:A:p006:03 | Thông-tư-91-2026-TT-BTC.pdf | page 6]\ngừng, tạm ngừng sử dụng hóa đơn điện tử\ntheo quy định tại Điều $ Thông tư này đăng ký, thay đỏi nội dung đăng ký sử\ndụng hóa đơn điện tử (bao gồm cả đăng ký hóa đơn điện tử bán tài sản công,\nhóa đơn điện tử bán hàng dự trữ quóc gia) thông qua t chức cung cấp dịch vụ\nhóa đơn điện tử.\n\nTrường hợp sử dụng hóa đơn điện tử có mã của cơ quan thuế được\nmiễn phí địc",
+    "context_ids": [
+     "TT-91-2026:A:p011:04",
+     "TT-91-2026:A:p011:03",
+     "TT-91-2026:A:p014:05",
+     "TT-91-2026:A:p006:03"
+    ]
+   },
+   {
+    "event": "search",
+    "query": "Điều 8 các trường hợp ngừng tạm ngừng sử dụng hóa đơn điện tử danh sách",
+    "filter": null,
+    "results": [
+     {
+      "id": "TT-91-2026:A:p011:03",
+      "rank": 1,
+      "score": 0.815088,
+      "page": 11,
+      "method": "dense"
+     },
+     {
+      "id": "TT-91-2026:A:p009:07",
+      "rank": 2,
+      "score": 0.763926,
+      "page": 9,
+      "method": "dense"
+     },
+     {
+      "id": "TT-91-2026:A:p011:04",
+      "rank": 3,
+      "score": 0.722691,
+      "page": 11,
+      "method": "dense"
+     }
+    ],
+    "context": "[TT-91-2026:A:p011:04 | Thông-tư-91-2026-TT-BTC.pdf | page 11]\nạm ngừng sử dụng hóa đơn điện tử khởi tạo từ\nmáy tính tiên:\n\na) Tô chức kinh tế, tổ chức khác, hộ kinh doanh, cá nhân kinh doanh\nchâm dứt hiệu lực mã số thuê;\n\nb) Tô chức kinh tế, tỏ chức khác, hộ kinh doanh, cá nhân kinh doanh\nthuộc trường hợp cơ quan thuế xác mình và thông báo không hoạt động tại\nđịa chỉ đã đăng ký;\n\nc) Tổ chức kinh tẻ, tổ chức khác, hộ ki\n\n[TT-91-2026:A:p011:03 | Thông-tư-91-2026-TT-BTC.pdf | page 11]\nt và giải trình.\n\nĐiều 8. Các trường hợp ngừng, tạm ngừng sử dụng hóa đơn điện\ntử\n\nI. Tổ chức kinh tế, tổ chức khác, hộ kính doanh, cá nhân kinh doanh\nthuộc các trường hợp sau thì ngừng, tạm ngừng sử dụng hóa đơn điện tử có\nmã của cơ quan thuế; ngừng, tạm ngừng sử dụng hóa đơn điện tử không có\nmã của cơ quan thuế; ngừng, tạm ngừng sử dụng hóa đơn điện tử khở\n\n[TT-91-2026:A:p014:05 | Thông-tư-91-2026-TT-BTC.pdf | page 14]\ng hợp ngừng, tạm ngừng sử\ndụng hóa đơn điện tử theo quy định tại khoản 1 Điều này ủy nhiệm lập hóa\nđơn điện tử thì cơ quan thuế gửi thông báo ngừng, tạm ngừng sử dụng hóa\nđơn điện tử cho người nộp thuê và bên nhận ủy nhiệm lập hóa đơn điện tử.\n\n3. Tổ chức kinh tẻ, tổ chức khác, hộ kinh doanh, cá nhân kinh doanh tại\nkhoản I Điều này được tiếp tục sử dụng hóa\n\n[TT-91-2026:A:p006:03 | Thông-tư-91-2026-TT-BTC.pdf | page 6]\ngừng, tạm ngừng sử dụng hóa đơn điện tử\ntheo quy định tại Điều $ Thông tư này đăng ký, thay đỏi nội dung đăng ký sử\ndụng hóa đơn điện tử (bao gồm cả đăng ký hóa đơn điện tử bán tài sản công,\nhóa đơn điện tử bán hàng dự trữ quóc gia) thông qua t chức cung cấp dịch vụ\nhóa đơn điện tử.\n\nTrường hợp sử dụng hóa đơn điện tử có mã của cơ quan thuế được\nmiễn phí địc\n\n[TT-91-2026:A:p009:07 | Thông-tư-91-2026-TT-BTC.pdf | page 9]\nđã đăng ký sử dụng hóa đơn điện\ntử, n~[r` trường hợp ngừng, tạm ngừng sử dụng hóa đơn điện tử theo quy định\ntại Điều 8 Thông tư này, thực hiện như sau:\n\na) Tô chức kinh tế, tổ chức khác, hộ kinh doanh, cá nhân kinh doanh\nthực hiện thay đôi thông tin theo Mẫu số 01/ĐKTĐ-HĐĐT Phụ lục III kèm",
+    "context_ids": [
+     "TT-91-2026:A:p011:04",
+     "TT-91-2026:A:p011:03",
+     "TT-91-2026:A:p014:05",
+     "TT-91-2026:A:p006:03",
+     "TT-91-2026:A:p009:07"
+    ]
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "model_calls": [
+   {
+    "action": "search",
+    "query": "Doanh nghiệp tạm ngừng kinh doanh thì có phải ngừng sử dụng hóa đơn điện tử không?",
+    "source": "original_question",
+    "latency_s": 0,
+    "model": null,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   {
+    "latency_s": 10.84,
+    "model": "glm-5.3-flash",
+    "finish": "tool_calls",
+    "prompt_tokens": 1073,
+    "completion_tokens": 491,
+    "action": "search",
+    "query": "tạm ngừng kinh doanh thông báo hóa đơn điện tử",
+    "extra_tool_calls": 2
+   },
+   {
+    "latency_s": 6.2,
+    "model": "glm-5.3-flash",
+    "finish": "tool_calls",
+    "prompt_tokens": 1232,
+    "completion_tokens": 296,
+    "action": "search",
+    "query": "Điều 8 các trường hợp ngừng tạm ngừng sử dụng hóa đơn điện tử danh sách",
+    "extra_tool_calls": 2
+   },
+   {
+    "latency_s": 103.1,
+    "model": "glm-5.3-flash",
+    "finish": "stop",
+    "prompt_tokens": 1233,
+    "completion_tokens": 5918,
+    "action": "answer",
+    "raw_answer": "**Trả lời: Không bắt buộc.** Việc doanh nghiệp tự thông báo tạm ngừng kinh doanh không nằm trong các trường hợp bị ngừng, tạm ngừng sử dụng hóa đơn điện tử theo Điều 8 Thông tư 91/2026/TT-BTC.\n\nTheo Điều 8, chỉ tổ chức kinh tế, tổ chức khác, hộ kinh doanh, cá nhân kinh doanh thuộc các trường hợp quy định mới phải ngừng, tạm ngừng sử dụng hóa đơn điện tử có mã của cơ quan thuế, không có mã của cơ quan thuế và hóa đơn điện tử khởi tạo từ máy tính tiền [TT-91-2026:A:p011:03]. Các trường hợp được trích rõ gồm:\n- Chấm dứt hiệu lực mã số thuế [TT-91-2026:A:p011:04];\n- Bị cơ quan thuế xác minh và thông báo không hoạt động tại địa chỉ đã đăng ký [TT-91-2026:A:p011:04].\n\nCần lưu ý:\n- Nếu trong thời gian tạm ngừng kinh doanh, doanh nghiệp bị cơ quan thuế xác minh và thông báo không hoạt động tại địa chỉ đã đăng ký, thì lúc đó doanh nghiệp mới rơi vào trường hợp ngừng, tạm ngừng sử dụng hóa đơn điện tử [TT-91-2026:A:p011:04].\n- Khi thuộc trường hợp ngừng, tạm ngừng sử dụng hóa đơn điện tử, doanh nghiệp phải thực hiện thay đổi thông tin đăng ký sử dụng hóa đơn điện tử theo Mẫu số 01/ĐKTĐ-HĐĐT Phụ lục III [TT-91-2026:A:p009:07].\n- Các đối tượng thuộc khoản 1 Điều 8 vẫn có thể được tiếp tục sử dụng hóa đơn điện tử theo quy định tại khoản 3 Điều 8 (điều kiện cụ thể không được trích đủ trong tài liệu) [TT-91-2026:A:p014:05].",
+    "model_abstained": false
+   }
+  ],
+  "model": [
+   "glm-5.3-flash"
+  ],
+  "prompt_tokens": 3538,
+  "completion_tokens": 6705,
+  "latency_s": 120.31,
+  "error": null
+ },
+ {
+  "query_id": "d08",
+  "split": "dev",
+  "question": "Hộ kinh doanh được cấp mã số thuế trước ngày 01/7/2025 nhưng thông tin đăng ký thuế không khớp cơ sở dữ liệu dân cư thì phải bổ sung trong bao lâu?",
+  "answerable": true,
+  "filter": null,
+  "status": "answered",
+  "answer": "Theo quy định, trường hợp hộ kinh doanh, cá nhân kinh doanh đã được cấp mã số thuế trước ngày 01 tháng 7 năm 2025 nhưng thông tin đăng ký thuế không khớp đúng với thông tin của cá nhân được lưu trữ trong cơ sở dữ liệu quốc gia về dân cư hoặc không đầy đủ, thì cơ quan thuế yêu cầu hộ kinh doanh, cá nhân kinh doanh **bổ sung thông tin trong thời hạn 10 ngày làm việc** [TT-91-2026:A:p012:04].",
+  "citations": [
+   "TT-91-2026:A:p012:04"
+  ],
+  "n_searches": 1,
+  "queries": [
+   "Hộ kinh doanh được cấp mã số thuế trước ngày 01/7/2025 nhưng thông tin đăng ký thuế không khớp cơ sở dữ liệu dân cư thì phải bổ sung trong bao lâu?"
+  ],
+  "final_context_ids": [
+   "TT-91-2026:A:p012:04",
+   "TT-91-2026:A:p009:05",
+   "TT-91-2026:A:p027:03"
+  ],
+  "final_context": "[TT-91-2026:A:p012:04 | Thông-tư-91-2026-TT-BTC.pdf | page 12]\nnhân kinh doanh đã được cấp mã số\nthuê trước ngày 0] tháng 7 năm 2025 nhưng thông tin đăng ký thuế của hộ\nkinh doanh, cá nhân kinh doanh không khớp đúng với thông tin của cá nhân\nđược lưu trữ trong cơ sở dữ liệu quốc gia về dân cư hoặc không đây đủ thì cơ\nquan thuế yêu cầu hộ kinh doanh, cá nhân kinh doanh bỏ sung thông tin trong\nthời hạn 10 ngày làm việc. S\n\n[TT-91-2026:A:p009:05 | Thông-tư-91-2026-TT-BTC.pdf | page 9]\ntử theo hình thức gửi trực tiếp đến cơ\nquan thuế theo quy định tại điểm b.l khoản 3 Điều 16 Nghị định số\n254/2026/NĐ-CP. Trường hợp sau 05 ngày làm việc kê từ ngày cơ quan thuê\ngửi thông báo theo Mẫu số 01/TB-ĐKĐT Phụ lục IV kèm theo Thông tư này,\ntô chức kinh tế không thông báo cho Cục Thuế để phối hợp kết nối hoặc kết\nquả kiểm thứ kết nổi, truyền nhận dữ\n\n[TT-91-2026:A:p027:03 | Thông-tư-91-2026-TT-BTC.pdf | page 27]\n254/2026/NĐ-CP thì không phải khai và nộp sô thuê phát sinh trên hóa đơn\nđề nghị cấp;\n\nđ) Sau khi tô chức kinh t, tô chức khác, hộ kinh doanh, cá nhân kinh\ndoanh đã nộp đủ thuế hoặc số phát sinh phải nộp (nếu có) thì chậm nhất là\nngày làm việc tiếp theo, cơ quan thuế cấp mã của cơ quan thuế trên hóa đơn\nđiện tử.\n\nTô chức kinh tế, tô chức khác, hộ kinh doanh,",
+  "events": [
+   {
+    "event": "search",
+    "query": "Hộ kinh doanh được cấp mã số thuế trước ngày 01/7/2025 nhưng thông tin đăng ký thuế không khớp cơ sở dữ liệu dân cư thì phải bổ sung trong bao lâu?",
+    "filter": null,
+    "results": [
+     {
+      "id": "TT-91-2026:A:p012:04",
+      "rank": 1,
+      "score": 0.830404,
+      "page": 12,
+      "method": "dense"
+     },
+     {
+      "id": "TT-91-2026:A:p009:05",
+      "rank": 2,
+      "score": 0.755739,
+      "page": 9,
+      "method": "dense"
+     },
+     {
+      "id": "TT-91-2026:A:p027:03",
+      "rank": 3,
+      "score": 0.75532,
+      "page": 27,
+      "method": "dense"
+     }
+    ],
+    "context": "[TT-91-2026:A:p012:04 | Thông-tư-91-2026-TT-BTC.pdf | page 12]\nnhân kinh doanh đã được cấp mã số\nthuê trước ngày 0] tháng 7 năm 2025 nhưng thông tin đăng ký thuế của hộ\nkinh doanh, cá nhân kinh doanh không khớp đúng với thông tin của cá nhân\nđược lưu trữ trong cơ sở dữ liệu quốc gia về dân cư hoặc không đây đủ thì cơ\nquan thuế yêu cầu hộ kinh doanh, cá nhân kinh doanh bỏ sung thông tin trong\nthời hạn 10 ngày làm việc. S\n\n[TT-91-2026:A:p009:05 | Thông-tư-91-2026-TT-BTC.pdf | page 9]\ntử theo hình thức gửi trực tiếp đến cơ\nquan thuế theo quy định tại điểm b.l khoản 3 Điều 16 Nghị định số\n254/2026/NĐ-CP. Trường hợp sau 05 ngày làm việc kê từ ngày cơ quan thuê\ngửi thông báo theo Mẫu số 01/TB-ĐKĐT Phụ lục IV kèm theo Thông tư này,\ntô chức kinh tế không thông báo cho Cục Thuế để phối hợp kết nối hoặc kết\nquả kiểm thứ kết nổi, truyền nhận dữ\n\n[TT-91-2026:A:p027:03 | Thông-tư-91-2026-TT-BTC.pdf | page 27]\n254/2026/NĐ-CP thì không phải khai và nộp sô thuê phát sinh trên hóa đơn\nđề nghị cấp;\n\nđ) Sau khi tô chức kinh t, tô chức khác, hộ kinh doanh, cá nhân kinh\ndoanh đã nộp đủ thuế hoặc số phát sinh phải nộp (nếu có) thì chậm nhất là\nngày làm việc tiếp theo, cơ quan thuế cấp mã của cơ quan thuế trên hóa đơn\nđiện tử.\n\nTô chức kinh tế, tô chức khác, hộ kinh doanh,",
+    "context_ids": [
+     "TT-91-2026:A:p012:04",
+     "TT-91-2026:A:p009:05",
+     "TT-91-2026:A:p027:03"
+    ]
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "model_calls": [
+   {
+    "action": "search",
+    "query": "Hộ kinh doanh được cấp mã số thuế trước ngày 01/7/2025 nhưng thông tin đăng ký thuế không khớp cơ sở dữ liệu dân cư thì phải bổ sung trong bao lâu?",
+    "source": "original_question",
+    "latency_s": 0,
+    "model": null,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   {
+    "latency_s": 12.47,
+    "model": "glm-5.3-flash",
+    "finish": "stop",
+    "prompt_tokens": 1114,
+    "completion_tokens": 545,
+    "action": "answer",
+    "raw_answer": "Theo quy định, trường hợp hộ kinh doanh, cá nhân kinh doanh đã được cấp mã số thuế trước ngày 01 tháng 7 năm 2025 nhưng thông tin đăng ký thuế không khớp đúng với thông tin của cá nhân được lưu trữ trong cơ sở dữ liệu quốc gia về dân cư hoặc không đầy đủ, thì cơ quan thuế yêu cầu hộ kinh doanh, cá nhân kinh doanh **bổ sung thông tin trong thời hạn 10 ngày làm việc** [TT-91-2026:A:p012:04].",
+    "model_abstained": false
+   }
+  ],
+  "model": [
+   "glm-5.3-flash"
+  ],
+  "prompt_tokens": 1114,
+  "completion_tokens": 545,
+  "latency_s": 12.53,
+  "error": null
+ },
+ {
+  "query_id": "d09",
+  "split": "dev",
+  "question": "Ủy nhiệm lập hóa đơn điện tử có bắt buộc phải lập thành văn bản không? Có ngoại lệ nào?",
+  "answerable": true,
+  "filter": null,
+  "status": "answered",
+  "answer": "Có. Theo quy định, việc ủy nhiệm lập hóa đơn điện tử **bắt buộc phải được lập bằng văn bản** (hợp đồng hoặc thỏa thuận) giữa bên ủy nhiệm và bên nhận ủy nhiệm.\n\n**Ngoại lệ:** không cần lập văn bản trong trường hợp **bán tài sản thi hành án của cơ quan thi hành án** [TT-91-2026:A:p015:01].",
+  "citations": [
+   "TT-91-2026:A:p015:01"
+  ],
+  "n_searches": 1,
+  "queries": [
+   "Ủy nhiệm lập hóa đơn điện tử có bắt buộc phải lập thành văn bản không? Có ngoại lệ nào?"
+  ],
+  "final_context_ids": [
+   "TT-91-2026:A:p015:01",
+   "TT-91-2026:A:p016:02",
+   "TT-91-2026:A:p009:02"
+  ],
+  "final_context": "[TT-91-2026:A:p015:01 | Thông-tư-91-2026-TT-BTC.pdf | page 15]\ntạm ngừng sử dụng hóa đơn điện tử\ntheo quy định tại Điêu 8 Thông tư này đê lập hóa đơn điện tử cho hoạt động\nbán hàng hoá, cung cập dịch vụ;\n\nb) Việc ủy nhiệm phải được lập bằng văn bản (hợp đồng hoặc thỏa\nthuận) giữa bên ủy nhiệm và bên nhận ủy nhiệm, trừ trường hợp bán tải sản\nthi hành án của cơ quan thị hành án;\n\nc) Việc ủy nhiệm phải thông báo cho cơ qu\n\n[TT-91-2026:A:p016:02 | Thông-tư-91-2026-TT-BTC.pdf | page 16]\nê về việc ủy nhiệm lập hóa đơn điện tử:\n\na) Việc ủy nhiệm được xác định là thay đổi thông tin đăng ký sử dụng\nhóa đơn điện tử theo quy định tại Điêu 6 Thông tư này. Bên ủy nhiệm và bên\nnhận ủy nhiệm sử dụng Mẫu số 01/ĐKTĐ-HĐĐT Phụ lục III kèm theo Thông\ntư này đề thông báo với cơ quan thuê về việc ủy nhiệm lập hóa đơn điện tử,\nbao gồm cả trường hợp chẩm dứt\n\n[TT-91-2026:A:p009:02 | Thông-tư-91-2026-TT-BTC.pdf | page 9]\náp nhận hoặc không ủẳp\nnhận đăng ký sử dụng hóa đơn điện tử.\n\nĐói với trường hợp tỏ chức kinh tế đăng ký chuyên dữ liệu hóa đơn\nđiện tử theo hình thức gửi trực tiếp đến cơ quan thuế theo quy định tại điểm\nb.] khoản 3 Điều 16 Nghị định số 254/2026/NĐ-CP được cơ quan thuê ra\nThông báo về việc chấp nhận đăng ký sử dụng hóa đơn điện tử theo Mẫu số\n01/TB-ĐKĐT Phụ",
+  "events": [
+   {
+    "event": "search",
+    "query": "Ủy nhiệm lập hóa đơn điện tử có bắt buộc phải lập thành văn bản không? Có ngoại lệ nào?",
+    "filter": null,
+    "results": [
+     {
+      "id": "TT-91-2026:A:p015:01",
+      "rank": 1,
+      "score": 0.749857,
+      "page": 15,
+      "method": "dense"
+     },
+     {
+      "id": "TT-91-2026:A:p016:02",
+      "rank": 2,
+      "score": 0.740222,
+      "page": 16,
+      "method": "dense"
+     },
+     {
+      "id": "TT-91-2026:A:p009:02",
+      "rank": 3,
+      "score": 0.740168,
+      "page": 9,
+      "method": "dense"
+     }
+    ],
+    "context": "[TT-91-2026:A:p015:01 | Thông-tư-91-2026-TT-BTC.pdf | page 15]\ntạm ngừng sử dụng hóa đơn điện tử\ntheo quy định tại Điêu 8 Thông tư này đê lập hóa đơn điện tử cho hoạt động\nbán hàng hoá, cung cập dịch vụ;\n\nb) Việc ủy nhiệm phải được lập bằng văn bản (hợp đồng hoặc thỏa\nthuận) giữa bên ủy nhiệm và bên nhận ủy nhiệm, trừ trường hợp bán tải sản\nthi hành án của cơ quan thị hành án;\n\nc) Việc ủy nhiệm phải thông báo cho cơ qu\n\n[TT-91-2026:A:p016:02 | Thông-tư-91-2026-TT-BTC.pdf | page 16]\nê về việc ủy nhiệm lập hóa đơn điện tử:\n\na) Việc ủy nhiệm được xác định là thay đổi thông tin đăng ký sử dụng\nhóa đơn điện tử theo quy định tại Điêu 6 Thông tư này. Bên ủy nhiệm và bên\nnhận ủy nhiệm sử dụng Mẫu số 01/ĐKTĐ-HĐĐT Phụ lục III kèm theo Thông\ntư này đề thông báo với cơ quan thuê về việc ủy nhiệm lập hóa đơn điện tử,\nbao gồm cả trường hợp chẩm dứt\n\n[TT-91-2026:A:p009:02 | Thông-tư-91-2026-TT-BTC.pdf | page 9]\náp nhận hoặc không ủẳp\nnhận đăng ký sử dụng hóa đơn điện tử.\n\nĐói với trường hợp tỏ chức kinh tế đăng ký chuyên dữ liệu hóa đơn\nđiện tử theo hình thức gửi trực tiếp đến cơ quan thuế theo quy định tại điểm\nb.] khoản 3 Điều 16 Nghị định số 254/2026/NĐ-CP được cơ quan thuê ra\nThông báo về việc chấp nhận đăng ký sử dụng hóa đơn điện tử theo Mẫu số\n01/TB-ĐKĐT Phụ",
+    "context_ids": [
+     "TT-91-2026:A:p015:01",
+     "TT-91-2026:A:p016:02",
+     "TT-91-2026:A:p009:02"
+    ]
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "model_calls": [
+   {
+    "action": "search",
+    "query": "Ủy nhiệm lập hóa đơn điện tử có bắt buộc phải lập thành văn bản không? Có ngoại lệ nào?",
+    "source": "original_question",
+    "latency_s": 0,
+    "model": null,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   {
+    "latency_s": 15.92,
+    "model": "glm-5.3-flash",
+    "finish": "stop",
+    "prompt_tokens": 1090,
+    "completion_tokens": 797,
+    "action": "answer",
+    "raw_answer": "Có. Theo quy định, việc ủy nhiệm lập hóa đơn điện tử **bắt buộc phải được lập bằng văn bản** (hợp đồng hoặc thỏa thuận) giữa bên ủy nhiệm và bên nhận ủy nhiệm.\n\n**Ngoại lệ:** không cần lập văn bản trong trường hợp **bán tài sản thi hành án của cơ quan thi hành án** [TT-91-2026:A:p015:01].",
+    "model_abstained": false
+   }
+  ],
+  "model": [
+   "glm-5.3-flash"
+  ],
+  "prompt_tokens": 1090,
+  "completion_tokens": 797,
+  "latency_s": 15.98,
+  "error": null
+ },
+ {
+  "query_id": "d10",
+  "split": "dev",
+  "question": "Nếu đã lập sai tên, địa chỉ người mua nhưng không sai mã số thuế, số tiền thì xử lý thế nào?",
+  "answerable": true,
+  "filter": {
+   "chapter": "II"
+  },
+  "status": "answered",
+  "answer": "Theo Thông tư, trường hợp này **không phải lập lại hóa đơn**. Cụ thể:\n\n- Người bán thông báo cho người mua về việc hóa đơn đã lập sai và không phải lập lại hóa đơn [TT-91-2026:A:p017:01].\n- Người bán thực hiện thông báo với cơ quan thuế về hóa đơn điện tử đã lập sai theo Mẫu số 04/SS-HĐĐT Phụ lục III kèm theo Thông tư này [TT-91-2026:A:p017:01].",
+  "citations": [
+   "TT-91-2026:A:p017:01"
+  ],
+  "n_searches": 3,
+  "queries": [
+   "Nếu đã lập sai tên, địa chỉ người mua nhưng không sai mã số thuế, số tiền thì xử lý thế nào?",
+   "hóa đơn điều chỉnh sai tên và địa chỉ người mua không sai mã số thuế",
+   "hóa đơn điện tử lập sai mã số thuế tên địa chỉ người mua lập hóa đơn thay thế"
+  ],
+  "final_context_ids": [
+   "TT-91-2026:A:p019:01",
+   "TT-91-2026:A:p017:01",
+   "TT-91-2026:A:p017:04",
+   "TT-91-2026:A:p006:03",
+   "TT-91-2026:A:p017:05"
+  ],
+  "final_context": "[TT-91-2026:A:p019:01 | Thông-tư-91-2026-TT-BTC.pdf | page 19]\niện tử có mã của cơ\nquan thuê hoặc hóa đơn điện tử không có mã của cơ quan thuê đã lập sai thì\ncơ quan thuê thông báo cho người bán theo Mẫu số 01/TB-RSĐT Phụ lục IV\nkèm theo Thông tư này đề người bán kiểm tra nội dung sai.\n\nNgười bán có trách nhiệm rà soát theo thông báo của cơ quan thuế và\nthực hiện điều chỉnh, thay thê hóa đơn theo quy định tại khoản I Đi\n\n[TT-91-2026:A:p017:01 | Thông-tư-91-2026-TT-BTC.pdf | page 17]\nthuê suất, tiền thuể hoặc hàng hóa ghỉ trên hóa đơn thì người\nbán thông báo cho người mua về việc hóa đơn đã lập sai và không phải lập lại\nhóa đơn. Người bán thực hiện thông báo với cơ quan thuê về hóa đơn điện tử đã\nlập sai theo Mẫu số 04/SS-HĐĐT Phụ lục III kèm theo Thông tư này;\n\nb) Trường hợp hóa đơn điện tử đã lập sai các nội dung vè: mã số thuề;\ntên hà\n\n[TT-91-2026:A:p017:04 | Thông-tư-91-2026-TT-BTC.pdf | page 17]\nlập sai phải có dòng\nchữ “Thay thể cho hóa đơn Mẫu số... ký hiệu... sô... ngày... tháng... năm”.\n\nNgười bán ký số trên hóa đơn điện tử mới điều chỉnh hoặc thay thé cho\nhóa đơn điện tử đã lập sai sau đó người bán gửi cho người mua (đối với\ntrường hợp sử dụng hóa đơn điện tử không có mã của cơ quan thuê) hoặc gửi\ncơ quan thuế đề cơ quan thuê cấp mã cho hóa đơ\n\n[TT-91-2026:A:p006:03 | Thông-tư-91-2026-TT-BTC.pdf | page 6]\ngừng, tạm ngừng sử dụng hóa đơn điện tử\ntheo quy định tại Điều $ Thông tư này đăng ký, thay đỏi nội dung đăng ký sử\ndụng hóa đơn điện tử (bao gồm cả đăng ký hóa đơn điện tử bán tài sản công,\nhóa đơn điện tử bán hàng dự trữ quóc gia) thông qua t chức cung cấp dịch vụ\nhóa đơn điện tử.\n\nTrường hợp sử dụng hóa đơn điện tử có mã của cơ quan thuế được\nmiễn phí địc\n\n[TT-91-2026:A:p017:05 | Thông-tư-91-2026-TT-BTC.pdf | page 17]\nuế đề cơ quan thuê cấp mã cho hóa đơn điện tử mới đề gửi cho\nngười mua (đỏi với trường hợp sử dụng hóa đơn điện tử có mã của cơ quan\nthuê).\n\nTrường hợp trong tháng người bán đã lập sai cùng thông tin về người\nmua, tên hàng, đơn giá, số lượng, thuế suất trên nhiều hóa đơn của cùng một\nngười mua trong cùng tháng, thì người bán được lập một hóa đơn điều chỉnh\nh",
+  "events": [
+   {
+    "event": "search",
+    "query": "Nếu đã lập sai tên, địa chỉ người mua nhưng không sai mã số thuế, số tiền thì xử lý thế nào?",
+    "filter": {
+     "chapter": "II"
+    },
+    "results": [
+     {
+      "id": "TT-91-2026:A:p019:01",
+      "rank": 1,
+      "score": 0.673505,
+      "page": 19,
+      "method": "dense"
+     },
+     {
+      "id": "TT-91-2026:A:p017:01",
+      "rank": 2,
+      "score": 0.639767,
+      "page": 17,
+      "method": "dense"
+     },
+     {
+      "id": "TT-91-2026:A:p017:04",
+      "rank": 3,
+      "score": 0.617382,
+      "page": 17,
+      "method": "dense"
+     }
+    ],
+    "context": "[TT-91-2026:A:p019:01 | Thông-tư-91-2026-TT-BTC.pdf | page 19]\niện tử có mã của cơ\nquan thuê hoặc hóa đơn điện tử không có mã của cơ quan thuê đã lập sai thì\ncơ quan thuê thông báo cho người bán theo Mẫu số 01/TB-RSĐT Phụ lục IV\nkèm theo Thông tư này đề người bán kiểm tra nội dung sai.\n\nNgười bán có trách nhiệm rà soát theo thông báo của cơ quan thuế và\nthực hiện điều chỉnh, thay thê hóa đơn theo quy định tại khoản I Đi\n\n[TT-91-2026:A:p017:01 | Thông-tư-91-2026-TT-BTC.pdf | page 17]\nthuê suất, tiền thuể hoặc hàng hóa ghỉ trên hóa đơn thì người\nbán thông báo cho người mua về việc hóa đơn đã lập sai và không phải lập lại\nhóa đơn. Người bán thực hiện thông báo với cơ quan thuê về hóa đơn điện tử đã\nlập sai theo Mẫu số 04/SS-HĐĐT Phụ lục III kèm theo Thông tư này;\n\nb) Trường hợp hóa đơn điện tử đã lập sai các nội dung vè: mã số thuề;\ntên hà\n\n[TT-91-2026:A:p017:04 | Thông-tư-91-2026-TT-BTC.pdf | page 17]\nlập sai phải có dòng\nchữ “Thay thể cho hóa đơn Mẫu số... ký hiệu... sô... ngày... tháng... năm”.\n\nNgười bán ký số trên hóa đơn điện tử mới điều chỉnh hoặc thay thé cho\nhóa đơn điện tử đã lập sai sau đó người bán gửi cho người mua (đối với\ntrường hợp sử dụng hóa đơn điện tử không có mã của cơ quan thuê) hoặc gửi\ncơ quan thuế đề cơ quan thuê cấp mã cho hóa đơ",
+    "context_ids": [
+     "TT-91-2026:A:p019:01",
+     "TT-91-2026:A:p017:01",
+     "TT-91-2026:A:p017:04"
+    ]
+   },
+   {
+    "event": "search",
+    "query": "hóa đơn điều chỉnh sai tên và địa chỉ người mua không sai mã số thuế",
+    "filter": {
+     "chapter": "II"
+    },
+    "results": [
+     {
+      "id": "TT-91-2026:A:p017:01",
+      "rank": 1,
+      "score": 0.689895,
+      "page": 17,
+      "method": "dense"
+     },
+     {
+      "id": "TT-91-2026:A:p017:04",
+      "rank": 2,
+      "score": 0.677854,
+      "page": 17,
+      "method": "dense"
+     },
+     {
+      "id": "TT-91-2026:A:p019:01",
+      "rank": 3,
+      "score": 0.659657,
+      "page": 19,
+      "method": "dense"
+     }
+    ],
+    "context": "[TT-91-2026:A:p019:01 | Thông-tư-91-2026-TT-BTC.pdf | page 19]\niện tử có mã của cơ\nquan thuê hoặc hóa đơn điện tử không có mã của cơ quan thuê đã lập sai thì\ncơ quan thuê thông báo cho người bán theo Mẫu số 01/TB-RSĐT Phụ lục IV\nkèm theo Thông tư này đề người bán kiểm tra nội dung sai.\n\nNgười bán có trách nhiệm rà soát theo thông báo của cơ quan thuế và\nthực hiện điều chỉnh, thay thê hóa đơn theo quy định tại khoản I Đi\n\n[TT-91-2026:A:p017:01 | Thông-tư-91-2026-TT-BTC.pdf | page 17]\nthuê suất, tiền thuể hoặc hàng hóa ghỉ trên hóa đơn thì người\nbán thông báo cho người mua về việc hóa đơn đã lập sai và không phải lập lại\nhóa đơn. Người bán thực hiện thông báo với cơ quan thuê về hóa đơn điện tử đã\nlập sai theo Mẫu số 04/SS-HĐĐT Phụ lục III kèm theo Thông tư này;\n\nb) Trường hợp hóa đơn điện tử đã lập sai các nội dung vè: mã số thuề;\ntên hà\n\n[TT-91-2026:A:p017:04 | Thông-tư-91-2026-TT-BTC.pdf | page 17]\nlập sai phải có dòng\nchữ “Thay thể cho hóa đơn Mẫu số... ký hiệu... sô... ngày... tháng... năm”.\n\nNgười bán ký số trên hóa đơn điện tử mới điều chỉnh hoặc thay thé cho\nhóa đơn điện tử đã lập sai sau đó người bán gửi cho người mua (đối với\ntrường hợp sử dụng hóa đơn điện tử không có mã của cơ quan thuê) hoặc gửi\ncơ quan thuế đề cơ quan thuê cấp mã cho hóa đơ",
+    "context_ids": [
+     "TT-91-2026:A:p019:01",
+     "TT-91-2026:A:p017:01",
+     "TT-91-2026:A:p017:04"
+    ]
+   },
+   {
+    "event": "search",
+    "query": "hóa đơn điện tử lập sai mã số thuế tên địa chỉ người mua lập hóa đơn thay thế",
+    "filter": {
+     "chapter": "II"
+    },
+    "results": [
+     {
+      "id": "TT-91-2026:A:p006:03",
+      "rank": 1,
+      "score": 0.748248,
+      "page": 6,
+      "method": "dense"
+     },
+     {
+      "id": "TT-91-2026:A:p017:05",
+      "rank": 2,
+      "score": 0.735793,
+      "page": 17,
+      "method": "dense"
+     },
+     {
+      "id": "TT-91-2026:A:p017:04",
+      "rank": 3,
+      "score": 0.73389,
+      "page": 17,
+      "method": "dense"
+     }
+    ],
+    "context": "[TT-91-2026:A:p019:01 | Thông-tư-91-2026-TT-BTC.pdf | page 19]\niện tử có mã của cơ\nquan thuê hoặc hóa đơn điện tử không có mã của cơ quan thuê đã lập sai thì\ncơ quan thuê thông báo cho người bán theo Mẫu số 01/TB-RSĐT Phụ lục IV\nkèm theo Thông tư này đề người bán kiểm tra nội dung sai.\n\nNgười bán có trách nhiệm rà soát theo thông báo của cơ quan thuế và\nthực hiện điều chỉnh, thay thê hóa đơn theo quy định tại khoản I Đi\n\n[TT-91-2026:A:p017:01 | Thông-tư-91-2026-TT-BTC.pdf | page 17]\nthuê suất, tiền thuể hoặc hàng hóa ghỉ trên hóa đơn thì người\nbán thông báo cho người mua về việc hóa đơn đã lập sai và không phải lập lại\nhóa đơn. Người bán thực hiện thông báo với cơ quan thuê về hóa đơn điện tử đã\nlập sai theo Mẫu số 04/SS-HĐĐT Phụ lục III kèm theo Thông tư này;\n\nb) Trường hợp hóa đơn điện tử đã lập sai các nội dung vè: mã số thuề;\ntên hà\n\n[TT-91-2026:A:p017:04 | Thông-tư-91-2026-TT-BTC.pdf | page 17]\nlập sai phải có dòng\nchữ “Thay thể cho hóa đơn Mẫu số... ký hiệu... sô... ngày... tháng... năm”.\n\nNgười bán ký số trên hóa đơn điện tử mới điều chỉnh hoặc thay thé cho\nhóa đơn điện tử đã lập sai sau đó người bán gửi cho người mua (đối với\ntrường hợp sử dụng hóa đơn điện tử không có mã của cơ quan thuê) hoặc gửi\ncơ quan thuế đề cơ quan thuê cấp mã cho hóa đơ\n\n[TT-91-2026:A:p006:03 | Thông-tư-91-2026-TT-BTC.pdf | page 6]\ngừng, tạm ngừng sử dụng hóa đơn điện tử\ntheo quy định tại Điều $ Thông tư này đăng ký, thay đỏi nội dung đăng ký sử\ndụng hóa đơn điện tử (bao gồm cả đăng ký hóa đơn điện tử bán tài sản công,\nhóa đơn điện tử bán hàng dự trữ quóc gia) thông qua t chức cung cấp dịch vụ\nhóa đơn điện tử.\n\nTrường hợp sử dụng hóa đơn điện tử có mã của cơ quan thuế được\nmiễn phí địc\n\n[TT-91-2026:A:p017:05 | Thông-tư-91-2026-TT-BTC.pdf | page 17]\nuế đề cơ quan thuê cấp mã cho hóa đơn điện tử mới đề gửi cho\nngười mua (đỏi với trường hợp sử dụng hóa đơn điện tử có mã của cơ quan\nthuê).\n\nTrường hợp trong tháng người bán đã lập sai cùng thông tin về người\nmua, tên hàng, đơn giá, số lượng, thuế suất trên nhiều hóa đơn của cùng một\nngười mua trong cùng tháng, thì người bán được lập một hóa đơn điều chỉnh\nh",
+    "context_ids": [
+     "TT-91-2026:A:p019:01",
+     "TT-91-2026:A:p017:01",
+     "TT-91-2026:A:p017:04",
+     "TT-91-2026:A:p006:03",
+     "TT-91-2026:A:p017:05"
+    ]
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "model_calls": [
+   {
+    "action": "search",
+    "query": "Nếu đã lập sai tên, địa chỉ người mua nhưng không sai mã số thuế, số tiền thì xử lý thế nào?",
+    "source": "original_question",
+    "latency_s": 0,
+    "model": null,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   {
+    "latency_s": 12.45,
+    "model": "glm-5.3-flash",
+    "finish": "tool_calls",
+    "prompt_tokens": 1062,
+    "completion_tokens": 642,
+    "action": "search",
+    "query": "hóa đơn điều chỉnh sai tên và địa chỉ người mua không sai mã số thuế",
+    "extra_tool_calls": 1
+   },
+   {
+    "latency_s": 9.75,
+    "model": "glm-5.3-flash",
+    "finish": "tool_calls",
+    "prompt_tokens": 1081,
+    "completion_tokens": 390,
+    "action": "search",
+    "query": "hóa đơn điện tử lập sai mã số thuế tên địa chỉ người mua lập hóa đơn thay thế",
+    "extra_tool_calls": 1
+   },
+   {
+    "latency_s": 34.32,
+    "model": "glm-5.3-flash",
+    "finish": "stop",
+    "prompt_tokens": 1228,
+    "completion_tokens": 1889,
+    "action": "answer",
+    "raw_answer": "Theo Thông tư, trường hợp này **không phải lập lại hóa đơn**. Cụ thể:\n\n- Người bán thông báo cho người mua về việc hóa đơn đã lập sai và không phải lập lại hóa đơn [TT-91-2026:A:p017:01].\n- Người bán thực hiện thông báo với cơ quan thuế về hóa đơn điện tử đã lập sai theo Mẫu số 04/SS-HĐĐT Phụ lục III kèm theo Thông tư này [TT-91-2026:A:p017:01].",
+    "model_abstained": false
+   }
+  ],
+  "model": [
+   "glm-5.3-flash"
+  ],
+  "prompt_tokens": 3371,
+  "completion_tokens": 2921,
+  "latency_s": 56.72,
+  "error": null
+ },
+ {
+  "query_id": "d11",
+  "split": "dev",
+  "question": "Hóa đơn điện tử ghi sai mã số thuế người mua thì người bán phải xử lý thế nào?",
+  "answerable": true,
+  "filter": null,
+  "status": "answered",
+  "answer": "Theo quy định về xử lý hóa đơn điện tử đã lập sai trong tài liệu:\n\n- Khi hóa đơn điện tử đã lập sai, người bán và người mua phải lập văn bản thỏa thuận ghi rõ nội dung sai và lập hóa đơn điện tử mới (hóa đơn điện tử có mã của cơ quan thuế hoặc hóa đơn điện tử không có mã) thay thế cho hóa đơn đã lập sai, đồng thời cập nhật đầy đủ thông tin hóa đơn bị thay thế; hóa đơn điện tử thay thế phải có dòng chữ \"Thay thế…\" [TT-91-2026:A:p032:02].\n\n- Trường hợp trong tháng người bán đã lập sai cùng thông tin về người mua, tên hàng, đơn giá, số lượng, thuế suất trên nhiều hóa đơn của cùng một người mua trong cùng tháng, thì người bán được lập một hóa đơn điều chỉnh chung [TT-91-2026:A:p017:05].",
+  "citations": [
+   "TT-91-2026:A:p032:02",
+   "TT-91-2026:A:p017:05"
+  ],
+  "n_searches": 3,
+  "queries": [
+   "Hóa đơn điện tử ghi sai mã số thuế người mua thì người bán phải xử lý thế nào?",
+   "xử lý hóa đơn điện tử ghi sai mã số thuế người mua",
+   "hóa đơn điện tử sai mã số thuế người mua điều chỉnh thay thế"
+  ],
+  "final_context_ids": [
+   "TT-91-2026:A:p017:05",
+   "TT-91-2026:A:p019:02",
+   "TT-91-2026:A:p028:01",
+   "TT-91-2026:A:p010:02",
+   "TT-91-2026:A:p022:05",
+   "TT-91-2026:A:p032:02",
+   "TT-91-2026:A:p006:03"
+  ],
+  "final_context": "[TT-91-2026:A:p017:05 | Thông-tư-91-2026-TT-BTC.pdf | page 17]\nuế đề cơ quan thuê cấp mã cho hóa đơn điện tử mới đề gửi cho\nngười mua (đỏi với trường hợp sử dụng hóa đơn điện tử có mã của cơ quan\nthuê).\n\nTrường hợp trong tháng người bán đã lập sai cùng thông tin về người\nmua, tên hàng, đơn giá, số lượng, thuế suất trên nhiều hóa đơn của cùng một\nngười mua trong cùng tháng, thì người bán được lập một hóa đơn điều chỉnh\nh\n\n[TT-91-2026:A:p019:02 | Thông-tư-91-2026-TT-BTC.pdf | page 19]\nhóa đơn theo quy định tại khoản I Điều này.\n\n4. Trường hợp người bán thực hiện theo quy định tại điểm a khoản 1\nĐiều này thì Hệ thống thông tin quản lý thuế tự động thông báo về việc tiếp\nnhận theo Mẫu số 01/TB-SSĐT Phụ lục IV kèm theo Thông tư nảy.\n\n5, Xử lý hóa đơn điện tử đã lập trong một số trường hợp như sau:\n\na) Đồi với các hóa đơn điện tử đã lập khi b\n\n[TT-91-2026:A:p028:01 | Thông-tư-91-2026-TT-BTC.pdf | page 28]\np hóa đơn điện tử có mã của cơ quan thuế theo từng lần phát sinh tại cơ\nquan thuê quản lý địa bàn nơi hộ kinh doanh, cá nhân kinh doanh cư trú: nơi ở\nhiện tại; nơi tạm trú hoặc nơi thường trú.\n\nĐiều 16. Trình tự, thủ tục tiêu hủy hóa đơn đặt in của cơ quan\nthuế, biên lai giấy, hóa đơn bán hàng dự trữ ựổc gia (hóa đơn bằng\ngiây)\n\nCơ quan thuê thực hiện tiêu h\n\n[TT-91-2026:A:p010:02 | Thông-tư-91-2026-TT-BTC.pdf | page 10]\nchuyên sang sử dụng\nhóa đơn điện tử có mã của cơ quan thuế thông qua tổ chức cung cấp dịch vụ\nvề hóa đơn điện tử và thực hiện thay đồi thông tin sử dụng hóa đơn điện tử có\nmã của cơ quan thuê theo quy định tại khoản 4 Điều này.\n\n6. Đôi với các trường hợp áp dụng hóa đơn điện tử không có mã của cơ\nquan thuế, định kỳ cơ quan thuê quản lý trực tiếp tiền hành rà\n\n[TT-91-2026:A:p022:05 | Thông-tư-91-2026-TT-BTC.pdf | page 22]\ni áp dụng hóa đơn điện tử có mã của cơ quan thuế thì phải chuyên đổi sang\náp dụng hóa đơn điện tử có mã của cơ quan thuềê. Trong thời gian 10 ngày làm\nviệc kê từ ngày cơ quan thuế thông báo, người nộp thuế phải thay đổi thông\ntin sử dụng hóa đơn điện tử (chuyên từ sử dụng hóa đơn điện tử không có mã\ncủa cơ quan thuê sang hóa đơn điện tử có mã của cơ quan thu\n\n[TT-91-2026:A:p032:02 | Thông-tư-91-2026-TT-BTC.pdf | page 32]\nBộ Tải chính mả hóa đơn\nđã lập sai thì người bán và người mua phải lập văn bản thỏa thuận ghi rõ nội\ndung sai và lập hóa đơn điện tử mới (hóa đơn điện tử có mã của cơ quan thuế\nhoặc hóa đơn điện tử không có mã) thay thể cho hóa đơn đã lập sai và cập\nnhật đây đủ thông tin hóa đơn bị thay thế. Hóa đơn điện tử thay thế hóa đơn\nđã lập sai phải có dòng chữ “Thay\n\n[TT-91-2026:A:p006:03 | Thông-tư-91-2026-TT-BTC.pdf | page 6]\ngừng, tạm ngừng sử dụng hóa đơn điện tử\ntheo quy định tại Điều $ Thông tư này đăng ký, thay đỏi nội dung đăng ký sử\ndụng hóa đơn điện tử (bao gồm cả đăng ký hóa đơn điện tử bán tài sản công,\nhóa đơn điện tử bán hàng dự trữ quóc gia) thông qua t chức cung cấp dịch vụ\nhóa đơn điện tử.\n\nTrường hợp sử dụng hóa đơn điện tử có mã của cơ quan thuế được\nmiễn phí địc",
+  "events": [
+   {
+    "event": "search",
+    "query": "Hóa đơn điện tử ghi sai mã số thuế người mua thì người bán phải xử lý thế nào?",
+    "filter": null,
+    "results": [
+     {
+      "id": "TT-91-2026:A:p017:05",
+      "rank": 1,
+      "score": 0.779829,
+      "page": 17,
+      "method": "dense"
+     },
+     {
+      "id": "TT-91-2026:A:p019:02",
+      "rank": 2,
+      "score": 0.771271,
+      "page": 19,
+      "method": "dense"
+     },
+     {
+      "id": "TT-91-2026:A:p028:01",
+      "rank": 3,
+      "score": 0.76481,
+      "page": 28,
+      "method": "dense"
+     }
+    ],
+    "context": "[TT-91-2026:A:p017:05 | Thông-tư-91-2026-TT-BTC.pdf | page 17]\nuế đề cơ quan thuê cấp mã cho hóa đơn điện tử mới đề gửi cho\nngười mua (đỏi với trường hợp sử dụng hóa đơn điện tử có mã của cơ quan\nthuê).\n\nTrường hợp trong tháng người bán đã lập sai cùng thông tin về người\nmua, tên hàng, đơn giá, số lượng, thuế suất trên nhiều hóa đơn của cùng một\nngười mua trong cùng tháng, thì người bán được lập một hóa đơn điều chỉnh\nh\n\n[TT-91-2026:A:p019:02 | Thông-tư-91-2026-TT-BTC.pdf | page 19]\nhóa đơn theo quy định tại khoản I Điều này.\n\n4. Trường hợp người bán thực hiện theo quy định tại điểm a khoản 1\nĐiều này thì Hệ thống thông tin quản lý thuế tự động thông báo về việc tiếp\nnhận theo Mẫu số 01/TB-SSĐT Phụ lục IV kèm theo Thông tư nảy.\n\n5, Xử lý hóa đơn điện tử đã lập trong một số trường hợp như sau:\n\na) Đồi với các hóa đơn điện tử đã lập khi b\n\n[TT-91-2026:A:p028:01 | Thông-tư-91-2026-TT-BTC.pdf | page 28]\np hóa đơn điện tử có mã của cơ quan thuế theo từng lần phát sinh tại cơ\nquan thuê quản lý địa bàn nơi hộ kinh doanh, cá nhân kinh doanh cư trú: nơi ở\nhiện tại; nơi tạm trú hoặc nơi thường trú.\n\nĐiều 16. Trình tự, thủ tục tiêu hủy hóa đơn đặt in của cơ quan\nthuế, biên lai giấy, hóa đơn bán hàng dự trữ ựổc gia (hóa đơn bằng\ngiây)\n\nCơ quan thuê thực hiện tiêu h",
+    "context_ids": [
+     "TT-91-2026:A:p017:05",
+     "TT-91-2026:A:p019:02",
+     "TT-91-2026:A:p028:01"
+    ]
+   },
+   {
+    "event": "search",
+    "query": "xử lý hóa đơn điện tử ghi sai mã số thuế người mua",
+    "filter": null,
+    "results": [
+     {
+      "id": "TT-91-2026:A:p028:01",
+      "rank": 1,
+      "score": 0.797857,
+      "page": 28,
+      "method": "dense"
+     },
+     {
+      "id": "TT-91-2026:A:p010:02",
+      "rank": 2,
+      "score": 0.767678,
+      "page": 10,
+      "method": "dense"
+     },
+     {
+      "id": "TT-91-2026:A:p019:02",
+      "rank": 3,
+      "score": 0.760847,
+      "page": 19,
+      "method": "dense"
+     }
+    ],
+    "context": "[TT-91-2026:A:p017:05 | Thông-tư-91-2026-TT-BTC.pdf | page 17]\nuế đề cơ quan thuê cấp mã cho hóa đơn điện tử mới đề gửi cho\nngười mua (đỏi với trường hợp sử dụng hóa đơn điện tử có mã của cơ quan\nthuê).\n\nTrường hợp trong tháng người bán đã lập sai cùng thông tin về người\nmua, tên hàng, đơn giá, số lượng, thuế suất trên nhiều hóa đơn của cùng một\nngười mua trong cùng tháng, thì người bán được lập một hóa đơn điều chỉnh\nh\n\n[TT-91-2026:A:p019:02 | Thông-tư-91-2026-TT-BTC.pdf | page 19]\nhóa đơn theo quy định tại khoản I Điều này.\n\n4. Trường hợp người bán thực hiện theo quy định tại điểm a khoản 1\nĐiều này thì Hệ thống thông tin quản lý thuế tự động thông báo về việc tiếp\nnhận theo Mẫu số 01/TB-SSĐT Phụ lục IV kèm theo Thông tư nảy.\n\n5, Xử lý hóa đơn điện tử đã lập trong một số trường hợp như sau:\n\na) Đồi với các hóa đơn điện tử đã lập khi b\n\n[TT-91-2026:A:p028:01 | Thông-tư-91-2026-TT-BTC.pdf | page 28]\np hóa đơn điện tử có mã của cơ quan thuế theo từng lần phát sinh tại cơ\nquan thuê quản lý địa bàn nơi hộ kinh doanh, cá nhân kinh doanh cư trú: nơi ở\nhiện tại; nơi tạm trú hoặc nơi thường trú.\n\nĐiều 16. Trình tự, thủ tục tiêu hủy hóa đơn đặt in của cơ quan\nthuế, biên lai giấy, hóa đơn bán hàng dự trữ ựổc gia (hóa đơn bằng\ngiây)\n\nCơ quan thuê thực hiện tiêu h\n\n[TT-91-2026:A:p010:02 | Thông-tư-91-2026-TT-BTC.pdf | page 10]\nchuyên sang sử dụng\nhóa đơn điện tử có mã của cơ quan thuế thông qua tổ chức cung cấp dịch vụ\nvề hóa đơn điện tử và thực hiện thay đồi thông tin sử dụng hóa đơn điện tử có\nmã của cơ quan thuê theo quy định tại khoản 4 Điều này.\n\n6. Đôi với các trường hợp áp dụng hóa đơn điện tử không có mã của cơ\nquan thuế, định kỳ cơ quan thuê quản lý trực tiếp tiền hành rà",
+    "context_ids": [
+     "TT-91-2026:A:p017:05",
+     "TT-91-2026:A:p019:02",
+     "TT-91-2026:A:p028:01",
+     "TT-91-2026:A:p010:02"
+    ]
+   },
+   {
+    "event": "search",
+    "query": "hóa đơn điện tử sai mã số thuế người mua điều chỉnh thay thế",
+    "filter": null,
+    "results": [
+     {
+      "id": "TT-91-2026:A:p022:05",
+      "rank": 1,
+      "score": 0.80084,
+      "page": 22,
+      "method": "dense"
+     },
+     {
+      "id": "TT-91-2026:A:p032:02",
+      "rank": 2,
+      "score": 0.781066,
+      "page": 32,
+      "method": "dense"
+     },
+     {
+      "id": "TT-91-2026:A:p006:03",
+      "rank": 3,
+      "score": 0.769019,
+      "page": 6,
+      "method": "dense"
+     }
+    ],
+    "context": "[TT-91-2026:A:p017:05 | Thông-tư-91-2026-TT-BTC.pdf | page 17]\nuế đề cơ quan thuê cấp mã cho hóa đơn điện tử mới đề gửi cho\nngười mua (đỏi với trường hợp sử dụng hóa đơn điện tử có mã của cơ quan\nthuê).\n\nTrường hợp trong tháng người bán đã lập sai cùng thông tin về người\nmua, tên hàng, đơn giá, số lượng, thuế suất trên nhiều hóa đơn của cùng một\nngười mua trong cùng tháng, thì người bán được lập một hóa đơn điều chỉnh\nh\n\n[TT-91-2026:A:p019:02 | Thông-tư-91-2026-TT-BTC.pdf | page 19]\nhóa đơn theo quy định tại khoản I Điều này.\n\n4. Trường hợp người bán thực hiện theo quy định tại điểm a khoản 1\nĐiều này thì Hệ thống thông tin quản lý thuế tự động thông báo về việc tiếp\nnhận theo Mẫu số 01/TB-SSĐT Phụ lục IV kèm theo Thông tư nảy.\n\n5, Xử lý hóa đơn điện tử đã lập trong một số trường hợp như sau:\n\na) Đồi với các hóa đơn điện tử đã lập khi b\n\n[TT-91-2026:A:p028:01 | Thông-tư-91-2026-TT-BTC.pdf | page 28]\np hóa đơn điện tử có mã của cơ quan thuế theo từng lần phát sinh tại cơ\nquan thuê quản lý địa bàn nơi hộ kinh doanh, cá nhân kinh doanh cư trú: nơi ở\nhiện tại; nơi tạm trú hoặc nơi thường trú.\n\nĐiều 16. Trình tự, thủ tục tiêu hủy hóa đơn đặt in của cơ quan\nthuế, biên lai giấy, hóa đơn bán hàng dự trữ ựổc gia (hóa đơn bằng\ngiây)\n\nCơ quan thuê thực hiện tiêu h\n\n[TT-91-2026:A:p010:02 | Thông-tư-91-2026-TT-BTC.pdf | page 10]\nchuyên sang sử dụng\nhóa đơn điện tử có mã của cơ quan thuế thông qua tổ chức cung cấp dịch vụ\nvề hóa đơn điện tử và thực hiện thay đồi thông tin sử dụng hóa đơn điện tử có\nmã của cơ quan thuê theo quy định tại khoản 4 Điều này.\n\n6. Đôi với các trường hợp áp dụng hóa đơn điện tử không có mã của cơ\nquan thuế, định kỳ cơ quan thuê quản lý trực tiếp tiền hành rà\n\n[TT-91-2026:A:p022:05 | Thông-tư-91-2026-TT-BTC.pdf | page 22]\ni áp dụng hóa đơn điện tử có mã của cơ quan thuế thì phải chuyên đổi sang\náp dụng hóa đơn điện tử có mã của cơ quan thuềê. Trong thời gian 10 ngày làm\nviệc kê từ ngày cơ quan thuế thông báo, người nộp thuế phải thay đổi thông\ntin sử dụng hóa đơn điện tử (chuyên từ sử dụng hóa đơn điện tử không có mã\ncủa cơ quan thuê sang hóa đơn điện tử có mã của cơ quan thu\n\n[TT-91-2026:A:p032:02 | Thông-tư-91-2026-TT-BTC.pdf | page 32]\nBộ Tải chính mả hóa đơn\nđã lập sai thì người bán và người mua phải lập văn bản thỏa thuận ghi rõ nội\ndung sai và lập hóa đơn điện tử mới (hóa đơn điện tử có mã của cơ quan thuế\nhoặc hóa đơn điện tử không có mã) thay thể cho hóa đơn đã lập sai và cập\nnhật đây đủ thông tin hóa đơn bị thay thế. Hóa đơn điện tử thay thế hóa đơn\nđã lập sai phải có dòng chữ “Thay\n\n[TT-91-2026:A:p006:03 | Thông-tư-91-2026-TT-BTC.pdf | page 6]\ngừng, tạm ngừng sử dụng hóa đơn điện tử\ntheo quy định tại Điều $ Thông tư này đăng ký, thay đỏi nội dung đăng ký sử\ndụng hóa đơn điện tử (bao gồm cả đăng ký hóa đơn điện tử bán tài sản công,\nhóa đơn điện tử bán hàng dự trữ quóc gia) thông qua t chức cung cấp dịch vụ\nhóa đơn điện tử.\n\nTrường hợp sử dụng hóa đơn điện tử có mã của cơ quan thuế được\nmiễn phí địc",
+    "context_ids": [
+     "TT-91-2026:A:p017:05",
+     "TT-91-2026:A:p019:02",
+     "TT-91-2026:A:p028:01",
+     "TT-91-2026:A:p010:02",
+     "TT-91-2026:A:p022:05",
+     "TT-91-2026:A:p032:02",
+     "TT-91-2026:A:p006:03"
+    ]
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "model_calls": [
+   {
+    "action": "search",
+    "query": "Hóa đơn điện tử ghi sai mã số thuế người mua thì người bán phải xử lý thế nào?",
+    "source": "original_question",
+    "latency_s": 0,
+    "model": null,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   {
+    "latency_s": 5.91,
+    "model": "glm-5.3-flash",
+    "finish": "tool_calls",
+    "prompt_tokens": 1059,
+    "completion_tokens": 249,
+    "action": "search",
+    "query": "xử lý hóa đơn điện tử ghi sai mã số thuế người mua",
+    "extra_tool_calls": 1
+   },
+   {
+    "latency_s": 7.54,
+    "model": "glm-5.3-flash",
+    "finish": "tool_calls",
+    "prompt_tokens": 1210,
+    "completion_tokens": 307,
+    "action": "search",
+    "query": "hóa đơn điện tử sai mã số thuế người mua điều chỉnh thay thế",
+    "extra_tool_calls": 1
+   },
+   {
+    "latency_s": 61.67,
+    "model": "glm-5.3-flash",
+    "finish": "stop",
+    "prompt_tokens": 1498,
+    "completion_tokens": 3251,
+    "action": "answer",
+    "raw_answer": "Theo quy định về xử lý hóa đơn điện tử đã lập sai trong tài liệu:\n\n- Khi hóa đơn điện tử đã lập sai, người bán và người mua phải lập văn bản thỏa thuận ghi rõ nội dung sai và lập hóa đơn điện tử mới (hóa đơn điện tử có mã của cơ quan thuế hoặc hóa đơn điện tử không có mã) thay thế cho hóa đơn đã lập sai, đồng thời cập nhật đầy đủ thông tin hóa đơn bị thay thế; hóa đơn điện tử thay thế phải có dòng chữ \"Thay thế…\" [TT-91-2026:A:p032:02].\n\n- Trường hợp trong tháng người bán đã lập sai cùng thông tin về người mua, tên hàng, đơn giá, số lượng, thuế suất trên nhiều hóa đơn của cùng một người mua trong cùng tháng, thì người bán được lập một hóa đơn điều chỉnh chung [TT-91-2026:A:p017:05].",
+    "model_abstained": false
+   }
+  ],
+  "model": [
+   "glm-5.3-flash"
+  ],
+  "prompt_tokens": 3767,
+  "completion_tokens": 3807,
+  "latency_s": 75.27,
+  "error": null
+ },
+ {
+  "query_id": "d12",
+  "split": "dev",
+  "question": "Khi điều chỉnh, thay thế hóa đơn sai, trường hợp nào người bán không bắt buộc lập văn bản thỏa thuận với người mua?",
+  "answerable": true,
+  "filter": null,
+  "status": "abstain",
+  "answer": "Không đủ bằng chứng để trả lời.",
+  "citations": [],
+  "n_searches": 3,
+  "queries": [
+   "Khi điều chỉnh, thay thế hóa đơn sai, trường hợp nào người bán không bắt buộc lập văn bản thỏa thuận với người mua?",
+   "Người bán không bắt buộc phải lập văn bản thỏa thuận hóa đơn điều chỉnh",
+   "không bắt buộc lập văn bản thỏa thuận sử dụng hóa đơn điện tử có mã của cơ quan thuế"
+  ],
+  "final_context_ids": [
+   "TT-91-2026:A:p017:01",
+   "TT-91-2026:A:p018:00",
+   "TT-91-2026:A:p020:04",
+   "TT-91-2026:A:p021:02",
+   "TT-91-2026:A:p010:02",
+   "TT-91-2026:A:p006:03",
+   "TT-91-2026:A:p014:04"
+  ],
+  "final_context": "[TT-91-2026:A:p017:01 | Thông-tư-91-2026-TT-BTC.pdf | page 17]\nthuê suất, tiền thuể hoặc hàng hóa ghỉ trên hóa đơn thì người\nbán thông báo cho người mua về việc hóa đơn đã lập sai và không phải lập lại\nhóa đơn. Người bán thực hiện thông báo với cơ quan thuê về hóa đơn điện tử đã\nlập sai theo Mẫu số 04/SS-HĐĐT Phụ lục III kèm theo Thông tư này;\n\nb) Trường hợp hóa đơn điện tử đã lập sai các nội dung vè: mã số thuề;\ntên hà\n\n[TT-91-2026:A:p018:00 | Thông-tư-91-2026-TT-BTC.pdf | page 18]\nphải lập văn bản thỏa thuận ghi rõ nội dung sai; trường hợp người mua là cá\nnhân thì người bán phải thông báo cho người mua hoặc thông báo trên\nwebsite của người bán (nếu có). Người bán thực hiện lưu giữ văn bản thỏa\nthuận tại đơn vị và xuất trình khi cơ quan thuế hoặc cơ quan nhả nước có\nthẩm quyền yêu cầu.\n\nNgười bán không bắt buộc phải lập văn bản thỏa th\n\n[TT-91-2026:A:p020:04 | Thông-tư-91-2026-TT-BTC.pdf | page 20]\nghí rõ số tiền phí bảo hiểm hoàn, giảm, lý do\nhoàn, giảm. Trường hợp người bán và người mua có thỏa thuận về việc lập\nvăn bản thỏa thuận trước khi lập hóa đơn điều chỉnh thì biên bản hoặc thỏa\nthuận Ưảng văn bản được lưu giữ cùng với hóa đơn thu phí bảo hiêm tại\ndoanh nghiệp và xuất trình khi cơ quan thuê hoặc cơ quan nhà nước có thằm\ncwyền yêu câu.\n\nĐồối vớ\n\n[TT-91-2026:A:p021:02 | Thông-tư-91-2026-TT-BTC.pdf | page 21]\nký hiệu... ngày...tháng...năm.” Trường hợp người bán\nvà người mua có thỏa thuận về việc lập văn bản thỏa thuận trước khi lập hóa\nđơn điều chính thì biên bản hoặc thỏa thuận băng văn bản được lưu giữ cùng\nvới hóa đơn thu dịch vụ tại doanh nghiệp và xuất trình khi có yêu cầu;\n\nđ) Đối với trường hợp khách hàng sử dụng thẻ trả trước dịch vụ viễn\nthông di động đ\n\n[TT-91-2026:A:p010:02 | Thông-tư-91-2026-TT-BTC.pdf | page 10]\nchuyên sang sử dụng\nhóa đơn điện tử có mã của cơ quan thuế thông qua tổ chức cung cấp dịch vụ\nvề hóa đơn điện tử và thực hiện thay đồi thông tin sử dụng hóa đơn điện tử có\nmã của cơ quan thuê theo quy định tại khoản 4 Điều này.\n\n6. Đôi với các trường hợp áp dụng hóa đơn điện tử không có mã của cơ\nquan thuế, định kỳ cơ quan thuê quản lý trực tiếp tiền hành rà\n\n[TT-91-2026:A:p006:03 | Thông-tư-91-2026-TT-BTC.pdf | page 6]\ngừng, tạm ngừng sử dụng hóa đơn điện tử\ntheo quy định tại Điều $ Thông tư này đăng ký, thay đỏi nội dung đăng ký sử\ndụng hóa đơn điện tử (bao gồm cả đăng ký hóa đơn điện tử bán tài sản công,\nhóa đơn điện tử bán hàng dự trữ quóc gia) thông qua t chức cung cấp dịch vụ\nhóa đơn điện tử.\n\nTrường hợp sử dụng hóa đơn điện tử có mã của cơ quan thuế được\nmiễn phí địc\n\n[TT-91-2026:A:p014:04 | Thông-tư-91-2026-TT-BTC.pdf | page 14]\nthuế không giải trình,\nbỏ sung thông tin, tài liệu thì cơ quan thuế ban hành thông báo ngừng sử dụng\nhóa đơn điện tử có mã của cơ quan thuế hoặc ngừng sử dụng hóa đơn điện tử\nkhông có mã của cơ quan thuế theo Mẫu số 01/TB-NSD Phụ lục IV kèm theo\nThông tư này và xử lý theo quy định;\n\nđ) Trường hợp người nộp thuê thuộc trường hợp ngừng, tạm ngừng sử\ndụng hóa đ",
+  "events": [
+   {
+    "event": "search",
+    "query": "Khi điều chỉnh, thay thế hóa đơn sai, trường hợp nào người bán không bắt buộc lập văn bản thỏa thuận với người mua?",
+    "filter": null,
+    "results": [
+     {
+      "id": "TT-91-2026:A:p017:01",
+      "rank": 1,
+      "score": 0.785145,
+      "page": 17,
+      "method": "dense"
+     },
+     {
+      "id": "TT-91-2026:A:p018:00",
+      "rank": 2,
+      "score": 0.77081,
+      "page": 18,
+      "method": "dense"
+     },
+     {
+      "id": "TT-91-2026:A:p020:04",
+      "rank": 3,
+      "score": 0.752578,
+      "page": 20,
+      "method": "dense"
+     }
+    ],
+    "context": "[TT-91-2026:A:p017:01 | Thông-tư-91-2026-TT-BTC.pdf | page 17]\nthuê suất, tiền thuể hoặc hàng hóa ghỉ trên hóa đơn thì người\nbán thông báo cho người mua về việc hóa đơn đã lập sai và không phải lập lại\nhóa đơn. Người bán thực hiện thông báo với cơ quan thuê về hóa đơn điện tử đã\nlập sai theo Mẫu số 04/SS-HĐĐT Phụ lục III kèm theo Thông tư này;\n\nb) Trường hợp hóa đơn điện tử đã lập sai các nội dung vè: mã số thuề;\ntên hà\n\n[TT-91-2026:A:p018:00 | Thông-tư-91-2026-TT-BTC.pdf | page 18]\nphải lập văn bản thỏa thuận ghi rõ nội dung sai; trường hợp người mua là cá\nnhân thì người bán phải thông báo cho người mua hoặc thông báo trên\nwebsite của người bán (nếu có). Người bán thực hiện lưu giữ văn bản thỏa\nthuận tại đơn vị và xuất trình khi cơ quan thuế hoặc cơ quan nhả nước có\nthẩm quyền yêu cầu.\n\nNgười bán không bắt buộc phải lập văn bản thỏa th\n\n[TT-91-2026:A:p020:04 | Thông-tư-91-2026-TT-BTC.pdf | page 20]\nghí rõ số tiền phí bảo hiểm hoàn, giảm, lý do\nhoàn, giảm. Trường hợp người bán và người mua có thỏa thuận về việc lập\nvăn bản thỏa thuận trước khi lập hóa đơn điều chỉnh thì biên bản hoặc thỏa\nthuận Ưảng văn bản được lưu giữ cùng với hóa đơn thu phí bảo hiêm tại\ndoanh nghiệp và xuất trình khi cơ quan thuê hoặc cơ quan nhà nước có thằm\ncwyền yêu câu.\n\nĐồối vớ",
+    "context_ids": [
+     "TT-91-2026:A:p017:01",
+     "TT-91-2026:A:p018:00",
+     "TT-91-2026:A:p020:04"
+    ]
+   },
+   {
+    "event": "search",
+    "query": "Người bán không bắt buộc phải lập văn bản thỏa thuận hóa đơn điều chỉnh",
+    "filter": null,
+    "results": [
+     {
+      "id": "TT-91-2026:A:p021:02",
+      "rank": 1,
+      "score": 0.658114,
+      "page": 21,
+      "method": "dense"
+     },
+     {
+      "id": "TT-91-2026:A:p018:00",
+      "rank": 2,
+      "score": 0.63191,
+      "page": 18,
+      "method": "dense"
+     },
+     {
+      "id": "TT-91-2026:A:p020:04",
+      "rank": 3,
+      "score": 0.557368,
+      "page": 20,
+      "method": "dense"
+     }
+    ],
+    "context": "[TT-91-2026:A:p017:01 | Thông-tư-91-2026-TT-BTC.pdf | page 17]\nthuê suất, tiền thuể hoặc hàng hóa ghỉ trên hóa đơn thì người\nbán thông báo cho người mua về việc hóa đơn đã lập sai và không phải lập lại\nhóa đơn. Người bán thực hiện thông báo với cơ quan thuê về hóa đơn điện tử đã\nlập sai theo Mẫu số 04/SS-HĐĐT Phụ lục III kèm theo Thông tư này;\n\nb) Trường hợp hóa đơn điện tử đã lập sai các nội dung vè: mã số thuề;\ntên hà\n\n[TT-91-2026:A:p018:00 | Thông-tư-91-2026-TT-BTC.pdf | page 18]\nphải lập văn bản thỏa thuận ghi rõ nội dung sai; trường hợp người mua là cá\nnhân thì người bán phải thông báo cho người mua hoặc thông báo trên\nwebsite của người bán (nếu có). Người bán thực hiện lưu giữ văn bản thỏa\nthuận tại đơn vị và xuất trình khi cơ quan thuế hoặc cơ quan nhả nước có\nthẩm quyền yêu cầu.\n\nNgười bán không bắt buộc phải lập văn bản thỏa th\n\n[TT-91-2026:A:p020:04 | Thông-tư-91-2026-TT-BTC.pdf | page 20]\nghí rõ số tiền phí bảo hiểm hoàn, giảm, lý do\nhoàn, giảm. Trường hợp người bán và người mua có thỏa thuận về việc lập\nvăn bản thỏa thuận trước khi lập hóa đơn điều chỉnh thì biên bản hoặc thỏa\nthuận Ưảng văn bản được lưu giữ cùng với hóa đơn thu phí bảo hiêm tại\ndoanh nghiệp và xuất trình khi cơ quan thuê hoặc cơ quan nhà nước có thằm\ncwyền yêu câu.\n\nĐồối vớ\n\n[TT-91-2026:A:p021:02 | Thông-tư-91-2026-TT-BTC.pdf | page 21]\nký hiệu... ngày...tháng...năm.” Trường hợp người bán\nvà người mua có thỏa thuận về việc lập văn bản thỏa thuận trước khi lập hóa\nđơn điều chính thì biên bản hoặc thỏa thuận băng văn bản được lưu giữ cùng\nvới hóa đơn thu dịch vụ tại doanh nghiệp và xuất trình khi có yêu cầu;\n\nđ) Đối với trường hợp khách hàng sử dụng thẻ trả trước dịch vụ viễn\nthông di động đ",
+    "context_ids": [
+     "TT-91-2026:A:p017:01",
+     "TT-91-2026:A:p018:00",
+     "TT-91-2026:A:p020:04",
+     "TT-91-2026:A:p021:02"
+    ]
+   },
+   {
+    "event": "search",
+    "query": "không bắt buộc lập văn bản thỏa thuận sử dụng hóa đơn điện tử có mã của cơ quan thuế",
+    "filter": null,
+    "results": [
+     {
+      "id": "TT-91-2026:A:p010:02",
+      "rank": 1,
+      "score": 0.734947,
+      "page": 10,
+      "method": "dense"
+     },
+     {
+      "id": "TT-91-2026:A:p006:03",
+      "rank": 2,
+      "score": 0.708489,
+      "page": 6,
+      "method": "dense"
+     },
+     {
+      "id": "TT-91-2026:A:p014:04",
+      "rank": 3,
+      "score": 0.693474,
+      "page": 14,
+      "method": "dense"
+     }
+    ],
+    "context": "[TT-91-2026:A:p017:01 | Thông-tư-91-2026-TT-BTC.pdf | page 17]\nthuê suất, tiền thuể hoặc hàng hóa ghỉ trên hóa đơn thì người\nbán thông báo cho người mua về việc hóa đơn đã lập sai và không phải lập lại\nhóa đơn. Người bán thực hiện thông báo với cơ quan thuê về hóa đơn điện tử đã\nlập sai theo Mẫu số 04/SS-HĐĐT Phụ lục III kèm theo Thông tư này;\n\nb) Trường hợp hóa đơn điện tử đã lập sai các nội dung vè: mã số thuề;\ntên hà\n\n[TT-91-2026:A:p018:00 | Thông-tư-91-2026-TT-BTC.pdf | page 18]\nphải lập văn bản thỏa thuận ghi rõ nội dung sai; trường hợp người mua là cá\nnhân thì người bán phải thông báo cho người mua hoặc thông báo trên\nwebsite của người bán (nếu có). Người bán thực hiện lưu giữ văn bản thỏa\nthuận tại đơn vị và xuất trình khi cơ quan thuế hoặc cơ quan nhả nước có\nthẩm quyền yêu cầu.\n\nNgười bán không bắt buộc phải lập văn bản thỏa th\n\n[TT-91-2026:A:p020:04 | Thông-tư-91-2026-TT-BTC.pdf | page 20]\nghí rõ số tiền phí bảo hiểm hoàn, giảm, lý do\nhoàn, giảm. Trường hợp người bán và người mua có thỏa thuận về việc lập\nvăn bản thỏa thuận trước khi lập hóa đơn điều chỉnh thì biên bản hoặc thỏa\nthuận Ưảng văn bản được lưu giữ cùng với hóa đơn thu phí bảo hiêm tại\ndoanh nghiệp và xuất trình khi cơ quan thuê hoặc cơ quan nhà nước có thằm\ncwyền yêu câu.\n\nĐồối vớ\n\n[TT-91-2026:A:p021:02 | Thông-tư-91-2026-TT-BTC.pdf | page 21]\nký hiệu... ngày...tháng...năm.” Trường hợp người bán\nvà người mua có thỏa thuận về việc lập văn bản thỏa thuận trước khi lập hóa\nđơn điều chính thì biên bản hoặc thỏa thuận băng văn bản được lưu giữ cùng\nvới hóa đơn thu dịch vụ tại doanh nghiệp và xuất trình khi có yêu cầu;\n\nđ) Đối với trường hợp khách hàng sử dụng thẻ trả trước dịch vụ viễn\nthông di động đ\n\n[TT-91-2026:A:p010:02 | Thông-tư-91-2026-TT-BTC.pdf | page 10]\nchuyên sang sử dụng\nhóa đơn điện tử có mã của cơ quan thuế thông qua tổ chức cung cấp dịch vụ\nvề hóa đơn điện tử và thực hiện thay đồi thông tin sử dụng hóa đơn điện tử có\nmã của cơ quan thuê theo quy định tại khoản 4 Điều này.\n\n6. Đôi với các trường hợp áp dụng hóa đơn điện tử không có mã của cơ\nquan thuế, định kỳ cơ quan thuê quản lý trực tiếp tiền hành rà\n\n[TT-91-2026:A:p006:03 | Thông-tư-91-2026-TT-BTC.pdf | page 6]\ngừng, tạm ngừng sử dụng hóa đơn điện tử\ntheo quy định tại Điều $ Thông tư này đăng ký, thay đỏi nội dung đăng ký sử\ndụng hóa đơn điện tử (bao gồm cả đăng ký hóa đơn điện tử bán tài sản công,\nhóa đơn điện tử bán hàng dự trữ quóc gia) thông qua t chức cung cấp dịch vụ\nhóa đơn điện tử.\n\nTrường hợp sử dụng hóa đơn điện tử có mã của cơ quan thuế được\nmiễn phí địc\n\n[TT-91-2026:A:p014:04 | Thông-tư-91-2026-TT-BTC.pdf | page 14]\nthuế không giải trình,\nbỏ sung thông tin, tài liệu thì cơ quan thuế ban hành thông báo ngừng sử dụng\nhóa đơn điện tử có mã của cơ quan thuế hoặc ngừng sử dụng hóa đơn điện tử\nkhông có mã của cơ quan thuế theo Mẫu số 01/TB-NSD Phụ lục IV kèm theo\nThông tư này và xử lý theo quy định;\n\nđ) Trường hợp người nộp thuê thuộc trường hợp ngừng, tạm ngừng sử\ndụng hóa đ",
+    "context_ids": [
+     "TT-91-2026:A:p017:01",
+     "TT-91-2026:A:p018:00",
+     "TT-91-2026:A:p020:04",
+     "TT-91-2026:A:p021:02",
+     "TT-91-2026:A:p010:02",
+     "TT-91-2026:A:p006:03",
+     "TT-91-2026:A:p014:04"
+    ]
+   },
+   {
+    "event": "invalid_or_missing_citations"
+   }
+  ],
+  "model_calls": [
+   {
+    "action": "search",
+    "query": "Khi điều chỉnh, thay thế hóa đơn sai, trường hợp nào người bán không bắt buộc lập văn bản thỏa thuận với người mua?",
+    "source": "original_question",
+    "latency_s": 0,
+    "model": null,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   {
+    "latency_s": 5.33,
+    "model": "glm-5.3-flash",
+    "finish": "tool_calls",
+    "prompt_tokens": 1070,
+    "completion_tokens": 204,
+    "action": "search",
+    "query": "Người bán không bắt buộc phải lập văn bản thỏa thuận hóa đơn điều chỉnh",
+    "extra_tool_calls": 1
+   },
+   {
+    "latency_s": 14.96,
+    "model": "glm-5.3-flash",
+    "finish": "tool_calls",
+    "prompt_tokens": 1228,
+    "completion_tokens": 595,
+    "action": "search",
+    "query": "không bắt buộc lập văn bản thỏa thuận sử dụng hóa đơn điện tử có mã của cơ quan thuế",
+    "extra_tool_calls": 1
+   },
+   {
+    "latency_s": 19.32,
+    "model": "glm-5.3-flash",
+    "finish": "stop",
+    "prompt_tokens": 1528,
+    "completion_tokens": 1104,
+    "action": "answer",
+    "raw_answer": "Không đủ bằng chứng trong tài liệu để trả lời câu hỏi này.",
+    "model_abstained": true
+   }
+  ],
+  "model": [
+   "glm-5.3-flash"
+  ],
+  "prompt_tokens": 3826,
+  "completion_tokens": 1903,
+  "latency_s": 39.75,
+  "error": null
+ },
+ {
+  "query_id": "d13",
+  "split": "dev",
+  "question": "Tổ chức cung cấp dịch vụ nhận, truyền, lưu trữ dữ liệu hóa đơn điện tử phải ký quỹ hoặc có bảo lãnh ngân hàng với giá trị tối thiểu bao nhiêu?",
+  "answerable": true,
+  "filter": null,
+  "status": "answered",
+  "answer": "Giá trị ký quỹ hoặc bảo lãnh ngân hàng phải **không dưới 05 tỷ đồng**.\n\nCụ thể, điều kiện về tài chính đối với tổ chức cung cấp dịch vụ là: có ký quỹ tại một ngân hàng hoạt động hợp pháp tại Việt Nam hoặc có giấy bảo lãnh của một ngân hàng hoạt động hợp pháp tại Việt Nam với giá trị không dưới 05 tỷ đồng, nhằm giải quyết các rủi ro và bồi thường thiệt hại có thể xảy ra trong quá trình cung cấp dịch vụ [TT-91-2026:A:p024:00].",
+  "citations": [
+   "TT-91-2026:A:p024:00"
+  ],
+  "n_searches": 2,
+  "queries": [
+   "Tổ chức cung cấp dịch vụ nhận, truyền, lưu trữ dữ liệu hóa đơn điện tử phải ký quỹ hoặc có bảo lãnh ngân hàng với giá trị tối thiểu bao nhiêu?",
+   "ký quỹ bảo lãnh ngân hàng giá trị tối thiểu"
+  ],
+  "final_context_ids": [
+   "TT-91-2026:A:p025:02",
+   "TT-91-2026:A:p009:02",
+   "TT-91-2026:A:p009:06",
+   "TT-91-2026:A:p021:01",
+   "TT-91-2026:A:p024:00",
+   "TT-91-2026:A:p032:03"
+  ],
+  "final_context": "[TT-91-2026:A:p025:02 | Thông-tư-91-2026-TT-BTC.pdf | page 25]\ntin của tô chức cung cấp dịch vụ nhận, ưuyền, lưu trữ\ndữ liệu hóa đơn với cơ quan thuê:\n\nTô chức phải đáp ứng các tiêu chí quy định tại khoản 2 Điều này đến\nCục Thuê và thực hiện kết nỗi đề chuyên dữ liệu hóa đơn điện tử đến cơ quan\nthuế theo quy định tại khoản 3 Điều 6 Thông tư này, Cục Thuể đăng công\nkhai danh sách các tô chức đáp ứng đây đủ các quy định\n\n[TT-91-2026:A:p009:02 | Thông-tư-91-2026-TT-BTC.pdf | page 9]\náp nhận hoặc không ủẳp\nnhận đăng ký sử dụng hóa đơn điện tử.\n\nĐói với trường hợp tỏ chức kinh tế đăng ký chuyên dữ liệu hóa đơn\nđiện tử theo hình thức gửi trực tiếp đến cơ quan thuế theo quy định tại điểm\nb.] khoản 3 Điều 16 Nghị định số 254/2026/NĐ-CP được cơ quan thuê ra\nThông báo về việc chấp nhận đăng ký sử dụng hóa đơn điện tử theo Mẫu số\n01/TB-ĐKĐT Phụ\n\n[TT-91-2026:A:p009:06 | Thông-tư-91-2026-TT-BTC.pdf | page 9]\nuả kiểm thứ kết nổi, truyền nhận dữ liệu không thành công, tÔ chức kinh tế\nthay đôi đăng ký sử dụng hóa đơn điện tử theo Mẫu số 01/ĐKTĐ-HĐĐT Phụ\nlục III kèm theo Thông tư này và thực hiện chuyển dữ liệu qua tổ chức kết\nnồi, nhận, truyền lưu trữ dữ liệu hóa đơn điện tử với cơ quan thuế.\n\n4. Trường hợp có thay đôi thông tin đã đăng ký sử dụng hóa đơn điện\ntử,\n\n[TT-91-2026:A:p021:01 | Thông-tư-91-2026-TT-BTC.pdf | page 21]\n)\nthực hiện hoạt động ngân hàng, cung ứng dịch vụ thanh toán không dùng tiền\nmặt đã lập hóa đơn thu phí dịch vụ sau đó phát sinh giao dịch hoàn phí dịch\nvụ cho khách hàng thì tô chức cung ứng dịch vụ thanh toán thực hiện lập hóa\nđơn đề điều chỉnh, trên hóa đơn không cần có thông tin “Điều chỉnh cho hóa\nđơn só.... Mẫu sô... ký hiệu... ngày...tháng...năm.” Trư\n\n[TT-91-2026:A:p024:00 | Thông-tư-91-2026-TT-BTC.pdf | page 24]\nb) Về tải chính: Có ký quỹ tại một ngân hàng hoạt động hợp pháp tại\nViệt Nam hoặc có giây bảo lãnh của một ngân hàng hoạt động hợp pháp tại\nViệt Nam với giá trị không dưới 05 tỷ đông đê giải quyêt các rủi ro và bôi\nthường thiệt hại có thể xảy ra trong quá trình cung cấp dịch vụ;\n\nc) Về nhân sự: Có tối thiều 20 nhân sự trình độ đại học chuyên ngành\nvề công ng\n\n[TT-91-2026:A:p032:03 | Thông-tư-91-2026-TT-BTC.pdf | page 32]\nn\nđã lập sai phải có dòng chữ “Thay thế cho hóa đơn Mẫu sỏ... ký hiệu... số...\nngày... tháng... năm”. Người bán ký số trên hóa đơn điện tử mới thay thể hóa\nđơn đã lập sai (hóa đơn lập theo Nghị định số 51/2010/NĐ-CP, Nghị định\nsố 04/2014/NĐ-CP và các văn bản hướng dẫn của Bộ Tài chính) để gửi cho\nngười mua (đối với trường hợp sử dụng hóa đơn điện tử không có",
+  "events": [
+   {
+    "event": "search",
+    "query": "Tổ chức cung cấp dịch vụ nhận, truyền, lưu trữ dữ liệu hóa đơn điện tử phải ký quỹ hoặc có bảo lãnh ngân hàng với giá trị tối thiểu bao nhiêu?",
+    "filter": null,
+    "results": [
+     {
+      "id": "TT-91-2026:A:p025:02",
+      "rank": 1,
+      "score": 0.673531,
+      "page": 25,
+      "method": "dense"
+     },
+     {
+      "id": "TT-91-2026:A:p009:02",
+      "rank": 2,
+      "score": 0.646005,
+      "page": 9,
+      "method": "dense"
+     },
+     {
+      "id": "TT-91-2026:A:p009:06",
+      "rank": 3,
+      "score": 0.646,
+      "page": 9,
+      "method": "dense"
+     }
+    ],
+    "context": "[TT-91-2026:A:p025:02 | Thông-tư-91-2026-TT-BTC.pdf | page 25]\ntin của tô chức cung cấp dịch vụ nhận, ưuyền, lưu trữ\ndữ liệu hóa đơn với cơ quan thuê:\n\nTô chức phải đáp ứng các tiêu chí quy định tại khoản 2 Điều này đến\nCục Thuê và thực hiện kết nỗi đề chuyên dữ liệu hóa đơn điện tử đến cơ quan\nthuế theo quy định tại khoản 3 Điều 6 Thông tư này, Cục Thuể đăng công\nkhai danh sách các tô chức đáp ứng đây đủ các quy định\n\n[TT-91-2026:A:p009:02 | Thông-tư-91-2026-TT-BTC.pdf | page 9]\náp nhận hoặc không ủẳp\nnhận đăng ký sử dụng hóa đơn điện tử.\n\nĐói với trường hợp tỏ chức kinh tế đăng ký chuyên dữ liệu hóa đơn\nđiện tử theo hình thức gửi trực tiếp đến cơ quan thuế theo quy định tại điểm\nb.] khoản 3 Điều 16 Nghị định số 254/2026/NĐ-CP được cơ quan thuê ra\nThông báo về việc chấp nhận đăng ký sử dụng hóa đơn điện tử theo Mẫu số\n01/TB-ĐKĐT Phụ\n\n[TT-91-2026:A:p009:06 | Thông-tư-91-2026-TT-BTC.pdf | page 9]\nuả kiểm thứ kết nổi, truyền nhận dữ liệu không thành công, tÔ chức kinh tế\nthay đôi đăng ký sử dụng hóa đơn điện tử theo Mẫu số 01/ĐKTĐ-HĐĐT Phụ\nlục III kèm theo Thông tư này và thực hiện chuyển dữ liệu qua tổ chức kết\nnồi, nhận, truyền lưu trữ dữ liệu hóa đơn điện tử với cơ quan thuế.\n\n4. Trường hợp có thay đôi thông tin đã đăng ký sử dụng hóa đơn điện\ntử,",
+    "context_ids": [
+     "TT-91-2026:A:p025:02",
+     "TT-91-2026:A:p009:02",
+     "TT-91-2026:A:p009:06"
+    ]
+   },
+   {
+    "event": "search",
+    "query": "ký quỹ bảo lãnh ngân hàng giá trị tối thiểu",
+    "filter": null,
+    "results": [
+     {
+      "id": "TT-91-2026:A:p021:01",
+      "rank": 1,
+      "score": 0.533467,
+      "page": 21,
+      "method": "dense"
+     },
+     {
+      "id": "TT-91-2026:A:p024:00",
+      "rank": 2,
+      "score": 0.512855,
+      "page": 24,
+      "method": "dense"
+     },
+     {
+      "id": "TT-91-2026:A:p032:03",
+      "rank": 3,
+      "score": 0.452354,
+      "page": 32,
+      "method": "dense"
+     }
+    ],
+    "context": "[TT-91-2026:A:p025:02 | Thông-tư-91-2026-TT-BTC.pdf | page 25]\ntin của tô chức cung cấp dịch vụ nhận, ưuyền, lưu trữ\ndữ liệu hóa đơn với cơ quan thuê:\n\nTô chức phải đáp ứng các tiêu chí quy định tại khoản 2 Điều này đến\nCục Thuê và thực hiện kết nỗi đề chuyên dữ liệu hóa đơn điện tử đến cơ quan\nthuế theo quy định tại khoản 3 Điều 6 Thông tư này, Cục Thuể đăng công\nkhai danh sách các tô chức đáp ứng đây đủ các quy định\n\n[TT-91-2026:A:p009:02 | Thông-tư-91-2026-TT-BTC.pdf | page 9]\náp nhận hoặc không ủẳp\nnhận đăng ký sử dụng hóa đơn điện tử.\n\nĐói với trường hợp tỏ chức kinh tế đăng ký chuyên dữ liệu hóa đơn\nđiện tử theo hình thức gửi trực tiếp đến cơ quan thuế theo quy định tại điểm\nb.] khoản 3 Điều 16 Nghị định số 254/2026/NĐ-CP được cơ quan thuê ra\nThông báo về việc chấp nhận đăng ký sử dụng hóa đơn điện tử theo Mẫu số\n01/TB-ĐKĐT Phụ\n\n[TT-91-2026:A:p009:06 | Thông-tư-91-2026-TT-BTC.pdf | page 9]\nuả kiểm thứ kết nổi, truyền nhận dữ liệu không thành công, tÔ chức kinh tế\nthay đôi đăng ký sử dụng hóa đơn điện tử theo Mẫu số 01/ĐKTĐ-HĐĐT Phụ\nlục III kèm theo Thông tư này và thực hiện chuyển dữ liệu qua tổ chức kết\nnồi, nhận, truyền lưu trữ dữ liệu hóa đơn điện tử với cơ quan thuế.\n\n4. Trường hợp có thay đôi thông tin đã đăng ký sử dụng hóa đơn điện\ntử,\n\n[TT-91-2026:A:p021:01 | Thông-tư-91-2026-TT-BTC.pdf | page 21]\n)\nthực hiện hoạt động ngân hàng, cung ứng dịch vụ thanh toán không dùng tiền\nmặt đã lập hóa đơn thu phí dịch vụ sau đó phát sinh giao dịch hoàn phí dịch\nvụ cho khách hàng thì tô chức cung ứng dịch vụ thanh toán thực hiện lập hóa\nđơn đề điều chỉnh, trên hóa đơn không cần có thông tin “Điều chỉnh cho hóa\nđơn só.... Mẫu sô... ký hiệu... ngày...tháng...năm.” Trư\n\n[TT-91-2026:A:p024:00 | Thông-tư-91-2026-TT-BTC.pdf | page 24]\nb) Về tải chính: Có ký quỹ tại một ngân hàng hoạt động hợp pháp tại\nViệt Nam hoặc có giây bảo lãnh của một ngân hàng hoạt động hợp pháp tại\nViệt Nam với giá trị không dưới 05 tỷ đông đê giải quyêt các rủi ro và bôi\nthường thiệt hại có thể xảy ra trong quá trình cung cấp dịch vụ;\n\nc) Về nhân sự: Có tối thiều 20 nhân sự trình độ đại học chuyên ngành\nvề công ng\n\n[TT-91-2026:A:p032:03 | Thông-tư-91-2026-TT-BTC.pdf | page 32]\nn\nđã lập sai phải có dòng chữ “Thay thế cho hóa đơn Mẫu sỏ... ký hiệu... số...\nngày... tháng... năm”. Người bán ký số trên hóa đơn điện tử mới thay thể hóa\nđơn đã lập sai (hóa đơn lập theo Nghị định số 51/2010/NĐ-CP, Nghị định\nsố 04/2014/NĐ-CP và các văn bản hướng dẫn của Bộ Tài chính) để gửi cho\nngười mua (đối với trường hợp sử dụng hóa đơn điện tử không có",
+    "context_ids": [
+     "TT-91-2026:A:p025:02",
+     "TT-91-2026:A:p009:02",
+     "TT-91-2026:A:p009:06",
+     "TT-91-2026:A:p021:01",
+     "TT-91-2026:A:p024:00",
+     "TT-91-2026:A:p032:03"
+    ]
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "model_calls": [
+   {
+    "action": "search",
+    "query": "Tổ chức cung cấp dịch vụ nhận, truyền, lưu trữ dữ liệu hóa đơn điện tử phải ký quỹ hoặc có bảo lãnh ngân hàng với giá trị tối thiểu bao nhiêu?",
+    "source": "original_question",
+    "latency_s": 0,
+    "model": null,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   {
+    "latency_s": 4.45,
+    "model": "glm-5.3-flash",
+    "finish": "tool_calls",
+    "prompt_tokens": 1099,
+    "completion_tokens": 153,
+    "action": "search",
+    "query": "ký quỹ bảo lãnh ngân hàng giá trị tối thiểu",
+    "extra_tool_calls": 1
+   },
+   {
+    "latency_s": 11.08,
+    "model": "glm-5.3-flash",
+    "finish": "stop",
+    "prompt_tokens": 1548,
+    "completion_tokens": 572,
+    "action": "answer",
+    "raw_answer": "Giá trị ký quỹ hoặc bảo lãnh ngân hàng phải **không dưới 05 tỷ đồng**.\n\nCụ thể, điều kiện về tài chính đối với tổ chức cung cấp dịch vụ là: có ký quỹ tại một ngân hàng hoạt động hợp pháp tại Việt Nam hoặc có giấy bảo lãnh của một ngân hàng hoạt động hợp pháp tại Việt Nam với giá trị không dưới 05 tỷ đồng, nhằm giải quyết các rủi ro và bồi thường thiệt hại có thể xảy ra trong quá trình cung cấp dịch vụ [TT-91-2026:A:p024:00].",
+    "model_abstained": false
+   }
+  ],
+  "model": [
+   "glm-5.3-flash"
+  ],
+  "prompt_tokens": 2647,
+  "completion_tokens": 725,
+  "latency_s": 15.65,
+  "error": null
+ },
+ {
+  "query_id": "d14",
+  "split": "dev",
+  "question": "Trung tâm dữ liệu dự phòng của đơn vị truyền nhận hóa đơn điện tử phải đặt cách trung tâm chính ít nhất bao xa?",
+  "answerable": true,
+  "filter": null,
+  "status": "answered",
+  "answer": "Trung tâm dữ liệu dự phòng của đơn vị truyền nhận hóa đơn điện tử phải đặt **cách xa trung tâm dữ liệu chính tối thiểu 20km**.\n\nCụ thể, hệ thống hạ tầng kỹ thuật cung cấp dịch vụ hóa đơn điện tử, chứng từ điện tử được vận hành trên môi trường trung tâm dữ liệu chính và trung tâm dữ liệu dự phòng [TT-91-2026:A:p024:03], trong đó trung tâm dự phòng cách xa trung tâm dữ liệu chính tối thiểu 20km và sẵn sàng hoạt động khi hệ thống chính gặp sự cố [TT-91-2026:A:p024:04].",
+  "citations": [
+   "TT-91-2026:A:p024:03",
+   "TT-91-2026:A:p024:04"
+  ],
+  "n_searches": 1,
+  "queries": [
+   "Trung tâm dữ liệu dự phòng của đơn vị truyền nhận hóa đơn điện tử phải đặt cách trung tâm chính ít nhất bao xa?"
+  ],
+  "final_context_ids": [
+   "TT-91-2026:A:p024:04",
+   "TT-91-2026:A:p024:03",
+   "TT-91-2026:A:p023:03"
+  ],
+  "final_context": "[TT-91-2026:A:p024:04 | Thông-tư-91-2026-TT-BTC.pdf | page 24]\nãm dữ liệu dự phòng. Trung tâm dự phòng cách xa trung tâm dữ liệu chính\ntôi thiều 20km và sẵn sàng hoạt động khi hệ thống chính gặp sự có;\n\nd.4) Hệ thống có khả năng phát hiện, cảnh báo, ngăn chặn các truy cập\nkhông hợp pháp, các hình thức tần công trên môi trường mạng đề bảo đảm\ntính bảo mật, toàn vẹn của dữ liệu trao đôi giữa các bên tham gia;\n\nd.5) Có hệ\n\n[TT-91-2026:A:p024:03 | Thông-tư-91-2026-TT-BTC.pdf | page 24]\nnhận, truyền, lưu trữ dữ liệu hóa đơn điện\ntử, chứng từ điện tử với cơ quan thuê. Thông tin quá trình nhận, truyền dữ\nliệu phải được ghỉ nhật ký đẻ phục vụ công tác đồi soát;\n\nd.3) Hệ thống hạ tầng kỹ thuật cung cấp dịch vụ hóa đơn điện tử, chứng\ntừ điện tử được vận hành trên môi trường trung tâãm dữ liệu chính và trung\ntâãm dữ liệu dự phòng. Trung tâm dự ph\n\n[TT-91-2026:A:p023:03 | Thông-tư-91-2026-TT-BTC.pdf | page 23]\nải pháp truyền, nhận dữ liệu hoá đơn điện tử,\nchứng từ điện tử với cơ quan thuê thông qua tô chức nhận, truyền, lưu trữ dữ\nliệu hoá đơn điện tử, chứng từ điện tử. Thông tin quá trình nhận, truyền dữ\nliệu phải được ghi nhật ký đề phục vụ công tác đôi soát;\n\nc.3) Có giải pháp sao lưu, khôi phục, bảo mật dữ liệu hóa đơn điện tử,\nchứng từ điện tử;\n\n. €.4) Có tài",
+  "events": [
+   {
+    "event": "search",
+    "query": "Trung tâm dữ liệu dự phòng của đơn vị truyền nhận hóa đơn điện tử phải đặt cách trung tâm chính ít nhất bao xa?",
+    "filter": null,
+    "results": [
+     {
+      "id": "TT-91-2026:A:p024:04",
+      "rank": 1,
+      "score": 0.736909,
+      "page": 24,
+      "method": "dense"
+     },
+     {
+      "id": "TT-91-2026:A:p024:03",
+      "rank": 2,
+      "score": 0.628975,
+      "page": 24,
+      "method": "dense"
+     },
+     {
+      "id": "TT-91-2026:A:p023:03",
+      "rank": 3,
+      "score": 0.596534,
+      "page": 23,
+      "method": "dense"
+     }
+    ],
+    "context": "[TT-91-2026:A:p024:04 | Thông-tư-91-2026-TT-BTC.pdf | page 24]\nãm dữ liệu dự phòng. Trung tâm dự phòng cách xa trung tâm dữ liệu chính\ntôi thiều 20km và sẵn sàng hoạt động khi hệ thống chính gặp sự có;\n\nd.4) Hệ thống có khả năng phát hiện, cảnh báo, ngăn chặn các truy cập\nkhông hợp pháp, các hình thức tần công trên môi trường mạng đề bảo đảm\ntính bảo mật, toàn vẹn của dữ liệu trao đôi giữa các bên tham gia;\n\nd.5) Có hệ\n\n[TT-91-2026:A:p024:03 | Thông-tư-91-2026-TT-BTC.pdf | page 24]\nnhận, truyền, lưu trữ dữ liệu hóa đơn điện\ntử, chứng từ điện tử với cơ quan thuê. Thông tin quá trình nhận, truyền dữ\nliệu phải được ghỉ nhật ký đẻ phục vụ công tác đồi soát;\n\nd.3) Hệ thống hạ tầng kỹ thuật cung cấp dịch vụ hóa đơn điện tử, chứng\ntừ điện tử được vận hành trên môi trường trung tâãm dữ liệu chính và trung\ntâãm dữ liệu dự phòng. Trung tâm dự ph\n\n[TT-91-2026:A:p023:03 | Thông-tư-91-2026-TT-BTC.pdf | page 23]\nải pháp truyền, nhận dữ liệu hoá đơn điện tử,\nchứng từ điện tử với cơ quan thuê thông qua tô chức nhận, truyền, lưu trữ dữ\nliệu hoá đơn điện tử, chứng từ điện tử. Thông tin quá trình nhận, truyền dữ\nliệu phải được ghi nhật ký đề phục vụ công tác đôi soát;\n\nc.3) Có giải pháp sao lưu, khôi phục, bảo mật dữ liệu hóa đơn điện tử,\nchứng từ điện tử;\n\n. €.4) Có tài",
+    "context_ids": [
+     "TT-91-2026:A:p024:04",
+     "TT-91-2026:A:p024:03",
+     "TT-91-2026:A:p023:03"
+    ]
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "model_calls": [
+   {
+    "action": "search",
+    "query": "Trung tâm dữ liệu dự phòng của đơn vị truyền nhận hóa đơn điện tử phải đặt cách trung tâm chính ít nhất bao xa?",
+    "source": "original_question",
+    "latency_s": 0,
+    "model": null,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   {
+    "latency_s": 6.93,
+    "model": "glm-5.3-flash",
+    "finish": "stop",
+    "prompt_tokens": 1062,
+    "completion_tokens": 376,
+    "action": "answer",
+    "raw_answer": "Trung tâm dữ liệu dự phòng của đơn vị truyền nhận hóa đơn điện tử phải đặt **cách xa trung tâm dữ liệu chính tối thiểu 20km**.\n\nCụ thể, hệ thống hạ tầng kỹ thuật cung cấp dịch vụ hóa đơn điện tử, chứng từ điện tử được vận hành trên môi trường trung tâm dữ liệu chính và trung tâm dữ liệu dự phòng [TT-91-2026:A:p024:03], trong đó trung tâm dự phòng cách xa trung tâm dữ liệu chính tối thiểu 20km và sẵn sàng hoạt động khi hệ thống chính gặp sự cố [TT-91-2026:A:p024:04].",
+    "model_abstained": false
+   }
+  ],
+  "model": [
+   "glm-5.3-flash"
+  ],
+  "prompt_tokens": 1062,
+  "completion_tokens": 376,
+  "latency_s": 6.97,
+  "error": null
+ },
+ {
+  "query_id": "d15",
+  "split": "dev",
+  "question": "Nếu đã lập sai tên, địa chỉ nhưng không sai mã số thuế, số tiền thì có phải lập lại không?",
+  "answerable": true,
+  "filter": {
+   "chapter": "III"
+  },
+  "status": "answered",
+  "answer": "Không phải lập lại chứng từ. Theo khoản 1 Điều 20: trường hợp sai tên, địa chỉ, số tiền bằng chữ hoặc các nội dung khác nhưng không sai mã số thuế, số tiền ghi trên chứng từ thì tổ chức lập chứng từ điện tử thông báo cho bên nhận chứng từ về việc chứng từ đã lập sai và không phải lập lại chứng từ [TT-91-2026:A:p030:02]. Đồng thời, tổ chức lập chứng từ phải thông báo với cơ quan thuế về chứng từ đã lập sai theo Mẫu số 04/SS-CTĐT Phụ lục III kèm theo Thông tư [TT-91-2026:A:p030:03]. Lưu ý: chỉ các trường hợp sai ngoài khoản 1 Điều 20 mới phải lập chứng từ điện tử thay thế [TT-91-2026:A:p030:03].",
+  "citations": [
+   "TT-91-2026:A:p030:02",
+   "TT-91-2026:A:p030:03"
+  ],
+  "n_searches": 3,
+  "queries": [
+   "Nếu đã lập sai tên, địa chỉ nhưng không sai mã số thuế, số tiền thì có phải lập lại không?",
+   "không phải lập lại chứng từ thông báo cơ quan thuế sai tên địa chỉ",
+   "thông báo với cơ quan thuế về chứng từ đã lập sai nguyên tắc xử lý"
+  ],
+  "final_context_ids": [
+   "TT-91-2026:A:p030:02",
+   "TT-91-2026:A:p030:01",
+   "TT-91-2026:A:p029:04",
+   "TT-91-2026:A:p030:03",
+   "TT-91-2026:A:p030:00"
+  ],
+  "final_context": "[TT-91-2026:A:p030:02 | Thông-tư-91-2026-TT-BTC.pdf | page 30]\nđã lập\n\nl. Trường hợp sai về các nội dung trên chứng từ như tên, địa chỉ, số\ntiền bằng chữ hoặc các nội dung khác nhưng không sai về mã số thuế, số tiền\nghi trên chứng từ thì tô chức lập chứng từ điện tử thông báo cho bên nhận\nchứng từ điện tử về việc chứng từ đã lập sai và không phải lập lại chứng từ. Tô\nchức lập chứng từ điện tử thông báo với cơ quan thuê\n\n[TT-91-2026:A:p030:01 | Thông-tư-91-2026-TT-BTC.pdf | page 30]\nhiệu chứng từ điện tử thực hiện\ntheo quy định tại Phụ lục II kèm theo Thông tư này.\n\n3. Thuê tỉnh, thành phó khởi tạo biên lai thuế điện tử Mẫu CTTS50 Phụ\nlục V kèm theo Thông tư này đề sử dụng thu thuê sử dụng đất nông nghiệp,\nthuế sử dụng đất phi nông nghiệp đối với hộ gia đình, cá nhân.\n\nĐiều 20. Xử lý chứng từ điện tử đã lập\n\nl. Trường hợp sai về các nội\n\n[TT-91-2026:A:p029:04 | Thông-tư-91-2026-TT-BTC.pdf | page 29]\nông tin quản lý thuề, Trang thông tin điện tử của Cục Hải quan tiếp\nnhận mẫu đăng ký thay đôi thông tin và cơ quan quản lý thuế thực hiện theo\nquy định tại khoản 2 Điều nảy.\n\nĐiều 18. Định dạng chứng từ điện tử\n\nl. Các loại chứng từ quy định tại Điều 22 Nghị định số 254/2026/NĐ-\nCP phải thực hiện theo định dạng sau:\n\na) Định dạng chứng từ điện tử sử dụng ngô\n\n[TT-91-2026:A:p030:03 | Thông-tư-91-2026-TT-BTC.pdf | page 30]\nđiện tử thông báo với cơ quan thuê về chứng từ đã lập sai\ntheo Mẫu số 04/SS-CTĐT Phụ lục III kèm theo Thông tư này.\n\n2. Các trường hợp chứng từ điện tử đã lập sai ngoài các trường hợp quy\nđịnh tại khoản 1 Điều này thì tô chức lập chứng từ điện tử thay thê cho chứng\ntừ điện tử đã lập sai.\n\nChương IV\nTRA CỨU, CUNG CÁP, SỬ DỤNG THÔNG TIN HÓA ĐƠN ĐIỆN TỬ\n\nĐiều\n\n[TT-91-2026:A:p030:00 | Thông-tư-91-2026-TT-BTC.pdf | page 30]\ncủa chứng từ đảm bảo không dẫn tới cách hiều sai lệch, đề người sử dụng có\nthê đọc được băng phương tiện điện tử.\n\nĐiều 19, Ký hiệu mẫu, ký hiệu chứng từ điện tử\n\nÍ. Chứng từ trong lĩnh vực quản lý thué, phí, lệ phí của cơ quan quản lý\nthuế bao gòm: Chứng từ khu trừ thuế, biên lai.\n\n2. Quy định chỉ tiết về ký hiệu mẫu, ký hiệu chứng từ điện tử thực hiện\ntheo",
+  "events": [
+   {
+    "event": "search",
+    "query": "Nếu đã lập sai tên, địa chỉ nhưng không sai mã số thuế, số tiền thì có phải lập lại không?",
+    "filter": {
+     "chapter": "III"
+    },
+    "results": [
+     {
+      "id": "TT-91-2026:A:p030:02",
+      "rank": 1,
+      "score": 0.621564,
+      "page": 30,
+      "method": "dense"
+     },
+     {
+      "id": "TT-91-2026:A:p030:01",
+      "rank": 2,
+      "score": 0.423168,
+      "page": 30,
+      "method": "dense"
+     },
+     {
+      "id": "TT-91-2026:A:p029:04",
+      "rank": 3,
+      "score": 0.391797,
+      "page": 29,
+      "method": "dense"
+     }
+    ],
+    "context": "[TT-91-2026:A:p030:02 | Thông-tư-91-2026-TT-BTC.pdf | page 30]\nđã lập\n\nl. Trường hợp sai về các nội dung trên chứng từ như tên, địa chỉ, số\ntiền bằng chữ hoặc các nội dung khác nhưng không sai về mã số thuế, số tiền\nghi trên chứng từ thì tô chức lập chứng từ điện tử thông báo cho bên nhận\nchứng từ điện tử về việc chứng từ đã lập sai và không phải lập lại chứng từ. Tô\nchức lập chứng từ điện tử thông báo với cơ quan thuê\n\n[TT-91-2026:A:p030:01 | Thông-tư-91-2026-TT-BTC.pdf | page 30]\nhiệu chứng từ điện tử thực hiện\ntheo quy định tại Phụ lục II kèm theo Thông tư này.\n\n3. Thuê tỉnh, thành phó khởi tạo biên lai thuế điện tử Mẫu CTTS50 Phụ\nlục V kèm theo Thông tư này đề sử dụng thu thuê sử dụng đất nông nghiệp,\nthuế sử dụng đất phi nông nghiệp đối với hộ gia đình, cá nhân.\n\nĐiều 20. Xử lý chứng từ điện tử đã lập\n\nl. Trường hợp sai về các nội\n\n[TT-91-2026:A:p029:04 | Thông-tư-91-2026-TT-BTC.pdf | page 29]\nông tin quản lý thuề, Trang thông tin điện tử của Cục Hải quan tiếp\nnhận mẫu đăng ký thay đôi thông tin và cơ quan quản lý thuế thực hiện theo\nquy định tại khoản 2 Điều nảy.\n\nĐiều 18. Định dạng chứng từ điện tử\n\nl. Các loại chứng từ quy định tại Điều 22 Nghị định số 254/2026/NĐ-\nCP phải thực hiện theo định dạng sau:\n\na) Định dạng chứng từ điện tử sử dụng ngô",
+    "context_ids": [
+     "TT-91-2026:A:p030:02",
+     "TT-91-2026:A:p030:01",
+     "TT-91-2026:A:p029:04"
+    ]
+   },
+   {
+    "event": "search",
+    "query": "không phải lập lại chứng từ thông báo cơ quan thuế sai tên địa chỉ",
+    "filter": {
+     "chapter": "III"
+    },
+    "results": [
+     {
+      "id": "TT-91-2026:A:p030:02",
+      "rank": 1,
+      "score": 0.584526,
+      "page": 30,
+      "method": "dense"
+     },
+     {
+      "id": "TT-91-2026:A:p030:01",
+      "rank": 2,
+      "score": 0.415771,
+      "page": 30,
+      "method": "dense"
+     },
+     {
+      "id": "TT-91-2026:A:p029:04",
+      "rank": 3,
+      "score": 0.40044,
+      "page": 29,
+      "method": "dense"
+     }
+    ],
+    "context": "[TT-91-2026:A:p030:02 | Thông-tư-91-2026-TT-BTC.pdf | page 30]\nđã lập\n\nl. Trường hợp sai về các nội dung trên chứng từ như tên, địa chỉ, số\ntiền bằng chữ hoặc các nội dung khác nhưng không sai về mã số thuế, số tiền\nghi trên chứng từ thì tô chức lập chứng từ điện tử thông báo cho bên nhận\nchứng từ điện tử về việc chứng từ đã lập sai và không phải lập lại chứng từ. Tô\nchức lập chứng từ điện tử thông báo với cơ quan thuê\n\n[TT-91-2026:A:p030:01 | Thông-tư-91-2026-TT-BTC.pdf | page 30]\nhiệu chứng từ điện tử thực hiện\ntheo quy định tại Phụ lục II kèm theo Thông tư này.\n\n3. Thuê tỉnh, thành phó khởi tạo biên lai thuế điện tử Mẫu CTTS50 Phụ\nlục V kèm theo Thông tư này đề sử dụng thu thuê sử dụng đất nông nghiệp,\nthuế sử dụng đất phi nông nghiệp đối với hộ gia đình, cá nhân.\n\nĐiều 20. Xử lý chứng từ điện tử đã lập\n\nl. Trường hợp sai về các nội\n\n[TT-91-2026:A:p029:04 | Thông-tư-91-2026-TT-BTC.pdf | page 29]\nông tin quản lý thuề, Trang thông tin điện tử của Cục Hải quan tiếp\nnhận mẫu đăng ký thay đôi thông tin và cơ quan quản lý thuế thực hiện theo\nquy định tại khoản 2 Điều nảy.\n\nĐiều 18. Định dạng chứng từ điện tử\n\nl. Các loại chứng từ quy định tại Điều 22 Nghị định số 254/2026/NĐ-\nCP phải thực hiện theo định dạng sau:\n\na) Định dạng chứng từ điện tử sử dụng ngô",
+    "context_ids": [
+     "TT-91-2026:A:p030:02",
+     "TT-91-2026:A:p030:01",
+     "TT-91-2026:A:p029:04"
+    ]
+   },
+   {
+    "event": "search",
+    "query": "thông báo với cơ quan thuế về chứng từ đã lập sai nguyên tắc xử lý",
+    "filter": {
+     "chapter": "III"
+    },
+    "results": [
+     {
+      "id": "TT-91-2026:A:p030:02",
+      "rank": 1,
+      "score": 0.664188,
+      "page": 30,
+      "method": "dense"
+     },
+     {
+      "id": "TT-91-2026:A:p030:03",
+      "rank": 2,
+      "score": 0.60043,
+      "page": 30,
+      "method": "dense"
+     },
+     {
+      "id": "TT-91-2026:A:p030:00",
+      "rank": 3,
+      "score": 0.574421,
+      "page": 30,
+      "method": "dense"
+     }
+    ],
+    "context": "[TT-91-2026:A:p030:02 | Thông-tư-91-2026-TT-BTC.pdf | page 30]\nđã lập\n\nl. Trường hợp sai về các nội dung trên chứng từ như tên, địa chỉ, số\ntiền bằng chữ hoặc các nội dung khác nhưng không sai về mã số thuế, số tiền\nghi trên chứng từ thì tô chức lập chứng từ điện tử thông báo cho bên nhận\nchứng từ điện tử về việc chứng từ đã lập sai và không phải lập lại chứng từ. Tô\nchức lập chứng từ điện tử thông báo với cơ quan thuê\n\n[TT-91-2026:A:p030:01 | Thông-tư-91-2026-TT-BTC.pdf | page 30]\nhiệu chứng từ điện tử thực hiện\ntheo quy định tại Phụ lục II kèm theo Thông tư này.\n\n3. Thuê tỉnh, thành phó khởi tạo biên lai thuế điện tử Mẫu CTTS50 Phụ\nlục V kèm theo Thông tư này đề sử dụng thu thuê sử dụng đất nông nghiệp,\nthuế sử dụng đất phi nông nghiệp đối với hộ gia đình, cá nhân.\n\nĐiều 20. Xử lý chứng từ điện tử đã lập\n\nl. Trường hợp sai về các nội\n\n[TT-91-2026:A:p029:04 | Thông-tư-91-2026-TT-BTC.pdf | page 29]\nông tin quản lý thuề, Trang thông tin điện tử của Cục Hải quan tiếp\nnhận mẫu đăng ký thay đôi thông tin và cơ quan quản lý thuế thực hiện theo\nquy định tại khoản 2 Điều nảy.\n\nĐiều 18. Định dạng chứng từ điện tử\n\nl. Các loại chứng từ quy định tại Điều 22 Nghị định số 254/2026/NĐ-\nCP phải thực hiện theo định dạng sau:\n\na) Định dạng chứng từ điện tử sử dụng ngô\n\n[TT-91-2026:A:p030:03 | Thông-tư-91-2026-TT-BTC.pdf | page 30]\nđiện tử thông báo với cơ quan thuê về chứng từ đã lập sai\ntheo Mẫu số 04/SS-CTĐT Phụ lục III kèm theo Thông tư này.\n\n2. Các trường hợp chứng từ điện tử đã lập sai ngoài các trường hợp quy\nđịnh tại khoản 1 Điều này thì tô chức lập chứng từ điện tử thay thê cho chứng\ntừ điện tử đã lập sai.\n\nChương IV\nTRA CỨU, CUNG CÁP, SỬ DỤNG THÔNG TIN HÓA ĐƠN ĐIỆN TỬ\n\nĐiều\n\n[TT-91-2026:A:p030:00 | Thông-tư-91-2026-TT-BTC.pdf | page 30]\ncủa chứng từ đảm bảo không dẫn tới cách hiều sai lệch, đề người sử dụng có\nthê đọc được băng phương tiện điện tử.\n\nĐiều 19, Ký hiệu mẫu, ký hiệu chứng từ điện tử\n\nÍ. Chứng từ trong lĩnh vực quản lý thué, phí, lệ phí của cơ quan quản lý\nthuế bao gòm: Chứng từ khu trừ thuế, biên lai.\n\n2. Quy định chỉ tiết về ký hiệu mẫu, ký hiệu chứng từ điện tử thực hiện\ntheo",
+    "context_ids": [
+     "TT-91-2026:A:p030:02",
+     "TT-91-2026:A:p030:01",
+     "TT-91-2026:A:p029:04",
+     "TT-91-2026:A:p030:03",
+     "TT-91-2026:A:p030:00"
+    ]
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "model_calls": [
+   {
+    "action": "search",
+    "query": "Nếu đã lập sai tên, địa chỉ nhưng không sai mã số thuế, số tiền thì có phải lập lại không?",
+    "source": "original_question",
+    "latency_s": 0,
+    "model": null,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   {
+    "latency_s": 7.48,
+    "model": "glm-5.3-flash",
+    "finish": "tool_calls",
+    "prompt_tokens": 1060,
+    "completion_tokens": 402,
+    "action": "search",
+    "query": "không phải lập lại chứng từ thông báo cơ quan thuế sai tên địa chỉ",
+    "extra_tool_calls": 1
+   },
+   {
+    "latency_s": 11.24,
+    "model": "glm-5.3-flash",
+    "finish": "tool_calls",
+    "prompt_tokens": 1078,
+    "completion_tokens": 526,
+    "action": "search",
+    "query": "thông báo với cơ quan thuế về chứng từ đã lập sai nguyên tắc xử lý",
+    "extra_tool_calls": 0
+   },
+   {
+    "latency_s": 7.33,
+    "model": "glm-5.3-flash",
+    "finish": "stop",
+    "prompt_tokens": 1264,
+    "completion_tokens": 449,
+    "action": "answer",
+    "raw_answer": "Không phải lập lại chứng từ. Theo khoản 1 Điều 20: trường hợp sai tên, địa chỉ, số tiền bằng chữ hoặc các nội dung khác nhưng không sai mã số thuế, số tiền ghi trên chứng từ thì tổ chức lập chứng từ điện tử thông báo cho bên nhận chứng từ về việc chứng từ đã lập sai và không phải lập lại chứng từ [TT-91-2026:A:p030:02]. Đồng thời, tổ chức lập chứng từ phải thông báo với cơ quan thuế về chứng từ đã lập sai theo Mẫu số 04/SS-CTĐT Phụ lục III kèm theo Thông tư [TT-91-2026:A:p030:03]. Lưu ý: chỉ các trường hợp sai ngoài khoản 1 Điều 20 mới phải lập chứng từ điện tử thay thế [TT-91-2026:A:p030:03].",
+    "model_abstained": false
+   }
+  ],
+  "model": [
+   "glm-5.3-flash"
+  ],
+  "prompt_tokens": 3402,
+  "completion_tokens": 1377,
+  "latency_s": 26.18,
+  "error": null
+ },
+ {
+  "query_id": "d16",
+  "split": "dev",
+  "question": "Tổ chức lập hóa đơn điện tử sai thời điểm thì bị phạt tiền bao nhiêu?",
+  "answerable": false,
+  "filter": null,
+  "status": "abstain",
+  "answer": "Không đủ bằng chứng để trả lời.",
+  "citations": [],
+  "n_searches": 3,
+  "queries": [
+   "Tổ chức lập hóa đơn điện tử sai thời điểm thì bị phạt tiền bao nhiêu?",
+   "phạt tiền lập hóa đơn điện tử sai thời điểm mức phạt vi phạm hành chính",
+   "mức phạt tiền vi phạm hành chính về hóa đơn điện tử"
+  ],
+  "final_context_ids": [
+   "TT-91-2026:A:p016:07",
+   "TT-91-2026:A:p017:06",
+   "TT-91-2026:A:p018:05",
+   "TT-91-2026:A:p012:06",
+   "TT-91-2026:A:p006:03",
+   "TT-91-2026:A:p022:03"
+  ],
+  "final_context": "[TT-91-2026:A:p016:07 | Thông-tư-91-2026-TT-BTC.pdf | page 16]\nn điện tử đã lập\n\nl. Trường hợp phát hiện hóa đơn điện tử đã lập sai (bao gồm hóa đơn\n\n[TT-91-2026:A:p017:06 | Thông-tư-91-2026-TT-BTC.pdf | page 17]\nán được lập một hóa đơn điều chỉnh\nhoặc thay thê cho nhiều hóa đơn điện tử đã lập sai trong củng tháng và đính\nkèm bảng kê các hóa đơn điện tử đã lập sai theo Mẫu số 01/BK-ĐCTT Phụ\nlục II kẻém theo Thông tư này,\n\n“Trước khi điều chỉnh, thay thể hóa đơn điện tử đã lập sai theo quy định\ntại điểm b khoản ] Điêu này: Trường hợp người mua là tô chức kinh tế, tổ\nc\n\n[TT-91-2026:A:p018:05 | Thông-tư-91-2026-TT-BTC.pdf | page 18]\ncủa các kỳ tiếp theo mà\nkhông gửi thông báo hóa đơn điện tử đã lập sai theo Mẫu số 04/SS-HĐĐT\nPhụ lục III kèm theo Thông tư này đến cơ quan thuế;\n\ne) Trường hợp dữ liệu hóa đơn điện tử tại Bảng tông hợp dữ liệu hóa\nđơn điện tử đã gửi cơ quan thuê thiếu hoặc sai thì người bán gửi Bảng tổng\nhợp dữ liệu hóa đơn điện tử bỏ sung. Việc điều chỉnh dữ liệu hóa đơn\n\n[TT-91-2026:A:p012:06 | Thông-tư-91-2026-TT-BTC.pdf | page 12]\nhành lập để thực hiện mua bán, sử\ndụng hóa đơn điện tử không hợp pháp hoặc sử dụng không hợp pháp hóa đơn\nđiện tử đề trồn thuế theo quy định thì cơ quan thuể ban hành thông báo ngừng\nsử dụng hóa đơn điện tử; người nộp thuế bị xử lý theo quy định của pháp luật\ntheo trình tự quy định tại điểm c khoản 2 Điều này;\n\nÌ) Trường hợp người nộp thuê thuộc diện rủi ro\n\n[TT-91-2026:A:p006:03 | Thông-tư-91-2026-TT-BTC.pdf | page 6]\ngừng, tạm ngừng sử dụng hóa đơn điện tử\ntheo quy định tại Điều $ Thông tư này đăng ký, thay đỏi nội dung đăng ký sử\ndụng hóa đơn điện tử (bao gồm cả đăng ký hóa đơn điện tử bán tài sản công,\nhóa đơn điện tử bán hàng dự trữ quóc gia) thông qua t chức cung cấp dịch vụ\nhóa đơn điện tử.\n\nTrường hợp sử dụng hóa đơn điện tử có mã của cơ quan thuế được\nmiễn phí địc\n\n[TT-91-2026:A:p022:03 | Thông-tư-91-2026-TT-BTC.pdf | page 22]\niều 11. Chuyên đôi áp dụng hóa đơn điện tử\n\nl. Người nộp thuê đang sử dụng hóa đơn điện tử không có mã của cơ\nquan thuế nều có nhu cầu chuyên đổi áp dụng hóa đơn điện tử có mã của cơ\nquan thuê thì thực hiện thay đỏi thông tin sử dụng hóa đơn điện tử theo quy\nđịnh tại Điều 6 Thông tư này.\n\n2. Người nộp thuế thuộc đồi tượng sử dụng hóa đơn điện tử không có\nmã",
+  "events": [
+   {
+    "event": "search",
+    "query": "Tổ chức lập hóa đơn điện tử sai thời điểm thì bị phạt tiền bao nhiêu?",
+    "filter": null,
+    "results": [
+     {
+      "id": "TT-91-2026:A:p016:07",
+      "rank": 1,
+      "score": 0.66562,
+      "page": 16,
+      "method": "dense"
+     },
+     {
+      "id": "TT-91-2026:A:p017:06",
+      "rank": 2,
+      "score": 0.665526,
+      "page": 17,
+      "method": "dense"
+     },
+     {
+      "id": "TT-91-2026:A:p018:05",
+      "rank": 3,
+      "score": 0.663295,
+      "page": 18,
+      "method": "dense"
+     }
+    ],
+    "context": "[TT-91-2026:A:p016:07 | Thông-tư-91-2026-TT-BTC.pdf | page 16]\nn điện tử đã lập\n\nl. Trường hợp phát hiện hóa đơn điện tử đã lập sai (bao gồm hóa đơn\n\n[TT-91-2026:A:p017:06 | Thông-tư-91-2026-TT-BTC.pdf | page 17]\nán được lập một hóa đơn điều chỉnh\nhoặc thay thê cho nhiều hóa đơn điện tử đã lập sai trong củng tháng và đính\nkèm bảng kê các hóa đơn điện tử đã lập sai theo Mẫu số 01/BK-ĐCTT Phụ\nlục II kẻém theo Thông tư này,\n\n“Trước khi điều chỉnh, thay thể hóa đơn điện tử đã lập sai theo quy định\ntại điểm b khoản ] Điêu này: Trường hợp người mua là tô chức kinh tế, tổ\nc\n\n[TT-91-2026:A:p018:05 | Thông-tư-91-2026-TT-BTC.pdf | page 18]\ncủa các kỳ tiếp theo mà\nkhông gửi thông báo hóa đơn điện tử đã lập sai theo Mẫu số 04/SS-HĐĐT\nPhụ lục III kèm theo Thông tư này đến cơ quan thuế;\n\ne) Trường hợp dữ liệu hóa đơn điện tử tại Bảng tông hợp dữ liệu hóa\nđơn điện tử đã gửi cơ quan thuê thiếu hoặc sai thì người bán gửi Bảng tổng\nhợp dữ liệu hóa đơn điện tử bỏ sung. Việc điều chỉnh dữ liệu hóa đơn",
+    "context_ids": [
+     "TT-91-2026:A:p016:07",
+     "TT-91-2026:A:p017:06",
+     "TT-91-2026:A:p018:05"
+    ]
+   },
+   {
+    "event": "search",
+    "query": "phạt tiền lập hóa đơn điện tử sai thời điểm mức phạt vi phạm hành chính",
+    "filter": null,
+    "results": [
+     {
+      "id": "TT-91-2026:A:p012:06",
+      "rank": 1,
+      "score": 0.645838,
+      "page": 12,
+      "method": "dense"
+     },
+     {
+      "id": "TT-91-2026:A:p006:03",
+      "rank": 2,
+      "score": 0.6094,
+      "page": 6,
+      "method": "dense"
+     },
+     {
+      "id": "TT-91-2026:A:p016:07",
+      "rank": 3,
+      "score": 0.604752,
+      "page": 16,
+      "method": "dense"
+     }
+    ],
+    "context": "[TT-91-2026:A:p016:07 | Thông-tư-91-2026-TT-BTC.pdf | page 16]\nn điện tử đã lập\n\nl. Trường hợp phát hiện hóa đơn điện tử đã lập sai (bao gồm hóa đơn\n\n[TT-91-2026:A:p017:06 | Thông-tư-91-2026-TT-BTC.pdf | page 17]\nán được lập một hóa đơn điều chỉnh\nhoặc thay thê cho nhiều hóa đơn điện tử đã lập sai trong củng tháng và đính\nkèm bảng kê các hóa đơn điện tử đã lập sai theo Mẫu số 01/BK-ĐCTT Phụ\nlục II kẻém theo Thông tư này,\n\n“Trước khi điều chỉnh, thay thể hóa đơn điện tử đã lập sai theo quy định\ntại điểm b khoản ] Điêu này: Trường hợp người mua là tô chức kinh tế, tổ\nc\n\n[TT-91-2026:A:p018:05 | Thông-tư-91-2026-TT-BTC.pdf | page 18]\ncủa các kỳ tiếp theo mà\nkhông gửi thông báo hóa đơn điện tử đã lập sai theo Mẫu số 04/SS-HĐĐT\nPhụ lục III kèm theo Thông tư này đến cơ quan thuế;\n\ne) Trường hợp dữ liệu hóa đơn điện tử tại Bảng tông hợp dữ liệu hóa\nđơn điện tử đã gửi cơ quan thuê thiếu hoặc sai thì người bán gửi Bảng tổng\nhợp dữ liệu hóa đơn điện tử bỏ sung. Việc điều chỉnh dữ liệu hóa đơn\n\n[TT-91-2026:A:p012:06 | Thông-tư-91-2026-TT-BTC.pdf | page 12]\nhành lập để thực hiện mua bán, sử\ndụng hóa đơn điện tử không hợp pháp hoặc sử dụng không hợp pháp hóa đơn\nđiện tử đề trồn thuế theo quy định thì cơ quan thuể ban hành thông báo ngừng\nsử dụng hóa đơn điện tử; người nộp thuế bị xử lý theo quy định của pháp luật\ntheo trình tự quy định tại điểm c khoản 2 Điều này;\n\nÌ) Trường hợp người nộp thuê thuộc diện rủi ro\n\n[TT-91-2026:A:p006:03 | Thông-tư-91-2026-TT-BTC.pdf | page 6]\ngừng, tạm ngừng sử dụng hóa đơn điện tử\ntheo quy định tại Điều $ Thông tư này đăng ký, thay đỏi nội dung đăng ký sử\ndụng hóa đơn điện tử (bao gồm cả đăng ký hóa đơn điện tử bán tài sản công,\nhóa đơn điện tử bán hàng dự trữ quóc gia) thông qua t chức cung cấp dịch vụ\nhóa đơn điện tử.\n\nTrường hợp sử dụng hóa đơn điện tử có mã của cơ quan thuế được\nmiễn phí địc",
+    "context_ids": [
+     "TT-91-2026:A:p016:07",
+     "TT-91-2026:A:p017:06",
+     "TT-91-2026:A:p018:05",
+     "TT-91-2026:A:p012:06",
+     "TT-91-2026:A:p006:03"
+    ]
+   },
+   {
+    "event": "search",
+    "query": "mức phạt tiền vi phạm hành chính về hóa đơn điện tử",
+    "filter": null,
+    "results": [
+     {
+      "id": "TT-91-2026:A:p012:06",
+      "rank": 1,
+      "score": 0.691376,
+      "page": 12,
+      "method": "dense"
+     },
+     {
+      "id": "TT-91-2026:A:p006:03",
+      "rank": 2,
+      "score": 0.674879,
+      "page": 6,
+      "method": "dense"
+     },
+     {
+      "id": "TT-91-2026:A:p022:03",
+      "rank": 3,
+      "score": 0.635949,
+      "page": 22,
+      "method": "dense"
+     }
+    ],
+    "context": "[TT-91-2026:A:p016:07 | Thông-tư-91-2026-TT-BTC.pdf | page 16]\nn điện tử đã lập\n\nl. Trường hợp phát hiện hóa đơn điện tử đã lập sai (bao gồm hóa đơn\n\n[TT-91-2026:A:p017:06 | Thông-tư-91-2026-TT-BTC.pdf | page 17]\nán được lập một hóa đơn điều chỉnh\nhoặc thay thê cho nhiều hóa đơn điện tử đã lập sai trong củng tháng và đính\nkèm bảng kê các hóa đơn điện tử đã lập sai theo Mẫu số 01/BK-ĐCTT Phụ\nlục II kẻém theo Thông tư này,\n\n“Trước khi điều chỉnh, thay thể hóa đơn điện tử đã lập sai theo quy định\ntại điểm b khoản ] Điêu này: Trường hợp người mua là tô chức kinh tế, tổ\nc\n\n[TT-91-2026:A:p018:05 | Thông-tư-91-2026-TT-BTC.pdf | page 18]\ncủa các kỳ tiếp theo mà\nkhông gửi thông báo hóa đơn điện tử đã lập sai theo Mẫu số 04/SS-HĐĐT\nPhụ lục III kèm theo Thông tư này đến cơ quan thuế;\n\ne) Trường hợp dữ liệu hóa đơn điện tử tại Bảng tông hợp dữ liệu hóa\nđơn điện tử đã gửi cơ quan thuê thiếu hoặc sai thì người bán gửi Bảng tổng\nhợp dữ liệu hóa đơn điện tử bỏ sung. Việc điều chỉnh dữ liệu hóa đơn\n\n[TT-91-2026:A:p012:06 | Thông-tư-91-2026-TT-BTC.pdf | page 12]\nhành lập để thực hiện mua bán, sử\ndụng hóa đơn điện tử không hợp pháp hoặc sử dụng không hợp pháp hóa đơn\nđiện tử đề trồn thuế theo quy định thì cơ quan thuể ban hành thông báo ngừng\nsử dụng hóa đơn điện tử; người nộp thuế bị xử lý theo quy định của pháp luật\ntheo trình tự quy định tại điểm c khoản 2 Điều này;\n\nÌ) Trường hợp người nộp thuê thuộc diện rủi ro\n\n[TT-91-2026:A:p006:03 | Thông-tư-91-2026-TT-BTC.pdf | page 6]\ngừng, tạm ngừng sử dụng hóa đơn điện tử\ntheo quy định tại Điều $ Thông tư này đăng ký, thay đỏi nội dung đăng ký sử\ndụng hóa đơn điện tử (bao gồm cả đăng ký hóa đơn điện tử bán tài sản công,\nhóa đơn điện tử bán hàng dự trữ quóc gia) thông qua t chức cung cấp dịch vụ\nhóa đơn điện tử.\n\nTrường hợp sử dụng hóa đơn điện tử có mã của cơ quan thuế được\nmiễn phí địc\n\n[TT-91-2026:A:p022:03 | Thông-tư-91-2026-TT-BTC.pdf | page 22]\niều 11. Chuyên đôi áp dụng hóa đơn điện tử\n\nl. Người nộp thuê đang sử dụng hóa đơn điện tử không có mã của cơ\nquan thuế nều có nhu cầu chuyên đổi áp dụng hóa đơn điện tử có mã của cơ\nquan thuê thì thực hiện thay đỏi thông tin sử dụng hóa đơn điện tử theo quy\nđịnh tại Điều 6 Thông tư này.\n\n2. Người nộp thuế thuộc đồi tượng sử dụng hóa đơn điện tử không có\nmã",
+    "context_ids": [
+     "TT-91-2026:A:p016:07",
+     "TT-91-2026:A:p017:06",
+     "TT-91-2026:A:p018:05",
+     "TT-91-2026:A:p012:06",
+     "TT-91-2026:A:p006:03",
+     "TT-91-2026:A:p022:03"
+    ]
+   },
+   {
+    "event": "invalid_or_missing_citations"
+   }
+  ],
+  "model_calls": [
+   {
+    "action": "search",
+    "query": "Tổ chức lập hóa đơn điện tử sai thời điểm thì bị phạt tiền bao nhiêu?",
+    "source": "original_question",
+    "latency_s": 0,
+    "model": null,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   {
+    "latency_s": 9.36,
+    "model": "glm-5.3-flash",
+    "finish": "tool_calls",
+    "prompt_tokens": 973,
+    "completion_tokens": 236,
+    "action": "search",
+    "query": "phạt tiền lập hóa đơn điện tử sai thời điểm mức phạt vi phạm hành chính",
+    "extra_tool_calls": 1
+   },
+   {
+    "latency_s": 7.44,
+    "model": "glm-5.3-flash",
+    "finish": "tool_calls",
+    "prompt_tokens": 1280,
+    "completion_tokens": 329,
+    "action": "search",
+    "query": "mức phạt tiền vi phạm hành chính về hóa đơn điện tử",
+    "extra_tool_calls": 2
+   },
+   {
+    "latency_s": 4.24,
+    "model": "glm-5.3-flash",
+    "finish": "stop",
+    "prompt_tokens": 1283,
+    "completion_tokens": 167,
+    "action": "answer",
+    "raw_answer": "Không đủ bằng chứng trong tài liệu để trả lời câu hỏi này.",
+    "model_abstained": true
+   }
+  ],
+  "model": [
+   "glm-5.3-flash"
+  ],
+  "prompt_tokens": 3536,
+  "completion_tokens": 732,
+  "latency_s": 21.18,
+  "error": null
+ },
+ {
+  "query_id": "d17",
+  "split": "dev",
+  "question": "Tổ chức cung cấp dịch vụ hóa đơn điện tử được thu giá dịch vụ tối đa bao nhiêu đồng cho mỗi hóa đơn?",
+  "answerable": false,
+  "filter": null,
+  "status": "abstain",
+  "answer": "Không đủ bằng chứng để trả lời.",
+  "citations": [],
+  "n_searches": 3,
+  "queries": [
+   "Tổ chức cung cấp dịch vụ hóa đơn điện tử được thu giá dịch vụ tối đa bao nhiêu đồng cho mỗi hóa đơn?",
+   "mức thu giá dịch vụ cung cấp hóa đơn điện tử mỗi hóa đơn",
+   "giá dịch vụ tổ chức cung cấp dịch vụ hóa đơn điện tử thu của tổ chức kinh doanh"
+  ],
+  "final_context_ids": [
+   "TT-91-2026:A:p025:05",
+   "TT-91-2026:A:p022:01",
+   "TT-91-2026:A:p007:01",
+   "TT-91-2026:A:p006:03",
+   "TT-91-2026:A:p019:03",
+   "TT-91-2026:A:p006:05",
+   "TT-91-2026:A:p021:00"
+  ],
+  "final_context": "[TT-91-2026:A:p025:05 | Thông-tư-91-2026-TT-BTC.pdf | page 25]\nới những hóa đơn điện tử có người mua là người tiêu dùng để trao\nthưởng băng tiên;\n\nb) Các biện pháp khuyên khích khác.\n\n3. Mức kinh phí thực hiện các biện pháp khuyến khích quy định tại\nkhoản 2 Điều này không quá 150 tỷ đồng/năm.\n\n4. Cục trưởng Cục Thuế xây dựng phương án tổ chức, giá trị giải\nthưởng chương trình hóa đơn may măn trên cơ sở dữ liệu về hóa đơ\n\n[TT-91-2026:A:p022:01 | Thông-tư-91-2026-TT-BTC.pdf | page 22]\nóa đơn điều chỉnh.\n\n7. Trường hợp hóa đơn điện tử theo từng lần phát sinh cần phải lập hóa\nđơn điều chỉnh hoặc thay thể, tỏ chức kinh tế, tổ chức khác, hộ kinh doanh, cá\nnhân kinh doanh gửi đơn đề nghị cấp hóa đơn điện tử có mã của cơ quan thuê\ntheo Mẫu số 06/ĐN-PSĐT Phụ lục III kèm theo Thông tư này đến cơ quan\nthuế để được cấp hóa đơn điện tử điều chỉnh ho\n\n[TT-91-2026:A:p007:01 | Thông-tư-91-2026-TT-BTC.pdf | page 7]\nư điện tử đã đăng ký với cơ quan thuế, qua tổ chức\ncung cấp dịch vụ hóa đơn điện tử đồi với trường hợp tổ chức kinh tế, tô chức\nkhác, hộ kinh doanh, cá nhân kinh doanh đăng ký sử dụng hóa đơn điện tử\nthông qua tô chức cung cấp dịch vụ hóa đơn điện tử hoặc Công Dịch vụ công\nQuốc gia.\n\n2. Trường hợp tô chức kinh tế, tỏ chức khác, hộ kinh doanh, cá nhân\nkinh do\n\n[TT-91-2026:A:p006:03 | Thông-tư-91-2026-TT-BTC.pdf | page 6]\ngừng, tạm ngừng sử dụng hóa đơn điện tử\ntheo quy định tại Điều $ Thông tư này đăng ký, thay đỏi nội dung đăng ký sử\ndụng hóa đơn điện tử (bao gồm cả đăng ký hóa đơn điện tử bán tài sản công,\nhóa đơn điện tử bán hàng dự trữ quóc gia) thông qua t chức cung cấp dịch vụ\nhóa đơn điện tử.\n\nTrường hợp sử dụng hóa đơn điện tử có mã của cơ quan thuế được\nmiễn phí địc\n\n[TT-91-2026:A:p019:03 | Thông-tư-91-2026-TT-BTC.pdf | page 19]\nvới các hóa đơn điện tử đã lập khi bán hàng hóa, cung cấp dịch\nvụ không bị sai nhưng khi thanh toán thực tê hoặc khi ạyểt toán có sự thay\nđôi về giá trị, khối lượng trên cơ sở kết luận của cơ quan nhà nước có thâm\nquyên theo quy định của pháp luật có liên quan thì người bán thực hiện lập\nhóa đơn điện tử mới đối với số chênh lệch qua quyết toán phản ánh theo\n\n[TT-91-2026:A:p006:05 | Thông-tư-91-2026-TT-BTC.pdf | page 6]\ng\ncấp địch vụ hóa đơn điện tử có mã của cơ quan thuê được miễn phí dịch vụ.\n\nTrường hợp doanh nghiệp là tô chức kết nổi chuyên dữ liệu hóa đơn\nđiện tử theo hình thức gửi trực tiếp đến cơ quan thuê thì đăng ký sử dụng hóa\nđơn điện tử thông qua Hệ thông thông tin quản lý thuê hoặc Cổng Dịch vụ\ncông Quóc gia.\n\nTrường hợp tô chức nước ngoài có hoạt động kinh doa\n\n[TT-91-2026:A:p021:00 | Thông-tư-91-2026-TT-BTC.pdf | page 21]\nphát sinh việc huỷ hoặc chắm dứt giao dịch và hủy một phần việc cung cấp\ndịch vụ thì người bán thực hiện điều chỉnh hóa đơn điện tử đã lập theo quy\nđịnh tại điểm c.1 khoản 5 Điều này.\n\nd) Trường hợp tô chức tín dụng, tô chức cung ứng dịch vụ thanh toán\nkhông dùng tiền mặt (sau đây gọi là tổ chức cung ứng dịch vụ thanh toán)\nthực hiện hoạt động ngân hàng, cun",
+  "events": [
+   {
+    "event": "search",
+    "query": "Tổ chức cung cấp dịch vụ hóa đơn điện tử được thu giá dịch vụ tối đa bao nhiêu đồng cho mỗi hóa đơn?",
+    "filter": null,
+    "results": [
+     {
+      "id": "TT-91-2026:A:p025:05",
+      "rank": 1,
+      "score": 0.663225,
+      "page": 25,
+      "method": "dense"
+     },
+     {
+      "id": "TT-91-2026:A:p022:01",
+      "rank": 2,
+      "score": 0.632515,
+      "page": 22,
+      "method": "dense"
+     },
+     {
+      "id": "TT-91-2026:A:p007:01",
+      "rank": 3,
+      "score": 0.630089,
+      "page": 7,
+      "method": "dense"
+     }
+    ],
+    "context": "[TT-91-2026:A:p025:05 | Thông-tư-91-2026-TT-BTC.pdf | page 25]\nới những hóa đơn điện tử có người mua là người tiêu dùng để trao\nthưởng băng tiên;\n\nb) Các biện pháp khuyên khích khác.\n\n3. Mức kinh phí thực hiện các biện pháp khuyến khích quy định tại\nkhoản 2 Điều này không quá 150 tỷ đồng/năm.\n\n4. Cục trưởng Cục Thuế xây dựng phương án tổ chức, giá trị giải\nthưởng chương trình hóa đơn may măn trên cơ sở dữ liệu về hóa đơ\n\n[TT-91-2026:A:p022:01 | Thông-tư-91-2026-TT-BTC.pdf | page 22]\nóa đơn điều chỉnh.\n\n7. Trường hợp hóa đơn điện tử theo từng lần phát sinh cần phải lập hóa\nđơn điều chỉnh hoặc thay thể, tỏ chức kinh tế, tổ chức khác, hộ kinh doanh, cá\nnhân kinh doanh gửi đơn đề nghị cấp hóa đơn điện tử có mã của cơ quan thuê\ntheo Mẫu số 06/ĐN-PSĐT Phụ lục III kèm theo Thông tư này đến cơ quan\nthuế để được cấp hóa đơn điện tử điều chỉnh ho\n\n[TT-91-2026:A:p007:01 | Thông-tư-91-2026-TT-BTC.pdf | page 7]\nư điện tử đã đăng ký với cơ quan thuế, qua tổ chức\ncung cấp dịch vụ hóa đơn điện tử đồi với trường hợp tổ chức kinh tế, tô chức\nkhác, hộ kinh doanh, cá nhân kinh doanh đăng ký sử dụng hóa đơn điện tử\nthông qua tô chức cung cấp dịch vụ hóa đơn điện tử hoặc Công Dịch vụ công\nQuốc gia.\n\n2. Trường hợp tô chức kinh tế, tỏ chức khác, hộ kinh doanh, cá nhân\nkinh do",
+    "context_ids": [
+     "TT-91-2026:A:p025:05",
+     "TT-91-2026:A:p022:01",
+     "TT-91-2026:A:p007:01"
+    ]
+   },
+   {
+    "event": "search",
+    "query": "mức thu giá dịch vụ cung cấp hóa đơn điện tử mỗi hóa đơn",
+    "filter": null,
+    "results": [
+     {
+      "id": "TT-91-2026:A:p022:01",
+      "rank": 1,
+      "score": 0.723296,
+      "page": 22,
+      "method": "dense"
+     },
+     {
+      "id": "TT-91-2026:A:p006:03",
+      "rank": 2,
+      "score": 0.681675,
+      "page": 6,
+      "method": "dense"
+     },
+     {
+      "id": "TT-91-2026:A:p019:03",
+      "rank": 3,
+      "score": 0.681124,
+      "page": 19,
+      "method": "dense"
+     }
+    ],
+    "context": "[TT-91-2026:A:p025:05 | Thông-tư-91-2026-TT-BTC.pdf | page 25]\nới những hóa đơn điện tử có người mua là người tiêu dùng để trao\nthưởng băng tiên;\n\nb) Các biện pháp khuyên khích khác.\n\n3. Mức kinh phí thực hiện các biện pháp khuyến khích quy định tại\nkhoản 2 Điều này không quá 150 tỷ đồng/năm.\n\n4. Cục trưởng Cục Thuế xây dựng phương án tổ chức, giá trị giải\nthưởng chương trình hóa đơn may măn trên cơ sở dữ liệu về hóa đơ\n\n[TT-91-2026:A:p022:01 | Thông-tư-91-2026-TT-BTC.pdf | page 22]\nóa đơn điều chỉnh.\n\n7. Trường hợp hóa đơn điện tử theo từng lần phát sinh cần phải lập hóa\nđơn điều chỉnh hoặc thay thể, tỏ chức kinh tế, tổ chức khác, hộ kinh doanh, cá\nnhân kinh doanh gửi đơn đề nghị cấp hóa đơn điện tử có mã của cơ quan thuê\ntheo Mẫu số 06/ĐN-PSĐT Phụ lục III kèm theo Thông tư này đến cơ quan\nthuế để được cấp hóa đơn điện tử điều chỉnh ho\n\n[TT-91-2026:A:p007:01 | Thông-tư-91-2026-TT-BTC.pdf | page 7]\nư điện tử đã đăng ký với cơ quan thuế, qua tổ chức\ncung cấp dịch vụ hóa đơn điện tử đồi với trường hợp tổ chức kinh tế, tô chức\nkhác, hộ kinh doanh, cá nhân kinh doanh đăng ký sử dụng hóa đơn điện tử\nthông qua tô chức cung cấp dịch vụ hóa đơn điện tử hoặc Công Dịch vụ công\nQuốc gia.\n\n2. Trường hợp tô chức kinh tế, tỏ chức khác, hộ kinh doanh, cá nhân\nkinh do\n\n[TT-91-2026:A:p006:03 | Thông-tư-91-2026-TT-BTC.pdf | page 6]\ngừng, tạm ngừng sử dụng hóa đơn điện tử\ntheo quy định tại Điều $ Thông tư này đăng ký, thay đỏi nội dung đăng ký sử\ndụng hóa đơn điện tử (bao gồm cả đăng ký hóa đơn điện tử bán tài sản công,\nhóa đơn điện tử bán hàng dự trữ quóc gia) thông qua t chức cung cấp dịch vụ\nhóa đơn điện tử.\n\nTrường hợp sử dụng hóa đơn điện tử có mã của cơ quan thuế được\nmiễn phí địc\n\n[TT-91-2026:A:p019:03 | Thông-tư-91-2026-TT-BTC.pdf | page 19]\nvới các hóa đơn điện tử đã lập khi bán hàng hóa, cung cấp dịch\nvụ không bị sai nhưng khi thanh toán thực tê hoặc khi ạyểt toán có sự thay\nđôi về giá trị, khối lượng trên cơ sở kết luận của cơ quan nhà nước có thâm\nquyên theo quy định của pháp luật có liên quan thì người bán thực hiện lập\nhóa đơn điện tử mới đối với số chênh lệch qua quyết toán phản ánh theo",
+    "context_ids": [
+     "TT-91-2026:A:p025:05",
+     "TT-91-2026:A:p022:01",
+     "TT-91-2026:A:p007:01",
+     "TT-91-2026:A:p006:03",
+     "TT-91-2026:A:p019:03"
+    ]
+   },
+   {
+    "event": "search",
+    "query": "giá dịch vụ tổ chức cung cấp dịch vụ hóa đơn điện tử thu của tổ chức kinh doanh",
+    "filter": null,
+    "results": [
+     {
+      "id": "TT-91-2026:A:p007:01",
+      "rank": 1,
+      "score": 0.683951,
+      "page": 7,
+      "method": "dense"
+     },
+     {
+      "id": "TT-91-2026:A:p006:05",
+      "rank": 2,
+      "score": 0.683915,
+      "page": 6,
+      "method": "dense"
+     },
+     {
+      "id": "TT-91-2026:A:p021:00",
+      "rank": 3,
+      "score": 0.613822,
+      "page": 21,
+      "method": "dense"
+     }
+    ],
+    "context": "[TT-91-2026:A:p025:05 | Thông-tư-91-2026-TT-BTC.pdf | page 25]\nới những hóa đơn điện tử có người mua là người tiêu dùng để trao\nthưởng băng tiên;\n\nb) Các biện pháp khuyên khích khác.\n\n3. Mức kinh phí thực hiện các biện pháp khuyến khích quy định tại\nkhoản 2 Điều này không quá 150 tỷ đồng/năm.\n\n4. Cục trưởng Cục Thuế xây dựng phương án tổ chức, giá trị giải\nthưởng chương trình hóa đơn may măn trên cơ sở dữ liệu về hóa đơ\n\n[TT-91-2026:A:p022:01 | Thông-tư-91-2026-TT-BTC.pdf | page 22]\nóa đơn điều chỉnh.\n\n7. Trường hợp hóa đơn điện tử theo từng lần phát sinh cần phải lập hóa\nđơn điều chỉnh hoặc thay thể, tỏ chức kinh tế, tổ chức khác, hộ kinh doanh, cá\nnhân kinh doanh gửi đơn đề nghị cấp hóa đơn điện tử có mã của cơ quan thuê\ntheo Mẫu số 06/ĐN-PSĐT Phụ lục III kèm theo Thông tư này đến cơ quan\nthuế để được cấp hóa đơn điện tử điều chỉnh ho\n\n[TT-91-2026:A:p007:01 | Thông-tư-91-2026-TT-BTC.pdf | page 7]\nư điện tử đã đăng ký với cơ quan thuế, qua tổ chức\ncung cấp dịch vụ hóa đơn điện tử đồi với trường hợp tổ chức kinh tế, tô chức\nkhác, hộ kinh doanh, cá nhân kinh doanh đăng ký sử dụng hóa đơn điện tử\nthông qua tô chức cung cấp dịch vụ hóa đơn điện tử hoặc Công Dịch vụ công\nQuốc gia.\n\n2. Trường hợp tô chức kinh tế, tỏ chức khác, hộ kinh doanh, cá nhân\nkinh do\n\n[TT-91-2026:A:p006:03 | Thông-tư-91-2026-TT-BTC.pdf | page 6]\ngừng, tạm ngừng sử dụng hóa đơn điện tử\ntheo quy định tại Điều $ Thông tư này đăng ký, thay đỏi nội dung đăng ký sử\ndụng hóa đơn điện tử (bao gồm cả đăng ký hóa đơn điện tử bán tài sản công,\nhóa đơn điện tử bán hàng dự trữ quóc gia) thông qua t chức cung cấp dịch vụ\nhóa đơn điện tử.\n\nTrường hợp sử dụng hóa đơn điện tử có mã của cơ quan thuế được\nmiễn phí địc\n\n[TT-91-2026:A:p019:03 | Thông-tư-91-2026-TT-BTC.pdf | page 19]\nvới các hóa đơn điện tử đã lập khi bán hàng hóa, cung cấp dịch\nvụ không bị sai nhưng khi thanh toán thực tê hoặc khi ạyểt toán có sự thay\nđôi về giá trị, khối lượng trên cơ sở kết luận của cơ quan nhà nước có thâm\nquyên theo quy định của pháp luật có liên quan thì người bán thực hiện lập\nhóa đơn điện tử mới đối với số chênh lệch qua quyết toán phản ánh theo\n\n[TT-91-2026:A:p006:05 | Thông-tư-91-2026-TT-BTC.pdf | page 6]\ng\ncấp địch vụ hóa đơn điện tử có mã của cơ quan thuê được miễn phí dịch vụ.\n\nTrường hợp doanh nghiệp là tô chức kết nổi chuyên dữ liệu hóa đơn\nđiện tử theo hình thức gửi trực tiếp đến cơ quan thuê thì đăng ký sử dụng hóa\nđơn điện tử thông qua Hệ thông thông tin quản lý thuê hoặc Cổng Dịch vụ\ncông Quóc gia.\n\nTrường hợp tô chức nước ngoài có hoạt động kinh doa\n\n[TT-91-2026:A:p021:00 | Thông-tư-91-2026-TT-BTC.pdf | page 21]\nphát sinh việc huỷ hoặc chắm dứt giao dịch và hủy một phần việc cung cấp\ndịch vụ thì người bán thực hiện điều chỉnh hóa đơn điện tử đã lập theo quy\nđịnh tại điểm c.1 khoản 5 Điều này.\n\nd) Trường hợp tô chức tín dụng, tô chức cung ứng dịch vụ thanh toán\nkhông dùng tiền mặt (sau đây gọi là tổ chức cung ứng dịch vụ thanh toán)\nthực hiện hoạt động ngân hàng, cun",
+    "context_ids": [
+     "TT-91-2026:A:p025:05",
+     "TT-91-2026:A:p022:01",
+     "TT-91-2026:A:p007:01",
+     "TT-91-2026:A:p006:03",
+     "TT-91-2026:A:p019:03",
+     "TT-91-2026:A:p006:05",
+     "TT-91-2026:A:p021:00"
+    ]
+   },
+   {
+    "event": "invalid_or_missing_citations"
+   }
+  ],
+  "model_calls": [
+   {
+    "action": "search",
+    "query": "Tổ chức cung cấp dịch vụ hóa đơn điện tử được thu giá dịch vụ tối đa bao nhiêu đồng cho mỗi hóa đơn?",
+    "source": "original_question",
+    "latency_s": 0,
+    "model": null,
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+   },
+   {
+    "latency_s": 4.03,
+    "model": "glm-5.3-flash",
+    "finish": "tool_calls",
+    "prompt_tokens": 1061,
+    "completion_tokens": 117,
+    "action": "search",
+    "query": "mức thu giá dịch vụ cung cấp hóa đơn điện tử mỗi hóa đơn",
+    "extra_tool_calls": 1
+   },
+   {
+    "latency_s": 7.1,
+    "model": "glm-5.3-flash",
+    "finish": "tool_calls",
+    "prompt_tokens": 1359,
+    "completion_tokens": 123,
+    "action": "search",
+    "query": "giá dịch vụ tổ chức cung cấp dịch vụ hóa đơn điện tử thu của tổ chức kinh doanh",
+    "extra_tool_calls": 1
+   },
+   {
+    "latency_s": 7.18,
+    "model": "glm-5.3-flash",
+    "finish": "stop",
+    "prompt_tokens": 1495,
+    "completion_tokens": 345,
+    "action": "answer",
+    "raw_answer": "Không đủ bằng chứng trong tài liệu để trả lời câu hỏi này.",
+    "model_abstained": true
+   }
+  ],
+  "model": [
+   "glm-5.3-flash"
+  ],
+  "prompt_tokens": 3915,
+  "completion_tokens": 585,
+  "latency_s": 18.46,
+  "error": null
+ }
+]

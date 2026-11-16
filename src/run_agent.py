@@ -21,17 +21,20 @@ from agentic import run_agent  # noqa: E402  (starter loop, unchanged)
 
 from src.agent import GLMController  # noqa: E402
 from src.convert_questions import hit  # noqa: E402
-from src.retrieval import BM25Retriever, DenseRetriever, HybridRetriever, load_chunks  # noqa: E402
+from src.retrieval import (BM25Retriever, DenseRetriever, HybridRetriever, NeighborRetriever,  # noqa: E402
+                           context_chunks)
 
 
-def make_retriever(name, strategy):
+def make_retriever(name, strategy, neighbors=0):
     if name == "dense":
-        return DenseRetriever(strategy)
-    if name in ("bm25", "bm25+bigram"):
-        return BM25Retriever(strategy, bigrams=name.endswith("bigram"))
-    if name == "hybrid":
-        return HybridRetriever(DenseRetriever(strategy), BM25Retriever(strategy, bigrams=True))
-    raise ValueError(name)
+        r = DenseRetriever(strategy)
+    elif name in ("bm25", "bm25+bigram"):
+        r = BM25Retriever(strategy, bigrams=name.endswith("bigram"))
+    elif name == "hybrid":
+        r = HybridRetriever(DenseRetriever(strategy), BM25Retriever(strategy, bigrams=True))
+    else:
+        raise ValueError(name)
+    return NeighborRetriever(r, strategy, neighbors) if neighbors else r
 
 
 def slim(events):
@@ -54,6 +57,9 @@ def main():
     ap.add_argument("--top-k", type=int, default=3)
     ap.add_argument("--budget", type=int, default=3000, help="context budget in characters (incl. headers)")
     ap.add_argument("--max-searches", type=int, default=3)
+    ap.add_argument("--neighbors", type=int, default=0, help="add ±N neighbor chunks to each hit (0 = off)")
+    ap.add_argument("--first-query", choices=["model", "original"], default="model",
+                    help="original = first search uses the question verbatim")
     ap.add_argument("--ids", nargs="*", help="run only these question ids")
     ap.add_argument("--locked", action="store_true")
     args = ap.parse_args()
@@ -64,8 +70,8 @@ def main():
     questions = {q["id"]: q for q in json.loads(Path("data/questions.json").read_text(encoding="utf-8"))}
     if args.ids:
         cases = [c for c in cases if c["id"] in args.ids]
-    retriever = make_retriever(args.retriever, args.strategy)
-    controller = GLMController(args.max_searches)
+    retriever = make_retriever(args.retriever, args.strategy, args.neighbors)
+    controller = GLMController(args.max_searches, first_query=args.first_query)
 
     out_dir = Path("results/agent") / args.name
     out_dir.mkdir(parents=True, exist_ok=True)
@@ -107,7 +113,7 @@ def main():
     path.write_text(json.dumps(traces, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
 
     # ---- evaluation only (gold used here, after the agent finished) ----
-    by_id = {ch["id"]: ch for ch in load_chunks(args.strategy)}
+    by_id = context_chunks(args.strategy, args.neighbors)
     ans = [t for t in traces if t["answerable"] and t["status"] != "error"]
     ctx_hit = [t["query_id"] for t in ans if any(hit(by_id[i], questions[t["query_id"]]["gold"]) for i in t["final_context_ids"])]
     ok = [t for t in traces if t["status"] != "error"]

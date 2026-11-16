@@ -34,7 +34,10 @@ def normalize_citations(answer):
 
 
 class GLMController:
-    def __init__(self, max_searches, client=None, model=None):
+    def __init__(self, max_searches, client=None, model=None, first_query="model"):
+        """first_query="original": the first search uses the question verbatim (no model call);
+        later searches and the answer are still decided by the model."""
+        self.first_query = first_query
         load_dotenv(".env")
         self.client = client or OpenAI(api_key=os.environ["ZAI_API_KEY"], base_url=os.environ["ZAI_BASE_URL"],
                                        timeout=120, max_retries=2)
@@ -55,6 +58,10 @@ class GLMController:
     def decide(self, question, history):
         searches = len(history[-1]["queries"]) if history else 0
         can_search = searches < self.max_searches
+        if not history and self.first_query == "original":
+            self.calls.append({"action": "search", "query": question, "source": "original_question", "latency_s": 0,
+                               "model": None, "prompt_tokens": 0, "completion_tokens": 0})
+            return {"action": "search", "query": question}
         messages = self._messages(question, history)
         if not can_search:
             messages[-1]["content"] += "\n\nĐã hết lượt tìm kiếm. Hãy trả lời từ các đoạn trên hoặc nói không đủ bằng chứng."

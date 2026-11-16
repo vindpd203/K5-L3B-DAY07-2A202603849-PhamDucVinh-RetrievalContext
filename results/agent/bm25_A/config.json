@@ -1,0 +1,14 @@
+{
+ "name": "bm25_A",
+ "retriever": "bm25",
+ "strategy": "A",
+ "split": "dev",
+ "top_k": 3,
+ "budget": 3000,
+ "max_searches": 3,
+ "retriever_impl": "bm25",
+ "model_requested": "glm-5.3-flash",
+ "budget_unit": "characters",
+ "prompt": "prompts/agent_system.md",
+ "loop": "starter/agentic.py run_agent (unchanged)"
+}

@@ -1,0 +1,16 @@
+{
+ "name": "hybrid_A_oq_nb",
+ "retriever": "hybrid",
+ "strategy": "A",
+ "split": "dev",
+ "top_k": 3,
+ "budget": 6000,
+ "max_searches": 3,
+ "neighbors": 1,
+ "first_query": "original",
+ "retriever_impl": "hybrid_rrf(dense+bm25+bigram,k=60,n=20)+neighbors(±1)",
+ "model_requested": "glm-5.3-flash",
+ "budget_unit": "characters",
+ "prompt": "prompts/agent_system.md",
+ "loop": "starter/agentic.py run_agent (unchanged)"
+}

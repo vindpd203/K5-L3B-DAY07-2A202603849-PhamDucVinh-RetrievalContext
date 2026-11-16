@@ -1,0 +1,89 @@
+{
+ "decided_before_test": true,
+ "decided_at": "2026-11-16",
+ "rule": "results/selection_criteria.md: 1) Context Evidence Rate dev, 2) abstention dung + it tu choi nham, 3) grounded answer cham tay (2 cau hinh dau), 4) Evidence Hit@3 retrieval dev, 5) token/thoi gian",
+ "candidates_dev": {
+  "dense_A": {
+   "context_evidence": "12/15",
+   "abstain_correct": "2/2",
+   "false_abstain": "2/15",
+   "tokens": "63759+29362"
+  },
+  "bm25_A": {
+   "context_evidence": "12/15",
+   "abstain_correct": "2/2",
+   "false_abstain": "0/15",
+   "tokens": "47234+21114"
+  },
+  "hybrid_A": {
+   "context_evidence": "12/15",
+   "abstain_correct": "2/2",
+   "false_abstain": "2/15",
+   "tokens": "56784+25119"
+  },
+  "bm25_A_nb": {
+   "context_evidence": "15/15",
+   "abstain_correct": "2/2",
+   "false_abstain": "0/15",
+   "grounded_mean": 2.0,
+   "grounded_0_1_2": [
+    0,
+    0,
+    15
+   ],
+   "citation_valid": "30/30",
+   "tokens": "55231+17166"
+  },
+  "dense_A_oq": {
+   "context_evidence": "11/15",
+   "abstain_correct": "2/2",
+   "false_abstain": "1/15",
+   "tokens": "44584+25530"
+  },
+  "hybrid_A_oq_nb": {
+   "context_evidence": "15/15",
+   "abstain_correct": "2/2",
+   "false_abstain": "0/15",
+   "grounded_mean": 1.933,
+   "grounded_0_1_2": [
+    0,
+    1,
+    14
+   ],
+   "citation_valid": "30/30",
+   "tokens": "55323+18263"
+  }
+ },
+ "step1_context_evidence_tie": [
+  "bm25_A_nb",
+  "hybrid_A_oq_nb"
+ ],
+ "step2_tie": "ca hai: tu choi dung 2/2, tu choi nham 0/15",
+ "step3_grounded_mean": {
+  "bm25_A_nb": 2.0,
+  "hybrid_A_oq_nb": 1.933,
+  "luc_chot": {
+   "bm25_A_nb": 1.8,
+   "hybrid_A_oq_nb": 1.667
+  }
+ },
+ "selected": "bm25_A_nb",
+ "selected_config": {
+  "retriever": "bm25 (k1=1.5, b=0.75, am tiet)",
+  "strategy": "A",
+  "neighbors": 1,
+  "top_k": 3,
+  "budget_chars": 6000,
+  "max_searches": 3,
+  "first_query": "model",
+  "prompt": "prompts/agent_system.md",
+  "model_endpoint": "z.ai coding/paas/v4, temperature 0"
+ },
+ "baseline_for_test": "dense_A",
+ "notes": [
+  "Luc chot (truoc test) dung nhan dev luot 1 cua nguoi cham: bm25_A_nb 1.80 > hybrid_A_oq_nb 1.67.",
+  "Sau test, nhan dev chinh thuc duoc thay bang ban AI (Claude) cham nhap va nguoi cham chap nhan (results/agent/grades_dev.md): bm25_A_nb 2.00 > hybrid_A_oq_nb 1.93 -> lua chon KHONG doi.",
+  "Nguon goc nhan: AI doc tung cau tra loi, doan trich va context roi cham nhap; nguoi cham (Pham Duc Vinh) xem va chap nhan lam nhan chinh thuc (src/fill_labels.py).",
+  "Chenh lech tieu chi 3 la 1 cau tren 15; model API khong tat dinh hoan toan."
+ ]
+}

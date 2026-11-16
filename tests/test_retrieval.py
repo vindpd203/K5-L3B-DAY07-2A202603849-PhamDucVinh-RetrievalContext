@@ -40,6 +40,16 @@ class RetrievalTests(unittest.TestCase):
         self.assertEqual(BM25Retriever("A").search("điện tử", filters={"chapter": "III"}, top_k=3)[0]["id"], "c2")
         self.assertEqual(BM25Retriever("A").search("xyz không có", top_k=3), [])
 
+    def test_merge_drops_overlap_and_window_keeps_center_id(self):
+        self.assertEqual(retrieval._merge("abc def ghi", "def ghi jkl"), "abc def ghi jkl")
+        self.assertEqual(retrieval._merge("abc", "xyz"), "abc xyz")
+        w = retrieval.Windows("A").get("c2")
+        self.assertEqual(w["id"], "c2")
+        self.assertEqual(w["metadata"]["window"], ["c1", "c2", "c3"])
+        self.assertEqual(w["metadata"]["pages"], [4, 29, 32])
+        self.assertIn("nhóm sáu ký tự", w["text"])
+        self.assertEqual(retrieval.Windows("A").get("c1")["metadata"]["window"], ["c1", "c2"])  # edge
+
     def test_rrf_prefers_chunk_ranked_well_by_both(self):
         h = HybridRetriever(Fixed("a", ["c1", "c2", "c3"]), Fixed("b", ["c2", "c3", "c1"]), k=60)
         self.assertEqual(h.search("q", top_k=3)[0]["id"], "c2")  # ranks 2+1 beat 1+3 and 3+2

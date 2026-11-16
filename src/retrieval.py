@@ -84,6 +84,55 @@ class BM25Retriever:
         return _ranked(scored[:top_k], self.name)
 
 
+def _merge(a, b, max_overlap=80):
+    """Join two consecutive chunk texts, dropping the overlap (strategy A windows overlap 36 chars)."""
+    a, b = " ".join(a.split()), " ".join(b.split())
+    k = next((k for k in range(min(max_overlap, len(a), len(b)), 0, -1) if a.endswith(b[:k])), 0)
+    return a + " " + b[k:] if k == 0 else a + b[k:]
+
+
+class Windows:
+    """Expand a chunk to [prev, chunk, next] in chunk-id order. The window keeps the CENTER chunk id (a real id,
+    so citations stay valid) with merged text and the union of pages. Used by retrieval and by evaluation."""
+
+    def __init__(self, strategy, radius=1):
+        self.chunks = sorted(load_chunks(strategy), key=lambda c: c["id"])
+        self.pos = {c["id"]: i for i, c in enumerate(self.chunks)}
+        self.radius = radius
+
+    def get(self, chunk_id):
+        i = self.pos[chunk_id]
+        part = self.chunks[max(0, i - self.radius): i + self.radius + 1]
+        text = part[0]["text"]
+        for c in part[1:]:
+            text = _merge(text, c["text"])
+        center = self.chunks[i]
+        pages = sorted({p for c in part for p in (c["metadata"].get("pages") or [c["page"]])})
+        return {**center, "text": text, "metadata": {**center["metadata"], "pages": pages,
+                                                      "window": [c["id"] for c in part]}}
+
+
+def context_chunks(strategy, neighbors=0):
+    """id -> the exact chunk/window text the model saw (for evaluation and manual review)."""
+    if not neighbors:
+        return {c["id"]: c for c in load_chunks(strategy)}
+    w = Windows(strategy, neighbors)
+    return {c["id"]: w.get(c["id"]) for c in w.chunks}
+
+
+class NeighborRetriever:
+    """Wrap any retriever: same ranking, each hit replaced by its neighbor window."""
+
+    def __init__(self, inner, strategy, radius=1):
+        self.inner, self.windows = inner, Windows(strategy, radius)
+        self.name = f"{inner.name}+neighbors(±{radius})"
+
+    def search(self, query, *, filters=None, top_k=3):
+        # ponytail: overlapping windows of adjacent hits are kept as-is (some duplicated text in context)
+        return [{**self.windows.get(r["id"]), "score": r["score"], "rank": r["rank"], "method": self.name}
+                for r in self.inner.search(query, filters=filters, top_k=top_k)]
+
+
 class HybridRetriever:
     def __init__(self, dense, lexical, k=60, candidates=20):
         self.dense, self.lexical, self.k, self.candidates = dense, lexical, k, candidates

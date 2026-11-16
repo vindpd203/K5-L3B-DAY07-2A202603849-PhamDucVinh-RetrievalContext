@@ -61,6 +61,14 @@ class AgentTests(unittest.TestCase):
         self.assertIn("tools", client.requests[0])
         self.assertNotIn("tools", client.requests[1])
 
+    def test_first_query_original_skips_model_call(self):
+        client = FakeClient([reply(f"Sáu ký tự [{CID}].")])
+        ctl = GLMController(2, client=client, model="fake", first_query="original")
+        res = run_agent("Ký hiệu gồm mấy ký tự?", ctl, Retriever(), max_searches=2, top_k=3, budget=3000)
+        self.assertEqual(res["status"], "answered")
+        self.assertEqual(len(client.requests), 1)  # only the answer call
+        self.assertEqual(res["events"][0]["query"], "Ký hiệu gồm mấy ký tự?")
+
     def test_combined_brackets_are_split(self):
         a, ids = normalize_citations(f"x [{CID}, TT-91-2026:A:p003:01] y [1]")
         self.assertEqual(ids, [CID, "TT-91-2026:A:p003:01"])
